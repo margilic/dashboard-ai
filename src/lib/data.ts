@@ -4,10 +4,20 @@
  */
 
 const SMC_ENGINE = process.env.SMC_ENGINE_URL || "http://localhost:8767";
-const BINANCE_DEMO = process.env.BINANCE_DEMO_BASE || "https://demo-api.binance.com";
-const BINANCE_LIVE = "https://api.binance.com";
+const BINANCE_DEMO_BASE = process.env.BINANCE_DEMO_BASE || "https://demo-api.binance.com";
+const BINANCE_LIVE_BASE = "https://api.binance.com";
 
-const BINANCE_BASE = process.env.BINANCE_DEMO === "true" ? BINANCE_DEMO : BINANCE_LIVE;
+const BINANCE_BASE =
+  process.env.BINANCE_DEMO === "true" ? BINANCE_DEMO_BASE : BINANCE_LIVE_BASE;
+
+const BINANCE_FALLBACKS = [
+  BINANCE_BASE,
+  "https://api.binance.com",
+  "https://api1.binance.com",
+  "https://api2.binance.com",
+  "https://api3.binance.com",
+  "https://data-api.binance.vision",
+].filter((v, i, a) => a.indexOf(v) === i);
 
 export interface Position {
   id: string;
@@ -144,25 +154,31 @@ export async function fetchKlines(
   interval: string = "15m",
   limit: number = 200
 ): Promise<Kline[]> {
-  const url = `${BINANCE_BASE}/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`;
-  try {
-    const res = await fetch(url, {
-      cache: "no-store",
-      signal: AbortSignal.timeout(10000),
-    });
-    if (!res.ok) return [];
-    const raw: unknown[][] = await res.json();
-    return raw.map((k) => ({
-      t: Math.floor(Number(k[0]) / 1000),
-      o: Number(k[1]),
-      h: Number(k[2]),
-      l: Number(k[3]),
-      c: Number(k[4]),
-      v: Number(k[5]),
-    }));
-  } catch {
-    return [];
+  const params = `symbol=${symbol}&interval=${interval}&limit=${limit}`;
+  for (const base of BINANCE_FALLBACKS) {
+    const url = `${base}/api/v3/klines?${params}`;
+    try {
+      const res = await fetch(url, {
+        cache: "no-store",
+        signal: AbortSignal.timeout(8000),
+        headers: { "User-Agent": "dashboard-ai/1.0" },
+      });
+      if (!res.ok) continue;
+      const raw = (await res.json()) as unknown[][];
+      if (!Array.isArray(raw) || raw.length === 0) continue;
+      return raw.map((k) => ({
+        t: Math.floor(Number(k[0]) / 1000),
+        o: Number(k[1]),
+        h: Number(k[2]),
+        l: Number(k[3]),
+        c: Number(k[4]),
+        v: Number(k[5]),
+      }));
+    } catch {
+      continue;
+    }
   }
+  return [];
 }
 
 export async function fetchTicker(symbol: string): Promise<{
@@ -176,6 +192,7 @@ export async function fetchTicker(symbol: string): Promise<{
     const res = await fetch(url, {
       cache: "no-store",
       signal: AbortSignal.timeout(8000),
+      headers: { "User-Agent": "dashboard-ai/1.0" },
     });
     if (!res.ok) return null;
     const data = await res.json();
