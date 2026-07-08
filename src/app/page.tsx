@@ -31,7 +31,9 @@ export default function DashboardPage() {
     let cancelled = false;
     async function load() {
       try {
-        const res = await fetch(`/api/pnl?range=${range}`);
+        const res = await fetch(`/api/pnl?range=${range}`, {
+          cache: "no-store",
+        });
         if (!res.ok) {
           if (!cancelled) setHealth("degraded");
           return;
@@ -45,10 +47,8 @@ export default function DashboardPage() {
       }
     }
     load();
-    const id = setInterval(load, 30_000);
     return () => {
       cancelled = true;
-      clearInterval(id);
     };
   }, [range]);
 
@@ -71,6 +71,22 @@ export default function DashboardPage() {
 
         <div className="flex items-center gap-3">
           <HealthDot status={health} />
+          <button
+            onClick={() => {
+              setPnlData(null);
+              setRange(range); // trigger reload by toggling
+              const evt = new Event("refresh");
+              window.dispatchEvent(evt);
+              fetch(`/api/pnl?range=${range}`, { cache: "no-store" })
+                .then((r) => r.json())
+                .then((d) => setPnlData(d))
+                .catch(() => setHealth("degraded"));
+            }}
+            title="Yenile"
+            className="text-xs px-2 py-1 rounded border border-border hover:bg-card-hover transition-colors text-text-soft"
+          >
+            ↻
+          </button>
           <SymbolPicker value={symbol} onChange={setSymbol} />
           <TimeFilter value={range} onChange={setRange} />
         </div>
