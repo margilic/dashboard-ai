@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn, safeInt, safeNum, safeNumSigned } from "@/lib/utils";
 import { timeAgo } from "@/lib/utils";
 
 interface Trade {
@@ -73,7 +73,7 @@ export function TradesTable({ range, symbol }: Props) {
               {totals.wins}W / {totals.losses}L
             </span>
             <span className="text-text-muted">
-              {totals.win_rate.toFixed(0)}%
+              {safeNum(totals.win_rate, 0)}%
             </span>
             <span
               className={cn(
@@ -81,8 +81,7 @@ export function TradesTable({ range, symbol }: Props) {
                 totals.total_pnl >= 0 ? "text-green" : "text-red"
               )}
             >
-              {totals.total_pnl >= 0 ? "+" : ""}
-              {totals.total_pnl.toFixed(2)} USDT
+              {safeNumSigned(totals.total_pnl)} USDT
             </span>
           </div>
         )}
@@ -139,10 +138,10 @@ export function TradesTable({ range, symbol }: Props) {
                     </span>
                   </td>
                   <td className="px-4 py-2 text-right tabular-nums text-text-soft">
-                    {t.entry.toFixed(2)}
+                    {safeNum(t.entry)}
                   </td>
                   <td className="px-4 py-2 text-right tabular-nums text-text-soft">
-                    {t.exit.toFixed(2)}
+                    {safeNum(t.exit)}
                   </td>
                   <td className="px-4 py-2 text-right tabular-nums text-text-muted text-xs">
                     {fmtDuration(t.duration_s)}
@@ -153,8 +152,7 @@ export function TradesTable({ range, symbol }: Props) {
                       positive ? "text-green" : "text-red"
                     )}
                   >
-                    {positive ? "+" : ""}
-                    {t.pnl.toFixed(2)}
+                    {safeNumSigned(t.pnl)}
                   </td>
                 </tr>
               );

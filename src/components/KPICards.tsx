@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn, safeNum, safePct, safeInt, safeNumSigned } from "@/lib/utils";
 
 interface Balance {
   total: number;
@@ -21,16 +21,18 @@ interface Ticker {
   change_pct: number;
 }
 
+interface PnlStats {
+  total_pnl: number;
+  win_rate: number;
+  wins: number;
+  losses: number;
+  best_trade: number | null;
+  worst_trade: number | null;
+}
+
 export function KPICards({ range, symbol }: Props) {
   const [balance, setBalance] = useState<Balance | null>(null);
-  const [pnl, setPnl] = useState<{
-    total_pnl: number;
-    win_rate: number;
-    wins: number;
-    losses: number;
-    best_trade: number | null;
-    worst_trade: number | null;
-  } | null>(null);
+  const [pnl, setPnl] = useState<PnlStats | null>(null);
   const [positionsCount, setPositionsCount] = useState(0);
   const [unrealized, setUnrealized] = useState(0);
   const [ticker, setTicker] = useState<Ticker | null>(null);
@@ -39,39 +41,38 @@ export function KPICards({ range, symbol }: Props) {
     let cancelled = false;
     async function load() {
       try {
-        const [tRes, pRes, bRes, kRes] = await Promise.all([
-          fetch(`/api/trades?range=${range}&symbol=${symbol}`),
-          fetch("/api/positions"),
-          fetch("/api/positions").then(() => null).catch(() => null), // balance comes via trades response
-          fetch(`/api/klines?symbol=${symbol}&interval=1m&limit=2`),
+        const [tRes, pRes, kRes] = await Promise.all([
+          fetch(`/api/trades?range=${range}&symbol=${symbol}`, { cache: "no-store" }),
+          fetch(`/api/positions`, { cache: "no-store" }),
+          fetch(`/api/klines?symbol=${symbol}&interval=1m&limit=2`, {
+            cache: "no-store",
+          }),
         ]);
         const [tData, pData, kData] = await Promise.all([
-          tRes.json(),
-          pRes.json(),
-          kRes.json(),
+          tRes.json().catch(() => ({})),
+          pRes.json().catch(() => ({})),
+          kRes.json().catch(() => ({})),
         ]);
         if (cancelled) return;
-        if (!cancelled) {
-          setPnl({
-            total_pnl: tData.total_pnl || 0,
-            win_rate: tData.win_rate || 0,
-            wins: tData.wins || 0,
-            losses: tData.losses || 0,
-            best_trade: tData.best_trade,
-            worst_trade: tData.worst_trade,
-          });
-          setBalance(tData.balance);
-          setPositionsCount(pData.count || 0);
-          setUnrealized(
-            (pData.positions || []).reduce(
-              (s: number, p: { pnl: number }) => s + p.pnl,
-              0
-            )
-          );
-          setTicker(kData.ticker);
-        }
+        setPnl({
+          total_pnl: Number(tData.total_pnl) || 0,
+          win_rate: Number(tData.win_rate) || 0,
+          wins: Number(tData.wins) || 0,
+          losses: Number(tData.losses) || 0,
+          best_trade: tData.best_trade == null ? null : Number(tData.best_trade),
+          worst_trade: tData.worst_trade == null ? null : Number(tData.worst_trade),
+        });
+        setBalance(tData.balance ?? null);
+        setPositionsCount(Number(pData.count) || 0);
+        setUnrealized(
+          (pData.positions || []).reduce(
+            (s: number, p: { pnl?: number }) => s + (Number(p?.pnl) || 0),
+            0
+          )
+        );
+        setTicker(kData.ticker ?? null);
       } catch (e) {
-        console.error(e);
+        console.error("[KPICards] load failed", e);
       }
     }
     load();
@@ -82,7 +83,7 @@ export function KPICards({ range, symbol }: Props) {
     };
   }, [range, symbol]);
 
-  const totalPnl = (pnl?.total_pnl || 0) + unrealized;
+  const totalPnl = (pnl?.total_pnl ?? 0) + unrealized;
   const pnlPct =
     balance && balance.total > 0 ? (totalPnl / balance.total) * 100 : 0;
 
@@ -90,40 +91,44 @@ export function KPICards({ range, symbol }: Props) {
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
       <KPI
         label={`${symbol} Fiyat`}
-        value={ticker?.price.toFixed(2) ?? "—"}
+        value={ticker ? safeNum(ticker.price) : "—"}
         sub={
           ticker
-            ? `${ticker.change_pct >= 0 ? "+" : ""}${ticker.change_pct.toFixed(2)}% 24h`
+            ? `${safePct(ticker.change_pct)} 24h`
             : "—"
         }
         subColor={ticker ? (ticker.change_pct >= 0 ? "green" : "red") : "muted"}
       />
       <KPI
         label="Bakiye"
-        value={balance ? balance.total.toFixed(2) : "—"}
-        sub={balance ? `${balance.currency} • ${balance.available.toFixed(2)} free` : "—"}
+        value={balance ? safeNum(balance.total) : "—"}
+        sub={
+          balance
+            ? `${balance.currency || "USDT"} • ${safeNum(balance.available)} free`
+            : "—"
+        }
       />
       <KPI
         label="Net PnL"
-        value={`${totalPnl >= 0 ? "+" : ""}${totalPnl.toFixed(2)}`}
-        sub={`${pnlPct >= 0 ? "+" : ""}${pnlPct.toFixed(2)}% • unrealized ${unrealized >= 0 ? "+" : ""}${unrealized.toFixed(2)}`}
+        value={safeNumSigned(totalPnl)}
+        sub={`${safePct(pnlPct)} • unrealized ${safeNumSigned(unrealized)}`}
         color={totalPnl >= 0 ? "green" : "red"}
       />
       <KPI
         label="Win Rate"
-        value={pnl ? `${pnl.win_rate.toFixed(0)}%` : "—"}
+        value={pnl ? `${safeNum(pnl.win_rate, 0)}%` : "—"}
         sub={pnl ? `${pnl.wins}W / ${pnl.losses}L` : "—"}
       />
       <KPI
         label="Açık Pozisyon"
-        value={String(positionsCount)}
+        value={safeInt(positionsCount, "0")}
         sub={positionsCount === 0 ? "—" : "canlı"}
       />
       <KPI
         label="En İyi / En Kötü"
         value={
-          pnl && pnl.best_trade !== null
-            ? `+${pnl.best_trade!.toFixed(2)} / ${pnl.worst_trade!.toFixed(2)}`
+          pnl && pnl.best_trade != null && pnl.worst_trade != null
+            ? `+${safeNum(pnl.best_trade)} / ${safeNum(pnl.worst_trade)}`
             : "—"
         }
         sub="range içi"

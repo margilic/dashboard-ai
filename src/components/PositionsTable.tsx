@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn, safeNum } from "@/lib/utils";
 
 interface Position {
   id: string;
@@ -103,13 +103,13 @@ export function PositionsTable() {
                     </span>
                   </td>
                   <td className="px-4 py-3 text-right tabular-nums">
-                    {p.qty.toFixed(4)}
+                    {safeNum(p.qty, 4)}
                   </td>
                   <td className="px-4 py-3 text-right tabular-nums">
-                    {p.entry.toFixed(2)}
+                    {safeNum(p.entry)}
                   </td>
                   <td className="px-4 py-3 text-right tabular-nums">
-                    {p.current.toFixed(2)}
+                    {safeNum(p.current)}
                   </td>
                   <td
                     className={cn(
@@ -118,7 +118,7 @@ export function PositionsTable() {
                     )}
                   >
                     {positive ? "+" : ""}
-                    {p.pnl.toFixed(2)}
+                    {safeNum(p.pnl)}
                   </td>
                   <td
                     className={cn(
@@ -127,7 +127,7 @@ export function PositionsTable() {
                     )}
                   >
                     {positive ? "+" : ""}
-                    {p.pnl_pct.toFixed(2)}%
+                    {safeNum(p.pnl_pct)}%
                   </td>
                 </tr>
               );

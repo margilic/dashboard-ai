@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { Activity } from "lucide-react";
-import { cn, type TimeRangeKey } from "@/lib/utils";
+import { cn, safeNum, safeNumSigned, type TimeRangeKey } from "@/lib/utils";
 import { SymbolPicker } from "@/components/SymbolPicker";
 import { TimeFilter } from "@/components/TimeFilter";
 
@@ -223,7 +223,7 @@ function Mini({
         )}
       >
         {positive && isPos ? "+" : ""}
-        {value.toFixed(2)}
+        {safeNum(value)}
         {suffix || ""}
       </div>
     </div>

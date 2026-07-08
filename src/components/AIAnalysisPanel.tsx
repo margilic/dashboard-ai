@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Brain, Loader2, Sparkles } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, safeNum, safeNumSigned } from "@/lib/utils";
 
 interface AnalysisContext {
   total_pnl: number;
@@ -162,8 +162,8 @@ function Stat({
         )}
       >
         {typeof value === "number"
-          ? `${isPos && positive ? "+" : ""}${value.toFixed(2)}${suffix || ""}`
-          : `${value}${suffix || ""}`}
+                    ? `${isPos && positive ? "+" : ""}${safeNum(value)}${suffix || ""}`
+                    : `${value}${suffix || ""}`}
       </div>
     </div>
   );

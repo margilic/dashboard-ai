@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Bot, Loader2, Play, Search } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, safeNum } from "@/lib/utils";
 
 interface HourBucket {
   hour_utc: number;
@@ -128,7 +128,7 @@ export function AgentPanel({ range }: Props) {
                   return (
                     <div
                       key={h.hour_utc}
-                      title={`${h.hour_utc}UTC • ${h.trades} trade • ${h.pnl >= 0 ? "+" : ""}${h.pnl.toFixed(2)}`}
+                      title={`${h.hour_utc}UTC • ${h.trades} trade • ${h.pnl >= 0 ? "+" : ""}${safeNum(h.pnl)}`}
                       className={cn(
                         "flex-1 rounded-sm transition-opacity hover:opacity-100 opacity-70",
                         h.pnl >= 0 ? "bg-green" : "bg-red"
@@ -153,7 +153,7 @@ export function AgentPanel({ range }: Props) {
                   )}
                 >
                   {s.symbol}: {s.pnl >= 0 ? "+" : ""}
-                  {s.pnl.toFixed(2)} ({s.win_rate.toFixed(0)}%)
+                  {safeNum(s.pnl)} ({safeNum(s.win_rate, 0)}%)
                 </span>
               ))}
             </div>

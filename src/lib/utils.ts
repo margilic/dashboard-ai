@@ -29,6 +29,40 @@ export function formatPct(n: number, digits = 2): string {
   return `${sign}${n.toFixed(digits)}%`;
 }
 
+export function safeNum(n: unknown, digits = 2, fallback = "—"): string {
+  if (n == null || Number.isNaN(n as number) || !Number.isFinite(n as number)) {
+    return fallback;
+  }
+  return (n as number).toFixed(digits);
+}
+
+export function safeInt(n: unknown, fallback = "—"): string {
+  if (n == null || Number.isNaN(n as number) || !Number.isFinite(n as number)) {
+    return fallback;
+  }
+  return Math.round(n as number).toString();
+}
+
+export function safeNumSigned(
+  n: unknown,
+  digits = 2,
+  fallback = "—"
+): string {
+  if (n == null || Number.isNaN(n as number) || !Number.isFinite(n as number)) {
+    return fallback;
+  }
+  const v = n as number;
+  return `${v >= 0 ? "+" : ""}${v.toFixed(digits)}`;
+}
+
+export function safePct(n: unknown, digits = 2, fallback = "—"): string {
+  if (n == null || Number.isNaN(n as number) || !Number.isFinite(n as number)) {
+    return fallback;
+  }
+  const v = n as number;
+  return `${v >= 0 ? "+" : ""}${v.toFixed(digits)}%`;
+}
+
 export function formatUsd(n: number): string {
   return `$${formatNumber(n)}`;
 }
