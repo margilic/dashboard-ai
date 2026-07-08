@@ -1,17 +1,41 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import { Activity } from "lucide-react";
 import { cn, type TimeRangeKey } from "@/lib/utils";
 import { SymbolPicker } from "@/components/SymbolPicker";
 import { TimeFilter } from "@/components/TimeFilter";
-import { KPICards } from "@/components/KPICards";
-import { CoinChart } from "@/components/CoinChart";
-import { PnlCurve } from "@/components/PnlCurve";
-import { PositionsTable } from "@/components/PositionsTable";
-import { TradesTable } from "@/components/TradesTable";
-import { AIAnalysisPanel } from "@/components/AIAnalysisPanel";
-import { AgentPanel } from "@/components/AgentPanel";
+
+// Heavy components — lazy load on client to keep initial HTML small + fast
+const KPICards = dynamic(() => import("@/components/KPICards").then(m => m.KPICards), {
+  ssr: false,
+  loading: () => <KpiSkeleton />,
+});
+const CoinChart = dynamic(() => import("@/components/CoinChart").then(m => m.CoinChart), {
+  ssr: false,
+  loading: () => <div className="w-full h-[340px]" />,
+});
+const PnlCurve = dynamic(() => import("@/components/PnlCurve").then(m => m.PnlCurve), {
+  ssr: false,
+  loading: () => <div className="w-full h-[300px]" />,
+});
+const PositionsTable = dynamic(() => import("@/components/PositionsTable").then(m => m.PositionsTable), {
+  ssr: false,
+  loading: () => <PanelSkeleton title="Açık Pozisyonlar" />,
+});
+const TradesTable = dynamic(() => import("@/components/TradesTable").then(m => m.TradesTable), {
+  ssr: false,
+  loading: () => <PanelSkeleton title="Son Trade'ler" />,
+});
+const AIAnalysisPanel = dynamic(() => import("@/components/AIAnalysisPanel").then(m => m.AIAnalysisPanel), {
+  ssr: false,
+  loading: () => <PanelSkeleton title="AI Analiz" />,
+});
+const AgentPanel = dynamic(() => import("@/components/AgentPanel").then(m => m.AgentPanel), {
+  ssr: false,
+  loading: () => <PanelSkeleton title="Pattern Agent" />,
+});
 
 interface PnlData {
   equity_curve: { t: number; v: number }[];
@@ -201,6 +225,33 @@ function Mini({
         {positive && isPos ? "+" : ""}
         {value.toFixed(2)}
         {suffix || ""}
+      </div>
+    </div>
+  );
+}
+
+function KpiSkeleton() {
+  return (
+    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+      {Array.from({ length: 6 }).map((_, i) => (
+        <div key={i} className="rounded-lg border border-border bg-card px-4 py-3">
+          <div className="h-2 w-12 bg-border rounded animate-pulse" />
+          <div className="h-5 w-20 bg-border rounded mt-2 animate-pulse" />
+          <div className="h-2 w-16 bg-border rounded mt-1 animate-pulse" />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function PanelSkeleton({ title }: { title: string }) {
+  return (
+    <div className="rounded-lg border border-border bg-card flex flex-col h-full">
+      <div className="px-4 py-3 border-b border-border flex items-center justify-between">
+        <span className="font-semibold text-sm">{title}</span>
+      </div>
+      <div className="flex-1 flex items-center justify-center p-6 text-text-muted text-xs">
+        yükleniyor…
       </div>
     </div>
   );
