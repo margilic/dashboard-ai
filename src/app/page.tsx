@@ -40,9 +40,9 @@ const VibePanel = dynamic(() => import("@/components/VibePanel").then(m => m.Vib
   ssr: false,
   loading: () => <PanelSkeleton title="Vibe-Trading" />,
 });
-const AgentsPanel = dynamic(() => import("@/components/AgentsPanel").then(m => m.AgentsPanel), {
+const EnginePanel = dynamic(() => import("@/components/EnginePanel").then(m => m.EnginePanel), {
   ssr: false,
-  loading: () => <PanelSkeleton title="Ajanlar" />,
+  loading: () => <PanelSkeleton title="Trade Motoru" />,
 });
 const SignalsPanel = dynamic(() => import("@/components/SignalsPanel").then(m => m.SignalsPanel), {
   ssr: false,
@@ -134,7 +134,7 @@ export default function DashboardPage() {
 
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
         <SignalsPanel interval={["1h", "4h", "24h"].includes(range) ? "15m" : "1h"} />
-        <AgentsPanel />
+        <EnginePanel />
       </section>
 
       <section className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-5">
@@ -197,7 +197,7 @@ export default function DashboardPage() {
       </section>
 
       <footer className="text-center text-[10px] text-text-muted py-4">
-        Binance public API • SMC Engine :8767 • Vibe-Trading MCP :8768 • MiniMax-M3 / DeepSeek •{" "}
+        Hermes Trade Motoru (paper) • Binance public API • Vibe-Trading MCP :8768 • MiniMax-M3 / DeepSeek •{" "}
         {new Date().toLocaleDateString("tr-TR")}
       </footer>
     </main>
