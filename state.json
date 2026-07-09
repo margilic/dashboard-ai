@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T16:20:49.302397+00:00",
+  "cycle_at": "2026-07-09T16:25:49.318930+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 967.29,
       "locked": 0
     },
-    "equity": 968.94,
+    "equity": 973.73,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 1.65,
+    "unrealized_pnl": 6.44,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T16:20:49.302397+00:00"
+    "updated_at": "2026-07-09T16:25:49.318930+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.07268,
-      "current": 0.07249,
+      "current": 0.07246,
       "qty": 13758.943313,
       "notional": 1000,
-      "unrealized": -2.61,
-      "pnl_pct": -0.261,
+      "unrealized": -3.03,
+      "pnl_pct": -0.303,
       "sl": 0.071953,
       "tp": 0.07377,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -52,11 +52,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 1.0922,
-      "current": 1.0882,
+      "current": 1.0871,
       "qty": 915.583227,
       "notional": 1000,
-      "unrealized": 3.66,
-      "pnl_pct": 0.366,
+      "unrealized": 4.67,
+      "pnl_pct": 0.467,
       "sl": 1.103122,
       "tp": 1.075817,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -70,11 +70,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 0.1666,
-      "current": 0.1665,
+      "current": 0.1658,
       "qty": 6002.40096,
       "notional": 1000,
-      "unrealized": 0.6,
-      "pnl_pct": 0.06,
+      "unrealized": 4.8,
+      "pnl_pct": 0.48,
       "sl": 0.168266,
       "tp": 0.164101,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -292,7 +292,98 @@
       "duration_s": 300
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 1734.38,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 77.32,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 1.0871,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 7.683,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 0.1658,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 1734.38,
+      "strength": 60.93938554323868,
+      "note": "z=-2.44",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.1658,
+      "strength": 58.849419935108074,
+      "note": "z=-2.35",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 1.0871,
+      "strength": 54.43492108391313,
+      "note": "z=-2.18",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 7.683,
+      "strength": 52.08126343177912,
+      "note": "z=-2.08",
+      "ts": 1783613700000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 77.32,
+      "strength": 50.084406546939285,
+      "note": "z=-2.00",
+      "ts": 1783613700000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-09T16:00:49.251507+00:00",
     "model": "deepseek-chat",
@@ -343,8 +434,8 @@
     "losses": 6,
     "win_rate": 33.3,
     "total_pnl": -32.71,
-    "equity": 968.94,
-    "unrealized": 1.65,
+    "equity": 973.73,
+    "unrealized": 6.44,
     "closed_this_cycle": 0
   }
 }
