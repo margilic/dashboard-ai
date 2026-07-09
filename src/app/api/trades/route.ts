@@ -38,13 +38,28 @@ export async function GET(req: Request) {
   const avgWin = wins.length > 0 ? wins.reduce((s, t) => s + t.pnl, 0) / wins.length : 0;
   const avgLoss = losses.length > 0 ? losses.reduce((s, t) => s + t.pnl, 0) / losses.length : 0;
   const sortedByPnl = [...filtered].sort((a, b) => b.pnl - a.pnl);
-
+  // Equity curve — with initial balance baseline, unique timestamps
+  let equityCurve: { t: number; v: number }[] = [];
+  const startEquity = st.balance?.initial_balance ?? 100000;
+  const unrealized = st.balance?.unrealized_pnl ?? 0;
   const sortedByTime = [...filtered].sort((a, b) => a.closed_at - b.closed_at);
   let cum = 0;
-  const equityCurve = sortedByTime.map((t) => {
+  let lastT = 0;
+  const pushPt = (t: number, v: number) => {
+    let tt = Math.floor(t);
+    if (tt <= lastT) tt = lastT + 1;
+    lastT = tt;
+    equityCurve.push({ t: tt, v: Math.round(v * 100) / 100 });
+  };
+  equityCurve.push({ t: 0, v: 0 }); // lightweight-charts placeholder
+  if (sortedByTime.length) pushPt(sortedByTime[0].opened_at || sortedByTime[0].closed_at, startEquity);
+  for (const t of sortedByTime) {
     cum += t.pnl;
-    return { t: t.closed_at, v: cum, pnl: t.pnl };
-  });
+    pushPt(Number(t.closed_at), startEquity + cum);
+  }
+  pushPt(Math.floor(Date.now() / 1000), startEquity + cum + unrealized);
+  // remove placeholder
+  equityCurve = equityCurve.filter((p) => p.t > 0);
 
   // normalize trade rows to the shape TradesTable expects
   const trades = filtered.slice(0, 50).map((t) => ({
