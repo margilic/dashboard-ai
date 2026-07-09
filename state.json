@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T15:00:49.007348+00:00",
+  "cycle_at": "2026-07-09T15:05:49.007467+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -15,47 +15,30 @@
     "ADAUSDT",
     "ARBUSDT"
   ],
+  "bridge_url": "",
   "balance": {
     "USD": {
-      "free": 978.9,
+      "free": 971.72,
       "locked": 0
     },
-    "equity": 967.31,
+    "equity": 966.2,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -11.59,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-09T15:00:49.007348+00:00"
+    "unrealized_pnl": -5.52,
+    "realized_today": -7.18,
+    "updated_at": "2026-07-09T15:05:49.007467+00:00"
   },
   "open_positions": [
-    {
-      "id": "XRPUSDT-1783605648",
-      "symbol": "XRPUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "entry": 1.1001,
-      "current": 1.0937,
-      "qty": 909.008272,
-      "notional": 1000,
-      "unrealized": -5.82,
-      "pnl_pct": -0.582,
-      "sl": 1.089099,
-      "tp": 1.116602,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "opened_at": 1783605648.756962,
-      "opened_iso": "2026-07-09T14:00:48.756962+00:00",
-      "swarm_aligned": false
-    },
     {
       "id": "AVAXUSDT-1783606248",
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 6.769,
-      "current": 6.729,
+      "current": 6.74,
       "qty": 147.732309,
       "notional": 1000,
-      "unrealized": -5.91,
-      "pnl_pct": -0.591,
+      "unrealized": -4.28,
+      "pnl_pct": -0.428,
       "sl": 6.70131,
       "tp": 6.870535,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -69,20 +52,61 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.07268,
-      "current": 0.07269,
+      "current": 0.07259,
       "qty": 13758.943313,
       "notional": 1000,
-      "unrealized": 0.14,
-      "pnl_pct": 0.014,
+      "unrealized": -1.24,
+      "pnl_pct": -0.124,
       "sl": 0.071953,
       "tp": 0.07377,
       "note": "EMA9>EMA21 kesi\u015fim",
       "opened_at": 1783608348.944677,
       "opened_iso": "2026-07-09T14:45:48.944677+00:00",
       "swarm_aligned": false
+    },
+    {
+      "id": "XRPUSDT-1783609549",
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 1.0922,
+      "current": 1.0922,
+      "qty": 915.583227,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 1.103122,
+      "tp": 1.075817,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1783609549.007467,
+      "opened_iso": "2026-07-09T15:05:49.007467+00:00",
+      "swarm_aligned": false
     }
   ],
   "recent_trades": [
+    {
+      "id": "XRPUSDT-1783605648",
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "entry": 1.1001,
+      "current": 1.0937,
+      "qty": 909.008272,
+      "notional": 1000,
+      "unrealized": -5.82,
+      "pnl_pct": -0.718,
+      "sl": 1.089099,
+      "tp": 1.116602,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "opened_at": 1783605648.756962,
+      "opened_iso": "2026-07-09T14:00:48.756962+00:00",
+      "swarm_aligned": false,
+      "exit": 1.0922,
+      "closed_at": 1783609549.007467,
+      "pnl": -7.18,
+      "exit_reason": "opposite",
+      "duration_s": 3900
+    },
     {
       "id": "SOLUSDT-1783605348",
       "symbol": "SOLUSDT",
@@ -250,27 +274,18 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 77.85,
+      "price": 77.73,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783609200000
     },
     {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 572.24,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783609200000
-    },
-    {
-      "symbol": "BNBUSDT",
+      "symbol": "XRPUSDT",
       "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 572.24,
-      "strength": 57.43770572375739,
-      "note": "z=2.30",
+      "strategy": "EMA Cross",
+      "price": 1.0922,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783609200000
     }
   ],
@@ -315,17 +330,23 @@
         "at": "2026-07-09T13:00:28.725776+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "SOLUSDT",
+        "side": "SHORT",
+        "reason": "desk=LONG"
+      }
+    ]
   },
   "stats": {
     "open": 3,
-    "total_trades": 7,
+    "total_trades": 8,
     "wins": 3,
-    "losses": 4,
-    "win_rate": 42.9,
-    "total_pnl": -21.1,
-    "equity": 967.31,
-    "unrealized": -11.59,
-    "closed_this_cycle": 0
+    "losses": 5,
+    "win_rate": 37.5,
+    "total_pnl": -28.28,
+    "equity": 966.2,
+    "unrealized": -5.52,
+    "closed_this_cycle": 1
   }
 }
