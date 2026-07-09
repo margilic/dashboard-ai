@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T15:40:49.151259+00:00",
+  "cycle_at": "2026-07-09T15:45:49.175676+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 971.72,
       "locked": 0
     },
-    "equity": 969.02,
+    "equity": 968.34,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -2.7,
+    "unrealized_pnl": -3.38,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T15:40:49.151259+00:00"
+    "updated_at": "2026-07-09T15:45:49.175676+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 6.769,
-      "current": 6.747,
+      "current": 6.748,
       "qty": 147.732309,
       "notional": 1000,
-      "unrealized": -3.25,
-      "pnl_pct": -0.325,
+      "unrealized": -3.1,
+      "pnl_pct": -0.31,
       "sl": 6.70131,
       "tp": 6.870535,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -52,11 +52,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.07268,
-      "current": 0.07264,
+      "current": 0.07262,
       "qty": 13758.943313,
       "notional": 1000,
-      "unrealized": -0.55,
-      "pnl_pct": -0.055,
+      "unrealized": -0.83,
+      "pnl_pct": -0.083,
       "sl": 0.071953,
       "tp": 0.07377,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -70,11 +70,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 1.0922,
-      "current": 1.091,
+      "current": 1.0916,
       "qty": 915.583227,
       "notional": 1000,
-      "unrealized": 1.1,
-      "pnl_pct": 0.11,
+      "unrealized": 0.55,
+      "pnl_pct": 0.055,
       "sl": 1.103122,
       "tp": 1.075817,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -274,37 +274,28 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.1667,
-      "strength": 77.70294827977206,
-      "note": "z=-3.11",
-      "ts": 1783611000000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.1667,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1783611000000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 77.76,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783611000000
+      "price": 0.1664,
+      "strength": 65.3478339812383,
+      "note": "z=-2.61",
+      "ts": 1783611900000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.1667,
+      "price": 0.1664,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783611000000
+      "ts": 1783611900000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.1664,
+      "strength": 56.1111111111117,
+      "note": "RSI 29.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783611900000
     }
   ],
   "swarm": {
@@ -357,8 +348,8 @@
     "losses": 5,
     "win_rate": 37.5,
     "total_pnl": -28.28,
-    "equity": 969.02,
-    "unrealized": -2.7,
+    "equity": 968.34,
+    "unrealized": -3.38,
     "closed_this_cycle": 0
   }
 }
