@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T22:20:50.682205+00:00",
+  "cycle_at": "2026-07-09T22:25:50.700089+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 994.59,
       "locked": 0
     },
-    "equity": 990.99,
+    "equity": 989.79,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -3.6,
+    "unrealized_pnl": -4.8,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T22:20:50.682205+00:00"
+    "updated_at": "2026-07-09T22:25:50.700089+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1667,
-      "current": 0.1673,
+      "current": 0.1675,
       "qty": 5998.80024,
       "notional": 1000,
-      "unrealized": -3.6,
-      "pnl_pct": -0.36,
+      "unrealized": -4.8,
+      "pnl_pct": -0.48,
       "sl": 0.168367,
       "tp": 0.164199,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -626,7 +626,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-09T20:21:17.564177+00:00",
+    "updated_at": "2026-07-09T22:23:22.953193+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -635,38 +635,38 @@
       "BTCUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 60.5,
+        "score": 11.0,
         "sl": null,
         "tp": null,
-        "rationale": "Finansman sa\u011fl\u0131kl\u0131, on-chain destekleyici, ancak stablecoin daralmas\u0131 ve y\u00fcksek L/S oran\u0131 temkinli olmay\u0131 gerektiriyor.",
+        "rationale": "On-chain veriler sermaye giri\u015fini g\u00f6steriyor, fonlama so\u011fuyor. D\u00fc\u015f\u00fc\u015fte al ama kovalama.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783627370.133248,
-        "at": "2026-07-09T20:02:50.133248+00:00"
+        "ts": 1783634570.598,
+        "at": "2026-07-09T22:02:50.598000+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 38.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 4.27,
         "sl": null,
         "tp": null,
-        "rationale": "Sa\u011fl\u0131kl\u0131 konsolidasyon, fonlama s\u0131f\u0131r, DeFi TVL art\u0131yor. Ancak 2:1 long/short oran\u0131 ve 1.745$ alt\u0131nda likidasyon kaskad\u0131 riski var.",
+        "rationale": "Bile\u015fik skor 4.27/10 ile net bir kenar yok. Fonlama negatife d\u00f6nmek \u00fczere, BTC dominans\u0131 %56.25 ile altcoinleri bask\u0131l\u0131yor. Risk/\u00f6d\u00fcl agresif pozisyon i\u00e7in elveri\u015fsiz.",
         "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1783627370.133248,
-        "at": "2026-07-09T20:02:50.133248+00:00"
+        "ts": 1783634570.598,
+        "at": "2026-07-09T22:02:50.598000+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
+        "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": 5.0,
+        "score": -32.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k: zincir \u00fcst\u00fc ak\u0131\u015f g\u00fc\u00e7l\u00fc bo\u011fa sinyali verirken, fonlama/basis a\u015f\u0131r\u0131 perakende kalabal\u0131\u011f\u0131 nedeniyle d\u00fc\u015f\u00fc\u015f e\u011filiminde. Likidasyon seviyeleri n\u00f6tr-d\u00fc\u015f\u00fc\u015f. Toplam puan 5.48 ile n\u00f6tr.",
-        "extract_model": "deepseek-chat",
+        "rationale": "T\u00fcm sinyaller d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc; fonlama ve likidasyon analizi bearish, on-chain ak\u0131\u015flar kar\u0131\u015f\u0131k. Orta derecede d\u00fc\u015f\u00fc\u015f e\u011filimi.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783627370.133248,
-        "at": "2026-07-09T20:02:50.133248+00:00"
+        "ts": 1783634570.598,
+        "at": "2026-07-09T22:02:50.598000+00:00"
       }
     },
     "gated_this_cycle": []
@@ -678,8 +678,8 @@
     "losses": 17,
     "win_rate": 39.3,
     "total_pnl": -5.41,
-    "equity": 990.99,
-    "unrealized": -3.6,
+    "equity": 989.79,
+    "unrealized": -4.8,
     "closed_this_cycle": 0
   }
 }
