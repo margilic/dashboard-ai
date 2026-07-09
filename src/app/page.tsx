@@ -40,6 +40,14 @@ const VibePanel = dynamic(() => import("@/components/VibePanel").then(m => m.Vib
   ssr: false,
   loading: () => <PanelSkeleton title="Vibe-Trading" />,
 });
+const AgentsPanel = dynamic(() => import("@/components/AgentsPanel").then(m => m.AgentsPanel), {
+  ssr: false,
+  loading: () => <PanelSkeleton title="Ajanlar" />,
+});
+const SignalsPanel = dynamic(() => import("@/components/SignalsPanel").then(m => m.SignalsPanel), {
+  ssr: false,
+  loading: () => <PanelSkeleton title="Sinyaller" />,
+});
 
 interface PnlData {
   equity_curve: { t: number; v: number }[];
@@ -81,23 +89,23 @@ export default function DashboardPage() {
   }, [range]);
 
   return (
-    <main className="min-h-screen px-4 md:px-6 lg:px-8 py-5 max-w-[1600px] mx-auto">
-      <header className="flex flex-wrap items-center justify-between gap-3 mb-5">
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-md bg-gradient-to-br from-accent to-accent-soft flex items-center justify-center">
+    <main className="min-h-screen px-3 sm:px-6 lg:px-8 py-4 sm:py-5 max-w-[1600px] mx-auto">
+      <header className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center sm:justify-between gap-3 mb-5">
+        <div className="flex items-center gap-3 min-w-0">
+          <div className="w-9 h-9 rounded-md bg-gradient-to-br from-accent to-accent-soft flex items-center justify-center shrink-0">
             <Activity className="w-5 h-5 text-white" />
           </div>
-          <div>
-            <h1 className="text-lg font-bold tracking-tight">
+          <div className="min-w-0">
+            <h1 className="text-base sm:text-lg font-bold tracking-tight truncate">
               Margilic AI Trading Dashboard
             </h1>
-            <p className="text-xs text-text-muted">
+            <p className="text-xs text-text-muted truncate">
               AI-analyzed PnL, pozisyonlar ve pattern analizi
             </p>
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
           <HealthDot status={health} />
           <button
             onClick={() => {
@@ -111,7 +119,7 @@ export default function DashboardPage() {
                 .catch(() => setHealth("degraded"));
             }}
             title="Yenile"
-            className="text-xs px-2 py-1 rounded border border-border hover:bg-card-hover transition-colors text-text-soft"
+            className="text-xs px-2 py-1.5 rounded border border-border hover:bg-card-hover transition-colors text-text-soft"
           >
             ↻
           </button>
@@ -122,6 +130,11 @@ export default function DashboardPage() {
 
       <section className="mb-5">
         <KPICards range={range} symbol={symbol} />
+      </section>
+
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
+        <SignalsPanel interval={["1h", "4h", "24h"].includes(range) ? "15m" : "1h"} />
+        <AgentsPanel />
       </section>
 
       <section className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-5">
