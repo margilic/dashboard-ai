@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T23:10:50.850538+00:00",
+  "cycle_at": "2026-07-09T23:15:50.904529+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 994.59,
       "locked": 0
     },
-    "equity": 993.47,
+    "equity": 1001.52,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -1.12,
+    "unrealized_pnl": 6.93,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T23:10:50.850538+00:00"
+    "updated_at": "2026-07-09T23:15:50.904529+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1667,
-      "current": 0.1668,
+      "current": 0.1666,
       "qty": 5998.80024,
       "notional": 1000,
-      "unrealized": -0.6,
-      "pnl_pct": -0.06,
+      "unrealized": 0.6,
+      "pnl_pct": 0.06,
       "sl": 0.168367,
       "tp": 0.164199,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -52,11 +52,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 7.751,
-      "current": 7.755,
+      "current": 7.746,
       "qty": 129.015611,
       "notional": 1000,
-      "unrealized": -0.52,
-      "pnl_pct": -0.052,
+      "unrealized": 0.65,
+      "pnl_pct": 0.065,
       "sl": 7.82851,
       "tp": 7.634735,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -70,11 +70,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.088,
-      "current": 0.088,
+      "current": 0.0875,
       "qty": 11363.636364,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 5.68,
+      "pnl_pct": 0.568,
       "sl": 0.08888,
       "tp": 0.08668,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -662,13 +662,49 @@
   ],
   "signals": [
     {
-      "symbol": "ARBUSDT",
+      "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.088,
+      "price": 1745.28,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783638000000
+      "ts": 1783638900000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 1.0934,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1783638900000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 0.1666,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1783638900000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 1.0934,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783638900000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 1.0934,
+      "strength": 50.26563716280993,
+      "note": "z=-2.01",
+      "ts": 1783638900000
     }
   ],
   "swarm": {
@@ -724,8 +760,8 @@
     "losses": 17,
     "win_rate": 39.3,
     "total_pnl": -5.41,
-    "equity": 993.47,
-    "unrealized": -1.12,
+    "equity": 1001.52,
+    "unrealized": 6.93,
     "closed_this_cycle": 0
   }
 }
