@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T23:05:50.829611+00:00",
+  "cycle_at": "2026-07-09T23:10:50.850538+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 994.59,
       "locked": 0
     },
-    "equity": 990.0,
+    "equity": 993.47,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -4.59,
+    "unrealized_pnl": -1.12,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T23:05:50.829611+00:00"
+    "updated_at": "2026-07-09T23:10:50.850538+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1667,
-      "current": 0.1671,
+      "current": 0.1668,
       "qty": 5998.80024,
       "notional": 1000,
-      "unrealized": -2.4,
-      "pnl_pct": -0.24,
+      "unrealized": -0.6,
+      "pnl_pct": -0.06,
       "sl": 0.168367,
       "tp": 0.164199,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -52,16 +52,34 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 7.751,
-      "current": 7.768,
+      "current": 7.755,
       "qty": 129.015611,
       "notional": 1000,
-      "unrealized": -2.19,
-      "pnl_pct": -0.219,
+      "unrealized": -0.52,
+      "pnl_pct": -0.052,
       "sl": 7.82851,
       "tp": 7.634735,
       "note": "EMA9<EMA21 kesi\u015fim",
       "opened_at": 1783638050.812706,
       "opened_iso": "2026-07-09T23:00:50.812706+00:00",
+      "swarm_aligned": false
+    },
+    {
+      "id": "ARBUSDT-1783638650",
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 0.088,
+      "current": 0.088,
+      "qty": 11363.636364,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.08888,
+      "tp": 0.08668,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1783638650.850538,
+      "opened_iso": "2026-07-09T23:10:50.850538+00:00",
       "swarm_aligned": false
     }
   ],
@@ -642,7 +660,17 @@
       "duration_s": 300
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 0.088,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1783638000000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-09T22:23:22.953193+00:00",
     "model": "deepseek-chat",
@@ -690,14 +718,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 28,
     "wins": 11,
     "losses": 17,
     "win_rate": 39.3,
     "total_pnl": -5.41,
-    "equity": 990.0,
-    "unrealized": -4.59,
+    "equity": 993.47,
+    "unrealized": -1.12,
     "closed_this_cycle": 0
   }
 }
