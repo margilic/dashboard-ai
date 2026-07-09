@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T07:24:47.579282+00:00",
+  "cycle_at": "2026-07-09T13:00:04.645980+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -17,32 +17,38 @@
   ],
   "balance": {
     "USD": {
-      "free": 99999.4,
+      "free": 100047.18,
       "locked": 0
     },
-    "equity": 100008.88,
+    "equity": 100047.18,
     "initial_balance": 100000.0,
-    "unrealized_pnl": 9.48,
-    "realized_today": 2.94,
-    "updated_at": "2026-07-09T07:24:47.579282+00:00"
+    "unrealized_pnl": 0,
+    "realized_today": 47.78,
+    "updated_at": "2026-07-09T13:00:04.645980+00:00"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_trades": [
     {
-      "id": "ETHUSDT-1783580498",
-      "symbol": "ETHUSDT",
+      "id": "AVAXUSDT-1783581887",
+      "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "entry": 1757.53,
-      "current": 1752.6,
-      "qty": 1.137961,
+      "entry": 6.786,
+      "current": 6.786,
+      "qty": 294.724433,
       "notional": 2000,
-      "unrealized": 5.61,
-      "pnl_pct": 0.281,
-      "sl": 1775.1053,
-      "tp": 1731.16705,
-      "note": "RSI 83.3 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1783580498.261741,
-      "opened_iso": "2026-07-09T07:01:38.261741+00:00"
+      "unrealized": 0.0,
+      "pnl_pct": 0.928,
+      "sl": 6.85386,
+      "tp": 6.68421,
+      "note": "RSI 94.5 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783581887.579282,
+      "opened_iso": "2026-07-09T07:24:47.579282+00:00",
+      "exit": 6.723,
+      "closed_at": 1783602004.64598,
+      "pnl": 18.57,
+      "exit_reason": "time",
+      "duration_s": 20117
     },
     {
       "id": "BTCUSDT-1783580498",
@@ -54,32 +60,40 @@
       "qty": 0.031744,
       "notional": 2000,
       "unrealized": 3.87,
-      "pnl_pct": 0.194,
+      "pnl_pct": 0.594,
       "sl": 63633.636,
       "tp": 62058.546,
       "note": "RSI 82.5 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783580498.261741,
-      "opened_iso": "2026-07-09T07:01:38.261741+00:00"
+      "opened_iso": "2026-07-09T07:01:38.261741+00:00",
+      "exit": 62629.06,
+      "closed_at": 1783602004.64598,
+      "pnl": 11.89,
+      "exit_reason": "time",
+      "duration_s": 21506
     },
     {
-      "id": "AVAXUSDT-1783581887",
-      "symbol": "AVAXUSDT",
+      "id": "ETHUSDT-1783580498",
+      "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "entry": 6.786,
-      "current": 6.786,
-      "qty": 294.724433,
+      "entry": 1757.53,
+      "current": 1752.6,
+      "qty": 1.137961,
       "notional": 2000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
-      "sl": 6.85386,
-      "tp": 6.68421,
-      "note": "RSI 94.5 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1783581887.579282,
-      "opened_iso": "2026-07-09T07:24:47.579282+00:00"
-    }
-  ],
-  "recent_trades": [
+      "unrealized": 5.61,
+      "pnl_pct": 0.866,
+      "sl": 1775.1053,
+      "tp": 1731.16705,
+      "note": "RSI 83.3 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783580498.261741,
+      "opened_iso": "2026-07-09T07:01:38.261741+00:00",
+      "exit": 1742.31,
+      "closed_at": 1783602004.64598,
+      "pnl": 17.32,
+      "exit_reason": "time",
+      "duration_s": 21506
+    },
     {
       "id": "AVAXUSDT-1783580582",
       "symbol": "AVAXUSDT",
@@ -125,53 +139,25 @@
       "duration_s": 84
     }
   ],
-  "signals": [
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.786,
-      "strength": 100,
-      "note": "RSI 94.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783581300000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 62881.67,
-      "strength": 80.77140984515711,
-      "note": "RSI 78.6 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783581300000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1752.6,
-      "strength": 75.83169291338425,
-      "note": "RSI 76.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783581300000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 6.786,
-      "strength": 75,
-      "note": "20-bar tepe + hacim",
-      "ts": 1783581300000
-    }
-  ],
+  "signals": [],
+  "swarm": {
+    "updated_at": null,
+    "model": null,
+    "timeframe": null,
+    "preset": null,
+    "gate_enabled": true,
+    "bias": {},
+    "gated_this_cycle": []
+  },
   "stats": {
-    "open": 3,
-    "total_trades": 2,
-    "wins": 1,
+    "open": 0,
+    "total_trades": 5,
+    "wins": 4,
     "losses": 1,
-    "win_rate": 50.0,
-    "total_pnl": -0.6,
-    "equity": 100008.88,
-    "unrealized": 9.48,
-    "closed_this_cycle": 1
+    "win_rate": 80.0,
+    "total_pnl": 47.18,
+    "equity": 100047.18,
+    "unrealized": 0,
+    "closed_this_cycle": 3
   }
 }
