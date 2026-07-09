@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T20:20:50.206589+00:00",
+  "cycle_at": "2026-07-09T20:25:50.236366+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 975.64,
       "locked": 0
     },
-    "equity": 977.35,
+    "equity": 973.99,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 1.71,
+    "unrealized_pnl": -1.65,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T20:20:50.206589+00:00"
+    "updated_at": "2026-07-09T20:25:50.236366+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0903,
-      "current": 0.0906,
+      "current": 0.0908,
       "qty": 11074.197121,
       "notional": 1000,
-      "unrealized": -3.32,
-      "pnl_pct": -0.332,
+      "unrealized": -5.54,
+      "pnl_pct": -0.554,
       "sl": 0.091203,
       "tp": 0.088946,
       "note": "RSI 74.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -52,11 +52,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 7.796,
-      "current": 7.761,
+      "current": 7.766,
       "qty": 128.270908,
       "notional": 1000,
-      "unrealized": 4.49,
-      "pnl_pct": 0.449,
+      "unrealized": 3.85,
+      "pnl_pct": 0.385,
       "sl": 7.87396,
       "tp": 7.67906,
       "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -70,11 +70,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 570.19,
-      "current": 569.88,
+      "current": 570.17,
       "qty": 1.753801,
       "notional": 1000,
-      "unrealized": 0.54,
-      "pnl_pct": 0.054,
+      "unrealized": 0.04,
+      "pnl_pct": 0.004,
       "sl": 575.8919,
       "tp": 561.63715,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -619,60 +619,63 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0906,
-      "strength": 89.73684210526287,
-      "note": "RSI 81.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0908,
+      "strength": 91.15384615384588,
+      "note": "RSI 82.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783628100000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 63218.92,
-      "strength": 59.168061269074656,
-      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 63268.6,
+      "strength": 62.54508232424453,
+      "note": "RSI 72.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783628100000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-09T18:29:16.718913+00:00",
+    "updated_at": "2026-07-09T20:21:17.564177+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 0.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "Sinyaller \u00e7ok farkl\u0131 y\u00f6nlerde. K\u0131sa s\u0131k\u0131\u015fma potansiyeli var ancak zincir \u00fcst\u00fc veriler yetersiz al\u0131m g\u00fcc\u00fc g\u00f6steriyor. Ba\u015far\u0131s\u0131z bir s\u0131k\u0131\u015fmada ters d\u00f6nme riski y\u00fcksek.",
-        "target": "BTC-USDT",
-        "ts": 1783621756.718913,
-        "at": "2026-07-09T18:29:16.718913+00:00"
-      },
-      "ETHUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -10.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "T\u00fcm sinyaller negatif veya n\u00f6tr; en g\u00fc\u00e7l\u00fc d\u00fc\u015f\u00fc\u015f sinyali zincir i\u00e7i ak\u0131\u015f ve likidasyon mikro verilerinden geliyor. Net bir y\u00f6n belirtilmedi\u011fi i\u00e7in BEKLE.",
-        "target": "ETH-USDT",
-        "ts": 1783621756.718913,
-        "at": "2026-07-09T18:29:16.718913+00:00"
-      },
-      "SOLUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 3.0,
+        "score": 60.5,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyal entegrasyonu hafif pozitif. Likidasyon ve ak\u0131\u015f verileri y\u00fckseli\u015fi desteklerken, fonlama/basis hafif negatif. Net skor d\u00fc\u015f\u00fck pozitif.",
+        "rationale": "Finansman sa\u011fl\u0131kl\u0131, on-chain destekleyici, ancak stablecoin daralmas\u0131 ve y\u00fcksek L/S oran\u0131 temkinli olmay\u0131 gerektiriyor.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "BTC-USDT",
+        "ts": 1783627370.133248,
+        "at": "2026-07-09T20:02:50.133248+00:00"
+      },
+      "ETHUSDT": {
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 38.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Sa\u011fl\u0131kl\u0131 konsolidasyon, fonlama s\u0131f\u0131r, DeFi TVL art\u0131yor. Ancak 2:1 long/short oran\u0131 ve 1.745$ alt\u0131nda likidasyon kaskad\u0131 riski var.",
+        "extract_model": "deepseek-chat",
+        "target": "ETH-USDT",
+        "ts": 1783627370.133248,
+        "at": "2026-07-09T20:02:50.133248+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "NEUTRAL",
+        "conviction": "MEDIUM",
+        "score": 5.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Sinyaller kar\u0131\u015f\u0131k: zincir \u00fcst\u00fc ak\u0131\u015f g\u00fc\u00e7l\u00fc bo\u011fa sinyali verirken, fonlama/basis a\u015f\u0131r\u0131 perakende kalabal\u0131\u011f\u0131 nedeniyle d\u00fc\u015f\u00fc\u015f e\u011filiminde. Likidasyon seviyeleri n\u00f6tr-d\u00fc\u015f\u00fc\u015f. Toplam puan 5.48 ile n\u00f6tr.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783621756.718913,
-        "at": "2026-07-09T18:29:16.718913+00:00"
+        "ts": 1783627370.133248,
+        "at": "2026-07-09T20:02:50.133248+00:00"
       }
     },
     "gated_this_cycle": []
@@ -684,8 +687,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -24.36,
-    "equity": 977.35,
-    "unrealized": 1.71,
+    "equity": 973.99,
+    "unrealized": -1.65,
     "closed_this_cycle": 0
   }
 }
