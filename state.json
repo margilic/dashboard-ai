@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T13:15:48.622517+00:00",
+  "cycle_at": "2026-07-09T13:20:48.615090+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -20,11 +20,11 @@
       "free": 100047.18,
       "locked": 0
     },
-    "equity": 100051.06,
-    "initial_balance": 100000.0,
-    "unrealized_pnl": 3.88,
+    "equity": 100043.26,
+    "initial_balance": 1000.0,
+    "unrealized_pnl": -3.92,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T13:15:48.622517+00:00"
+    "updated_at": "2026-07-09T13:20:48.615090+00:00"
   },
   "open_positions": [
     {
@@ -33,11 +33,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1.0975,
-      "current": 1.0975,
+      "current": 1.0962,
       "qty": 1822.323462,
       "notional": 2000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -2.37,
+      "pnl_pct": -0.118,
       "sl": 1.086525,
       "tp": 1.113962,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -51,11 +51,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 7.738,
-      "current": 7.753,
+      "current": 7.732,
       "qty": 258.46472,
       "notional": 2000,
-      "unrealized": 3.88,
-      "pnl_pct": 0.194,
+      "unrealized": -1.55,
+      "pnl_pct": -0.078,
       "sl": 7.66062,
       "tp": 7.85407,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -178,12 +178,12 @@
   ],
   "signals": [
     {
-      "symbol": "BTCUSDT",
+      "symbol": "BNBUSDT",
       "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 62838.53,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
+      "strategy": "RSI Reversal",
+      "price": 569.17,
+      "strength": 61.99196326062031,
+      "note": "RSI 27.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783602900000
     }
   ],
@@ -228,13 +228,7 @@
         "at": "2026-07-09T13:00:28.725776+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "BTCUSDT",
-        "side": "LONG",
-        "reason": "desk=SHORT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 2,
@@ -243,8 +237,8 @@
     "losses": 1,
     "win_rate": 80.0,
     "total_pnl": 47.18,
-    "equity": 100051.06,
-    "unrealized": 3.88,
+    "equity": 100043.26,
+    "unrealized": -3.92,
     "closed_this_cycle": 0
   }
 }
