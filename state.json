@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T19:10:49.931590+00:00",
+  "cycle_at": "2026-07-09T19:15:50.046321+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,45 +18,27 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 975.71,
+      "free": 976.92,
       "locked": 0
     },
-    "equity": 983.02,
+    "equity": 980.13,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 7.31,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-09T19:10:49.931590+00:00"
+    "unrealized_pnl": 3.21,
+    "realized_today": 1.21,
+    "updated_at": "2026-07-09T19:15:50.046321+00:00"
   },
   "open_positions": [
-    {
-      "id": "ADAUSDT-1783617349",
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "entry": 0.1652,
-      "current": 0.1659,
-      "qty": 6053.268765,
-      "notional": 1000,
-      "unrealized": 4.24,
-      "pnl_pct": 0.424,
-      "sl": 0.163548,
-      "tp": 0.167678,
-      "note": "RSI 15.6 a\u015f\u0131r\u0131 sat\u0131m",
-      "opened_at": 1783617349.545484,
-      "opened_iso": "2026-07-09T17:15:49.545484+00:00",
-      "swarm_aligned": false
-    },
     {
       "id": "BTCUSDT-1783620649",
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 63391.43,
-      "current": 63235.14,
+      "current": 63173.99,
       "qty": 0.015775,
       "notional": 1000,
-      "unrealized": -2.47,
-      "pnl_pct": -0.247,
+      "unrealized": -3.43,
+      "pnl_pct": -0.343,
       "sl": 62757.5157,
       "tp": 64342.30145,
       "note": "20-bar tepe + hacim",
@@ -70,11 +52,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0903,
-      "current": 0.0898,
+      "current": 0.0897,
       "qty": 11074.197121,
       "notional": 1000,
-      "unrealized": 5.54,
-      "pnl_pct": 0.554,
+      "unrealized": 6.64,
+      "pnl_pct": 0.664,
       "sl": 0.091203,
       "tp": 0.088946,
       "note": "RSI 74.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -84,6 +66,29 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "ADAUSDT-1783617349",
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "entry": 0.1652,
+      "current": 0.1659,
+      "qty": 6053.268765,
+      "notional": 1000,
+      "unrealized": 4.24,
+      "pnl_pct": 0.121,
+      "sl": 0.163548,
+      "tp": 0.167678,
+      "note": "RSI 15.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "opened_at": 1783617349.545484,
+      "opened_iso": "2026-07-09T17:15:49.545484+00:00",
+      "swarm_aligned": false,
+      "exit": 0.1654,
+      "closed_at": 1783624550.046321,
+      "pnl": 1.21,
+      "exit_reason": "time",
+      "duration_s": 7200
+    },
     {
       "id": "ARBUSDT-1783621849",
       "symbol": "ARBUSDT",
@@ -568,7 +573,17 @@
       "duration_s": 300
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0897,
+      "strength": 68.07692307692301,
+      "note": "RSI 74.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783624500000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-09T18:29:16.718913+00:00",
     "model": "deepseek-chat",
@@ -613,14 +628,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 21,
-    "wins": 8,
+    "open": 2,
+    "total_trades": 22,
+    "wins": 9,
     "losses": 13,
-    "win_rate": 38.1,
-    "total_pnl": -24.29,
-    "equity": 983.02,
-    "unrealized": 7.31,
-    "closed_this_cycle": 0
+    "win_rate": 40.9,
+    "total_pnl": -23.08,
+    "equity": 980.13,
+    "unrealized": 3.21,
+    "closed_this_cycle": 1
   }
 }
