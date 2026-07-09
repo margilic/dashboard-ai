@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T22:00:50.590021+00:00",
+  "cycle_at": "2026-07-09T22:05:50.600286+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,16 +18,36 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 997.58,
+      "free": 994.59,
       "locked": 0
     },
-    "equity": 996.38,
+    "equity": 994.59,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -1.2,
-    "realized_today": -1.35,
-    "updated_at": "2026-07-09T22:00:50.590021+00:00"
+    "unrealized_pnl": 0.0,
+    "realized_today": -2.99,
+    "updated_at": "2026-07-09T22:05:50.600286+00:00"
   },
   "open_positions": [
+    {
+      "id": "ADAUSDT-1783634750",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 0.1667,
+      "current": 0.1667,
+      "qty": 5998.80024,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.168367,
+      "tp": 0.164199,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1783634750.600286,
+      "opened_iso": "2026-07-09T22:05:50.600286+00:00",
+      "swarm_aligned": false
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ADAUSDT-1783633250",
       "symbol": "ADAUSDT",
@@ -38,16 +58,19 @@
       "qty": 5980.861244,
       "notional": 1000,
       "unrealized": -1.2,
-      "pnl_pct": -0.12,
+      "pnl_pct": -0.299,
       "sl": 0.165528,
       "tp": 0.169708,
       "note": "EMA9>EMA21 kesi\u015fim",
       "opened_at": 1783633250.499981,
       "opened_iso": "2026-07-09T21:40:50.499981+00:00",
-      "swarm_aligned": false
-    }
-  ],
-  "recent_trades": [
+      "swarm_aligned": false,
+      "exit": 0.1667,
+      "closed_at": 1783634750.600286,
+      "pnl": -2.99,
+      "exit_reason": "opposite",
+      "duration_s": 1500
+    },
     {
       "id": "BNBUSDT-1783627250",
       "symbol": "BNBUSDT",
@@ -599,32 +622,28 @@
       "pnl": -2.22,
       "exit_reason": "opposite",
       "duration_s": 300
-    },
-    {
-      "id": "LINKUSDT-1783603848",
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "entry": 7.713,
-      "current": 7.755,
-      "qty": 129.651238,
-      "notional": 1000,
-      "unrealized": -5.45,
-      "pnl_pct": -0.713,
-      "sl": 7.79013,
-      "tp": 7.597305,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "opened_at": 1783603848.647317,
-      "opened_iso": "2026-07-09T13:30:48.647317+00:00",
-      "swarm_aligned": false,
-      "exit": 7.768,
-      "closed_at": 1783605648.756962,
-      "pnl": -7.13,
-      "exit_reason": "opposite",
-      "duration_s": 1800
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 0.1667,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1783634400000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 569.81,
+      "strength": 55.82251082251253,
+      "note": "RSI 29.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783634400000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-09T20:21:17.564177+00:00",
     "model": "deepseek-chat",
@@ -673,13 +692,13 @@
   },
   "stats": {
     "open": 1,
-    "total_trades": 27,
+    "total_trades": 28,
     "wins": 11,
-    "losses": 16,
-    "win_rate": 40.7,
-    "total_pnl": -2.42,
-    "equity": 996.38,
-    "unrealized": -1.2,
+    "losses": 17,
+    "win_rate": 39.3,
+    "total_pnl": -5.41,
+    "equity": 994.59,
+    "unrealized": 0.0,
     "closed_this_cycle": 1
   }
 }
