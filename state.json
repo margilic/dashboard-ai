@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T19:30:50.015407+00:00",
+  "cycle_at": "2026-07-09T19:35:50.030784+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 976.92,
       "locked": 0
     },
-    "equity": 975.64,
+    "equity": 974.9,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -1.28,
+    "unrealized_pnl": -2.02,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T19:30:50.015407+00:00"
+    "updated_at": "2026-07-09T19:35:50.030784+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 63391.43,
-      "current": 63240.02,
+      "current": 63263.58,
       "qty": 0.015775,
       "notional": 1000,
-      "unrealized": -2.39,
-      "pnl_pct": -0.239,
+      "unrealized": -2.02,
+      "pnl_pct": -0.202,
       "sl": 62757.5157,
       "tp": 64342.30145,
       "note": "20-bar tepe + hacim",
@@ -52,11 +52,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0903,
-      "current": 0.0902,
+      "current": 0.0903,
       "qty": 11074.197121,
       "notional": 1000,
-      "unrealized": 1.11,
-      "pnl_pct": 0.111,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 0.091203,
       "tp": 0.088946,
       "note": "RSI 74.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -578,18 +578,27 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0902,
-      "strength": 71.02739726027386,
-      "note": "RSI 75.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0903,
+      "strength": 72.02702702702695,
+      "note": "RSI 75.7 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783625400000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 7.794,
+      "strength": 64.51219512195071,
+      "note": "RSI 73.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783625400000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07317,
-      "strength": 57.10191082802518,
-      "note": "RSI 70.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0732,
+      "strength": 60.38461538461573,
+      "note": "RSI 71.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783625400000
     }
   ],
@@ -643,8 +652,8 @@
     "losses": 13,
     "win_rate": 40.9,
     "total_pnl": -23.08,
-    "equity": 975.64,
-    "unrealized": -1.28,
+    "equity": 974.9,
+    "unrealized": -2.02,
     "closed_this_cycle": 0
   }
 }
