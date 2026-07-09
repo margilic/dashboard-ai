@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T13:40:48.680320+00:00",
+  "cycle_at": "2026-07-09T13:45:48.708938+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -20,11 +20,11 @@
       "free": 989.39,
       "locked": 0
     },
-    "equity": 989.13,
+    "equity": 985.89,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -0.26,
-    "realized_today": -10.61,
-    "updated_at": "2026-07-09T13:40:48.680320+00:00"
+    "unrealized_pnl": -3.5,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-09T13:45:48.708938+00:00"
   },
   "open_positions": [
     {
@@ -33,16 +33,34 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 7.713,
-      "current": 7.715,
+      "current": 7.74,
       "qty": 129.651238,
       "notional": 1000,
-      "unrealized": -0.26,
-      "pnl_pct": -0.026,
+      "unrealized": -3.5,
+      "pnl_pct": -0.35,
       "sl": 7.79013,
       "tp": 7.597305,
       "note": "EMA9<EMA21 kesi\u015fim",
       "opened_at": 1783603848.647317,
       "opened_iso": "2026-07-09T13:30:48.647317+00:00",
+      "swarm_aligned": false
+    },
+    {
+      "id": "AVAXUSDT-1783604748",
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "entry": 6.757,
+      "current": 6.757,
+      "qty": 147.994672,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 6.68943,
+      "tp": 6.858355,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "opened_at": 1783604748.708938,
+      "opened_iso": "2026-07-09T13:45:48.708938+00:00",
       "swarm_aligned": false
     }
   ],
@@ -73,22 +91,31 @@
   ],
   "signals": [
     {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 7.715,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783603800000
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 6.757,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783604700000
     },
     {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 568.99,
-      "strength": 58.20528211284554,
-      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783603800000
+      "price": 6.757,
+      "strength": 59.58333333333344,
+      "note": "RSI 71.5 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783604700000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 6.757,
+      "strength": 54.52743250039512,
+      "note": "z=2.18",
+      "ts": 1783604700000
     }
   ],
   "swarm": {
@@ -135,14 +162,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 1,
+    "open": 2,
     "total_trades": 1,
     "wins": 0,
     "losses": 1,
     "win_rate": 0.0,
     "total_pnl": -10.61,
-    "equity": 989.13,
-    "unrealized": -0.26,
-    "closed_this_cycle": 1
+    "equity": 985.89,
+    "unrealized": -3.5,
+    "closed_this_cycle": 0
   }
 }
