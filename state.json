@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T21:40:50.499981+00:00",
+  "cycle_at": "2026-07-09T21:45:50.525801+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 998.93,
       "locked": 0
     },
-    "equity": 998.84,
+    "equity": 997.69,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -0.09,
-    "realized_today": 27.72,
-    "updated_at": "2026-07-09T21:40:50.499981+00:00"
+    "unrealized_pnl": -1.24,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-09T21:45:50.525801+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 570.19,
-      "current": 570.24,
+      "current": 570.21,
       "qty": 1.753801,
       "notional": 1000,
-      "unrealized": -0.09,
-      "pnl_pct": -0.009,
+      "unrealized": -0.04,
+      "pnl_pct": -0.004,
       "sl": 575.8919,
       "tp": 561.63715,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -52,11 +52,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.1672,
-      "current": 0.1672,
+      "current": 0.167,
       "qty": 5980.861244,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -1.2,
+      "pnl_pct": -0.12,
       "sl": 0.165528,
       "tp": 0.169708,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -647,28 +647,10 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.1672,
+      "price": 0.167,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783632600000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 570.24,
-      "strength": 58.392857142858674,
-      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783632600000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 1746.65,
-      "strength": 55.721823554241055,
-      "note": "RSI 29.8 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783632600000
+      "ts": 1783633500000
     }
   ],
   "swarm": {
@@ -724,8 +706,8 @@
     "losses": 15,
     "win_rate": 42.3,
     "total_pnl": -1.07,
-    "equity": 998.84,
-    "unrealized": -0.09,
-    "closed_this_cycle": 2
+    "equity": 997.69,
+    "unrealized": -1.24,
+    "closed_this_cycle": 0
   }
 }
