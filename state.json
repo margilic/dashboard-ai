@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T21:35:50.486556+00:00",
+  "cycle_at": "2026-07-09T21:40:50.499981+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,45 +18,27 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 971.21,
+      "free": 998.93,
       "locked": 0
     },
-    "equity": 987.04,
+    "equity": 998.84,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 15.83,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-09T21:35:50.486556+00:00"
+    "unrealized_pnl": -0.09,
+    "realized_today": 27.72,
+    "updated_at": "2026-07-09T21:40:50.499981+00:00"
   },
   "open_positions": [
-    {
-      "id": "LINKUSDT-1783626050",
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "entry": 7.796,
-      "current": 7.759,
-      "qty": 128.270908,
-      "notional": 1000,
-      "unrealized": 4.75,
-      "pnl_pct": 0.475,
-      "sl": 7.87396,
-      "tp": 7.67906,
-      "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1783626050.04932,
-      "opened_iso": "2026-07-09T19:40:50.049320+00:00",
-      "swarm_aligned": false
-    },
     {
       "id": "BNBUSDT-1783627250",
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 570.19,
-      "current": 570.16,
+      "current": 570.24,
       "qty": 1.753801,
       "notional": 1000,
-      "unrealized": 0.05,
-      "pnl_pct": 0.005,
+      "unrealized": -0.09,
+      "pnl_pct": -0.009,
       "sl": 575.8919,
       "tp": 561.63715,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -64,6 +46,26 @@
       "opened_iso": "2026-07-09T20:00:50.129681+00:00",
       "swarm_aligned": false
     },
+    {
+      "id": "ADAUSDT-1783633250",
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "entry": 0.1672,
+      "current": 0.1672,
+      "qty": 5980.861244,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.165528,
+      "tp": 0.169708,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "opened_at": 1783633250.499981,
+      "opened_iso": "2026-07-09T21:40:50.499981+00:00",
+      "swarm_aligned": false
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ARBUSDT-1783629650",
       "symbol": "ARBUSDT",
@@ -74,16 +76,42 @@
       "qty": 11025.358324,
       "notional": 1000,
       "unrealized": 11.03,
-      "pnl_pct": 1.103,
+      "pnl_pct": 2.426,
       "sl": 0.091607,
       "tp": 0.08934,
       "note": "RSI 80.8 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783629650.283725,
       "opened_iso": "2026-07-09T20:40:50.283725+00:00",
-      "swarm_aligned": false
-    }
-  ],
-  "recent_trades": [
+      "swarm_aligned": false,
+      "exit": 0.0885,
+      "closed_at": 1783633250.499981,
+      "pnl": 24.26,
+      "exit_reason": "TP",
+      "duration_s": 3600
+    },
+    {
+      "id": "LINKUSDT-1783626050",
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 7.796,
+      "current": 7.759,
+      "qty": 128.270908,
+      "notional": 1000,
+      "unrealized": 4.75,
+      "pnl_pct": 0.346,
+      "sl": 7.87396,
+      "tp": 7.67906,
+      "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783626050.04932,
+      "opened_iso": "2026-07-09T19:40:50.049320+00:00",
+      "swarm_aligned": false,
+      "exit": 7.769,
+      "closed_at": 1783633250.499981,
+      "pnl": 3.46,
+      "exit_reason": "time",
+      "duration_s": 7200
+    },
     {
       "id": "ARBUSDT-1783622449",
       "symbol": "ARBUSDT",
@@ -612,47 +640,33 @@
       "pnl": 2.22,
       "exit_reason": "opposite",
       "duration_s": 600
-    },
-    {
-      "id": "ARBUSDT-1783604148",
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "entry": 0.0848,
-      "current": 0.0848,
-      "qty": 11792.45283,
-      "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": -1.061,
-      "sl": 0.085648,
-      "tp": 0.083528,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "opened_at": 1783604148.663078,
-      "opened_iso": "2026-07-09T13:35:48.663078+00:00",
-      "swarm_aligned": false,
-      "exit": 0.0857,
-      "closed_at": 1783604448.68032,
-      "pnl": -10.61,
-      "exit_reason": "SL",
-      "duration_s": 300
     }
   ],
   "signals": [
     {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.1672,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783632600000
+    },
+    {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 570.16,
-      "strength": 59.60176991150627,
-      "note": "RSI 28.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 570.24,
+      "strength": 58.392857142858674,
+      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783632600000
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1746.68,
-      "strength": 55.455311973017544,
+      "price": 1746.65,
+      "strength": 55.721823554241055,
       "note": "RSI 29.8 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783632600000
     }
@@ -704,14 +718,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 24,
-    "wins": 9,
+    "open": 2,
+    "total_trades": 26,
+    "wins": 11,
     "losses": 15,
-    "win_rate": 37.5,
-    "total_pnl": -28.79,
-    "equity": 987.04,
-    "unrealized": 15.83,
-    "closed_this_cycle": 0
+    "win_rate": 42.3,
+    "total_pnl": -1.07,
+    "equity": 998.84,
+    "unrealized": -0.09,
+    "closed_this_cycle": 2
   }
 }
