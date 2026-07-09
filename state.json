@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T13:04:27.353162+00:00",
+  "cycle_at": "2026-07-09T13:10:48.580787+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -20,11 +20,11 @@
       "free": 100047.18,
       "locked": 0
     },
-    "equity": 100047.18,
+    "equity": 100051.75,
     "initial_balance": 100000.0,
-    "unrealized_pnl": 0.0,
+    "unrealized_pnl": 4.57,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T13:04:27.353162+00:00"
+    "updated_at": "2026-07-09T13:10:48.580787+00:00"
   },
   "open_positions": [
     {
@@ -33,11 +33,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1.0975,
-      "current": 1.0975,
+      "current": 1.0976,
       "qty": 1822.323462,
       "notional": 2000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 0.18,
+      "pnl_pct": 0.009,
       "sl": 1.086525,
       "tp": 1.113962,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -51,11 +51,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 7.738,
-      "current": 7.738,
+      "current": 7.755,
       "qty": 258.46472,
       "notional": 2000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 4.39,
+      "pnl_pct": 0.22,
       "sl": 7.66062,
       "tp": 7.85407,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -181,7 +181,7 @@
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1.0975,
+      "price": 1.0976,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783602000000
@@ -190,7 +190,7 @@
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 7.738,
+      "price": 7.755,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783602000000
@@ -212,8 +212,8 @@
     "losses": 1,
     "win_rate": 80.0,
     "total_pnl": 47.18,
-    "equity": 100047.18,
-    "unrealized": 0.0,
+    "equity": 100051.75,
+    "unrealized": 4.57,
     "closed_this_cycle": 0
   }
 }
