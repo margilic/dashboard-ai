@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T13:45:48.708938+00:00",
+  "cycle_at": "2026-07-09T13:50:48.730179+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -20,11 +20,11 @@
       "free": 989.39,
       "locked": 0
     },
-    "equity": 985.89,
+    "equity": 984.75,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -3.5,
+    "unrealized_pnl": -4.64,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T13:45:48.708938+00:00"
+    "updated_at": "2026-07-09T13:50:48.730179+00:00"
   },
   "open_positions": [
     {
@@ -33,11 +33,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 7.713,
-      "current": 7.74,
+      "current": 7.734,
       "qty": 129.651238,
       "notional": 1000,
-      "unrealized": -3.5,
-      "pnl_pct": -0.35,
+      "unrealized": -2.72,
+      "pnl_pct": -0.272,
       "sl": 7.79013,
       "tp": 7.597305,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -51,11 +51,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 6.757,
-      "current": 6.757,
+      "current": 6.744,
       "qty": 147.994672,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -1.92,
+      "pnl_pct": -0.192,
       "sl": 6.68943,
       "tp": 6.858355,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -89,35 +89,7 @@
       "duration_s": 300
     }
   ],
-  "signals": [
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 6.757,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783604700000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.757,
-      "strength": 59.58333333333344,
-      "note": "RSI 71.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783604700000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 6.757,
-      "strength": 54.52743250039512,
-      "note": "z=2.18",
-      "ts": 1783604700000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-09T13:00:28.725776+00:00",
     "model": "deepseek-chat",
@@ -168,8 +140,8 @@
     "losses": 1,
     "win_rate": 0.0,
     "total_pnl": -10.61,
-    "equity": 985.89,
-    "unrealized": -3.5,
+    "equity": 984.75,
+    "unrealized": -4.64,
     "closed_this_cycle": 0
   }
 }
