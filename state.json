@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T22:55:50.792095+00:00",
+  "cycle_at": "2026-07-09T23:00:50.812706+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 994.59,
       "locked": 0
     },
-    "equity": 991.59,
+    "equity": 993.39,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -3.0,
+    "unrealized_pnl": -1.2,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T22:55:50.792095+00:00"
+    "updated_at": "2026-07-09T23:00:50.812706+00:00"
   },
   "open_positions": [
     {
@@ -34,16 +34,34 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1667,
-      "current": 0.1672,
+      "current": 0.1669,
       "qty": 5998.80024,
       "notional": 1000,
-      "unrealized": -3.0,
-      "pnl_pct": -0.3,
+      "unrealized": -1.2,
+      "pnl_pct": -0.12,
       "sl": 0.168367,
       "tp": 0.164199,
       "note": "EMA9<EMA21 kesi\u015fim",
       "opened_at": 1783634750.600286,
       "opened_iso": "2026-07-09T22:05:50.600286+00:00",
+      "swarm_aligned": false
+    },
+    {
+      "id": "LINKUSDT-1783638050",
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 7.751,
+      "current": 7.751,
+      "qty": 129.015611,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 7.82851,
+      "tp": 7.634735,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1783638050.812706,
+      "opened_iso": "2026-07-09T23:00:50.812706+00:00",
       "swarm_aligned": false
     }
   ],
@@ -624,7 +642,26 @@
       "duration_s": 300
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 7.751,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1783638000000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 7.751,
+      "strength": 57.19512195121939,
+      "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783638000000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-09T22:23:22.953193+00:00",
     "model": "deepseek-chat",
@@ -672,14 +709,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 1,
+    "open": 2,
     "total_trades": 28,
     "wins": 11,
     "losses": 17,
     "win_rate": 39.3,
     "total_pnl": -5.41,
-    "equity": 991.59,
-    "unrealized": -3.0,
+    "equity": 993.39,
+    "unrealized": -1.2,
     "closed_this_cycle": 0
   }
 }
