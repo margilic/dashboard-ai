@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T16:00:49.274729+00:00",
+  "cycle_at": "2026-07-09T16:05:49.241153+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 971.72,
       "locked": 0
     },
-    "equity": 971.83,
+    "equity": 970.39,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 0.11,
+    "unrealized_pnl": -1.33,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T16:00:49.274729+00:00"
+    "updated_at": "2026-07-09T16:05:49.241153+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 6.769,
-      "current": 6.758,
+      "current": 6.747,
       "qty": 147.732309,
       "notional": 1000,
-      "unrealized": -1.63,
-      "pnl_pct": -0.163,
+      "unrealized": -3.25,
+      "pnl_pct": -0.325,
       "sl": 6.70131,
       "tp": 6.870535,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -52,11 +52,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.07268,
-      "current": 0.07268,
+      "current": 0.0728,
       "qty": 13758.943313,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 1.65,
+      "pnl_pct": 0.165,
       "sl": 0.071953,
       "tp": 0.07377,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -70,11 +70,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 1.0922,
-      "current": 1.0903,
+      "current": 1.0919,
       "qty": 915.583227,
       "notional": 1000,
-      "unrealized": 1.74,
-      "pnl_pct": 0.174,
+      "unrealized": 0.27,
+      "pnl_pct": 0.027,
       "sl": 1.103122,
       "tp": 1.075817,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -339,8 +339,8 @@
     "losses": 5,
     "win_rate": 37.5,
     "total_pnl": -28.28,
-    "equity": 971.83,
-    "unrealized": 0.11,
+    "equity": 970.39,
+    "unrealized": -1.33,
     "closed_this_cycle": 0
   }
 }
