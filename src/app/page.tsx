@@ -36,6 +36,10 @@ const AgentPanel = dynamic(() => import("@/components/AgentPanel").then(m => m.A
   ssr: false,
   loading: () => <PanelSkeleton title="Pattern Agent" />,
 });
+const VibePanel = dynamic(() => import("@/components/VibePanel").then(m => m.VibePanel), {
+  ssr: false,
+  loading: () => <PanelSkeleton title="Vibe-Trading" />,
+});
 
 interface PnlData {
   equity_curve: { t: number; v: number }[];
@@ -175,8 +179,12 @@ export default function DashboardPage() {
         <AgentPanel range={range} />
       </section>
 
+      <section className="mb-5">
+        <VibePanel />
+      </section>
+
       <footer className="text-center text-[10px] text-text-muted py-4">
-        Binance public API • SMC Engine :8767 • MiniMax-M3 / DeepSeek •{" "}
+        Binance public API • SMC Engine :8767 • Vibe-Trading MCP :8768 • MiniMax-M3 / DeepSeek •{" "}
         {new Date().toLocaleDateString("tr-TR")}
       </footer>
     </main>
