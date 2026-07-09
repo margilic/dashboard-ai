@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-09T13:25:48.618671+00:00",
+  "cycle_at": "2026-07-09T13:30:48.647317+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -22,21 +22,49 @@
     },
     "equity": 1000.0,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 0,
+    "unrealized_pnl": 0.0,
     "realized_today": 0.0,
-    "updated_at": "2026-07-09T13:25:48.618671+00:00"
+    "updated_at": "2026-07-09T13:30:48.647317+00:00"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "id": "LINKUSDT-1783603848",
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 7.713,
+      "current": 7.713,
+      "qty": 129.651238,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 7.79013,
+      "tp": 7.597305,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1783603848.647317,
+      "opened_iso": "2026-07-09T13:30:48.647317+00:00",
+      "swarm_aligned": false
+    }
+  ],
   "recent_trades": [],
   "signals": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 7.713,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1783603800000
+    },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 569.53,
-      "strength": 58.41317365269481,
-      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783602900000
+      "price": 568.87,
+      "strength": 59.43786982248565,
+      "note": "RSI 28.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783603800000
     }
   ],
   "swarm": {
@@ -83,14 +111,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 0,
+    "open": 1,
     "total_trades": 0,
     "wins": 0,
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
     "equity": 1000.0,
-    "unrealized": 0,
+    "unrealized": 0.0,
     "closed_this_cycle": 0
   }
 }
