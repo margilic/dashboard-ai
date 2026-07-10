@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T20:00:56.892106+00:00",
+  "cycle_at": "2026-07-10T20:05:56.914213+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4990.08,
-      "locked": 8.16
+      "free": 4991.6,
+      "locked": 6.64
     },
-    "equity": 4991.44,
+    "equity": 4991.68,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.81,
+    "unrealized_pnl": -6.56,
     "realized_today": 0,
-    "updated_at": "2026-07-10T20:00:56.892106+00:00"
+    "updated_at": "2026-07-10T20:05:56.914213+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.1012,
-      "current": 1.105,
+      "current": 1.1044,
       "qty": 908.2,
       "notional": 1000.10984,
-      "unrealized": 3.45,
-      "pnl_pct": 0.345,
+      "unrealized": 2.91,
+      "pnl_pct": 0.291,
       "sl": 1.068164,
       "tp": 1.107807,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.724,
-      "current": 6.743,
+      "current": 6.739,
       "qty": 148.0,
       "notional": 995.152,
-      "unrealized": -2.81,
-      "pnl_pct": -0.283,
+      "unrealized": -2.22,
+      "pnl_pct": -0.223,
       "sl": 6.92572,
       "tp": 6.683656,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 575.73,
-      "current": 576.02,
+      "current": 575.71,
       "qty": 1.73,
       "notional": 996.0129000000001,
-      "unrealized": -0.5,
-      "pnl_pct": -0.05,
+      "unrealized": 0.03,
+      "pnl_pct": 0.003,
       "sl": 593.0019,
       "tp": 572.27562,
       "note": "adopted from Binance (orphan)",
@@ -165,8 +165,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4991.44,
-    "unrealized": -6.81,
+    "equity": 4991.68,
+    "unrealized": -6.56,
     "closed_this_cycle": 0
   }
 }
