@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T06:55:53.716395+00:00",
+  "cycle_at": "2026-07-10T07:00:53.737635+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,16 +18,36 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 1025.82,
+      "free": 1029.07,
       "locked": 0
     },
-    "equity": 1023.98,
+    "equity": 1024.22,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -1.84,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-10T06:55:53.716395+00:00"
+    "unrealized_pnl": -4.85,
+    "realized_today": 3.25,
+    "updated_at": "2026-07-10T07:00:53.737635+00:00"
   },
   "open_positions": [
+    {
+      "id": "AVAXUSDT-1783662053",
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "entry": 6.807,
+      "current": 6.774,
+      "qty": 146.907595,
+      "notional": 1000,
+      "unrealized": -4.85,
+      "pnl_pct": -0.485,
+      "sl": 6.73893,
+      "tp": 6.909105,
+      "note": "20-bar tepe + hacim",
+      "opened_at": 1783662053.409224,
+      "opened_iso": "2026-07-10T05:40:53.409224+00:00",
+      "swarm_aligned": false
+    }
+  ],
+  "recent_trades": [
     {
       "id": "XRPUSDT-1783659653",
       "symbol": "XRPUSDT",
@@ -38,34 +58,19 @@
       "qty": 902.282775,
       "notional": 1000,
       "unrealized": 2.71,
-      "pnl_pct": 0.271,
+      "pnl_pct": 0.325,
       "sl": 1.119383,
       "tp": 1.091676,
       "note": "RSI 73.6 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783659653.26833,
       "opened_iso": "2026-07-10T05:00:53.268330+00:00",
-      "swarm_aligned": false
+      "swarm_aligned": false,
+      "exit": 1.1047,
+      "closed_at": 1783666853.737635,
+      "pnl": 3.25,
+      "exit_reason": "time",
+      "duration_s": 7200
     },
-    {
-      "id": "AVAXUSDT-1783662053",
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "entry": 6.807,
-      "current": 6.776,
-      "qty": 146.907595,
-      "notional": 1000,
-      "unrealized": -4.55,
-      "pnl_pct": -0.455,
-      "sl": 6.73893,
-      "tp": 6.909105,
-      "note": "20-bar tepe + hacim",
-      "opened_at": 1783662053.409224,
-      "opened_iso": "2026-07-10T05:40:53.409224+00:00",
-      "swarm_aligned": false
-    }
-  ],
-  "recent_trades": [
     {
       "id": "ARBUSDT-1783659953",
       "symbol": "ARBUSDT",
@@ -1817,14 +1822,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
-    "total_trades": 74,
-    "wins": 35,
+    "open": 1,
+    "total_trades": 75,
+    "wins": 36,
     "losses": 39,
-    "win_rate": 47.3,
-    "total_pnl": 25.81,
-    "equity": 1023.98,
-    "unrealized": -1.84,
-    "closed_this_cycle": 0
+    "win_rate": 48.0,
+    "total_pnl": 29.06,
+    "equity": 1024.22,
+    "unrealized": -4.85,
+    "closed_this_cycle": 1
   }
 }
