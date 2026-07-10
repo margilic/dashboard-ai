@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T11:47:05.745775+00:00",
+  "cycle_at": "2026-07-10T11:50:54.935989+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -26,11 +26,21 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-10T11:47:05.745775+00:00"
+    "updated_at": "2026-07-10T11:50:54.935989+00:00"
   },
   "open_positions": [],
   "recent_trades": [],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 1800.91,
+      "strength": 57.19114852022737,
+      "note": "RSI 70.7 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783683900000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-10T10:18:42.875010+00:00",
     "model": "deepseek-chat",
