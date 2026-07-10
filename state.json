@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T21:00:57.138168+00:00",
+  "cycle_at": "2026-07-10T21:02:57.143356+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4999.42,
-      "locked": -1.18
+      "free": 4999.86,
+      "locked": -1.62
     },
-    "equity": 4999.42,
+    "equity": 4999.99,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 1.18,
+    "unrealized_pnl": 1.75,
     "realized_today": 0,
-    "updated_at": "2026-07-10T21:00:57.138168+00:00"
+    "updated_at": "2026-07-10T21:02:57.143356+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.1012,
-      "current": 1.1036,
+      "current": 1.1035,
       "qty": 908.2,
       "notional": 1000.10984,
-      "unrealized": 2.18,
-      "pnl_pct": 0.218,
+      "unrealized": 2.09,
+      "pnl_pct": 0.209,
       "sl": 1.068164,
       "tp": 1.107807,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.724,
-      "current": 6.741,
+      "current": 6.742,
       "qty": 148.0,
       "notional": 995.152,
-      "unrealized": -2.52,
-      "pnl_pct": -0.253,
+      "unrealized": -2.66,
+      "pnl_pct": -0.268,
       "sl": 6.92572,
       "tp": 6.683656,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 575.73,
-      "current": 575.35,
+      "current": 575.34,
       "qty": 1.73,
       "notional": 996.0129000000001,
-      "unrealized": 0.66,
-      "pnl_pct": 0.066,
+      "unrealized": 0.67,
+      "pnl_pct": 0.068,
       "sl": 593.0019,
       "tp": 572.27562,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.0915,
-      "current": 0.0916,
+      "current": 0.0919,
       "qty": 10928.9,
       "notional": 999.9943499999999,
-      "unrealized": 1.09,
-      "pnl_pct": 0.109,
+      "unrealized": 4.37,
+      "pnl_pct": 0.437,
       "sl": 0.088755,
       "tp": 0.092049,
       "note": "adopted from Binance (orphan)",
@@ -116,7 +116,7 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 1790.13,
+      "price": 1790.45,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783717200000
@@ -175,8 +175,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4999.42,
-    "unrealized": 1.18,
+    "equity": 4999.99,
+    "unrealized": 1.75,
     "closed_this_cycle": 0
   }
 }
