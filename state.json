@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T13:40:55.387694+00:00",
+  "cycle_at": "2026-07-10T13:45:55.409047+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 5001.76,
-      "locked": -2.69
+      "free": 4998.01,
+      "locked": 1.06
     },
-    "equity": 5001.86,
+    "equity": 4998.23,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 2.79,
+    "unrealized_pnl": -0.84,
     "realized_today": 0,
-    "updated_at": "2026-07-10T13:40:55.387694+00:00"
+    "updated_at": "2026-07-10T13:45:55.409047+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 573.69,
+      "current": 575.0,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": 2.9,
-      "pnl_pct": 0.29,
+      "unrealized": 0.63,
+      "pnl_pct": 0.063,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.72,
+      "current": 6.74,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": 1.04,
-      "pnl_pct": 0.104,
+      "unrealized": -1.93,
+      "pnl_pct": -0.193,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -71,7 +71,44 @@
     }
   ],
   "recent_trades": [],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 79.0,
+      "strength": 72.49999999999947,
+      "note": "RSI 24.2 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783691100000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.1683,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783691100000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.74,
+      "strength": 64.10112359550374,
+      "note": "RSI 27.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783691100000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 1.1095,
+      "strength": 56.66666666666795,
+      "note": "RSI 29.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783691100000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-10T12:21:34.703488+00:00",
     "model": "deepseek-chat",
@@ -125,8 +162,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 5001.86,
-    "unrealized": 2.79,
+    "equity": 4998.23,
+    "unrealized": -0.84,
     "closed_this_cycle": 0
   }
 }
