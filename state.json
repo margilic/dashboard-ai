@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T10:25:54.579352+00:00",
+  "cycle_at": "2026-07-10T10:30:54.619028+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1008.39,
       "locked": 0
     },
-    "equity": 1008.39,
+    "equity": 1009.22,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 0.0,
-    "realized_today": -6.11,
-    "updated_at": "2026-07-10T10:25:54.579352+00:00"
+    "unrealized_pnl": 0.83,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-10T10:30:54.619028+00:00"
   },
   "open_positions": [
     {
@@ -36,11 +36,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1799.59,
-      "current": 1799.59,
+      "current": 1799.49,
       "qty": 0.555682,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 0.06,
+      "pnl_pct": 0.006,
       "sl": 1817.5859,
       "tp": 1772.59615,
       "note": "RSI 80.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -56,11 +56,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07457,
-      "current": 0.07457,
+      "current": 0.07459,
       "qty": 13410.218587,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 0.27,
+      "pnl_pct": 0.027,
       "sl": 0.073824,
       "tp": 0.075689,
       "note": "20-bar tepe + hacim",
@@ -76,11 +76,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 8.0,
-      "current": 8.0,
+      "current": 8.004,
       "qty": 125.0,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 0.5,
+      "pnl_pct": 0.05,
       "sl": 7.92,
       "tp": 8.12,
       "note": "20-bar tepe + hacim",
@@ -2371,127 +2371,28 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1799.59,
-      "strength": 87.63363754889087,
-      "note": "RSI 80.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 1799.59,
-      "strength": 75,
-      "note": "20-bar tepe + hacim",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 0.07457,
-      "strength": 75,
-      "note": "20-bar tepe + hacim",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 8.0,
-      "strength": 75,
-      "note": "20-bar tepe + hacim",
-      "ts": 1783678500000
+      "price": 1799.49,
+      "strength": 80.48530721282236,
+      "note": "RSI 78.5 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783679400000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "price": 0.1694,
-      "strength": 71.41509433962287,
-      "note": "RSI 75.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 1799.59,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 79.57,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 0.07457,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 0.1694,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783678500000
+      "strength": 63.18181818181816,
+      "note": "RSI 72.7 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783679400000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64410.12,
-      "strength": 61.431835035762845,
-      "note": "RSI 72.1 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 79.57,
-      "strength": 58.320985222502806,
-      "note": "z=2.33",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1799.59,
-      "strength": 55.91192332530272,
-      "note": "z=2.24",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.1694,
-      "strength": 53.44562111218612,
-      "note": "z=2.14",
-      "ts": 1783678500000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07457,
-      "strength": 50.939243312796435,
-      "note": "z=2.04",
-      "ts": 1783678500000
+      "price": 64423.99,
+      "strength": 56.765707198845206,
+      "note": "RSI 70.6 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783679400000
     }
   ],
   "swarm": {
@@ -2547,8 +2448,8 @@
     "losses": 50,
     "win_rate": 45.1,
     "total_pnl": 8.38,
-    "equity": 1008.39,
-    "unrealized": 0.0,
-    "closed_this_cycle": 2
+    "equity": 1009.22,
+    "unrealized": 0.83,
+    "closed_this_cycle": 0
   }
 }
