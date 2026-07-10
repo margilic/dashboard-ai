@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T12:45:55.176560+00:00",
+  "cycle_at": "2026-07-10T12:50:55.185170+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4998.26,
-      "locked": 0.82
+      "free": 4998.31,
+      "locked": 0.76
     },
-    "equity": 4998.26,
+    "equity": 4998.48,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -0.82,
+    "unrealized_pnl": -0.6,
     "realized_today": 0,
-    "updated_at": "2026-07-10T12:45:55.176560+00:00"
+    "updated_at": "2026-07-10T12:50:55.185170+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 574.27,
+      "current": 574.31,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": 1.89,
-      "pnl_pct": 0.189,
+      "unrealized": 1.82,
+      "pnl_pct": 0.182,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.741,
+      "current": 6.74,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -2.08,
-      "pnl_pct": -0.208,
+      "unrealized": -1.93,
+      "pnl_pct": -0.193,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -76,7 +76,7 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 1.1088,
+      "price": 1.1083,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783687500000
@@ -85,7 +85,7 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.1673,
+      "price": 0.1677,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783687500000
@@ -144,8 +144,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4998.26,
-    "unrealized": -0.82,
+    "equity": 4998.48,
+    "unrealized": -0.6,
     "closed_this_cycle": 0
   }
 }
