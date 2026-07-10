@@ -1,7 +1,7 @@
 {
-  "engine": "hermes-paper",
+  "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T11:30:54.845232+00:00",
+  "cycle_at": "2026-07-10T11:35:54.863396+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,14 +18,14 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 1008.39,
-      "locked": 0
+      "free": 4999.87,
+      "locked": 0.0
     },
-    "equity": 1002.44,
-    "initial_balance": 1000.0,
-    "unrealized_pnl": -5.95,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-10T11:30:54.845232+00:00"
+    "equity": 4999.87,
+    "initial_balance": 4999.86767984,
+    "unrealized_pnl": 0.0,
+    "realized_today": 0,
+    "updated_at": "2026-07-10T11:35:54.863396+00:00"
   },
   "open_positions": [
     {
@@ -36,11 +36,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1799.59,
-      "current": 1796.3,
+      "current": 1795.46,
       "qty": 0.555682,
       "notional": 1000,
-      "unrealized": 1.83,
-      "pnl_pct": 0.183,
+      "unrealized": 2.29,
+      "pnl_pct": 0.229,
       "sl": 1817.5859,
       "tp": 1772.59615,
       "note": "RSI 80.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -56,11 +56,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07457,
-      "current": 0.07426,
+      "current": 0.07421,
       "qty": 13410.218587,
       "notional": 1000,
-      "unrealized": -4.16,
-      "pnl_pct": -0.416,
+      "unrealized": -4.83,
+      "pnl_pct": -0.483,
       "sl": 0.073824,
       "tp": 0.075689,
       "note": "20-bar tepe + hacim",
@@ -76,11 +76,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 8.0,
-      "current": 7.971,
+      "current": 7.972,
       "qty": 125.0,
       "notional": 1000,
-      "unrealized": -3.62,
-      "pnl_pct": -0.362,
+      "unrealized": -3.5,
+      "pnl_pct": -0.35,
       "sl": 7.92,
       "tp": 8.12,
       "note": "20-bar tepe + hacim",
@@ -2371,9 +2371,9 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1796.3,
-      "strength": 63.73865698729503,
-      "note": "RSI 72.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1795.46,
+      "strength": 59.648263579696916,
+      "note": "RSI 71.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783683000000
     }
   ],
@@ -2430,8 +2430,8 @@
     "losses": 50,
     "win_rate": 45.1,
     "total_pnl": 8.38,
-    "equity": 1002.44,
-    "unrealized": -5.95,
+    "equity": 4999.87,
+    "unrealized": 0.0,
     "closed_this_cycle": 0
   }
 }
