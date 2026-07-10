@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T12:20:55.070655+00:00",
+  "cycle_at": "2026-07-10T12:25:55.094969+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4997.52,
-      "locked": 1.55
+      "free": 4994.75,
+      "locked": 4.32
     },
-    "equity": 4997.52,
+    "equity": 4994.75,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.55,
+    "unrealized_pnl": -4.32,
     "realized_today": 0,
-    "updated_at": "2026-07-10T12:20:55.070655+00:00"
+    "updated_at": "2026-07-10T12:25:55.094969+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 575.35,
+      "current": 575.68,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": 0.02,
-      "pnl_pct": 0.002,
+      "unrealized": -0.56,
+      "pnl_pct": -0.056,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.738,
+      "current": 6.748,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -1.64,
-      "pnl_pct": -0.164,
+      "unrealized": -3.12,
+      "pnl_pct": -0.312,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -71,9 +71,19 @@
     }
   ],
   "recent_trades": [],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 1801.17,
+      "strength": 56.037423022264534,
+      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783685700000
+    }
+  ],
   "swarm": {
-    "updated_at": "2026-07-10T10:18:42.875010+00:00",
+    "updated_at": "2026-07-10T12:21:34.703488+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -82,38 +92,38 @@
       "BTCUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 0.9,
+        "score": 64.5,
         "sl": null,
         "tp": null,
-        "rationale": "K\u0131sa s\u0131k\u0131\u015fma ve kurumsal birikim nedeniyle orta derecede y\u00fckseli\u015f beklentisi.",
+        "rationale": "Piyasa k\u0131sa s\u0131k\u0131\u015fma e\u011filimli konsolidasyonda, t\u00fcm sinyaller bo\u011fa y\u00f6nl\u00fc. Funding oran\u0131 d\u00fc\u015f\u00fck, baz kontango, k\u0131sa likidasyon yo\u011fun. Orta g\u00fcvenle LONG.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783677774.485225,
-        "at": "2026-07-10T10:02:54.485225+00:00"
+        "ts": 1783684974.984017,
+        "at": "2026-07-10T12:02:54.984017+00:00"
       },
       "ETHUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 45.0,
+        "score": 57.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor 4.45/10 ile temkinli ay\u0131. Likidasyon ve ak\u0131\u015f verileri ay\u0131 y\u00f6nl\u00fc, fonlama n\u00f6tr. Mikro yap\u0131daki sat\u0131\u015f bask\u0131s\u0131 a\u011f\u0131r bas\u0131yor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "K\u0131sa s\u0131k\u0131\u015fma potansiyeli uzunlar\u0131 destekler, ancak azalan fonlama ve stablecoin daralmas\u0131 orta vadede temkin gerektirir.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783677774.485225,
-        "at": "2026-07-10T10:02:54.485225+00:00"
+        "ts": 1783684974.984017,
+        "at": "2026-07-10T12:02:54.984017+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "HIGH",
-        "score": -12.5,
+        "direction": "SHORT",
+        "conviction": "LOW",
+        "score": -16.0,
         "sl": null,
         "tp": null,
-        "rationale": "Ak\u0131\u015f hafif y\u00fckseli\u015f, fonlama ve likidasyon d\u00fc\u015f\u00fc\u015f g\u00f6steriyor; kar\u0131\u015f\u0131k sinyaller nedeniyle beklenmesi \u00f6nerilir.",
+        "rationale": "Kar\u0131\u015f\u0131k sinyaller ancak d\u00fc\u015f\u00fc\u015f e\u011filimi, a\u011f\u0131rl\u0131kl\u0131 emir defteri sat\u0131\u015f a\u011f\u0131rl\u0131kl\u0131, $82'de da\u011f\u0131t\u0131m, zay\u0131f toparlanma.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783677774.485225,
-        "at": "2026-07-10T10:02:54.485225+00:00"
+        "ts": 1783684974.984017,
+        "at": "2026-07-10T12:02:54.984017+00:00"
       }
     },
     "gated_this_cycle": []
@@ -125,8 +135,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4997.52,
-    "unrealized": -1.55,
+    "equity": 4994.75,
+    "unrealized": -4.32,
     "closed_this_cycle": 0
   }
 }
