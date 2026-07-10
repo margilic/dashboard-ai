@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T09:50:54.427434+00:00",
+  "cycle_at": "2026-07-10T09:55:54.444768+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,14 +18,14 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 998.28,
+      "free": 1018.63,
       "locked": 0
     },
-    "equity": 1008.2,
+    "equity": 1015.09,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 9.92,
-    "realized_today": 1.77,
-    "updated_at": "2026-07-10T09:50:54.427434+00:00"
+    "unrealized_pnl": -3.54,
+    "realized_today": 20.35,
+    "updated_at": "2026-07-10T09:55:54.444768+00:00"
   },
   "open_positions": [
     {
@@ -36,17 +36,64 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 6.782,
-      "current": 6.764,
+      "current": 6.758,
       "qty": 147.44913,
       "notional": 1000,
-      "unrealized": -2.65,
-      "pnl_pct": -0.265,
+      "unrealized": -3.54,
+      "pnl_pct": -0.354,
       "sl": 6.71418,
       "tp": 6.88373,
       "note": "EMA9>EMA21 kesi\u015fim",
       "opened_at": 1783671053.992548,
       "opened_iso": "2026-07-10T08:10:53.992548+00:00",
       "swarm_aligned": false
+    },
+    {
+      "id": "ADAUSDT-1783677354",
+      "trade_no": 90,
+      "trade_id": "T0090",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 0.169,
+      "current": 0.169,
+      "qty": 5917.159763,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.17069,
+      "tp": 0.166465,
+      "note": "RSI 79.2 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783677354.444768,
+      "opened_iso": "2026-07-10T09:55:54.444768+00:00",
+      "swarm_aligned": false
+    }
+  ],
+  "recent_trades": [
+    {
+      "id": "ADAUSDT-1783677054",
+      "trade_no": 89,
+      "trade_id": "T0089",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 0.1689,
+      "current": 0.1689,
+      "qty": 5920.663114,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": -0.059,
+      "sl": 0.170589,
+      "tp": 0.166367,
+      "note": "RSI 78.7 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783677054.427434,
+      "opened_iso": "2026-07-10T09:50:54.427434+00:00",
+      "swarm_aligned": false,
+      "exit": 0.169,
+      "closed_at": 1783677354.444768,
+      "pnl": -0.59,
+      "exit_reason": "opposite",
+      "duration_s": 300
     },
     {
       "id": "ARBUSDT-1783675554",
@@ -60,36 +107,19 @@
       "qty": 10471.204188,
       "notional": 1000,
       "unrealized": 12.57,
-      "pnl_pct": 1.257,
+      "pnl_pct": 2.094,
       "sl": 0.096455,
       "tp": 0.094067,
       "note": "RSI 83.3 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783675554.32957,
       "opened_iso": "2026-07-10T09:25:54.329570+00:00",
-      "swarm_aligned": false
+      "swarm_aligned": false,
+      "exit": 0.0935,
+      "closed_at": 1783677354.444768,
+      "pnl": 20.94,
+      "exit_reason": "TP",
+      "duration_s": 1800
     },
-    {
-      "id": "ADAUSDT-1783677054",
-      "trade_no": 89,
-      "trade_id": "T0089",
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "entry": 0.1689,
-      "current": 0.1689,
-      "qty": 5920.663114,
-      "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
-      "sl": 0.170589,
-      "tp": 0.166367,
-      "note": "RSI 78.7 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1783677054.427434,
-      "opened_iso": "2026-07-10T09:50:54.427434+00:00",
-      "swarm_aligned": false
-    }
-  ],
-  "recent_trades": [
     {
       "id": "ADAUSDT-1783676754",
       "trade_no": 88,
@@ -2246,25 +2276,25 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.1689,
-      "strength": 81.1702127659575,
-      "note": "RSI 78.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.169,
+      "strength": 82.50000000000031,
+      "note": "RSI 79.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783676700000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1791.47,
-      "strength": 72.64488286066597,
-      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1792.63,
+      "strength": 79.34881949733497,
+      "note": "RSI 78.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783676700000
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.1689,
+      "price": 0.169,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1783676700000
@@ -2282,18 +2312,18 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1.1157,
-      "strength": 59.28571428571131,
-      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1.1159,
+      "strength": 61.21621621621294,
+      "note": "RSI 72.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783676700000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.1689,
-      "strength": 51.973684210526116,
-      "note": "z=2.08",
+      "price": 0.169,
+      "strength": 54.338456542287126,
+      "note": "z=2.17",
       "ts": 1783676700000
     }
   ],
@@ -2341,17 +2371,23 @@
         "at": "2026-07-10T05:02:53.269152+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "ETHUSDT",
+        "side": "SHORT",
+        "reason": "desk=WAIT"
+      }
+    ]
   },
   "stats": {
-    "open": 3,
-    "total_trades": 86,
-    "wins": 40,
-    "losses": 46,
-    "win_rate": 46.5,
-    "total_pnl": -1.73,
-    "equity": 1008.2,
-    "unrealized": 9.92,
-    "closed_this_cycle": 1
+    "open": 2,
+    "total_trades": 88,
+    "wins": 41,
+    "losses": 47,
+    "win_rate": 46.6,
+    "total_pnl": 18.62,
+    "equity": 1015.09,
+    "unrealized": -3.54,
+    "closed_this_cycle": 2
   }
 }
