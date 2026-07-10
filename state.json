@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T08:40:54.145821+00:00",
+  "cycle_at": "2026-07-10T08:45:54.172891+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1009.82,
       "locked": 0
     },
-    "equity": 1012.99,
+    "equity": 1010.13,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 3.17,
+    "unrealized_pnl": 0.31,
     "realized_today": 0.0,
-    "updated_at": "2026-07-10T08:40:54.145821+00:00"
+    "updated_at": "2026-07-10T08:45:54.172891+00:00"
   },
   "open_positions": [
     {
@@ -36,11 +36,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 6.782,
-      "current": 6.779,
+      "current": 6.781,
       "qty": 147.44913,
       "notional": 1000,
-      "unrealized": -0.44,
-      "pnl_pct": -0.044,
+      "unrealized": -0.15,
+      "pnl_pct": -0.015,
       "sl": 6.71418,
       "tp": 6.88373,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -56,11 +56,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.094,
-      "current": 0.0935,
+      "current": 0.0938,
       "qty": 10638.297872,
       "notional": 1000,
-      "unrealized": 5.32,
-      "pnl_pct": 0.532,
+      "unrealized": 2.13,
+      "pnl_pct": 0.213,
       "sl": 0.09494,
       "tp": 0.09259,
       "note": "RSI 76.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -76,11 +76,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 64290.19,
-      "current": 64180.52,
+      "current": 64183.06,
       "qty": 0.015554,
       "notional": 1000,
-      "unrealized": -1.71,
-      "pnl_pct": -0.171,
+      "unrealized": -1.67,
+      "pnl_pct": -0.167,
       "sl": 63647.2881,
       "tp": 65254.54285,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -2116,62 +2116,7 @@
       "trade_id": "T0002"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 1785.04,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783672200000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 1.1133,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783672200000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 7.954,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783672200000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1785.04,
-      "strength": 56.74258583391294,
-      "note": "z=2.27",
-      "ts": 1783672200000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1.1133,
-      "strength": 54.068527041426876,
-      "note": "z=2.16",
-      "ts": 1783672200000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 7.954,
-      "strength": 50.60137246817611,
-      "note": "z=2.02",
-      "ts": 1783672200000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-10T05:17:28.363149+00:00",
     "model": "deepseek-chat",
@@ -2225,8 +2170,8 @@
     "losses": 43,
     "win_rate": 46.9,
     "total_pnl": 9.81,
-    "equity": 1012.99,
-    "unrealized": 3.17,
+    "equity": 1010.13,
+    "unrealized": 0.31,
     "closed_this_cycle": 0
   }
 }
