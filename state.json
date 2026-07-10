@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T13:50:55.433975+00:00",
+  "cycle_at": "2026-07-10T13:55:55.442193+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4993.01,
-      "locked": 6.06
+      "free": 4990.24,
+      "locked": 8.83
     },
-    "equity": 4993.17,
+    "equity": 4990.24,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -5.91,
+    "unrealized_pnl": -8.83,
     "realized_today": 0,
-    "updated_at": "2026-07-10T13:50:55.433975+00:00"
+    "updated_at": "2026-07-10T13:55:55.442193+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 575.76,
+      "current": 576.14,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": -0.7,
-      "pnl_pct": -0.07,
+      "unrealized": -1.36,
+      "pnl_pct": -0.136,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.767,
+      "current": 6.774,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -5.95,
-      "pnl_pct": -0.595,
+      "unrealized": -6.99,
+      "pnl_pct": -0.699,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -76,7 +76,7 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.1683,
+      "price": 0.1687,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783691100000
@@ -135,8 +135,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4993.17,
-    "unrealized": -5.91,
+    "equity": 4990.24,
+    "unrealized": -8.83,
     "closed_this_cycle": 0
   }
 }
