@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T10:20:54.576578+00:00",
+  "cycle_at": "2026-07-10T10:25:54.579352+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,36 +18,78 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 1014.5,
+      "free": 1008.39,
       "locked": 0
     },
-    "equity": 1014.5,
+    "equity": 1008.39,
     "initial_balance": 1000.0,
     "unrealized_pnl": 0.0,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-10T10:20:54.576578+00:00"
+    "realized_today": -6.11,
+    "updated_at": "2026-07-10T10:25:54.579352+00:00"
   },
   "open_positions": [
     {
-      "id": "ADAUSDT-1783677354",
-      "trade_no": 90,
-      "trade_id": "T0090",
-      "symbol": "ADAUSDT",
+      "id": "ETHUSDT-1783679154",
+      "trade_no": 92,
+      "trade_id": "T0092",
+      "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "entry": 0.169,
-      "current": 0.169,
-      "qty": 5917.159763,
+      "entry": 1799.59,
+      "current": 1799.59,
+      "qty": 0.555682,
       "notional": 1000,
-      "unrealized": -0.0,
-      "pnl_pct": -0.0,
-      "sl": 0.17069,
-      "tp": 0.166465,
-      "note": "RSI 79.2 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1783677354.444768,
-      "opened_iso": "2026-07-10T09:55:54.444768+00:00",
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 1817.5859,
+      "tp": 1772.59615,
+      "note": "RSI 80.9 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783679154.579352,
+      "opened_iso": "2026-07-10T10:25:54.579352+00:00",
+      "swarm_aligned": true
+    },
+    {
+      "id": "DOGEUSDT-1783679154",
+      "trade_no": 93,
+      "trade_id": "T0093",
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "entry": 0.07457,
+      "current": 0.07457,
+      "qty": 13410.218587,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.073824,
+      "tp": 0.075689,
+      "note": "20-bar tepe + hacim",
+      "opened_at": 1783679154.579352,
+      "opened_iso": "2026-07-10T10:25:54.579352+00:00",
       "swarm_aligned": false
     },
+    {
+      "id": "LINKUSDT-1783679154",
+      "trade_no": 94,
+      "trade_id": "T0094",
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "entry": 8.0,
+      "current": 8.0,
+      "qty": 125.0,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 7.92,
+      "tp": 8.12,
+      "note": "20-bar tepe + hacim",
+      "opened_at": 1783679154.579352,
+      "opened_iso": "2026-07-10T10:25:54.579352+00:00",
+      "swarm_aligned": false
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ETHUSDT-1783678854",
       "trade_no": 91,
@@ -60,16 +102,44 @@
       "qty": 0.557762,
       "notional": 1000,
       "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "pnl_pct": -0.374,
       "sl": 1810.8088,
       "tp": 1765.9868,
       "note": "RSI 77.6 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783678854.576578,
       "opened_iso": "2026-07-10T10:20:54.576578+00:00",
-      "swarm_aligned": true
-    }
-  ],
-  "recent_trades": [
+      "swarm_aligned": true,
+      "exit": 1799.59,
+      "closed_at": 1783679154.579352,
+      "pnl": -3.74,
+      "exit_reason": "opposite",
+      "duration_s": 300
+    },
+    {
+      "id": "ADAUSDT-1783677354",
+      "trade_no": 90,
+      "trade_id": "T0090",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 0.169,
+      "current": 0.169,
+      "qty": 5917.159763,
+      "notional": 1000,
+      "unrealized": -0.0,
+      "pnl_pct": -0.237,
+      "sl": 0.17069,
+      "tp": 0.166465,
+      "note": "RSI 79.2 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783677354.444768,
+      "opened_iso": "2026-07-10T09:55:54.444768+00:00",
+      "swarm_aligned": false,
+      "exit": 0.1694,
+      "closed_at": 1783679154.579352,
+      "pnl": -2.37,
+      "exit_reason": "opposite",
+      "duration_s": 1800
+    },
     {
       "id": "AVAXUSDT-1783671053",
       "trade_no": 80,
@@ -2301,18 +2371,126 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1792.88,
-      "strength": 77.84151615364976,
-      "note": "RSI 77.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1799.59,
+      "strength": 87.63363754889087,
+      "note": "RSI 80.9 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 1799.59,
+      "strength": 75,
+      "note": "20-bar tepe + hacim",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 0.07457,
+      "strength": 75,
+      "note": "20-bar tepe + hacim",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 8.0,
+      "strength": 75,
+      "note": "20-bar tepe + hacim",
       "ts": 1783678500000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.169,
-      "strength": 65.40816326530665,
-      "note": "RSI 73.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.1694,
+      "strength": 71.41509433962287,
+      "note": "RSI 75.5 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 1799.59,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 79.57,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 0.07457,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 0.1694,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 64410.12,
+      "strength": 61.431835035762845,
+      "note": "RSI 72.1 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 79.57,
+      "strength": 58.320985222502806,
+      "note": "z=2.33",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1799.59,
+      "strength": 55.91192332530272,
+      "note": "z=2.24",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.1694,
+      "strength": 53.44562111218612,
+      "note": "z=2.14",
+      "ts": 1783678500000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07457,
+      "strength": 50.939243312796435,
+      "note": "z=2.04",
       "ts": 1783678500000
     }
   ],
@@ -2363,14 +2541,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
-    "total_trades": 89,
+    "open": 3,
+    "total_trades": 91,
     "wins": 41,
-    "losses": 48,
-    "win_rate": 46.1,
-    "total_pnl": 14.49,
-    "equity": 1014.5,
+    "losses": 50,
+    "win_rate": 45.1,
+    "total_pnl": 8.38,
+    "equity": 1008.39,
     "unrealized": 0.0,
-    "closed_this_cycle": 0
+    "closed_this_cycle": 2
   }
 }
