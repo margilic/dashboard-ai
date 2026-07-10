@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T14:20:55.545718+00:00",
+  "cycle_at": "2026-07-10T14:25:55.581943+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 5005.98,
-      "locked": -6.91
+      "free": 5006.64,
+      "locked": -7.57
     },
-    "equity": 5005.98,
+    "equity": 5006.64,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 6.91,
+    "unrealized_pnl": 7.57,
     "realized_today": 0,
-    "updated_at": "2026-07-10T14:20:55.545718+00:00"
+    "updated_at": "2026-07-10T14:25:55.581943+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 572.68,
+      "current": 572.42,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": 4.66,
-      "pnl_pct": 0.466,
+      "unrealized": 5.11,
+      "pnl_pct": 0.511,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -68,6 +68,26 @@
       "opened_at": 1783685155.004473,
       "opened_iso": "2026-07-10T12:05:55.004473+00:00",
       "swarm_aligned": false
+    },
+    {
+      "id": "ARBUSDT-1783693555",
+      "trade_no": 3,
+      "trade_id": "T0003",
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "entry": 0.0915,
+      "current": 0.0915,
+      "qty": 10928.961749,
+      "notional": 1000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.088755,
+      "tp": 0.092049,
+      "note": "RSI 21.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "opened_at": 1783693555.581943,
+      "opened_iso": "2026-07-10T14:25:55.581943+00:00",
+      "swarm_aligned": false
     }
   ],
   "recent_trades": [],
@@ -76,34 +96,34 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 77.94,
+      "price": 77.65,
       "strength": 100,
-      "note": "RSI 13.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 12.2 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783692900000
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0921,
-      "strength": 75.35714285714339,
-      "note": "RSI 23.2 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0915,
+      "strength": 82.09677419354894,
+      "note": "RSI 21.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783692900000
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.101,
-      "strength": 75.20408163265311,
-      "note": "RSI 23.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1.1005,
+      "strength": 76.59999999999988,
+      "note": "RSI 22.8 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783692900000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 64063.4,
+      "price": 64068.21,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783692900000
@@ -112,54 +132,54 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 7.911,
+      "price": 7.91,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783692900000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-10T12:21:34.703488+00:00",
+    "updated_at": "2026-07-10T14:21:57.963433+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 64.5,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "Piyasa k\u0131sa s\u0131k\u0131\u015fma e\u011filimli konsolidasyonda, t\u00fcm sinyaller bo\u011fa y\u00f6nl\u00fc. Funding oran\u0131 d\u00fc\u015f\u00fck, baz kontango, k\u0131sa likidasyon yo\u011fun. Orta g\u00fcvenle LONG.",
+        "rationale": "Sinyaller kar\u0131\u015f\u0131k, k\u0131sa vadeli squeeze dinami\u011fi ile orta vadeli sermaye \u00e7\u0131k\u0131\u015f\u0131 aras\u0131nda denge. Net y\u00f6n yok, bekle.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783684974.984017,
-        "at": "2026-07-10T12:02:54.984017+00:00"
+        "ts": 1783692175.471102,
+        "at": "2026-07-10T14:02:55.471102+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 57.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 16.0,
         "sl": null,
         "tp": null,
-        "rationale": "K\u0131sa s\u0131k\u0131\u015fma potansiyeli uzunlar\u0131 destekler, ancak azalan fonlama ve stablecoin daralmas\u0131 orta vadede temkin gerektirir.",
+        "rationale": "Kar\u0131\u015f\u0131k sinyaller nedeniyle d\u00fc\u015f\u00fck g\u00fcven; mevcut fiyattan i\u015flem a\u00e7may\u0131n, destek veya k\u0131r\u0131l\u0131m bekleyin.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783684974.984017,
-        "at": "2026-07-10T12:02:54.984017+00:00"
+        "ts": 1783692175.471102,
+        "at": "2026-07-10T14:02:55.471102+00:00"
       },
       "SOLUSDT": {
         "direction": "SHORT",
-        "conviction": "LOW",
-        "score": -16.0,
+        "conviction": "MEDIUM",
+        "score": -51.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kar\u0131\u015f\u0131k sinyaller ancak d\u00fc\u015f\u00fc\u015f e\u011filimi, a\u011f\u0131rl\u0131kl\u0131 emir defteri sat\u0131\u015f a\u011f\u0131rl\u0131kl\u0131, $82'de da\u011f\u0131t\u0131m, zay\u0131f toparlanma.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Bile\u015fik skor 2.47/5 ile d\u00fc\u015f\u00fc\u015f e\u011filimi a\u011f\u0131r bas\u0131yor; fonlama n\u00f6tr, likidasyon temkinli, zincir i\u00e7i ak\u0131\u015f d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc. Yap\u0131sal r\u00fczgarlar a\u015fa\u011f\u0131 y\u00f6n\u00fc destekliyor.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783684974.984017,
-        "at": "2026-07-10T12:02:54.984017+00:00"
+        "ts": 1783692175.471102,
+        "at": "2026-07-10T14:02:55.471102+00:00"
       }
     },
     "gated_this_cycle": [
@@ -171,14 +191,14 @@
     ]
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 0,
     "wins": 0,
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 5005.98,
-    "unrealized": 6.91,
+    "equity": 5006.64,
+    "unrealized": 7.57,
     "closed_this_cycle": 0
   }
 }
