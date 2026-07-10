@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T10:05:54.496383+00:00",
+  "cycle_at": "2026-07-10T10:10:54.507513+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,16 +18,38 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 1018.63,
+      "free": 1014.5,
       "locked": 0
     },
-    "equity": 1015.69,
+    "equity": 1017.46,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -2.94,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-10T10:05:54.496383+00:00"
+    "unrealized_pnl": 2.96,
+    "realized_today": -4.13,
+    "updated_at": "2026-07-10T10:10:54.507513+00:00"
   },
   "open_positions": [
+    {
+      "id": "ADAUSDT-1783677354",
+      "trade_no": 90,
+      "trade_id": "T0090",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 0.169,
+      "current": 0.1685,
+      "qty": 5917.159763,
+      "notional": 1000,
+      "unrealized": 2.96,
+      "pnl_pct": 0.296,
+      "sl": 0.17069,
+      "tp": 0.166465,
+      "note": "RSI 79.2 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783677354.444768,
+      "opened_iso": "2026-07-10T09:55:54.444768+00:00",
+      "swarm_aligned": false
+    }
+  ],
+  "recent_trades": [
     {
       "id": "AVAXUSDT-1783671053",
       "trade_no": 80,
@@ -40,36 +62,19 @@
       "qty": 147.44913,
       "notional": 1000,
       "unrealized": -5.31,
-      "pnl_pct": -0.531,
+      "pnl_pct": -0.413,
       "sl": 6.71418,
       "tp": 6.88373,
       "note": "EMA9>EMA21 kesi\u015fim",
       "opened_at": 1783671053.992548,
       "opened_iso": "2026-07-10T08:10:53.992548+00:00",
-      "swarm_aligned": false
+      "swarm_aligned": false,
+      "exit": 6.754,
+      "closed_at": 1783678254.507513,
+      "pnl": -4.13,
+      "exit_reason": "time",
+      "duration_s": 7200
     },
-    {
-      "id": "ADAUSDT-1783677354",
-      "trade_no": 90,
-      "trade_id": "T0090",
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "entry": 0.169,
-      "current": 0.1686,
-      "qty": 5917.159763,
-      "notional": 1000,
-      "unrealized": 2.37,
-      "pnl_pct": 0.237,
-      "sl": 0.17069,
-      "tp": 0.166465,
-      "note": "RSI 79.2 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1783677354.444768,
-      "opened_iso": "2026-07-10T09:55:54.444768+00:00",
-      "swarm_aligned": false
-    }
-  ],
-  "recent_trades": [
     {
       "id": "ADAUSDT-1783677054",
       "trade_no": 89,
@@ -2276,27 +2281,18 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1791.63,
-      "strength": 68.56991525423813,
-      "note": "RSI 74.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1791.8,
+      "strength": 69.58100558659208,
+      "note": "RSI 74.9 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783677600000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.1686,
-      "strength": 68.40425531914866,
-      "note": "RSI 74.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783677600000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 64352.61,
-      "strength": 57.63616362085138,
-      "note": "RSI 70.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.1685,
+      "strength": 63.75000000000023,
+      "note": "RSI 72.9 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783677600000
     }
   ],
@@ -2353,14 +2349,14 @@
     ]
   },
   "stats": {
-    "open": 2,
-    "total_trades": 88,
+    "open": 1,
+    "total_trades": 89,
     "wins": 41,
-    "losses": 47,
-    "win_rate": 46.6,
-    "total_pnl": 18.62,
-    "equity": 1015.69,
-    "unrealized": -2.94,
-    "closed_this_cycle": 0
+    "losses": 48,
+    "win_rate": 46.1,
+    "total_pnl": 14.49,
+    "equity": 1017.46,
+    "unrealized": 2.96,
+    "closed_this_cycle": 1
   }
 }
