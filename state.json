@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T01:00:51.266408+00:00",
+  "cycle_at": "2026-07-10T01:05:51.284442+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1003.45,
       "locked": 0
     },
-    "equity": 1008.9,
+    "equity": 1004.96,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 5.45,
-    "realized_today": -3.73,
-    "updated_at": "2026-07-10T01:00:51.266408+00:00"
+    "unrealized_pnl": 1.51,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-10T01:05:51.284442+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.0901,
-      "current": 1.0926,
+      "current": 1.0907,
       "qty": 917.347032,
       "notional": 1000,
-      "unrealized": 2.29,
-      "pnl_pct": 0.229,
+      "unrealized": 0.55,
+      "pnl_pct": 0.055,
       "sl": 1.079199,
       "tp": 1.106451,
       "note": "RSI 18.5 a\u015f\u0131r\u0131 sat\u0131m",
@@ -52,17 +52,35 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.07269,
-      "current": 0.07292,
+      "current": 0.07276,
       "qty": 13757.050488,
       "notional": 1000,
-      "unrealized": 3.16,
-      "pnl_pct": 0.316,
+      "unrealized": 0.96,
+      "pnl_pct": 0.096,
       "sl": 0.071963,
       "tp": 0.07378,
       "note": "RSI 18.7 a\u015f\u0131r\u0131 sat\u0131m",
       "opened_at": 1783643751.169345,
       "opened_iso": "2026-07-10T00:35:51.169345+00:00",
       "swarm_aligned": false
+    },
+    {
+      "id": "BTCUSDT-1783645551",
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "entry": 62978.04,
+      "current": 62978.04,
+      "qty": 0.015879,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 63607.8204,
+      "tp": 62033.3694,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "opened_at": 1783645551.284442,
+      "opened_iso": "2026-07-10T01:05:51.284442+00:00",
+      "swarm_aligned": true
     }
   ],
   "recent_trades": [
@@ -644,12 +662,57 @@
   ],
   "signals": [
     {
-      "symbol": "SOLUSDT",
+      "symbol": "XRPUSDT",
       "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 78.13,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
+      "strategy": "RSI Reversal",
+      "price": 1.0907,
+      "strength": 70.58139534883584,
+      "note": "RSI 24.8 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783645200000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 62978.04,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783645200000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 1738.96,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783645200000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 62978.04,
+      "strength": 64.11180938033776,
+      "note": "z=-2.56",
+      "ts": 1783645200000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 1738.96,
+      "strength": 62.45107908389483,
+      "note": "z=-2.50",
+      "ts": 1783645200000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.07276,
+      "strength": 57.82051282050989,
+      "note": "RSI 29.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783645200000
     }
   ],
@@ -697,23 +760,17 @@
         "at": "2026-07-10T00:02:51.047412+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "LONG",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 39,
     "wins": 15,
     "losses": 24,
     "win_rate": 38.5,
     "total_pnl": 3.46,
-    "equity": 1008.9,
-    "unrealized": 5.45,
-    "closed_this_cycle": 1
+    "equity": 1004.96,
+    "unrealized": 1.51,
+    "closed_this_cycle": 0
   }
 }
