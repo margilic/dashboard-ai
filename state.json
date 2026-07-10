@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T08:45:54.172891+00:00",
+  "cycle_at": "2026-07-10T08:50:54.183151+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1009.82,
       "locked": 0
     },
-    "equity": 1010.13,
+    "equity": 1011.64,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 0.31,
+    "unrealized_pnl": 1.82,
     "realized_today": 0.0,
-    "updated_at": "2026-07-10T08:45:54.172891+00:00"
+    "updated_at": "2026-07-10T08:50:54.183151+00:00"
   },
   "open_positions": [
     {
@@ -36,11 +36,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 6.782,
-      "current": 6.781,
+      "current": 6.773,
       "qty": 147.44913,
       "notional": 1000,
-      "unrealized": -0.15,
-      "pnl_pct": -0.015,
+      "unrealized": -1.33,
+      "pnl_pct": -0.133,
       "sl": 6.71418,
       "tp": 6.88373,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -56,11 +56,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.094,
-      "current": 0.0938,
+      "current": 0.0936,
       "qty": 10638.297872,
       "notional": 1000,
-      "unrealized": 2.13,
-      "pnl_pct": 0.213,
+      "unrealized": 4.26,
+      "pnl_pct": 0.426,
       "sl": 0.09494,
       "tp": 0.09259,
       "note": "RSI 76.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -76,11 +76,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 64290.19,
-      "current": 64183.06,
+      "current": 64218.84,
       "qty": 0.015554,
       "notional": 1000,
-      "unrealized": -1.67,
-      "pnl_pct": -0.167,
+      "unrealized": -1.11,
+      "pnl_pct": -0.111,
       "sl": 63647.2881,
       "tp": 65254.54285,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -2170,8 +2170,8 @@
     "losses": 43,
     "win_rate": 46.9,
     "total_pnl": 9.81,
-    "equity": 1010.13,
-    "unrealized": 0.31,
+    "equity": 1011.64,
+    "unrealized": 1.82,
     "closed_this_cycle": 0
   }
 }
