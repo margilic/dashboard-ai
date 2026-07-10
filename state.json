@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T13:35:55.373739+00:00",
+  "cycle_at": "2026-07-10T13:40:55.387694+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4998.39,
-      "locked": 0.68
+      "free": 5001.76,
+      "locked": -2.69
     },
-    "equity": 4998.4,
+    "equity": 5001.86,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -0.67,
+    "unrealized_pnl": 2.79,
     "realized_today": 0,
-    "updated_at": "2026-07-10T13:35:55.373739+00:00"
+    "updated_at": "2026-07-10T13:40:55.387694+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 573.95,
+      "current": 573.69,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": 2.45,
-      "pnl_pct": 0.245,
+      "unrealized": 2.9,
+      "pnl_pct": 0.29,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.742,
+      "current": 6.72,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -2.23,
-      "pnl_pct": -0.223,
+      "unrealized": 1.04,
+      "pnl_pct": 0.104,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -125,8 +125,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4998.4,
-    "unrealized": -0.67,
+    "equity": 5001.86,
+    "unrealized": 2.79,
     "closed_this_cycle": 0
   }
 }
