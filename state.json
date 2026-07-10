@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T09:15:54.348712+00:00",
+  "cycle_at": "2026-07-10T09:20:54.313387+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,14 +18,14 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 997.05,
+      "free": 996.0,
       "locked": 0
     },
-    "equity": 995.14,
+    "equity": 993.15,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -1.91,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-10T09:15:54.348712+00:00"
+    "unrealized_pnl": -2.85,
+    "realized_today": -1.05,
+    "updated_at": "2026-07-10T09:20:54.313387+00:00"
   },
   "open_positions": [
     {
@@ -36,11 +36,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 6.782,
-      "current": 6.747,
+      "current": 6.757,
       "qty": 147.44913,
       "notional": 1000,
-      "unrealized": -5.16,
-      "pnl_pct": -0.516,
+      "unrealized": -3.69,
+      "pnl_pct": -0.369,
       "sl": 6.71418,
       "tp": 6.88373,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -56,11 +56,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 64290.19,
-      "current": 64229.12,
+      "current": 64344.02,
       "qty": 0.015554,
       "notional": 1000,
-      "unrealized": -0.95,
-      "pnl_pct": -0.095,
+      "unrealized": 0.84,
+      "pnl_pct": 0.084,
       "sl": 63647.2881,
       "tp": 65254.54285,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -68,6 +68,28 @@
       "opened_iso": "2026-07-10T08:30:54.081252+00:00",
       "swarm_aligned": true
     },
+    {
+      "id": "ARBUSDT-1783675254",
+      "trade_no": 86,
+      "trade_id": "T0086",
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 0.0953,
+      "current": 0.0953,
+      "qty": 10493.179433,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.096253,
+      "tp": 0.09387,
+      "note": "RSI 82.6 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783675254.313387,
+      "opened_iso": "2026-07-10T09:20:54.313387+00:00",
+      "swarm_aligned": false
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ARBUSDT-1783674654",
       "trade_no": 85,
@@ -80,16 +102,19 @@
       "qty": 10504.201681,
       "notional": 1000,
       "unrealized": 4.2,
-      "pnl_pct": 0.42,
+      "pnl_pct": -0.105,
       "sl": 0.096152,
       "tp": 0.093772,
       "note": "RSI 83.3 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783674654.270438,
       "opened_iso": "2026-07-10T09:10:54.270438+00:00",
-      "swarm_aligned": false
-    }
-  ],
-  "recent_trades": [
+      "swarm_aligned": false,
+      "exit": 0.0953,
+      "closed_at": 1783675254.313387,
+      "pnl": -1.05,
+      "exit_reason": "opposite",
+      "duration_s": 600
+    },
     {
       "id": "ARBUSDT-1783671329",
       "trade_no": 81,
@@ -2146,9 +2171,27 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0948,
-      "strength": 82.20930232558092,
-      "note": "RSI 79.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0953,
+      "strength": 92.82608695652138,
+      "note": "RSI 82.6 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783674900000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 0.0953,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1783674900000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0953,
+      "strength": 56.30721387933756,
+      "note": "z=2.25",
       "ts": 1783674900000
     }
   ],
@@ -2200,13 +2243,13 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 82,
+    "total_trades": 83,
     "wins": 38,
-    "losses": 44,
-    "win_rate": 46.3,
-    "total_pnl": -2.96,
-    "equity": 995.14,
-    "unrealized": -1.91,
-    "closed_this_cycle": 0
+    "losses": 45,
+    "win_rate": 45.8,
+    "total_pnl": -4.01,
+    "equity": 993.15,
+    "unrealized": -2.85,
+    "closed_this_cycle": 1
   }
 }
