@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T10:15:54.645628+00:00",
+  "cycle_at": "2026-07-10T10:20:54.576578+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1014.5,
       "locked": 0
     },
-    "equity": 1017.46,
+    "equity": 1014.5,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 2.96,
+    "unrealized_pnl": 0.0,
     "realized_today": 0.0,
-    "updated_at": "2026-07-10T10:15:54.645628+00:00"
+    "updated_at": "2026-07-10T10:20:54.576578+00:00"
   },
   "open_positions": [
     {
@@ -36,17 +36,37 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.169,
-      "current": 0.1685,
+      "current": 0.169,
       "qty": 5917.159763,
       "notional": 1000,
-      "unrealized": 2.96,
-      "pnl_pct": 0.296,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 0.17069,
       "tp": 0.166465,
       "note": "RSI 79.2 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783677354.444768,
       "opened_iso": "2026-07-10T09:55:54.444768+00:00",
       "swarm_aligned": false
+    },
+    {
+      "id": "ETHUSDT-1783678854",
+      "trade_no": 91,
+      "trade_id": "T0091",
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 1792.88,
+      "current": 1792.88,
+      "qty": 0.557762,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 1810.8088,
+      "tp": 1765.9868,
+      "note": "RSI 77.6 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783678854.576578,
+      "opened_iso": "2026-07-10T10:20:54.576578+00:00",
+      "swarm_aligned": true
     }
   ],
   "recent_trades": [
@@ -2281,23 +2301,23 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1791.04,
-      "strength": 74.54363490792538,
-      "note": "RSI 76.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1792.88,
+      "strength": 77.84151615364976,
+      "note": "RSI 77.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783678500000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.1685,
-      "strength": 56.36363636363696,
-      "note": "RSI 70.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.169,
+      "strength": 65.40816326530665,
+      "note": "RSI 73.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783678500000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-10T05:17:28.363149+00:00",
+    "updated_at": "2026-07-10T10:18:42.875010+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -2305,58 +2325,52 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 67.0,
-        "sl": 62200,
-        "tp": 67000,
-        "rationale": "K\u0131sa s\u0131k\u0131\u015fma kurulumu g\u00fc\u00e7l\u00fc, fonlama n\u00f6tr, zincir \u00fcst\u00fc ak\u0131\u015flar temkinli bo\u011fa. 63.4K-64.2K b\u00f6lgesinde ~1.1 milyar dolar k\u0131sa likidasyon hacmi var.",
-        "extract_model": "deepseek-chat",
+        "conviction": "MEDIUM",
+        "score": 0.9,
+        "sl": null,
+        "tp": null,
+        "rationale": "K\u0131sa s\u0131k\u0131\u015fma ve kurumsal birikim nedeniyle orta derecede y\u00fckseli\u015f beklentisi.",
+        "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783659773.269152,
-        "at": "2026-07-10T05:02:53.269152+00:00"
+        "ts": 1783677774.485225,
+        "at": "2026-07-10T10:02:54.485225+00:00"
       },
       "ETHUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -6.0,
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": 45.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik sinyal -0.063 ile s\u0131f\u0131ra \u00e7ok yak\u0131n, \u00fc\u00e7 s\u00fctun farkl\u0131 y\u00f6nlerde: fonlama n\u00f6tr, likidasyon d\u00fc\u015f\u00fc\u015f e\u011filimli, ak\u0131\u015f kar\u0131\u015f\u0131k. Y\u00fcksek g\u00fcvenli i\u015flem b\u00f6lgesi de\u011fil.",
+        "rationale": "Bile\u015fik skor 4.45/10 ile temkinli ay\u0131. Likidasyon ve ak\u0131\u015f verileri ay\u0131 y\u00f6nl\u00fc, fonlama n\u00f6tr. Mikro yap\u0131daki sat\u0131\u015f bask\u0131s\u0131 a\u011f\u0131r bas\u0131yor.",
         "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1783659773.269152,
-        "at": "2026-07-10T05:02:53.269152+00:00"
+        "ts": 1783677774.485225,
+        "at": "2026-07-10T10:02:54.485225+00:00"
       },
       "SOLUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 35.0,
+        "direction": "NEUTRAL",
+        "conviction": "HIGH",
+        "score": -12.5,
         "sl": null,
         "tp": null,
-        "rationale": "Kompozit sinyal hafif bullish, $79 k\u0131sa s\u0131k\u0131\u015fma b\u00f6lgesi yak\u0131n, ancak hacim d\u00fc\u015f\u00fc\u015f\u00fc.",
+        "rationale": "Ak\u0131\u015f hafif y\u00fckseli\u015f, fonlama ve likidasyon d\u00fc\u015f\u00fc\u015f g\u00f6steriyor; kar\u0131\u015f\u0131k sinyaller nedeniyle beklenmesi \u00f6nerilir.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783659773.269152,
-        "at": "2026-07-10T05:02:53.269152+00:00"
+        "ts": 1783677774.485225,
+        "at": "2026-07-10T10:02:54.485225+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "ETHUSDT",
-        "side": "SHORT",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
-    "open": 1,
+    "open": 2,
     "total_trades": 89,
     "wins": 41,
     "losses": 48,
     "win_rate": 46.1,
     "total_pnl": 14.49,
-    "equity": 1017.46,
-    "unrealized": 2.96,
+    "equity": 1014.5,
+    "unrealized": 0.0,
     "closed_this_cycle": 0
   }
 }
