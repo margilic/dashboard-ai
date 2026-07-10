@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T12:10:55.013678+00:00",
+  "cycle_at": "2026-07-10T12:15:55.408064+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4989.86,
-      "locked": 9.21
+      "free": 4994.3,
+      "locked": 4.77
     },
-    "equity": 4995.75,
+    "equity": 4994.31,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -3.32,
+    "unrealized_pnl": -4.76,
     "realized_today": 0,
-    "updated_at": "2026-07-10T12:10:55.013678+00:00"
+    "updated_at": "2026-07-10T12:15:55.408064+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 575.81,
+      "current": 575.77,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": -0.78,
-      "pnl_pct": -0.078,
+      "unrealized": -0.71,
+      "pnl_pct": -0.071,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.742,
+      "current": 6.747,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -2.23,
-      "pnl_pct": -0.223,
+      "unrealized": -2.97,
+      "pnl_pct": -0.297,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -76,10 +76,10 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1802.1,
-      "strength": 60.62005277044811,
-      "note": "RSI 71.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783684800000
+      "price": 1802.25,
+      "strength": 61.57754010695169,
+      "note": "RSI 72.2 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783685700000
     }
   ],
   "swarm": {
@@ -135,8 +135,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4995.75,
-    "unrealized": -3.32,
+    "equity": 4994.31,
+    "unrealized": -4.76,
     "closed_this_cycle": 0
   }
 }
