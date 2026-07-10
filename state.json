@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T13:55:55.442193+00:00",
+  "cycle_at": "2026-07-10T14:00:55.478172+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4990.24,
-      "locked": 8.83
+      "free": 4991.85,
+      "locked": 7.22
     },
-    "equity": 4990.24,
+    "equity": 4991.85,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -8.83,
+    "unrealized_pnl": -7.22,
     "realized_today": 0,
-    "updated_at": "2026-07-10T13:55:55.442193+00:00"
+    "updated_at": "2026-07-10T14:00:55.478172+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 576.14,
+      "current": 575.46,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": -1.36,
-      "pnl_pct": -0.136,
+      "unrealized": -0.17,
+      "pnl_pct": -0.017,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.774,
+      "current": 6.77,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -6.99,
-      "pnl_pct": -0.699,
+      "unrealized": -6.39,
+      "pnl_pct": -0.639,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -73,13 +73,22 @@
   "recent_trades": [],
   "signals": [
     {
-      "symbol": "ADAUSDT",
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 78.93,
+      "strength": 73.20512820512799,
+      "note": "RSI 23.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783692000000
+    },
+    {
+      "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.1687,
+      "price": 0.07433,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783691100000
+      "ts": 1783692000000
     }
   ],
   "swarm": {
@@ -135,8 +144,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4990.24,
-    "unrealized": -8.83,
+    "equity": 4991.85,
+    "unrealized": -7.22,
     "closed_this_cycle": 0
   }
 }
