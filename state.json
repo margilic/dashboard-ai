@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T07:45:53.895557+00:00",
+  "cycle_at": "2026-07-10T07:50:53.916747+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1021.28,
       "locked": 0
     },
-    "equity": 1013.82,
+    "equity": 1014.14,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -7.46,
+    "unrealized_pnl": -7.14,
     "realized_today": 0.0,
-    "updated_at": "2026-07-10T07:45:53.895557+00:00"
+    "updated_at": "2026-07-10T07:50:53.916747+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.0938,
-      "current": 0.0931,
+      "current": 0.0932,
       "qty": 10660.98081,
       "notional": 1000,
-      "unrealized": -7.46,
-      "pnl_pct": -0.746,
+      "unrealized": -6.4,
+      "pnl_pct": -0.64,
       "sl": 0.092862,
       "tp": 0.095207,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -52,16 +52,34 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 6.742,
-      "current": 6.742,
+      "current": 6.747,
       "qty": 148.323939,
       "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -0.74,
+      "pnl_pct": -0.074,
       "sl": 6.80942,
       "tp": 6.64087,
       "note": "EMA9<EMA21 kesi\u015fim",
       "opened_at": 1783669553.895557,
       "opened_iso": "2026-07-10T07:45:53.895557+00:00",
+      "swarm_aligned": false
+    },
+    {
+      "id": "DOGEUSDT-1783669853",
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "entry": 0.07379,
+      "current": 0.07379,
+      "qty": 13551.971812,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.074528,
+      "tp": 0.072683,
+      "note": "20-bar dip + hacim",
+      "opened_at": 1783669853.916747,
+      "opened_iso": "2026-07-10T07:50:53.916747+00:00",
       "swarm_aligned": false
     }
   ],
@@ -1817,10 +1835,19 @@
   ],
   "signals": [
     {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 0.07379,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1783669500000
+    },
+    {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 6.742,
+      "price": 6.747,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783669500000
@@ -1829,9 +1856,9 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0931,
-      "strength": 58.46153846153891,
-      "note": "RSI 71.2 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0932,
+      "strength": 62.64705882353,
+      "note": "RSI 72.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783669500000
     }
   ],
@@ -1882,14 +1909,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 76,
     "wins": 36,
     "losses": 40,
     "win_rate": 47.4,
     "total_pnl": 21.27,
-    "equity": 1013.82,
-    "unrealized": -7.46,
+    "equity": 1014.14,
+    "unrealized": -7.14,
     "closed_this_cycle": 0
   }
 }
