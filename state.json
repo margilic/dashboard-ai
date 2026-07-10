@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T14:25:55.581943+00:00",
+  "cycle_at": "2026-07-10T14:30:55.586468+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 5006.64,
-      "locked": -7.57
+      "free": 0.0,
+      "locked": 4998.67
     },
-    "equity": 5006.64,
+    "equity": 5004.94,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 7.57,
+    "unrealized_pnl": 6.27,
     "realized_today": 0,
-    "updated_at": "2026-07-10T14:25:55.581943+00:00"
+    "updated_at": "2026-07-10T14:30:55.586468+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 572.42,
+      "current": 572.81,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": 5.11,
-      "pnl_pct": 0.511,
+      "unrealized": 4.43,
+      "pnl_pct": 0.443,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.711,
+      "current": 6.715,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": 2.38,
-      "pnl_pct": 0.238,
+      "unrealized": 1.78,
+      "pnl_pct": 0.178,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -96,46 +96,28 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 77.65,
+      "price": 77.64,
       "strength": 100,
-      "note": "RSI 12.2 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783692900000
+      "note": "RSI 9.8 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783693800000
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
       "price": 0.0915,
-      "strength": 82.09677419354894,
-      "note": "RSI 21.0 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783692900000
+      "strength": 100,
+      "note": "RSI 12.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783693800000
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.1005,
-      "strength": 76.59999999999988,
-      "note": "RSI 22.8 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783692900000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 64068.21,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783692900000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 7.91,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783692900000
+      "price": 1.1024,
+      "strength": 78.03571428571331,
+      "note": "RSI 22.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783693800000
     }
   ],
   "swarm": {
@@ -182,13 +164,7 @@
         "at": "2026-07-10T14:02:55.471102+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "LONG",
-        "reason": "desk=SHORT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 3,
@@ -197,8 +173,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 5006.64,
-    "unrealized": 7.57,
+    "equity": 5004.94,
+    "unrealized": 6.27,
     "closed_this_cycle": 0
   }
 }
