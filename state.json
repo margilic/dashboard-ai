@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T11:55:54.942993+00:00",
+  "cycle_at": "2026-07-10T12:00:54.986529+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -26,28 +26,19 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-10T11:55:54.942993+00:00"
+    "updated_at": "2026-07-10T12:00:54.986529+00:00"
   },
   "open_positions": [],
   "recent_trades": [],
   "signals": [
     {
       "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 1800.58,
-      "strength": 75,
-      "note": "20-bar tepe + hacim",
-      "ts": 1783683900000
-    },
-    {
-      "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1800.58,
-      "strength": 56.3972602739715,
-      "note": "RSI 70.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783683900000
+      "price": 1801.24,
+      "strength": 58.660907127429596,
+      "note": "RSI 71.2 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783684800000
     }
   ],
   "swarm": {
@@ -94,13 +85,7 @@
         "at": "2026-07-10T10:02:54.485225+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "ETHUSDT",
-        "side": "LONG",
-        "reason": "desk=SHORT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 0,
