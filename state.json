@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T15:05:55.741844+00:00",
+  "cycle_at": "2026-07-10T15:10:55.759272+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 5010.46,
-      "locked": -12.19
+      "free": 5008.67,
+      "locked": -10.4
     },
-    "equity": 5011.77,
+    "equity": 5010.12,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 13.5,
+    "unrealized_pnl": 11.85,
     "realized_today": 0,
-    "updated_at": "2026-07-10T15:05:55.741844+00:00"
+    "updated_at": "2026-07-10T15:10:55.759272+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0915,
-      "current": 0.0919,
+      "current": 0.092,
       "qty": 10928.961749,
       "notional": 1000.0,
-      "unrealized": 4.37,
-      "pnl_pct": 0.437,
+      "unrealized": 5.46,
+      "pnl_pct": 0.546,
       "sl": 0.088755,
       "tp": 0.092049,
       "note": "RSI 21.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.101,
-      "current": 1.1015,
+      "current": 1.1029,
       "qty": 908.265213,
       "notional": 1000.0,
-      "unrealized": 0.45,
-      "pnl_pct": 0.045,
+      "unrealized": 1.73,
+      "pnl_pct": 0.173,
       "sl": 1.06797,
       "tp": 1.107606,
       "note": "RSI 21.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -127,27 +127,18 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 77.98,
-      "strength": 84.99999999999962,
-      "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 78.07,
+      "strength": 75.76923076923148,
+      "note": "RSI 23.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783695600000
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0919,
-      "strength": 76.57894736842167,
-      "note": "RSI 22.8 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783695600000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.1658,
-      "strength": 61.00000000000051,
-      "note": "RSI 28.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.092,
+      "strength": 72.58620689655214,
+      "note": "RSI 24.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783695600000
     }
   ],
@@ -195,13 +186,7 @@
         "at": "2026-07-10T14:02:55.471102+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "LONG",
-        "reason": "desk=SHORT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 2,
@@ -210,8 +195,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 13.94,
-    "equity": 5011.77,
-    "unrealized": 13.5,
+    "equity": 5010.12,
+    "unrealized": 11.85,
     "closed_this_cycle": 0
   }
 }
