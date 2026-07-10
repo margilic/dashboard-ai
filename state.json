@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T08:50:54.183151+00:00",
+  "cycle_at": "2026-07-10T08:55:54.198291+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1009.82,
       "locked": 0
     },
-    "equity": 1011.64,
+    "equity": 1009.17,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 1.82,
+    "unrealized_pnl": -0.65,
     "realized_today": 0.0,
-    "updated_at": "2026-07-10T08:50:54.183151+00:00"
+    "updated_at": "2026-07-10T08:55:54.198291+00:00"
   },
   "open_positions": [
     {
@@ -36,11 +36,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 6.782,
-      "current": 6.773,
+      "current": 6.777,
       "qty": 147.44913,
       "notional": 1000,
-      "unrealized": -1.33,
-      "pnl_pct": -0.133,
+      "unrealized": -0.74,
+      "pnl_pct": -0.074,
       "sl": 6.71418,
       "tp": 6.88373,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -56,11 +56,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.094,
-      "current": 0.0936,
+      "current": 0.0939,
       "qty": 10638.297872,
       "notional": 1000,
-      "unrealized": 4.26,
-      "pnl_pct": 0.426,
+      "unrealized": 1.06,
+      "pnl_pct": 0.106,
       "sl": 0.09494,
       "tp": 0.09259,
       "note": "RSI 76.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -76,11 +76,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 64290.19,
-      "current": 64218.84,
+      "current": 64227.84,
       "qty": 0.015554,
       "notional": 1000,
-      "unrealized": -1.11,
-      "pnl_pct": -0.111,
+      "unrealized": -0.97,
+      "pnl_pct": -0.097,
       "sl": 63647.2881,
       "tp": 65254.54285,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -2116,7 +2116,17 @@
       "trade_id": "T0002"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0939,
+      "strength": 55.81081081081069,
+      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783673100000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-10T05:17:28.363149+00:00",
     "model": "deepseek-chat",
@@ -2170,8 +2180,8 @@
     "losses": 43,
     "win_rate": 46.9,
     "total_pnl": 9.81,
-    "equity": 1011.64,
-    "unrealized": 1.82,
+    "equity": 1009.17,
+    "unrealized": -0.65,
     "closed_this_cycle": 0
   }
 }
