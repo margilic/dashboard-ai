@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T12:15:55.408064+00:00",
+  "cycle_at": "2026-07-10T12:20:55.070655+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4994.3,
-      "locked": 4.77
+      "free": 4997.52,
+      "locked": 1.55
     },
-    "equity": 4994.31,
+    "equity": 4997.52,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -4.76,
+    "unrealized_pnl": -1.55,
     "realized_today": 0,
-    "updated_at": "2026-07-10T12:15:55.408064+00:00"
+    "updated_at": "2026-07-10T12:20:55.070655+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 575.77,
+      "current": 575.35,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": -0.71,
-      "pnl_pct": -0.071,
+      "unrealized": 0.02,
+      "pnl_pct": 0.002,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.747,
+      "current": 6.738,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -2.97,
-      "pnl_pct": -0.297,
+      "unrealized": -1.64,
+      "pnl_pct": -0.164,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -71,17 +71,7 @@
     }
   ],
   "recent_trades": [],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1802.25,
-      "strength": 61.57754010695169,
-      "note": "RSI 72.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783685700000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-10T10:18:42.875010+00:00",
     "model": "deepseek-chat",
@@ -135,8 +125,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4994.31,
-    "unrealized": -4.76,
+    "equity": 4997.52,
+    "unrealized": -1.55,
     "closed_this_cycle": 0
   }
 }
