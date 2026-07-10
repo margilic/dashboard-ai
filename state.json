@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T07:55:53.934955+00:00",
+  "cycle_at": "2026-07-10T08:00:53.955068+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,11 +21,11 @@
       "free": 1021.28,
       "locked": 0
     },
-    "equity": 1011.71,
+    "equity": 1016.45,
     "initial_balance": 1000.0,
-    "unrealized_pnl": -9.57,
+    "unrealized_pnl": -4.83,
     "realized_today": 0.0,
-    "updated_at": "2026-07-10T07:55:53.934955+00:00"
+    "updated_at": "2026-07-10T08:00:53.955068+00:00"
   },
   "open_positions": [
     {
@@ -34,11 +34,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.0938,
-      "current": 0.093,
+      "current": 0.0935,
       "qty": 10660.98081,
       "notional": 1000,
-      "unrealized": -8.53,
-      "pnl_pct": -0.853,
+      "unrealized": -3.2,
+      "pnl_pct": -0.32,
       "sl": 0.092862,
       "tp": 0.095207,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -52,11 +52,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 6.742,
-      "current": 6.749,
+      "current": 6.753,
       "qty": 148.323939,
       "notional": 1000,
-      "unrealized": -1.04,
-      "pnl_pct": -0.104,
+      "unrealized": -1.63,
+      "pnl_pct": -0.163,
       "sl": 6.80942,
       "tp": 6.64087,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -1835,22 +1835,22 @@
   ],
   "signals": [
     {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.07379,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1783669500000
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.753,
+      "strength": 58.88888888888738,
+      "note": "RSI 28.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783670400000
     },
     {
-      "symbol": "AVAXUSDT",
+      "symbol": "ARBUSDT",
       "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 6.749,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783669500000
+      "strategy": "RSI Reversal",
+      "price": 0.0935,
+      "strength": 58.157894736842536,
+      "note": "RSI 71.1 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783670400000
     }
   ],
   "swarm": {
@@ -1906,8 +1906,8 @@
     "losses": 40,
     "win_rate": 47.4,
     "total_pnl": 21.27,
-    "equity": 1011.71,
-    "unrealized": -9.57,
+    "equity": 1016.45,
+    "unrealized": -4.83,
     "closed_this_cycle": 0
   }
 }
