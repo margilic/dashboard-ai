@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-10T04:20:53.116559+00:00",
+  "cycle_at": "2026-07-10T04:25:53.130570+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,45 +18,27 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 1046.66,
+      "free": 1048.57,
       "locked": 0
     },
-    "equity": 1051.01,
+    "equity": 1053.16,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 4.35,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-10T04:20:53.116559+00:00"
+    "unrealized_pnl": 4.59,
+    "realized_today": 1.91,
+    "updated_at": "2026-07-10T04:25:53.130570+00:00"
   },
   "open_positions": [
-    {
-      "id": "AVAXUSDT-1783650352",
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "entry": 6.792,
-      "current": 6.778,
-      "qty": 147.232038,
-      "notional": 1000,
-      "unrealized": 2.06,
-      "pnl_pct": 0.206,
-      "sl": 6.85992,
-      "tp": 6.69012,
-      "note": "RSI 76.3 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1783650352.650338,
-      "opened_iso": "2026-07-10T02:25:52.650338+00:00",
-      "swarm_aligned": false
-    },
     {
       "id": "LINKUSDT-1783652152",
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 7.928,
-      "current": 7.907,
+      "current": 7.893,
       "qty": 126.135217,
       "notional": 1000,
-      "unrealized": 2.65,
-      "pnl_pct": 0.265,
+      "unrealized": 4.41,
+      "pnl_pct": 0.441,
       "sl": 8.00728,
       "tp": 7.80908,
       "note": "RSI 87.7 a\u015f\u0131r\u0131 al\u0131m",
@@ -70,20 +52,61 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.1078,
-      "current": 1.1082,
+      "current": 1.1076,
       "qty": 902.690016,
       "notional": 1000,
-      "unrealized": -0.36,
-      "pnl_pct": -0.036,
+      "unrealized": 0.18,
+      "pnl_pct": 0.018,
       "sl": 1.118878,
       "tp": 1.091183,
       "note": "RSI 85.6 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1783652452.775917,
       "opened_iso": "2026-07-10T03:00:52.775917+00:00",
       "swarm_aligned": false
+    },
+    {
+      "id": "ARBUSDT-1783657553",
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 0.091,
+      "current": 0.091,
+      "qty": 10989.010989,
+      "notional": 1000,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.09191,
+      "tp": 0.089635,
+      "note": "RSI 75.0 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783657553.13057,
+      "opened_iso": "2026-07-10T04:25:53.130570+00:00",
+      "swarm_aligned": false
     }
   ],
   "recent_trades": [
+    {
+      "id": "AVAXUSDT-1783650352",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 6.792,
+      "current": 6.778,
+      "qty": 147.232038,
+      "notional": 1000,
+      "unrealized": 2.06,
+      "pnl_pct": 0.191,
+      "sl": 6.85992,
+      "tp": 6.69012,
+      "note": "RSI 76.3 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1783650352.650338,
+      "opened_iso": "2026-07-10T02:25:52.650338+00:00",
+      "swarm_aligned": false,
+      "exit": 6.779,
+      "closed_at": 1783657553.13057,
+      "pnl": 1.91,
+      "exit_reason": "time",
+      "duration_s": 7200
+    },
     {
       "id": "ARBUSDT-1783652152",
       "symbol": "ARBUSDT",
@@ -635,29 +658,6 @@
       "pnl": 2.95,
       "exit_reason": "opposite",
       "duration_s": 300
-    },
-    {
-      "id": "LINKUSDT-1783648252",
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "entry": 7.9,
-      "current": 7.9,
-      "qty": 126.582278,
-      "notional": 1000,
-      "unrealized": 0.0,
-      "pnl_pct": 0.089,
-      "sl": 7.979,
-      "tp": 7.7815,
-      "note": "z=3.88",
-      "opened_at": 1783648252.52045,
-      "opened_iso": "2026-07-10T01:50:52.520450+00:00",
-      "swarm_aligned": false,
-      "exit": 7.893,
-      "closed_at": 1783648552.539067,
-      "pnl": 0.89,
-      "exit_reason": "opposite",
-      "duration_s": 300
     }
   ],
   "signals": [
@@ -665,80 +665,80 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64032.5,
-      "strength": 100,
-      "note": "RSI 86.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 63924.43,
+      "strength": 92.78412289873815,
+      "note": "RSI 82.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783656900000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1778.42,
-      "strength": 100,
-      "note": "RSI 86.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1775.85,
+      "strength": 91.54223968566012,
+      "note": "RSI 82.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783656900000
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1.1082,
-      "strength": 97.5641025641042,
-      "note": "RSI 84.2 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1.1076,
+      "strength": 91.2499999999999,
+      "note": "RSI 82.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783656900000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 7.907,
-      "strength": 84.77695167286218,
-      "note": "RSI 79.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783656900000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.07416,
-      "strength": 83.02816901408488,
-      "note": "RSI 79.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 7.893,
+      "strength": 72.91519434628933,
+      "note": "RSI 76.0 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783656900000
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0913,
-      "strength": 79.78260869565213,
-      "note": "RSI 78.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.091,
+      "strength": 69.9999999999997,
+      "note": "RSI 75.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783656900000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.07402,
+      "strength": 69.00000000000082,
+      "note": "RSI 74.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783656900000
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 575.9,
-      "strength": 73.06122448979752,
-      "note": "RSI 76.0 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783656900000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 79.09,
-      "strength": 69.61538461538497,
-      "note": "RSI 74.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 575.36,
+      "strength": 61.15087040619166,
+      "note": "RSI 72.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783656900000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.778,
-      "strength": 59.28571428571519,
+      "price": 6.779,
+      "strength": 60.277777777778994,
+      "note": "RSI 71.8 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783656900000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 78.97,
+      "strength": 59.070351758794175,
       "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783656900000
     }
@@ -787,17 +787,28 @@
         "at": "2026-07-10T04:02:53.030857+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "BTCUSDT",
+        "side": "SHORT",
+        "reason": "desk=LONG"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "side": "SHORT",
+        "reason": "desk=LONG"
+      }
+    ]
   },
   "stats": {
     "open": 3,
-    "total_trades": 69,
-    "wins": 33,
+    "total_trades": 70,
+    "wins": 34,
     "losses": 36,
-    "win_rate": 47.8,
-    "total_pnl": 46.65,
-    "equity": 1051.01,
-    "unrealized": 4.35,
-    "closed_this_cycle": 0
+    "win_rate": 48.6,
+    "total_pnl": 48.56,
+    "equity": 1053.16,
+    "unrealized": 4.59,
+    "closed_this_cycle": 1
   }
 }
