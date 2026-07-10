@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T20:40:57.048247+00:00",
+  "cycle_at": "2026-07-10T20:45:57.071993+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4998.87,
-      "locked": -0.63
+      "free": 5003.64,
+      "locked": -5.4
     },
-    "equity": 4999.38,
+    "equity": 5004.11,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 1.14,
+    "unrealized_pnl": 5.87,
     "realized_today": 0,
-    "updated_at": "2026-07-10T20:40:57.048247+00:00"
+    "updated_at": "2026-07-10T20:45:57.071993+00:00"
   },
   "open_positions": [
     {
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 575.73,
-      "current": 575.79,
+      "current": 575.77,
       "qty": 1.73,
       "notional": 996.0129000000001,
-      "unrealized": -0.1,
-      "pnl_pct": -0.01,
+      "unrealized": -0.07,
+      "pnl_pct": -0.007,
       "sl": 593.0019,
       "tp": 572.27562,
       "note": "adopted from Binance (orphan)",
@@ -113,13 +113,31 @@
   "recent_trades": [],
   "signals": [
     {
-      "symbol": "XRPUSDT",
+      "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1.1058,
+      "price": 0.167,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783715400000
+      "ts": 1783716300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.0921,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783716300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0921,
+      "strength": 62.24137931034494,
+      "note": "RSI 72.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783716300000
     }
   ],
   "swarm": {
@@ -175,8 +193,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4999.38,
-    "unrealized": 1.14,
+    "equity": 5004.11,
+    "unrealized": 5.87,
     "closed_this_cycle": 0
   }
 }
