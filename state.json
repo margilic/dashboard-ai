@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-10T14:00:55.478172+00:00",
+  "cycle_at": "2026-07-10T14:05:55.490952+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4991.85,
-      "locked": 7.22
+      "free": 4998.44,
+      "locked": 0.63
     },
-    "equity": 4991.85,
+    "equity": 4998.46,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -7.22,
+    "unrealized_pnl": -0.61,
     "realized_today": 0,
-    "updated_at": "2026-07-10T14:00:55.478172+00:00"
+    "updated_at": "2026-07-10T14:05:55.490952+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 575.36,
-      "current": 575.46,
+      "current": 574.61,
       "qty": 1.738042,
       "notional": 1000.0,
-      "unrealized": -0.17,
-      "pnl_pct": -0.017,
+      "unrealized": 1.3,
+      "pnl_pct": 0.13,
       "sl": 581.1136,
       "tp": 566.7296,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.727,
-      "current": 6.77,
+      "current": 6.738,
       "qty": 148.654675,
       "notional": 1000.0,
-      "unrealized": -6.39,
-      "pnl_pct": -0.639,
+      "unrealized": -1.64,
+      "pnl_pct": -0.164,
       "sl": 6.79427,
       "tp": 6.626095,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -76,18 +76,18 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 78.93,
-      "strength": 73.20512820512799,
-      "note": "RSI 23.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 78.65,
+      "strength": 87.06896551724125,
+      "note": "RSI 19.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783692000000
     },
     {
-      "symbol": "DOGEUSDT",
+      "symbol": "XRPUSDT",
       "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 0.07433,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
+      "strategy": "RSI Reversal",
+      "price": 1.1076,
+      "strength": 63.57142857142854,
+      "note": "RSI 27.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783692000000
     }
   ],
@@ -135,7 +135,13 @@
         "at": "2026-07-10T12:02:54.984017+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "SOLUSDT",
+        "side": "LONG",
+        "reason": "desk=SHORT"
+      }
+    ]
   },
   "stats": {
     "open": 2,
@@ -144,8 +150,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4991.85,
-    "unrealized": -7.22,
+    "equity": 4998.46,
+    "unrealized": -0.61,
     "closed_this_cycle": 0
   }
 }
