@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T15:59:05.209847+00:00",
+  "cycle_at": "2026-07-11T16:00:05.246372+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.1716212199312715,
-      "current": 0.1718,
+      "current": 0.1719,
       "qty": 5820.0,
       "notional": 998.8355000000001,
-      "unrealized": -1.04,
-      "pnl_pct": -0.104,
+      "unrealized": -1.62,
+      "pnl_pct": -0.162,
       "sl": 0.17677,
       "tp": 0.170591,
       "note": "adopted from Binance (orphan)",
@@ -248,10 +248,10 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.1718,
-      "strength": 80.38461538461587,
-      "note": "RSI 78.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783784700000
+      "price": 0.1719,
+      "strength": 100,
+      "note": "RSI 86.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783785600000
     },
     {
       "symbol": "DOGEUSDT",
@@ -260,7 +260,16 @@
       "price": 0.07536,
       "strength": 67.58064516128962,
       "note": "RSI 74.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783784700000
+      "ts": 1783785600000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0976,
+      "strength": 57.977099236641266,
+      "note": "RSI 71.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783785600000
     }
   ],
   "swarm": {
