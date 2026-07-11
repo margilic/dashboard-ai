@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T03:58:59.183655+00:00",
+  "cycle_at": "2026-07-11T04:00:59.190232+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5007.37
     },
-    "equity": 5003.75,
+    "equity": 5003.57,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -3.62,
+    "unrealized_pnl": -3.8,
     "realized_today": 0,
-    "updated_at": "2026-07-11T03:58:59.183655+00:00"
+    "updated_at": "2026-07-11T04:00:59.190232+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.727,
+      "current": 6.724,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -3.26,
-      "pnl_pct": -0.326,
+      "unrealized": -3.7,
+      "pnl_pct": -0.37,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -152,17 +152,7 @@
       "duration_s": 19380
     }
   ],
-  "signals": [
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 7.998,
-      "strength": 60.2941176470587,
-      "note": "RSI 71.8 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783741500000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T00:18:04.299711+00:00",
     "model": "deepseek-chat",
@@ -216,8 +206,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5003.75,
-    "unrealized": -3.62,
+    "equity": 5003.57,
+    "unrealized": -3.8,
     "closed_this_cycle": 0
   }
 }
