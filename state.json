@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T12:19:03.477692+00:00",
+  "cycle_at": "2026-07-11T12:20:03.528882+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4998.48,
-      "locked": 2.43
+      "free": 4998.9,
+      "locked": 2.02
     },
-    "equity": 4998.48,
+    "equity": 4998.9,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -2.43,
+    "unrealized_pnl": -2.02,
     "realized_today": 0,
-    "updated_at": "2026-07-11T12:19:03.477692+00:00"
+    "updated_at": "2026-07-11T12:20:03.528882+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.41,
+      "current": 1799.07,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.47,
-      "pnl_pct": -0.147,
+      "unrealized": -1.28,
+      "pnl_pct": -0.129,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.01,
+      "current": 8.008,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -1.87,
-      "pnl_pct": -0.188,
+      "unrealized": -1.62,
+      "pnl_pct": -0.163,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -172,7 +172,7 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 64182.16,
+      "price": 64181.61,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783772100000
@@ -181,14 +181,14 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0924,
-      "strength": 59.28571428571429,
-      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0925,
+      "strength": 65.58823529411782,
+      "note": "RSI 73.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783772100000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-11T10:16:55.953991+00:00",
+    "updated_at": "2026-07-11T12:19:42.654913+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -196,39 +196,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 55.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "D\u00fc\u015f\u00fck fonlama oranlar\u0131 ve ak\u0131\u015f birikimi pozitif, ancak likidasyon seviyeleri ve a\u015f\u0131r\u0131 al\u0131m RSI nedeniyle ihtiyatl\u0131 uzun.",
-        "extract_model": "deepseek-v4-flash",
+        "conviction": "HIGH",
+        "score": 73.0,
+        "sl": 62599,
+        "tp": 66772,
+        "rationale": "Funding s\u0131k\u0131\u015fmas\u0131 ve ak\u0131\u015f verileri bo\u011fa y\u00f6nl\u00fc. Likidasyon seviyeleri patlama potansiyeli g\u00f6steriyor.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1783764121.997629,
-        "at": "2026-07-11T10:02:01.997629+00:00"
+        "ts": 1783771323.342333,
+        "at": "2026-07-11T12:02:03.342333+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 35.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 4.55,
         "sl": null,
         "tp": null,
-        "rationale": "Organic rally (funding didn't spike), high sidelined cash (11.3% stablecoin dominance), no leverage excess. BUT liquidation magnet below and declining volume warrant caution.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Sinyaller kar\u0131\u015f\u0131k: k\u0131sa s\u0131k\u0131\u015fma ve stablecoin geni\u015flemesi hafif y\u00fckseli\u015f, OKX negatif fonlama ve d\u00fc\u015f\u00fck hacim d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc. Net bir y\u00f6n yok.",
+        "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1783764121.997629,
-        "at": "2026-07-11T10:02:01.997629+00:00"
+        "ts": 1783771323.342333,
+        "at": "2026-07-11T12:02:03.342333+00:00"
       },
       "SOLUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -43.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 52.0,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm sinyaller ay\u0131ya i\u015faret ediyor ancak negatif fonlama ve y\u00fcksek k\u0131sa pozisyon s\u0131k\u0131\u015fma riski olu\u015fturuyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Sinyaller uyumsuz: fonlama ve likidasyon d\u00fc\u015f\u00fc\u015f, zincir ak\u0131\u015f\u0131 y\u00fckseli\u015f. Bekleme pozisyonu.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783764121.997629,
-        "at": "2026-07-11T10:02:01.997629+00:00"
+        "ts": 1783771323.342333,
+        "at": "2026-07-11T12:02:03.342333+00:00"
       }
     },
     "gated_this_cycle": []
@@ -240,8 +240,8 @@
     "losses": 2,
     "win_rate": 60.0,
     "total_pnl": 5.8,
-    "equity": 4998.48,
-    "unrealized": -2.43,
+    "equity": 4998.9,
+    "unrealized": -2.02,
     "closed_this_cycle": 0
   }
 }
