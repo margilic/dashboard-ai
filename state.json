@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T21:16:07.391660+00:00",
+  "cycle_at": "2026-07-11T21:17:07.384716+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4990.33,
-      "locked": 0.4
+      "free": 4990.59,
+      "locked": 0.13
     },
-    "equity": 4990.33,
+    "equity": 4990.59,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -0.4,
+    "unrealized_pnl": -0.13,
     "realized_today": 0,
-    "updated_at": "2026-07-11T21:16:07.391660+00:00"
+    "updated_at": "2026-07-11T21:17:07.384716+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07528,
+      "current": 0.07529,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -1.2,
-      "pnl_pct": -0.06,
+      "unrealized": -1.46,
+      "pnl_pct": -0.073,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -262,7 +262,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0992,
+      "strength": 57.06896551724151,
+      "note": "RSI 70.7 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783804500000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-11T20:17:53.909169+00:00",
     "model": "deepseek-chat",
@@ -316,8 +326,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4990.33,
-    "unrealized": -0.4,
+    "equity": 4990.59,
+    "unrealized": -0.13,
     "closed_this_cycle": 0
   }
 }
