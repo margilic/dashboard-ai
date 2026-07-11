@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T22:10:07.796922+00:00",
+  "cycle_at": "2026-07-11T22:11:07.808068+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4990.33
     },
-    "equity": 4990.56,
+    "equity": 4989.26,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 0.23,
+    "unrealized_pnl": -1.06,
     "realized_today": 0,
-    "updated_at": "2026-07-11T22:10:07.796922+00:00"
+    "updated_at": "2026-07-11T22:11:07.808068+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.777,
-      "current": 6.728,
+      "current": 6.729,
       "qty": 148.0,
       "notional": 1002.996,
-      "unrealized": -7.25,
-      "pnl_pct": -0.723,
+      "unrealized": -7.1,
+      "pnl_pct": -0.708,
       "sl": 6.675345,
       "tp": 6.91254,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07513,
+      "current": 0.07516,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": 2.79,
-      "pnl_pct": 0.14,
+      "unrealized": 1.99,
+      "pnl_pct": 0.1,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -287,18 +287,18 @@
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 8.045,
-      "strength": 80.05154639175097,
-      "note": "RSI 21.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 8.048,
+      "strength": 77.97872340425363,
+      "note": "RSI 22.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783807200000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.728,
-      "strength": 71.92307692307669,
-      "note": "RSI 24.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.729,
+      "strength": 70.97402597402542,
+      "note": "RSI 24.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783807200000
     }
   ],
@@ -355,8 +355,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4990.56,
-    "unrealized": 0.23,
+    "equity": 4989.26,
+    "unrealized": -1.06,
     "closed_this_cycle": 0
   }
 }
