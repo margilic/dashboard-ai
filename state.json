@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T11:55:03.252583+00:00",
+  "cycle_at": "2026-07-11T11:56:03.260785+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 0.0,
-      "locked": 5006.64
+      "free": 4999.42,
+      "locked": 1.5
     },
-    "equity": 4999.7,
+    "equity": 4999.46,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.94,
+    "unrealized_pnl": -1.45,
     "realized_today": 0,
-    "updated_at": "2026-07-11T11:55:03.252583+00:00"
+    "updated_at": "2026-07-11T11:56:03.260785+00:00"
   },
   "open_positions": [
     {
@@ -37,10 +37,10 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.84,
+      "current": 1799.83,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.71,
+      "unrealized": -1.7,
       "pnl_pct": -0.171,
       "sl": 1850.6628,
       "tp": 1785.97944,
@@ -57,36 +57,16 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.002,
+      "current": 8.001,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -0.87,
-      "pnl_pct": -0.088,
+      "unrealized": -0.75,
+      "pnl_pct": -0.075,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
       "opened_at": 1783746179.499015,
       "opened_iso": "2026-07-11T05:02:59.499015+00:00",
-      "swarm_aligned": false
-    },
-    {
-      "id": "AVAXUSDT-1783734898",
-      "trade_no": 9,
-      "trade_id": "T0009",
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "adopted",
-      "entry": 6.7490000000000006,
-      "current": 6.717,
-      "qty": 148.0,
-      "notional": 998.8520000000001,
-      "unrealized": -4.74,
-      "pnl_pct": -0.474,
-      "sl": 6.54653,
-      "tp": 6.789494,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783734898.584725,
-      "opened_iso": "2026-07-11T01:54:58.584725+00:00",
       "swarm_aligned": false
     }
   ],
@@ -235,14 +215,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
+    "open": 2,
     "total_trades": 5,
     "wins": 3,
     "losses": 2,
     "win_rate": 60.0,
     "total_pnl": 5.8,
-    "equity": 4999.7,
-    "unrealized": -6.94,
+    "equity": 4999.46,
+    "unrealized": -1.45,
     "closed_this_cycle": 0
   }
 }
