@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T17:36:05.880390+00:00",
+  "cycle_at": "2026-07-11T17:37:05.876726+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4989.85,
-      "locked": 0.87
+      "free": 4990.92,
+      "locked": -0.19
     },
-    "equity": 4989.85,
+    "equity": 4990.92,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -0.87,
+    "unrealized_pnl": 0.19,
     "realized_today": 0,
-    "updated_at": "2026-07-11T17:36:05.880390+00:00"
+    "updated_at": "2026-07-11T17:37:05.876726+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1713,
+      "current": 0.1711,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": -3.5,
-      "pnl_pct": -0.351,
+      "unrealized": -2.33,
+      "pnl_pct": -0.234,
       "sl": 0.175821,
       "tp": 0.169676,
       "note": "adopted from Binance (orphan)",
@@ -267,7 +267,7 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 64384.33,
+      "price": 64352.72,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783791000000
@@ -276,9 +276,9 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.1713,
-      "strength": 62.39130434782609,
-      "note": "RSI 72.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.1711,
+      "strength": 59.925373134328254,
+      "note": "RSI 71.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783791000000
     }
   ],
@@ -335,8 +335,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4989.85,
-    "unrealized": -0.87,
+    "equity": 4990.92,
+    "unrealized": 0.19,
     "closed_this_cycle": 0
   }
 }
