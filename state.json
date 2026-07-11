@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T12:22:03.513611+00:00",
+  "cycle_at": "2026-07-11T12:23:03.523017+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4998.83,
-      "locked": 2.09
+      "free": 4998.91,
+      "locked": 2.01
     },
-    "equity": 4998.83,
+    "equity": 4998.91,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -2.09,
+    "unrealized_pnl": -2.01,
     "realized_today": 0,
-    "updated_at": "2026-07-11T12:22:03.513611+00:00"
+    "updated_at": "2026-07-11T12:23:03.523017+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.13,
+      "current": 1799.12,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.32,
-      "pnl_pct": -0.132,
+      "unrealized": -1.31,
+      "pnl_pct": -0.131,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -172,9 +172,18 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0925,
-      "strength": 65.58823529411782,
-      "note": "RSI 73.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0927,
+      "strength": 70.0000000000003,
+      "note": "RSI 75.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783772100000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 64172.89,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783772100000
     }
   ],
@@ -231,8 +240,8 @@
     "losses": 2,
     "win_rate": 60.0,
     "total_pnl": 5.8,
-    "equity": 4998.83,
-    "unrealized": -2.09,
+    "equity": 4998.91,
+    "unrealized": -2.01,
     "closed_this_cycle": 0
   }
 }
