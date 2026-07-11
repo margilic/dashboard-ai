@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T02:20:58.728302+00:00",
+  "cycle_at": "2026-07-11T02:22:58.718007+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -26,7 +26,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": -4.59,
     "realized_today": 0,
-    "updated_at": "2026-07-11T02:20:58.728302+00:00"
+    "updated_at": "2026-07-11T02:22:58.718007+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.724,
+      "current": 6.723,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -3.7,
-      "pnl_pct": -0.37,
+      "unrealized": -3.85,
+      "pnl_pct": -0.385,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -157,7 +157,7 @@
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1.106,
+      "price": 1.1059,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783736100000
@@ -166,9 +166,18 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.07415,
+      "price": 0.07417,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783736100000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 573.77,
+      "strength": 55.912343470485894,
+      "note": "RSI 29.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783736100000
     }
   ],
