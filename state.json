@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T21:31:07.493000+00:00",
+  "cycle_at": "2026-07-11T21:32:07.489230+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4997.2,
-      "locked": -6.47
+      "free": 4997.99,
+      "locked": -7.26
     },
-    "equity": 4997.2,
+    "equity": 4997.99,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 6.47,
+    "unrealized_pnl": 7.26,
     "realized_today": 0,
-    "updated_at": "2026-07-11T21:31:07.493000+00:00"
+    "updated_at": "2026-07-11T21:32:07.489230+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1698,
+      "current": 0.1699,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": 5.25,
-      "pnl_pct": 0.527,
+      "unrealized": 4.67,
+      "pnl_pct": 0.469,
       "sl": 0.173261,
       "tp": 0.167286,
       "note": "adopted from Binance (orphan)",
@@ -267,7 +267,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 8.058,
+      "price": 8.062,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783805400000
@@ -276,18 +276,9 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.1698,
+      "price": 0.1699,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783805400000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 8.058,
-      "strength": 55.98901098901041,
-      "note": "RSI 29.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783805400000
     }
   ],
@@ -344,8 +335,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4997.2,
-    "unrealized": 6.47,
+    "equity": 4997.99,
+    "unrealized": 7.26,
     "closed_this_cycle": 0
   }
 }
