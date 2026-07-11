@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T20:29:07.073424+00:00",
+  "cycle_at": "2026-07-11T20:30:07.085926+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4989.17,
-      "locked": 1.56
+      "free": 4988.72,
+      "locked": 2.01
     },
-    "equity": 4989.17,
+    "equity": 4988.72,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.56,
+    "unrealized_pnl": -2.01,
     "realized_today": 0,
-    "updated_at": "2026-07-11T20:29:07.073424+00:00"
+    "updated_at": "2026-07-11T20:30:07.085926+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07525,
+      "current": 0.07527,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -0.4,
-      "pnl_pct": -0.02,
+      "unrealized": -0.93,
+      "pnl_pct": -0.047,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -262,7 +262,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 78.24,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783801800000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-11T20:17:53.909169+00:00",
     "model": "deepseek-chat",
@@ -316,8 +326,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4989.17,
-    "unrealized": -1.56,
+    "equity": 4988.72,
+    "unrealized": -2.01,
     "closed_this_cycle": 0
   }
 }
