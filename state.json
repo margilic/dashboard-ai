@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T09:16:01.378302+00:00",
+  "cycle_at": "2026-07-11T09:17:01.380802+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5006.64
     },
-    "equity": 5000.23,
+    "equity": 4999.87,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.41,
+    "unrealized_pnl": -6.77,
     "realized_today": 0,
-    "updated_at": "2026-07-11T09:15:01.400023+00:00"
+    "updated_at": "2026-07-11T09:17:01.380802+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.28,
+      "current": 1799.42,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.4,
-      "pnl_pct": -0.14,
+      "unrealized": -1.48,
+      "pnl_pct": -0.148,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.712,
+      "current": 6.715,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -5.48,
-      "pnl_pct": -0.548,
+      "unrealized": -5.03,
+      "pnl_pct": -0.504,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -173,16 +173,16 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 578.6,
-      "strength": 72.6497695852523,
-      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 578.56,
+      "strength": 72.20247295208452,
+      "note": "RSI 75.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783761300000
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.0914,
+      "price": 0.0913,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783761300000
@@ -191,9 +191,9 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.168,
-      "strength": 56.11111111111063,
-      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.1681,
+      "strength": 59.28571428571344,
+      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783761300000
     }
   ],
@@ -250,8 +250,8 @@
     "losses": 1,
     "win_rate": 75.0,
     "total_pnl": 11.13,
-    "equity": 5000.23,
-    "unrealized": -6.41,
+    "equity": 4999.87,
+    "unrealized": -6.77,
     "closed_this_cycle": 0
   }
 }
