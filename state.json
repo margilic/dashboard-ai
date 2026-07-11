@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T11:25:02.971652+00:00",
+  "cycle_at": "2026-07-11T11:26:02.984840+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5006.64
     },
-    "equity": 5002.63,
+    "equity": 5002.4,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -4.02,
+    "unrealized_pnl": -4.24,
     "realized_today": 0,
-    "updated_at": "2026-07-11T11:25:02.971652+00:00"
+    "updated_at": "2026-07-11T11:26:02.984840+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1798.41,
+      "current": 1798.91,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -0.92,
-      "pnl_pct": -0.092,
+      "unrealized": -1.19,
+      "pnl_pct": -0.12,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.992,
+      "current": 7.993,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": 0.37,
-      "pnl_pct": 0.038,
+      "unrealized": 0.25,
+      "pnl_pct": 0.025,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.722,
+      "current": 6.723,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -4.0,
-      "pnl_pct": -0.4,
+      "unrealized": -3.85,
+      "pnl_pct": -0.385,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -173,7 +173,7 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 64167.99,
+      "price": 64175.85,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783768500000
@@ -182,7 +182,7 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 6.722,
+      "price": 6.723,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783768500000
@@ -191,9 +191,9 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0923,
-      "strength": 55.0,
-      "note": "RSI 70.0 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0924,
+      "strength": 57.19512195121956,
+      "note": "RSI 70.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783768500000
     }
   ],
@@ -250,8 +250,8 @@
     "losses": 1,
     "win_rate": 75.0,
     "total_pnl": 11.13,
-    "equity": 5002.63,
-    "unrealized": -4.02,
+    "equity": 5002.4,
+    "unrealized": -4.24,
     "closed_this_cycle": 0
   }
 }
