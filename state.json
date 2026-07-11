@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T19:03:06.469329+00:00",
+  "cycle_at": "2026-07-11T19:04:06.482788+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07526,
+      "current": 0.07525,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -0.66,
-      "pnl_pct": -0.033,
+      "unrealized": -0.4,
+      "pnl_pct": -0.02,
       "sl": 0.077492,
       "tp": 0.074784,
       "note": "adopted from Binance (orphan)",
@@ -262,35 +262,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 581.03,
-      "strength": 58.043478260864916,
-      "note": "RSI 71.0 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783796400000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 64318.26,
-      "strength": 55.89944976119929,
-      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783796400000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 8.101,
-      "strength": 55.236220472440806,
-      "note": "RSI 70.1 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783796400000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T18:17:13.344147+00:00",
     "model": "deepseek-chat",
