@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T01:52:58.568087+00:00",
+  "cycle_at": "2026-07-11T01:54:58.584725+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,17 +18,38 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 5007.77,
-      "locked": 0.0
+      "free": 0.0,
+      "locked": 5007.37
     },
-    "equity": 5007.77,
+    "equity": 5002.49,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 0.0,
+    "unrealized_pnl": -4.89,
     "realized_today": 0,
-    "updated_at": "2026-07-11T01:52:58.568087+00:00"
+    "updated_at": "2026-07-11T01:54:58.584725+00:00"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "id": "AVAXUSDT-1783734898",
+      "trade_no": 9,
+      "trade_id": "T0009",
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "adopted",
+      "entry": 6.749,
+      "current": 6.72,
+      "qty": 148.0,
+      "notional": 998.85,
+      "unrealized": -4.29,
+      "pnl_pct": -0.43,
+      "sl": 6.54653,
+      "tp": 6.789494,
+      "note": "adopted from Binance (orphan)",
+      "opened_at": 1783734898.584725,
+      "opened_iso": "2026-07-11T01:54:58.584725+00:00",
+      "swarm_aligned": false
+    }
+  ],
   "recent_trades": [
     {
       "id": "AVAXUSDT-1783698356",
@@ -136,9 +157,27 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.719,
-      "strength": 83.23529411764649,
-      "note": "RSI 20.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.72,
+      "strength": 79.7826086956535,
+      "note": "RSI 21.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783734300000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 573.83,
+      "strength": 60.43985637342982,
+      "note": "RSI 28.2 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783734300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.0917,
+      "strength": 55.638297872340075,
+      "note": "RSI 29.8 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783734300000
     }
   ],
@@ -189,14 +228,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 0,
+    "open": 1,
     "total_trades": 4,
     "wins": 4,
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5007.77,
-    "unrealized": 0.0,
+    "equity": 5002.49,
+    "unrealized": -4.89,
     "closed_this_cycle": 0
   }
 }
