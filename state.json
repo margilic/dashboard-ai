@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T21:43:07.564793+00:00",
+  "cycle_at": "2026-07-11T21:44:07.574042+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4995.64,
-      "locked": -4.91
+      "free": 4995.9,
+      "locked": -5.17
     },
-    "equity": 4995.64,
+    "equity": 4995.9,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 4.91,
+    "unrealized_pnl": 5.17,
     "realized_today": 0,
-    "updated_at": "2026-07-11T21:43:07.564793+00:00"
+    "updated_at": "2026-07-11T21:44:07.574042+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07531,
+      "current": 0.07529,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -1.99,
-      "pnl_pct": -0.1,
+      "unrealized": -1.46,
+      "pnl_pct": -0.073,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -267,7 +267,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 8.063,
+      "price": 8.059,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783805400000
@@ -279,6 +279,15 @@
       "price": 0.1699,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1783805400000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 8.059,
+      "strength": 55.0,
+      "note": "RSI 30.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783805400000
     }
   ],
@@ -335,8 +344,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4995.64,
-    "unrealized": 4.91,
+    "equity": 4995.9,
+    "unrealized": 5.17,
     "closed_this_cycle": 0
   }
 }
