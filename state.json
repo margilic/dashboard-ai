@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T21:38:07.536108+00:00",
+  "cycle_at": "2026-07-11T21:39:07.552790+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4996.23,
-      "locked": -5.5
+      "free": 4995.64,
+      "locked": -4.91
     },
-    "equity": 4996.23,
+    "equity": 4995.64,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 5.5,
+    "unrealized_pnl": 4.91,
     "realized_today": 0,
-    "updated_at": "2026-07-11T21:38:07.536108+00:00"
+    "updated_at": "2026-07-11T21:39:07.552790+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.0753,
+      "current": 0.07531,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -1.73,
-      "pnl_pct": -0.086,
+      "unrealized": -1.99,
+      "pnl_pct": -0.1,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1699,
+      "current": 0.17,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": 4.67,
-      "pnl_pct": 0.469,
+      "unrealized": 4.09,
+      "pnl_pct": 0.41,
       "sl": 0.173261,
       "tp": 0.167286,
       "note": "adopted from Binance (orphan)",
@@ -276,7 +276,7 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.1699,
+      "price": 0.17,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783805400000
@@ -335,8 +335,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4996.23,
-    "unrealized": 5.5,
+    "equity": 4995.64,
+    "unrealized": 4.91,
     "closed_this_cycle": 0
   }
 }
