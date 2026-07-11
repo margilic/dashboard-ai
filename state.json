@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T09:21:01.451256+00:00",
+  "cycle_at": "2026-07-11T09:22:01.441783+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1798.55,
+      "current": 1798.14,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -0.99,
-      "pnl_pct": -0.1,
+      "unrealized": -0.77,
+      "pnl_pct": -0.077,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.705,
+      "current": 6.703,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -6.51,
-      "pnl_pct": -0.652,
+      "unrealized": -6.81,
+      "pnl_pct": -0.682,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -170,39 +170,30 @@
   ],
   "signals": [
     {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 0.0912,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783761300000
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 578.29,
-      "strength": 69.03225806451428,
-      "note": "RSI 74.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 578.42,
+      "strength": 70.59241706160948,
+      "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783761300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.0913,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783761300000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.168,
-      "strength": 56.11111111111063,
-      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783761300000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1.1098,
-      "strength": 56.11111111110684,
-      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.1681,
+      "strength": 59.28571428571344,
+      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783761300000
     }
   ],
