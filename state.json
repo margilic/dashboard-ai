@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T10:16:02.245498+00:00",
+  "cycle_at": "2026-07-11T10:17:02.236859+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5006.64
     },
-    "equity": 5001.99,
+    "equity": 5002.46,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -4.65,
+    "unrealized_pnl": -4.18,
     "realized_today": 0,
-    "updated_at": "2026-07-11T10:16:02.245498+00:00"
+    "updated_at": "2026-07-11T10:17:02.236859+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1796.54,
+      "current": 1796.07,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": 0.12,
-      "pnl_pct": 0.012,
+      "unrealized": 0.38,
+      "pnl_pct": 0.038,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.978,
+      "current": 7.98,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": 2.12,
-      "pnl_pct": 0.213,
+      "unrealized": 1.87,
+      "pnl_pct": 0.188,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.7,
+      "current": 6.703,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -7.25,
-      "pnl_pct": -0.726,
+      "unrealized": -6.81,
+      "pnl_pct": -0.682,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -170,47 +170,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-11T05:19:52.285561+00:00",
+    "updated_at": "2026-07-11T10:16:55.953991+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -10.0,
+        "score": 55.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller uyumsuz: fonlama ve baz yap\u0131s\u0131 sa\u011fl\u0131kl\u0131 bo\u011fa, fakat likidasyonlar d\u00fc\u015f\u00fc\u015f e\u011filimli, on-chain ak\u0131\u015flar n\u00f6tr-ay\u0131. Bu nedenle n\u00f6tr, hafif ay\u0131 e\u011filim.",
+        "rationale": "D\u00fc\u015f\u00fck fonlama oranlar\u0131 ve ak\u0131\u015f birikimi pozitif, ancak likidasyon seviyeleri ve a\u015f\u0131r\u0131 al\u0131m RSI nedeniyle ihtiyatl\u0131 uzun.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783746179.5035,
-        "at": "2026-07-11T05:02:59.503500+00:00"
+        "ts": 1783764121.997629,
+        "at": "2026-07-11T10:02:01.997629+00:00"
       },
       "ETHUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -19.8,
+        "score": 35.0,
         "sl": null,
         "tp": null,
-        "rationale": "ETF \u00e7\u0131k\u0131\u015flar\u0131 h\u0131zlan\u0131yor (-$52.2M/g\u00fcn), Ethereum'dan sermaye d\u00f6n\u00fcyor, hacim d\u00fc\u015f\u00fck, fonlama s\u0131f\u0131ra yak\u0131n. Short squeeze riski var ancak uzun i\u00e7in yeterli de\u011fil.",
+        "rationale": "Organic rally (funding didn't spike), high sidelined cash (11.3% stablecoin dominance), no leverage excess. BUT liquidation magnet below and declining volume warrant caution.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783746179.5035,
-        "at": "2026-07-11T05:02:59.503500+00:00"
+        "ts": 1783764121.997629,
+        "at": "2026-07-11T10:02:01.997629+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -1.0,
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": -43.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller ayr\u0131\u015fm\u0131\u015f; L/S oran\u0131 kalabal\u0131k, uzun tasfiye k\u00fcmesi fiyata yak\u0131n. Daha iyi giri\u015f bekleniyor.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "T\u00fcm sinyaller ay\u0131ya i\u015faret ediyor ancak negatif fonlama ve y\u00fcksek k\u0131sa pozisyon s\u0131k\u0131\u015fma riski olu\u015fturuyor.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783746179.5035,
-        "at": "2026-07-11T05:02:59.503500+00:00"
+        "ts": 1783764121.997629,
+        "at": "2026-07-11T10:02:01.997629+00:00"
       }
     },
     "gated_this_cycle": []
@@ -222,8 +222,8 @@
     "losses": 1,
     "win_rate": 75.0,
     "total_pnl": 11.13,
-    "equity": 5001.99,
-    "unrealized": -4.65,
+    "equity": 5002.46,
+    "unrealized": -4.18,
     "closed_this_cycle": 0
   }
 }
