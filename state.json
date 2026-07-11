@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T18:35:06.302954+00:00",
+  "cycle_at": "2026-07-11T18:36:06.308808+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4983.38,
-      "locked": 7.35
+      "free": 4979.66,
+      "locked": 11.06
     },
-    "equity": 4983.38,
+    "equity": 4979.66,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -7.35,
+    "unrealized_pnl": -11.06,
     "realized_today": 0,
-    "updated_at": "2026-07-11T18:34:06.296581+00:00"
+    "updated_at": "2026-07-11T18:36:06.308808+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07525,
+      "current": 0.07522,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -0.4,
-      "pnl_pct": -0.02,
+      "unrealized": 0.4,
+      "pnl_pct": 0.02,
       "sl": 0.077492,
       "tp": 0.074784,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1732,
+      "current": 0.1729,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": -14.59,
-      "pnl_pct": -1.465,
+      "unrealized": -12.84,
+      "pnl_pct": -1.289,
       "sl": 0.175821,
       "tp": 0.169676,
       "note": "adopted from Binance (orphan)",
@@ -316,8 +316,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4983.38,
-    "unrealized": -7.35,
+    "equity": 4979.66,
+    "unrealized": -11.06,
     "closed_this_cycle": 0
   }
 }
