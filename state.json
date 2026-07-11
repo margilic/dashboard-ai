@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T17:20:05.778766+00:00",
+  "cycle_at": "2026-07-11T17:21:05.784750+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4995.05,
-      "locked": -4.32
+      "free": 4996.06,
+      "locked": -5.34
     },
-    "equity": 4995.05,
+    "equity": 4996.5,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 4.32,
+    "unrealized_pnl": 5.77,
     "realized_today": 0,
-    "updated_at": "2026-07-11T17:20:05.778766+00:00"
+    "updated_at": "2026-07-11T17:21:05.784750+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07515,
+      "current": 0.07513,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": 2.26,
-      "pnl_pct": 0.113,
+      "unrealized": 2.79,
+      "pnl_pct": 0.14,
       "sl": 0.077492,
       "tp": 0.074784,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1706,
+      "current": 0.1704,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": 0.58,
-      "pnl_pct": 0.059,
+      "unrealized": 1.75,
+      "pnl_pct": 0.176,
       "sl": 0.175821,
       "tp": 0.169676,
       "note": "adopted from Binance (orphan)",
@@ -262,17 +262,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.1706,
-      "strength": 55.44776119402992,
-      "note": "RSI 70.1 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783790100000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T16:17:36.036326+00:00",
     "model": "deepseek-chat",
@@ -326,8 +316,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4995.05,
-    "unrealized": 4.32,
+    "equity": 4996.5,
+    "unrealized": 5.77,
     "closed_this_cycle": 0
   }
 }
