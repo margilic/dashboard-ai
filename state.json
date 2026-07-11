@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T05:00:59.479487+00:00",
+  "cycle_at": "2026-07-11T05:02:59.499015+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,17 +18,37 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 0.0,
-      "locked": 5007.37
+      "free": 5002.4,
+      "locked": 4.57
     },
-    "equity": 5003.45,
+    "equity": 5003.47,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -3.92,
+    "unrealized_pnl": -3.5,
     "realized_today": 0,
-    "updated_at": "2026-07-11T05:00:59.479487+00:00"
+    "updated_at": "2026-07-11T05:02:59.499015+00:00"
   },
   "open_positions": [
+    {
+      "id": "LINKUSDT-1783746179",
+      "trade_no": 10,
+      "trade_id": "T0010",
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "adopted",
+      "entry": 7.995,
+      "current": 7.995,
+      "qty": 124.96,
+      "notional": 999.06,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
+      "sl": 8.23485,
+      "tp": 7.94703,
+      "note": "adopted from Binance (orphan)",
+      "opened_at": 1783746179.499015,
+      "opened_iso": "2026-07-11T05:02:59.499015+00:00",
+      "swarm_aligned": false
+    },
     {
       "id": "AVAXUSDT-1783734898",
       "trade_no": 9,
@@ -37,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.722,
+      "current": 6.718,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -4.0,
-      "pnl_pct": -0.4,
+      "unrealized": -4.59,
+      "pnl_pct": -0.459,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -157,9 +177,9 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.002,
-      "strength": 82.31343283582315,
-      "note": "RSI 79.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 7.995,
+      "strength": 59.864864864865055,
+      "note": "RSI 71.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783746000000
     }
   ],
@@ -210,14 +230,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 1,
+    "open": 2,
     "total_trades": 4,
     "wins": 4,
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5003.45,
-    "unrealized": -3.92,
+    "equity": 5003.47,
+    "unrealized": -3.5,
     "closed_this_cycle": 0
   }
 }
