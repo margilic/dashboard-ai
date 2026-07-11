@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T16:30:05.445077+00:00",
+  "cycle_at": "2026-07-11T16:31:05.426514+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4989.37,
-      "locked": 1.36
+      "free": 4991.33,
+      "locked": -0.6
     },
-    "equity": 4989.37,
+    "equity": 4991.33,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.36,
+    "unrealized_pnl": 0.6,
     "realized_today": 0,
-    "updated_at": "2026-07-11T16:30:05.445077+00:00"
+    "updated_at": "2026-07-11T16:31:05.426514+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07517,
+      "current": 0.07518,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": 1.73,
-      "pnl_pct": 0.086,
+      "unrealized": 1.46,
+      "pnl_pct": 0.073,
       "sl": 0.077492,
       "tp": 0.074784,
       "note": "adopted from Binance (orphan)",
@@ -276,7 +276,7 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 64220.01,
+      "price": 64214.34,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783787400000
@@ -344,8 +344,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4989.37,
-    "unrealized": -1.36,
+    "equity": 4991.33,
+    "unrealized": 0.6,
     "closed_this_cycle": 0
   }
 }
