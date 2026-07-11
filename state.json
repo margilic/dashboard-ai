@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T04:14:59.262072+00:00",
+  "cycle_at": "2026-07-11T04:16:59.282918+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5007.37
     },
-    "equity": 5002.96,
+    "equity": 5003.11,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -4.41,
+    "unrealized_pnl": -4.27,
     "realized_today": 0,
-    "updated_at": "2026-07-11T04:12:59.248102+00:00"
+    "updated_at": "2026-07-11T04:16:59.282918+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.724,
+      "current": 6.719,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -3.7,
-      "pnl_pct": -0.37,
+      "unrealized": -4.44,
+      "pnl_pct": -0.445,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -154,7 +154,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-11T00:18:04.299711+00:00",
+    "updated_at": "2026-07-11T04:16:55.328138+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -163,38 +163,38 @@
       "BTCUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 15.0,
+        "score": 57.2,
         "sl": null,
         "tp": null,
-        "rationale": "Kompozit skor +0.15, hafif y\u00fckseli\u015f e\u011filimi. Fonlama n\u00f6tr, likidasyon ay\u0131 bask\u0131s\u0131, zincir i\u00e7i ak\u0131\u015f orta derecede bo\u011fa. Uyumsuz sinyaller.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Healthy funding regime + institutional accumulation at dip + price above VWAP ($62,970.52)",
+        "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783728178.041683,
-        "at": "2026-07-11T00:02:58.041683+00:00"
+        "ts": 1783742579.216637,
+        "at": "2026-07-11T04:02:59.216637+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 14.0,
+        "score": 30.0,
         "sl": null,
         "tp": null,
-        "rationale": "Stabilcoin likiditesi geni\u015fliyor (+$1.1B/7d), ETH TVL 30 g\u00fcn zirvesinde ($84.4B), fonlama so\u011fuyor yap\u0131c\u0131 \u015fekilde. $1,795-$1,800'de k\u0131sa s\u0131k\u0131\u015fma potansiyeli.",
+        "rationale": "Fonlama oranlar\u0131 so\u011furken fiyat toparlan\u0131yor, likidasyon riski orta, zincir ak\u0131\u015f\u0131 hafif y\u00fckseli\u015f. Uzun y\u00f6nl\u00fc.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783728178.041683,
-        "at": "2026-07-11T00:02:58.041683+00:00"
+        "ts": 1783742579.216637,
+        "at": "2026-07-11T04:02:59.216637+00:00"
       },
       "SOLUSDT": {
-        "direction": "LONG",
+        "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": 41.0,
+        "score": -44.0,
         "sl": null,
         "tp": null,
-        "rationale": "On-chain ak\u0131\u015f (ETF giri\u015fleri, TVL b\u00fcy\u00fcmesi) g\u00fc\u00e7l\u00fc bo\u011fa; fonlama d\u00fc\u015f\u00fck ve \u0131l\u0131ml\u0131; likidasyon riski d\u00fc\u015f\u00fck.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "T\u00fcm sinyal boyutlar\u0131 d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc uyumlu. Fonlama oran\u0131ndaki d\u00fc\u015f\u00fc\u015f sapmas\u0131 ve likidasyon kaskad\u0131 riski nedeniyle k\u0131sa pozisyon \u00f6nerilir.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783728178.041683,
-        "at": "2026-07-11T00:02:58.041683+00:00"
+        "ts": 1783742579.216637,
+        "at": "2026-07-11T04:02:59.216637+00:00"
       }
     },
     "gated_this_cycle": []
@@ -206,8 +206,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5002.96,
-    "unrealized": -4.41,
+    "equity": 5003.11,
+    "unrealized": -4.27,
     "closed_this_cycle": 0
   }
 }
