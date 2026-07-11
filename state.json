@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T20:17:06.978777+00:00",
+  "cycle_at": "2026-07-11T20:18:06.992370+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4983.61,
-      "locked": 7.12
+      "free": 4984.83,
+      "locked": 5.9
     },
-    "equity": 4983.88,
+    "equity": 4984.83,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.85,
+    "unrealized_pnl": -5.9,
     "realized_today": 0,
-    "updated_at": "2026-07-11T20:17:06.978777+00:00"
+    "updated_at": "2026-07-11T20:18:06.992370+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07533,
+      "current": 0.0753,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -2.52,
-      "pnl_pct": -0.126,
+      "unrealized": -1.73,
+      "pnl_pct": -0.086,
       "sl": 0.077492,
       "tp": 0.074784,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1717,
+      "current": 0.1716,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": -5.84,
-      "pnl_pct": -0.586,
+      "unrealized": -5.25,
+      "pnl_pct": -0.527,
       "sl": 0.175821,
       "tp": 0.169676,
       "note": "adopted from Binance (orphan)",
@@ -264,7 +264,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-11T18:17:13.344147+00:00",
+    "updated_at": "2026-07-11T20:17:53.909169+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -273,38 +273,38 @@
       "BTCUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 69.0,
+        "score": 61.0,
         "sl": null,
         "tp": null,
-        "rationale": "On-chain ve fonlama verileri g\u00fc\u00e7l\u00fc bullish, ancak sipari\u015f defteri sat\u0131\u015f a\u011f\u0131rl\u0131kl\u0131. Orta vadede al\u0131m \u00f6nerilir.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Kompozit skor 0.61/1.00 ile orta-y\u00fcksek g\u00fcvenle uzun y\u00f6nl\u00fc dip-al\u0131m \u00f6nyarg\u0131s\u0131. On-chain ak\u0131\u015flar ve fonlama/baz g\u00fc\u00e7l\u00fc, likidasyon k\u00fcmeleri zay\u0131f sinyal.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1783792926.062765,
-        "at": "2026-07-11T18:02:06.062765+00:00"
+        "ts": 1783800126.859234,
+        "at": "2026-07-11T20:02:06.859234+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 59.0,
+        "score": 34.0,
         "sl": null,
         "tp": null,
-        "rationale": "Negatif fonlama ve 1.830$'daki b\u00fcy\u00fck short k\u00fcmesi bo\u011fa s\u0131k\u0131\u015fmas\u0131 sinyali veriyor; stablecoin daralmas\u0131 ve d\u00fc\u015fen hacim temkinli olmay\u0131 gerektiriyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Kar\u0131\u015f\u0131k sinyaller ancak bo\u011fa e\u011filimi bask\u0131n. Likidasyon k\u0131sa s\u0131k\u0131\u015fmas\u0131 ve ak\u0131\u015f birikimi destekliyor.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783792926.062765,
-        "at": "2026-07-11T18:02:06.062765+00:00"
+        "ts": 1783800126.859234,
+        "at": "2026-07-11T20:02:06.859234+00:00"
       },
       "SOLUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -38.0,
+        "score": 63.0,
         "sl": null,
         "tp": null,
-        "rationale": "\u0130ki sinyal d\u00fc\u015f\u00fc\u015f e\u011filimli, biri n\u00f6tr. B\u00fcy\u00fck long likidasyon k\u00fcmesi a\u015fa\u011f\u0131 \u00e7ekiyor, hacim ve TVL d\u00fc\u015f\u00fcyor.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "MILDLY BULLISH sinyal, on-chain ak\u0131\u015f ve fonlama/baz destekliyor ancak likidasyon pinball riski ve fiyat d\u00fc\u015f\u00fc\u015f\u00fcne ra\u011fmen fonlaman\u0131n pozitif kalmas\u0131 uyar\u0131 olu\u015fturuyor.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783792926.062765,
-        "at": "2026-07-11T18:02:06.062765+00:00"
+        "ts": 1783800126.859234,
+        "at": "2026-07-11T20:02:06.859234+00:00"
       }
     },
     "gated_this_cycle": []
@@ -316,8 +316,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4983.88,
-    "unrealized": -6.85,
+    "equity": 4984.83,
+    "unrealized": -5.9,
     "closed_this_cycle": 0
   }
 }
