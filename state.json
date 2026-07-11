@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T08:08:00.686992+00:00",
+  "cycle_at": "2026-07-11T08:09:00.706963+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5006.64
     },
-    "equity": 4998.14,
+    "equity": 4997.88,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -8.5,
+    "unrealized_pnl": -8.76,
     "realized_today": 0,
-    "updated_at": "2026-07-11T08:08:00.686992+00:00"
+    "updated_at": "2026-07-11T08:09:00.706963+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.65,
+      "current": 1800.0,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.6,
-      "pnl_pct": -0.161,
+      "unrealized": -1.8,
+      "pnl_pct": -0.18,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -194,21 +194,21 @@
   ],
   "signals": [
     {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.1677,
-      "strength": 67.22222222222027,
-      "note": "RSI 74.1 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783756800000
-    },
-    {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
       "price": 6.701,
       "strength": 66.05263157894615,
       "note": "RSI 26.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783756800000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.1676,
+      "strength": 59.28571428571344,
+      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783756800000
     }
   ],
@@ -265,8 +265,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 4998.14,
-    "unrealized": -8.5,
+    "equity": 4997.88,
+    "unrealized": -8.76,
     "closed_this_cycle": 0
   }
 }
