@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T02:56:58.887360+00:00",
+  "cycle_at": "2026-07-11T02:58:58.891615+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5007.37
     },
-    "equity": 5004.71,
+    "equity": 5004.52,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -2.66,
+    "unrealized_pnl": -2.85,
     "realized_today": 0,
-    "updated_at": "2026-07-11T02:56:58.887360+00:00"
+    "updated_at": "2026-07-11T02:58:58.891615+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.735,
+      "current": 6.733,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -2.07,
-      "pnl_pct": -0.207,
+      "unrealized": -2.37,
+      "pnl_pct": -0.237,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -152,17 +152,7 @@
       "duration_s": 19380
     }
   ],
-  "signals": [
-    {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 0.0931,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783737900000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T00:18:04.299711+00:00",
     "model": "deepseek-chat",
@@ -216,8 +206,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5004.71,
-    "unrealized": -2.66,
+    "equity": 5004.52,
+    "unrealized": -2.85,
     "closed_this_cycle": 0
   }
 }
