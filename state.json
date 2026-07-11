@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T07:32:00.374168+00:00",
+  "cycle_at": "2026-07-11T07:33:00.381242+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.984,
+      "current": 7.982,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": 1.37,
-      "pnl_pct": 0.138,
+      "unrealized": 1.62,
+      "pnl_pct": 0.163,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -194,30 +194,30 @@
   ],
   "signals": [
     {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 577.02,
-      "strength": 72.00729927007325,
-      "note": "RSI 75.7 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783755000000
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64224.02,
-      "strength": 70.2263906856368,
-      "note": "RSI 75.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 64231.47,
+      "strength": 72.80347890451313,
+      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783755000000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 577.04,
+      "strength": 72.36077481840185,
+      "note": "RSI 75.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783755000000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.1674,
-      "strength": 66.73913043478117,
-      "note": "RSI 73.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.1673,
+      "strength": 63.181818181817135,
+      "note": "RSI 72.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783755000000
     }
   ],
