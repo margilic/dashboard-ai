@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T08:00:00.682084+00:00",
+  "cycle_at": "2026-07-11T08:01:00.625867+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -19,14 +19,14 @@
   "balance": {
     "USD": {
       "free": 0.0,
-      "locked": 5006.57
+      "locked": 5006.64
     },
-    "equity": 4999.91,
+    "equity": 4999.36,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.66,
+    "unrealized_pnl": -7.28,
     "realized_today": 0,
-    "updated_at": "2026-07-11T08:00:00.682084+00:00"
+    "updated_at": "2026-07-11T08:01:00.625867+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.99,
+      "current": 1800.48,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.79,
-      "pnl_pct": -0.18,
+      "unrealized": -2.06,
+      "pnl_pct": -0.207,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.993,
+      "current": 7.998,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": 0.25,
-      "pnl_pct": 0.025,
+      "unrealized": -0.37,
+      "pnl_pct": -0.038,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -256,8 +256,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 4999.91,
-    "unrealized": -6.66,
+    "equity": 4999.36,
+    "unrealized": -7.28,
     "closed_this_cycle": 0
   }
 }
