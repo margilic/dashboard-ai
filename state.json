@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T02:30:58.762676+00:00",
+  "cycle_at": "2026-07-11T02:32:58.768951+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.726,
+      "current": 6.724,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -3.4,
-      "pnl_pct": -0.341,
+      "unrealized": -3.7,
+      "pnl_pct": -0.37,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -152,17 +152,7 @@
       "duration_s": 19380
     }
   ],
-  "signals": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 64046.0,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783737000000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T00:18:04.299711+00:00",
     "model": "deepseek-chat",
