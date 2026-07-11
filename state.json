@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T12:12:03.428195+00:00",
+  "cycle_at": "2026-07-11T12:13:03.428752+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 4998.8,
       "locked": 2.11
     },
-    "equity": 4998.82,
+    "equity": 4998.8,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -2.1,
+    "unrealized_pnl": -2.11,
     "realized_today": 0,
-    "updated_at": "2026-07-11T12:12:03.428195+00:00"
+    "updated_at": "2026-07-11T12:13:03.428752+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1800.38,
+      "current": 1800.3,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -2.01,
-      "pnl_pct": -0.201,
+      "unrealized": -1.96,
+      "pnl_pct": -0.197,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.007,
+      "current": 8.005,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -1.5,
-      "pnl_pct": -0.15,
+      "unrealized": -1.25,
+      "pnl_pct": -0.125,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -172,7 +172,7 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 64219.65,
+      "price": 64216.2,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783771200000
@@ -181,9 +181,9 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0924,
-      "strength": 63.18181818181829,
-      "note": "RSI 72.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0923,
+      "strength": 60.62500000000004,
+      "note": "RSI 71.9 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783771200000
     }
   ],
@@ -240,8 +240,8 @@
     "losses": 2,
     "win_rate": 60.0,
     "total_pnl": 5.8,
-    "equity": 4998.82,
-    "unrealized": -2.1,
+    "equity": 4998.8,
+    "unrealized": -2.11,
     "closed_this_cycle": 0
   }
 }
