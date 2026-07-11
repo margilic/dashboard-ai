@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T21:35:07.512518+00:00",
+  "cycle_at": "2026-07-11T21:36:07.530104+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4997.39,
-      "locked": -6.66
+      "free": 4997.02,
+      "locked": -6.29
     },
-    "equity": 4997.39,
+    "equity": 4997.02,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 6.66,
+    "unrealized_pnl": 6.29,
     "realized_today": 0,
-    "updated_at": "2026-07-11T21:35:07.512518+00:00"
+    "updated_at": "2026-07-11T21:36:07.530104+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1698,
+      "current": 0.1697,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": 5.25,
-      "pnl_pct": 0.527,
+      "unrealized": 5.84,
+      "pnl_pct": 0.586,
       "sl": 0.173261,
       "tp": 0.167286,
       "note": "adopted from Binance (orphan)",
@@ -267,7 +267,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 8.063,
+      "price": 8.062,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783805400000
@@ -276,7 +276,7 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.1698,
+      "price": 0.1697,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783805400000
@@ -335,8 +335,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4997.39,
-    "unrealized": 6.66,
+    "equity": 4997.02,
+    "unrealized": 6.29,
     "closed_this_cycle": 0
   }
 }
