@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T14:17:04.474005+00:00",
+  "cycle_at": "2026-07-11T14:18:04.478620+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4991.4,
-      "locked": 9.52
+      "free": 4991.3,
+      "locked": 9.61
     },
-    "equity": 4991.4,
+    "equity": 4991.3,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -9.52,
+    "unrealized_pnl": -9.61,
     "realized_today": 0,
-    "updated_at": "2026-07-11T14:16:04.465902+00:00"
+    "updated_at": "2026-07-11T14:18:04.478620+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1802.83,
+      "current": 1803.12,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -3.37,
-      "pnl_pct": -0.338,
+      "unrealized": -3.53,
+      "pnl_pct": -0.354,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.047,
+      "current": 8.048,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -6.5,
-      "pnl_pct": -0.65,
+      "unrealized": -6.62,
+      "pnl_pct": -0.663,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -172,50 +172,50 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.047,
-      "strength": 95.00000000000416,
-      "note": "RSI 83.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.048,
+      "strength": 97.63157894737125,
+      "note": "RSI 84.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1802.83,
-      "strength": 70.5839822024466,
-      "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1803.12,
+      "strength": 72.9094827586199,
+      "note": "RSI 76.0 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.761,
-      "strength": 68.46938775510154,
-      "note": "RSI 74.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.76,
+      "strength": 67.68041237113327,
+      "note": "RSI 74.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07502,
-      "strength": 62.241379310343575,
-      "note": "RSI 72.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.07501,
+      "strength": 61.521739130432834,
+      "note": "RSI 72.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 581.9,
-      "strength": 57.03319502074886,
-      "note": "RSI 70.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 581.98,
+      "strength": 59.405594405597725,
+      "note": "RSI 71.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-11T12:19:42.654913+00:00",
+    "updated_at": "2026-07-11T14:17:54.937448+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -223,39 +223,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 73.0,
-        "sl": 62599,
-        "tp": 66772,
-        "rationale": "Funding s\u0131k\u0131\u015fmas\u0131 ve ak\u0131\u015f verileri bo\u011fa y\u00f6nl\u00fc. Likidasyon seviyeleri patlama potansiyeli g\u00f6steriyor.",
-        "extract_model": "deepseek-chat",
+        "conviction": "MEDIUM",
+        "score": 34.0,
+        "sl": 62670,
+        "tp": null,
+        "rationale": "Funding ve on-chain ak\u0131\u015f pozitif, likidasyon asimetrisi riskli. Bile\u015fik skor +0.34 ile orta tonda uzun \u00f6nerisi.",
+        "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783771323.342333,
-        "at": "2026-07-11T12:02:03.342333+00:00"
+        "ts": 1783778524.349725,
+        "at": "2026-07-11T14:02:04.349725+00:00"
       },
       "ETHUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": 4.55,
+        "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k: k\u0131sa s\u0131k\u0131\u015fma ve stablecoin geni\u015flemesi hafif y\u00fckseli\u015f, OKX negatif fonlama ve d\u00fc\u015f\u00fck hacim d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc. Net bir y\u00f6n yok.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Fonlama ve baz n\u00f6tr, k\u0131sa s\u0131k\u0131\u015fma riski var ancak net sinyal yok",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783771323.342333,
-        "at": "2026-07-11T12:02:03.342333+00:00"
+        "ts": 1783778524.349725,
+        "at": "2026-07-11T14:02:04.349725+00:00"
       },
       "SOLUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": 52.0,
+        "score": 4.22,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller uyumsuz: fonlama ve likidasyon d\u00fc\u015f\u00fc\u015f, zincir ak\u0131\u015f\u0131 y\u00fckseli\u015f. Bekleme pozisyonu.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Bile\u015fik skor 4.22/10 e\u015fik alt\u0131, ak\u0131\u015f ve likidasyon sinyalleri aras\u0131nda uyumsuzluk var, net y\u00f6n belirsiz.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783771323.342333,
-        "at": "2026-07-11T12:02:03.342333+00:00"
+        "ts": 1783778524.349725,
+        "at": "2026-07-11T14:02:04.349725+00:00"
       }
     },
     "gated_this_cycle": []
@@ -267,8 +267,8 @@
     "losses": 2,
     "win_rate": 60.0,
     "total_pnl": 5.8,
-    "equity": 4991.4,
-    "unrealized": -9.52,
+    "equity": 4991.3,
+    "unrealized": -9.61,
     "closed_this_cycle": 0
   }
 }
