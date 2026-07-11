@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T07:52:00.533794+00:00",
+  "cycle_at": "2026-07-11T07:53:00.548703+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5006.57
     },
-    "equity": 5001.24,
+    "equity": 5000.93,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -5.33,
+    "unrealized_pnl": -5.65,
     "realized_today": 0,
-    "updated_at": "2026-07-11T07:52:00.533794+00:00"
+    "updated_at": "2026-07-11T07:53:00.548703+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1800.07,
+      "current": 1800.53,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.84,
-      "pnl_pct": -0.184,
+      "unrealized": -2.09,
+      "pnl_pct": -0.21,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.987,
+      "current": 7.99,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": 1.0,
-      "pnl_pct": 0.1,
+      "unrealized": 0.62,
+      "pnl_pct": 0.063,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -203,12 +203,12 @@
       "ts": 1783755900000
     },
     {
-      "symbol": "BNBUSDT",
+      "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 576.93,
-      "strength": 59.465408805027195,
-      "note": "RSI 71.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 78.01,
+      "strength": 55.38961038961004,
+      "note": "RSI 70.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783755900000
     }
   ],
@@ -265,8 +265,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5001.24,
-    "unrealized": -5.33,
+    "equity": 5000.93,
+    "unrealized": -5.65,
     "closed_this_cycle": 0
   }
 }
