@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T21:41:07.554566+00:00",
+  "cycle_at": "2026-07-11T21:42:07.564439+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4995.64,
-      "locked": -4.91
+      "free": 4995.27,
+      "locked": -4.54
     },
-    "equity": 4996.22,
+    "equity": 4995.27,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 5.49,
+    "unrealized_pnl": 4.54,
     "realized_today": 0,
-    "updated_at": "2026-07-11T21:41:07.554566+00:00"
+    "updated_at": "2026-07-11T21:42:07.564439+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07529,
+      "current": 0.07532,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": -1.46,
-      "pnl_pct": -0.073,
+      "unrealized": -2.26,
+      "pnl_pct": -0.113,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1697,
+      "current": 0.1698,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": 5.84,
-      "pnl_pct": 0.586,
+      "unrealized": 5.25,
+      "pnl_pct": 0.527,
       "sl": 0.173261,
       "tp": 0.167286,
       "note": "adopted from Binance (orphan)",
@@ -267,7 +267,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 8.059,
+      "price": 8.062,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783805400000
@@ -276,18 +276,9 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.1697,
+      "price": 0.1698,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783805400000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 8.059,
-      "strength": 55.0,
-      "note": "RSI 30.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783805400000
     }
   ],
@@ -344,8 +335,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4996.22,
-    "unrealized": 5.49,
+    "equity": 4995.27,
+    "unrealized": 4.54,
     "closed_this_cycle": 0
   }
 }
