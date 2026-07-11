@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T14:24:04.521531+00:00",
+  "cycle_at": "2026-07-11T14:25:04.544150+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4990.3,
-      "locked": 10.61
+      "free": 4988.66,
+      "locked": 12.26
     },
-    "equity": 4990.3,
+    "equity": 4988.96,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -10.61,
+    "unrealized_pnl": -11.96,
     "realized_today": 0,
-    "updated_at": "2026-07-11T14:24:04.521531+00:00"
+    "updated_at": "2026-07-11T14:25:04.544150+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1803.54,
+      "current": 1805.13,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -3.76,
-      "pnl_pct": -0.377,
+      "unrealized": -4.65,
+      "pnl_pct": -0.466,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.057,
+      "current": 8.061,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -7.75,
-      "pnl_pct": -0.775,
+      "unrealized": -8.25,
+      "pnl_pct": -0.826,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -172,53 +172,71 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.057,
+      "price": 8.061,
       "strength": 100,
-      "note": "RSI 85.6 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783779300000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.097,
-      "strength": 78.33333333333314,
-      "note": "RSI 77.8 a\u015f\u0131r\u0131 al\u0131m",
+      "note": "RSI 86.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1803.54,
-      "strength": 76.0309278350513,
-      "note": "RSI 77.0 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1805.13,
+      "strength": 85.74402125775073,
+      "note": "RSI 80.2 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783779300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0973,
+      "strength": 80.7142857142855,
+      "note": "RSI 78.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.758,
-      "strength": 66.05263157894679,
-      "note": "RSI 73.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.762,
+      "strength": 69.24242424242333,
+      "note": "RSI 74.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07502,
-      "strength": 62.241379310343575,
-      "note": "RSI 72.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.07508,
+      "strength": 66.31147540983415,
+      "note": "RSI 73.8 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783779300000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 78.45,
+      "strength": 63.1818181818217,
+      "note": "RSI 72.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 581.85,
-      "strength": 55.57692307692632,
+      "price": 582.09,
+      "strength": 61.25000000000301,
+      "note": "RSI 72.1 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783779300000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 64358.76,
+      "strength": 55.695107398569064,
       "note": "RSI 70.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783779300000
     }
@@ -276,8 +294,8 @@
     "losses": 2,
     "win_rate": 60.0,
     "total_pnl": 5.8,
-    "equity": 4990.3,
-    "unrealized": -10.61,
+    "equity": 4988.96,
+    "unrealized": -11.96,
     "closed_this_cycle": 0
   }
 }
