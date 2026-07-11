@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T03:14:58.976439+00:00",
+  "cycle_at": "2026-07-11T03:16:58.991875+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5007.37
     },
-    "equity": 5003.3,
+    "equity": 5003.25,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -4.07,
+    "unrealized_pnl": -4.12,
     "realized_today": 0,
-    "updated_at": "2026-07-11T03:14:58.976439+00:00"
+    "updated_at": "2026-07-11T03:16:58.991875+00:00"
   },
   "open_positions": [
     {
@@ -152,17 +152,7 @@
       "duration_s": 19380
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 1796.87,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783738800000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T00:18:04.299711+00:00",
     "model": "deepseek-chat",
@@ -216,8 +206,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5003.3,
-    "unrealized": -4.07,
+    "equity": 5003.25,
+    "unrealized": -4.12,
     "closed_this_cycle": 0
   }
 }
