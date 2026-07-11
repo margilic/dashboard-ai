@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T02:16:58.690452+00:00",
+  "cycle_at": "2026-07-11T02:18:58.709226+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.717,
+      "current": 6.722,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -4.74,
-      "pnl_pct": -0.474,
+      "unrealized": -4.0,
+      "pnl_pct": -0.4,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -154,19 +154,10 @@
   ],
   "signals": [
     {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 6.717,
-      "strength": 72.14285714285883,
-      "note": "RSI 24.3 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783736100000
-    },
-    {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1.1053,
+      "price": 1.1061,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783736100000
@@ -175,9 +166,18 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.07414,
+      "price": 0.07415,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783736100000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.722,
+      "strength": 56.99999999999925,
+      "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783736100000
     }
   ],
