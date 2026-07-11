@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T02:06:58.637108+00:00",
+  "cycle_at": "2026-07-11T02:08:58.654699+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5007.37
     },
-    "equity": 5001.6,
+    "equity": 5002.04,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -5.77,
+    "unrealized_pnl": -5.33,
     "realized_today": 0,
-    "updated_at": "2026-07-11T02:04:58.640308+00:00"
+    "updated_at": "2026-07-11T02:08:58.654699+00:00"
   },
   "open_positions": [
     {
@@ -163,6 +163,15 @@
       "ts": 1783735200000
     },
     {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 1.1047,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783735200000
+    },
+    {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
@@ -225,8 +234,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5001.6,
-    "unrealized": -5.77,
+    "equity": 5002.04,
+    "unrealized": -5.33,
     "closed_this_cycle": 0
   }
 }
