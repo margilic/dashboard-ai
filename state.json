@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T16:17:05.329521+00:00",
+  "cycle_at": "2026-07-11T16:18:05.336674+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4988.86,
-      "locked": 1.87
+      "free": 4988.5,
+      "locked": 2.23
     },
-    "equity": 4988.86,
+    "equity": 4988.5,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.87,
+    "unrealized_pnl": -2.23,
     "realized_today": 0,
-    "updated_at": "2026-07-11T16:17:05.329521+00:00"
+    "updated_at": "2026-07-11T16:18:05.336674+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07521,
+      "current": 0.07522,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": 0.66,
-      "pnl_pct": 0.033,
+      "unrealized": 0.4,
+      "pnl_pct": 0.02,
       "sl": 0.077492,
       "tp": 0.074784,
       "note": "adopted from Binance (orphan)",
@@ -276,7 +276,7 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 64150.66,
+      "price": 64168.01,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783786500000
@@ -285,54 +285,54 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0977,
-      "strength": 61.788321167883225,
-      "note": "RSI 72.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0978,
+      "strength": 63.38235294117652,
+      "note": "RSI 72.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783786500000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-11T14:17:54.937448+00:00",
+    "updated_at": "2026-07-11T16:17:36.036326+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 34.0,
-        "sl": 62670,
+        "direction": "SHORT",
+        "conviction": "LOW",
+        "score": -8.0,
+        "sl": null,
         "tp": null,
-        "rationale": "Funding ve on-chain ak\u0131\u015f pozitif, likidasyon asimetrisi riskli. Bile\u015fik skor +0.34 ile orta tonda uzun \u00f6nerisi.",
+        "rationale": "Likidasyon yap\u0131s\u0131 d\u00fc\u015f\u00fc\u015f bask\u0131s\u0131, on-chain ak\u0131\u015f hafif y\u00fckseli\u015f, fonlama n\u00f6tr. Hafif d\u00fc\u015f\u00fc\u015f e\u011filimi, d\u00fc\u015f\u00fck kanaat.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783778524.349725,
-        "at": "2026-07-11T14:02:04.349725+00:00"
+        "ts": 1783785725.236813,
+        "at": "2026-07-11T16:02:05.236813+00:00"
       },
       "ETHUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 0.0,
+        "direction": "SHORT",
+        "conviction": "HIGH",
+        "score": -43.0,
         "sl": null,
         "tp": null,
-        "rationale": "Fonlama ve baz n\u00f6tr, k\u0131sa s\u0131k\u0131\u015fma riski var ancak net sinyal yok",
+        "rationale": "T\u00fcm sinyaller bearish uyumlu: fonlama negatif, likidasyon riski y\u00fcksek, DeFi TVL %31 d\u00fc\u015ft\u00fc.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783778524.349725,
-        "at": "2026-07-11T14:02:04.349725+00:00"
+        "ts": 1783785725.236813,
+        "at": "2026-07-11T16:02:05.236813+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 4.22,
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": -13.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor 4.22/10 e\u015fik alt\u0131, ak\u0131\u015f ve likidasyon sinyalleri aras\u0131nda uyumsuzluk var, net y\u00f6n belirsiz.",
+        "rationale": "\u00dc\u00e7 boyutlu sinyal sentezi: fonlama/baz hafif bo\u011fa, likidasyon n\u00f6tr, zincir\u00fcst\u00fc ak\u0131\u015f d\u00fc\u015f\u00fc\u015f e\u011filimli. A\u011f\u0131rl\u0131kl\u0131 bile\u015fik skor 5.13/10 ile hafif d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde.",
         "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783778524.349725,
-        "at": "2026-07-11T14:02:04.349725+00:00"
+        "ts": 1783785725.236813,
+        "at": "2026-07-11T16:02:05.236813+00:00"
       }
     },
     "gated_this_cycle": []
@@ -344,8 +344,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4988.86,
-    "unrealized": -1.87,
+    "equity": 4988.5,
+    "unrealized": -2.23,
     "closed_this_cycle": 0
   }
 }
