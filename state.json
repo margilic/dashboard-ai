@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T11:54:03.252657+00:00",
+  "cycle_at": "2026-07-11T11:55:03.252583+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5006.64
     },
-    "equity": 4999.58,
+    "equity": 4999.7,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -7.07,
+    "unrealized_pnl": -6.94,
     "realized_today": 0,
-    "updated_at": "2026-07-11T11:54:03.252657+00:00"
+    "updated_at": "2026-07-11T11:55:03.252583+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.73,
+      "current": 1799.84,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.65,
-      "pnl_pct": -0.165,
+      "unrealized": -1.71,
+      "pnl_pct": -0.171,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.004,
+      "current": 8.002,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -1.12,
-      "pnl_pct": -0.113,
+      "unrealized": -0.87,
+      "pnl_pct": -0.088,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -91,6 +91,25 @@
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "entry": 6.749,
+      "exit": 6.713,
+      "qty": 148.0,
+      "pnl": -5.328,
+      "opened_at": 1783734782,
+      "closed_at": 1783770908,
+      "duration_s": 36126,
+      "trade_no": 5,
+      "trade_id": "T0005",
+      "id": "AVAXUSDT-1783770908-5",
+      "pnl_pct": -0.533,
+      "notional": 998.85,
+      "strategy": "live",
+      "exit_reason": "SL",
+      "opened_iso": "2026-07-11T01:53:02+00:00"
+    },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
@@ -217,13 +236,13 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 4,
+    "total_trades": 5,
     "wins": 3,
-    "losses": 1,
-    "win_rate": 75.0,
-    "total_pnl": 11.13,
-    "equity": 4999.58,
-    "unrealized": -7.07,
+    "losses": 2,
+    "win_rate": 60.0,
+    "total_pnl": 5.8,
+    "equity": 4999.7,
+    "unrealized": -6.94,
     "closed_this_cycle": 0
   }
 }
