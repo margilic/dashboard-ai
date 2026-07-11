@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T12:08:03.380129+00:00",
+  "cycle_at": "2026-07-11T12:09:03.403244+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1800.28,
+      "current": 1799.86,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.95,
-      "pnl_pct": -0.196,
+      "unrealized": -1.72,
+      "pnl_pct": -0.173,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.999,
+      "current": 8.005,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -0.5,
-      "pnl_pct": -0.05,
+      "unrealized": -1.25,
+      "pnl_pct": -0.125,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -167,17 +167,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.0923,
-      "strength": 60.62500000000004,
-      "note": "RSI 71.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783771200000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T10:16:55.953991+00:00",
     "model": "deepseek-chat",
