@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T23:04:08.158119+00:00",
+  "cycle_at": "2026-07-11T23:05:08.168940+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4990.33
     },
-    "equity": 5005.09,
+    "equity": 5004.31,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 14.76,
+    "unrealized_pnl": 13.98,
     "realized_today": 0,
-    "updated_at": "2026-07-11T23:04:08.158119+00:00"
+    "updated_at": "2026-07-11T23:05:08.168940+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07466,
+      "current": 0.07467,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": 15.27,
-      "pnl_pct": 0.764,
+      "unrealized": 15.0,
+      "pnl_pct": 0.751,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -284,21 +284,21 @@
   ],
   "signals": [
     {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.07466,
-      "strength": 77.75862068965382,
-      "note": "RSI 22.4 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783810800000
-    },
-    {
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 8.012,
-      "strength": 76.81818181817788,
-      "note": "RSI 22.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 8.01,
+      "strength": 81.1111111111084,
+      "note": "RSI 21.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783810800000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.07467,
+      "strength": 75.7692307692302,
+      "note": "RSI 23.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783810800000
     },
     {
@@ -314,9 +314,9 @@
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.1094,
-      "strength": 64.82758620690117,
-      "note": "RSI 26.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1.1092,
+      "strength": 68.68421052632027,
+      "note": "RSI 25.4 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783810800000
     },
     {
@@ -382,8 +382,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 5005.09,
-    "unrealized": 14.76,
+    "equity": 5004.31,
+    "unrealized": 13.98,
     "closed_this_cycle": 0
   }
 }
