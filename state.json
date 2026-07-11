@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T02:12:58.658648+00:00",
+  "cycle_at": "2026-07-11T02:14:58.687444+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5007.37
     },
-    "equity": 5002.19,
+    "equity": 5001.55,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -5.18,
+    "unrealized_pnl": -5.82,
     "realized_today": 0,
-    "updated_at": "2026-07-11T02:12:58.658648+00:00"
+    "updated_at": "2026-07-11T02:14:58.687444+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.717,
+      "current": 6.714,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -4.74,
-      "pnl_pct": -0.474,
+      "unrealized": -5.18,
+      "pnl_pct": -0.519,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -157,19 +157,28 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.717,
-      "strength": 78.76623376623508,
-      "note": "RSI 22.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.714,
+      "strength": 88.24324324324218,
+      "note": "RSI 18.9 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783735200000
     },
     {
-      "symbol": "XRPUSDT",
-      "side": "LONG",
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 1.1048,
+      "price": 0.07408,
       "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
+      "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783735200000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.0913,
+      "strength": 59.28571428571378,
+      "note": "RSI 28.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783736100000
     }
   ],
   "swarm": {
@@ -225,8 +234,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5002.19,
-    "unrealized": -5.18,
+    "equity": 5001.55,
+    "unrealized": -5.82,
     "closed_this_cycle": 0
   }
 }
