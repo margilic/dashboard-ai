@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T12:29:03.557351+00:00",
+  "cycle_at": "2026-07-11T12:30:03.630862+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -26,7 +26,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": -2.74,
     "realized_today": 0,
-    "updated_at": "2026-07-11T12:29:03.557351+00:00"
+    "updated_at": "2026-07-11T12:30:03.630862+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.8,
+      "current": 1800.21,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.69,
-      "pnl_pct": -0.169,
+      "unrealized": -1.91,
+      "pnl_pct": -0.192,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.01,
+      "current": 8.012,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -1.87,
-      "pnl_pct": -0.188,
+      "unrealized": -2.12,
+      "pnl_pct": -0.213,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -167,26 +167,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 64185.99,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783772100000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.0924,
-      "strength": 59.28571428571429,
-      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783772100000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T12:19:42.654913+00:00",
     "model": "deepseek-chat",
