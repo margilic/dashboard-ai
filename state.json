@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T02:26:58.743304+00:00",
+  "cycle_at": "2026-07-11T02:28:58.752781+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5007.37
     },
-    "equity": 5002.34,
+    "equity": 5002.49,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -5.03,
+    "unrealized_pnl": -4.88,
     "realized_today": 0,
-    "updated_at": "2026-07-11T02:26:58.743304+00:00"
+    "updated_at": "2026-07-11T02:28:58.752781+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.719,
+      "current": 6.723,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -4.44,
-      "pnl_pct": -0.445,
+      "unrealized": -3.85,
+      "pnl_pct": -0.385,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -157,36 +157,27 @@
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1.1054,
+      "price": 1.1057,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783736100000
     },
     {
-      "symbol": "AVAXUSDT",
+      "symbol": "DOGEUSDT",
       "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 6.719,
-      "strength": 65.83333333333287,
-      "note": "RSI 26.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "strategy": "EMA Cross",
+      "price": 0.07416,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783736100000
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 573.55,
-      "strength": 60.41155866900415,
-      "note": "RSI 28.2 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783736100000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 77.61,
-      "strength": 57.686567164180516,
-      "note": "RSI 29.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 573.63,
+      "strength": 59.20959147424692,
+      "note": "RSI 28.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783736100000
     }
   ],
@@ -243,8 +234,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 12.53,
-    "equity": 5002.34,
-    "unrealized": -5.03,
+    "equity": 5002.49,
+    "unrealized": -4.88,
     "closed_this_cycle": 0
   }
 }
