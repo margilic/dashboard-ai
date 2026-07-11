@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T15:20:04.963376+00:00",
+  "cycle_at": "2026-07-11T15:21:04.957445+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1820.68,
+      "current": 1822.03,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -13.28,
-      "pnl_pct": -1.331,
+      "unrealized": -14.02,
+      "pnl_pct": -1.406,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 582.88,
-      "current": 580.99,
+      "current": 581.05,
       "qty": 1.71,
       "notional": 996.7248,
-      "unrealized": 3.23,
-      "pnl_pct": 0.324,
+      "unrealized": 3.13,
+      "pnl_pct": 0.314,
       "sl": 600.3664,
       "tp": 579.38272,
       "note": "adopted from Binance (orphan)",
@@ -227,6 +227,15 @@
   ],
   "signals": [
     {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 1822.03,
+      "strength": 91.86844471081754,
+      "note": "RSI 82.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783782900000
+    },
+    {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
@@ -236,48 +245,48 @@
       "ts": 1783782900000
     },
     {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1820.68,
-      "strength": 85.07134363852552,
-      "note": "RSI 80.0 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783782900000
-    },
-    {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1.1165,
-      "strength": 76.72413793103618,
-      "note": "RSI 77.2 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1.1167,
+      "strength": 79.96503496503637,
+      "note": "RSI 78.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783782900000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.1709,
+      "strength": 67.58064516129056,
+      "note": "RSI 74.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783782900000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.073,
-      "strength": 62.64705882353158,
-      "note": "RSI 72.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783782900000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.097,
-      "strength": 59.678899082568975,
-      "note": "RSI 71.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.075,
+      "strength": 65.52980132450395,
+      "note": "RSI 73.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783782900000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 78.58,
-      "strength": 55.810810810811205,
-      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 78.64,
+      "strength": 65.18348623853352,
+      "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783782900000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0969,
+      "strength": 57.72727272727285,
+      "note": "RSI 70.9 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783782900000
     }
   ],
