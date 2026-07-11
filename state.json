@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T11:08:02.818166+00:00",
+  "cycle_at": "2026-07-11T11:09:02.821562+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 5006.64
     },
-    "equity": 5003.04,
+    "equity": 5002.55,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -3.6,
+    "unrealized_pnl": -4.09,
     "realized_today": 0,
-    "updated_at": "2026-07-11T11:07:02.802769+00:00"
+    "updated_at": "2026-07-11T11:09:02.821562+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.0,
+      "current": 1798.28,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.24,
-      "pnl_pct": -0.125,
+      "unrealized": -0.84,
+      "pnl_pct": -0.085,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.99,
+      "current": 7.987,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": 0.62,
-      "pnl_pct": 0.063,
+      "unrealized": 1.0,
+      "pnl_pct": 0.1,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.721,
+      "current": 6.719,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -4.14,
-      "pnl_pct": -0.415,
+      "unrealized": -4.44,
+      "pnl_pct": -0.445,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -177,15 +177,6 @@
       "strength": 81.84210526315802,
       "note": "RSI 78.9 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783767600000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 64208.66,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783767600000
     }
   ],
   "swarm": {
@@ -241,8 +232,8 @@
     "losses": 1,
     "win_rate": 75.0,
     "total_pnl": 11.13,
-    "equity": 5003.04,
-    "unrealized": -3.6,
+    "equity": 5002.55,
+    "unrealized": -4.09,
     "closed_this_cycle": 0
   }
 }
