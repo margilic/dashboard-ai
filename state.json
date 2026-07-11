@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T12:27:03.543777+00:00",
+  "cycle_at": "2026-07-11T12:28:03.546738+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4999.05,
-      "locked": 1.87
+      "free": 4998.48,
+      "locked": 2.44
     },
-    "equity": 4999.05,
+    "equity": 4998.48,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.87,
+    "unrealized_pnl": -2.44,
     "realized_today": 0,
-    "updated_at": "2026-07-11T12:26:03.534506+00:00"
+    "updated_at": "2026-07-11T12:28:03.546738+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1799.55,
+      "current": 1799.61,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.55,
-      "pnl_pct": -0.155,
+      "unrealized": -1.58,
+      "pnl_pct": -0.159,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.008,
+      "current": 8.01,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -1.62,
-      "pnl_pct": -0.163,
+      "unrealized": -1.87,
+      "pnl_pct": -0.188,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -172,7 +172,7 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 64179.29,
+      "price": 64181.69,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783772100000
@@ -240,8 +240,8 @@
     "losses": 2,
     "win_rate": 60.0,
     "total_pnl": 5.8,
-    "equity": 4999.05,
-    "unrealized": -1.87,
+    "equity": 4998.48,
+    "unrealized": -2.44,
     "closed_this_cycle": 0
   }
 }
