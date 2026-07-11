@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T21:45:07.586766+00:00",
+  "cycle_at": "2026-07-11T21:46:07.587923+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,17 +18,37 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4995.9,
-      "locked": -5.17
+      "free": 0.0,
+      "locked": 4990.33
     },
-    "equity": 4995.9,
+    "equity": 4990.64,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 5.17,
+    "unrealized_pnl": 0.31,
     "realized_today": 0,
-    "updated_at": "2026-07-11T21:45:07.586766+00:00"
+    "updated_at": "2026-07-11T21:46:07.587923+00:00"
   },
   "open_positions": [
+    {
+      "id": "AVAXUSDT-1783806367",
+      "trade_no": 17,
+      "trade_id": "T0017",
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "adopted",
+      "entry": 6.777,
+      "current": 6.74,
+      "qty": 148.0,
+      "notional": 1003.0,
+      "unrealized": -5.48,
+      "pnl_pct": -0.546,
+      "sl": 6.675345,
+      "tp": 6.91254,
+      "note": "adopted from Binance (orphan)",
+      "opened_at": 1783806367.587923,
+      "opened_iso": "2026-07-11T21:46:07.587923+00:00",
+      "swarm_aligned": false
+    },
     {
       "id": "DOGEUSDT-1783780804",
       "trade_no": 14,
@@ -264,15 +284,6 @@
   ],
   "signals": [
     {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 6.734,
-      "strength": 80.44303797468271,
-      "note": "RSI 21.5 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783806300000
-    },
-    {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
@@ -285,9 +296,18 @@
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 8.061,
-      "strength": 68.17073170731652,
-      "note": "RSI 25.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 8.06,
+      "strength": 69.09638554216762,
+      "note": "RSI 25.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783806300000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.74,
+      "strength": 63.8235294117635,
+      "note": "RSI 27.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783806300000
     }
   ],
@@ -338,14 +358,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 10,
     "wins": 6,
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 4995.9,
-    "unrealized": 5.17,
+    "equity": 4990.64,
+    "unrealized": 0.31,
     "closed_this_cycle": 0
   }
 }
