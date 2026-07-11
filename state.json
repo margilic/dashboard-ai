@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T08:06:00.660939+00:00",
+  "cycle_at": "2026-07-11T08:07:00.674740+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -26,7 +26,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": -8.3,
     "realized_today": 0,
-    "updated_at": "2026-07-11T08:06:00.660939+00:00"
+    "updated_at": "2026-07-11T08:07:00.674740+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1800.25,
+      "current": 1799.75,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -1.94,
-      "pnl_pct": -0.194,
+      "unrealized": -1.66,
+      "pnl_pct": -0.166,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 7.998,
+      "current": 7.999,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -0.37,
-      "pnl_pct": -0.038,
+      "unrealized": -0.5,
+      "pnl_pct": -0.05,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.703,
+      "current": 6.702,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -6.81,
-      "pnl_pct": -0.682,
+      "unrealized": -6.96,
+      "pnl_pct": -0.696,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -194,21 +194,21 @@
   ],
   "signals": [
     {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.1678,
-      "strength": 75.76923076923003,
-      "note": "RSI 76.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783756800000
-    },
-    {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.703,
-      "strength": 63.181818181815984,
-      "note": "RSI 27.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.702,
+      "strength": 64.64285714285546,
+      "note": "RSI 26.8 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783756800000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.1676,
+      "strength": 59.28571428571344,
+      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783756800000
     }
   ],
