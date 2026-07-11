@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T23:08:08.180643+00:00",
+  "cycle_at": "2026-07-11T23:09:08.197055+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4990.33
     },
-    "equity": 5005.91,
+    "equity": 5011.12,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 15.58,
+    "unrealized_pnl": 20.8,
     "realized_today": 0,
-    "updated_at": "2026-07-11T23:08:08.180643+00:00"
+    "updated_at": "2026-07-11T23:09:08.197055+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.777,
-      "current": 6.689,
+      "current": 6.682,
       "qty": 148.0,
       "notional": 1002.996,
-      "unrealized": -13.02,
-      "pnl_pct": -1.299,
+      "unrealized": -14.06,
+      "pnl_pct": -1.402,
       "sl": 6.675345,
       "tp": 6.91254,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07461,
+      "current": 0.07449,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": 16.6,
-      "pnl_pct": 0.831,
+      "unrealized": 19.78,
+      "pnl_pct": 0.99,
       "sl": 0.076364,
       "tp": 0.07373,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1687,
+      "current": 0.1685,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": 11.67,
-      "pnl_pct": 1.172,
+      "unrealized": 12.84,
+      "pnl_pct": 1.289,
       "sl": 0.173261,
       "tp": 0.167286,
       "note": "adopted from Binance (orphan)",
@@ -287,45 +287,45 @@
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 8.002,
-      "strength": 88.74999999999791,
-      "note": "RSI 18.8 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783810800000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.07461,
-      "strength": 83.46153846153838,
-      "note": "RSI 20.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 7.988,
+      "strength": 94.99999999999824,
+      "note": "RSI 16.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783810800000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.689,
-      "strength": 82.49999999999916,
-      "note": "RSI 20.8 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.682,
+      "strength": 92.4226804123703,
+      "note": "RSI 17.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783810800000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.07449,
+      "strength": 89.18604651162755,
+      "note": "RSI 18.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783810800000
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.1079,
-      "strength": 77.8000000000036,
-      "note": "RSI 22.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1.1062,
+      "strength": 85.84507042253892,
+      "note": "RSI 19.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783810800000
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1687,
-      "strength": 71.41509433962129,
-      "note": "RSI 24.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.1685,
+      "strength": 74.09090909090742,
+      "note": "RSI 23.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783810800000
     }
   ],
@@ -382,8 +382,8 @@
     "losses": 4,
     "win_rate": 60.0,
     "total_pnl": -0.64,
-    "equity": 5005.91,
-    "unrealized": 15.58,
+    "equity": 5011.12,
+    "unrealized": 20.8,
     "closed_this_cycle": 0
   }
 }
