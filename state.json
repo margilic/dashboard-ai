@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T05:46:59.726110+00:00",
+  "cycle_at": "2026-07-11T05:48:59.742417+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1796.76,
-      "current": 1798.5,
+      "current": 1797.97,
       "qty": 0.555,
       "notional": 997.2018,
-      "unrealized": -0.97,
-      "pnl_pct": -0.097,
+      "unrealized": -0.67,
+      "pnl_pct": -0.067,
       "sl": 1850.6628,
       "tp": 1785.97944,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 7.995,
-      "current": 8.001,
+      "current": 7.998,
       "qty": 124.96,
       "notional": 999.0552,
-      "unrealized": -0.75,
-      "pnl_pct": -0.075,
+      "unrealized": -0.37,
+      "pnl_pct": -0.038,
       "sl": 8.23485,
       "tp": 7.94703,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.7490000000000006,
-      "current": 6.709,
+      "current": 6.705,
       "qty": 148.0,
       "notional": 998.8520000000001,
-      "unrealized": -5.92,
-      "pnl_pct": -0.593,
+      "unrealized": -6.51,
+      "pnl_pct": -0.652,
       "sl": 6.54653,
       "tp": 6.789494,
       "note": "adopted from Binance (orphan)",
@@ -192,17 +192,7 @@
       "duration_s": 19380
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1798.5,
-      "strength": 58.908118313404984,
-      "note": "RSI 71.3 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783748700000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T05:19:52.285561+00:00",
     "model": "deepseek-chat",
