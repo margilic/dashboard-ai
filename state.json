@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-11T18:29:06.255578+00:00",
+  "cycle_at": "2026-07-11T18:30:06.278172+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.0752349830546769,
-      "current": 0.07517,
+      "current": 0.0752,
       "qty": 26556.0,
       "notional": 1997.9402099999995,
-      "unrealized": 1.73,
-      "pnl_pct": 0.086,
+      "unrealized": 0.93,
+      "pnl_pct": 0.046,
       "sl": 0.077492,
       "tp": 0.074784,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.17070000000000002,
-      "current": 0.1727,
+      "current": 0.1726,
       "qty": 5837.0,
       "notional": 996.3759000000001,
-      "unrealized": -11.67,
-      "pnl_pct": -1.172,
+      "unrealized": -11.09,
+      "pnl_pct": -1.113,
       "sl": 0.175821,
       "tp": 0.169676,
       "note": "adopted from Binance (orphan)",
@@ -262,17 +262,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.1727,
-      "strength": 56.11111111111089,
-      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783793700000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-11T18:17:13.344147+00:00",
     "model": "deepseek-chat",
