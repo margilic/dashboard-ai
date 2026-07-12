@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T12:10:16.847532+00:00",
+  "cycle_at": "2026-07-12T12:11:16.854725+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4923.15
     },
-    "equity": 4912.96,
+    "equity": 4910.11,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -10.19,
+    "unrealized_pnl": -13.05,
     "realized_today": 0,
-    "updated_at": "2026-07-12T12:10:16.847532+00:00"
+    "updated_at": "2026-07-12T12:11:16.854725+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 76.88,
+      "current": 76.92,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -1.17,
-      "pnl_pct": -0.117,
+      "unrealized": -1.69,
+      "pnl_pct": -0.169,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 574.9300000000001,
-      "current": 581.25,
+      "current": 581.8,
       "qty": 1.73,
       "notional": 994.6289,
-      "unrealized": -10.93,
-      "pnl_pct": -1.099,
+      "unrealized": -11.89,
+      "pnl_pct": -1.195,
       "sl": 583.55395,
       "tp": 563.4314,
       "note": "adopted from Binance (orphan)",
@@ -515,16 +515,16 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 581.25,
-      "strength": 92.05882352941157,
-      "note": "RSI 82.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 581.8,
+      "strength": 94.39759036144541,
+      "note": "RSI 83.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783857600000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 6.431,
+      "price": 6.434,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783857600000
@@ -583,8 +583,8 @@
     "losses": 13,
     "win_rate": 40.9,
     "total_pnl": -57.48,
-    "equity": 4912.96,
-    "unrealized": -10.19,
+    "equity": 4910.11,
+    "unrealized": -13.05,
     "closed_this_cycle": 0
   }
 }
