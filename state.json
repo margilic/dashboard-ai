@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T11:24:16.548857+00:00",
+  "cycle_at": "2026-07-12T11:25:16.531876+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4923.15
     },
-    "equity": 4928.79,
+    "equity": 4927.75,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 5.63,
+    "unrealized_pnl": 4.59,
     "realized_today": 0,
-    "updated_at": "2026-07-12T11:24:16.548857+00:00"
+    "updated_at": "2026-07-12T11:25:16.531876+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 76.81,
+      "current": 76.83,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -0.26,
-      "pnl_pct": -0.026,
+      "unrealized": -0.52,
+      "pnl_pct": -0.052,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 574.9300000000001,
-      "current": 574.81,
+      "current": 575.07,
       "qty": 1.73,
       "notional": 994.6289,
-      "unrealized": 0.21,
-      "pnl_pct": 0.021,
+      "unrealized": -0.24,
+      "pnl_pct": -0.024,
       "sl": 583.55395,
       "tp": 563.4314,
       "note": "adopted from Binance (orphan)",
@@ -515,9 +515,9 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0949,
-      "strength": 83.9830508474583,
-      "note": "RSI 20.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0951,
+      "strength": 76.1475409836069,
+      "note": "RSI 23.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783854900000
     }
   ],
@@ -574,8 +574,8 @@
     "losses": 13,
     "win_rate": 40.9,
     "total_pnl": -57.48,
-    "equity": 4928.79,
-    "unrealized": 5.63,
+    "equity": 4927.75,
+    "unrealized": 4.59,
     "closed_this_cycle": 0
   }
 }
