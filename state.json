@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T07:32:14.957341+00:00",
+  "cycle_at": "2026-07-12T07:33:14.962258+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4921.85,
-      "locked": 14.34
+      "free": 4921.96,
+      "locked": 14.23
     },
-    "equity": 4922.3,
+    "equity": 4921.96,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -13.89,
+    "unrealized_pnl": -14.23,
     "realized_today": 0,
-    "updated_at": "2026-07-12T07:32:14.957341+00:00"
+    "updated_at": "2026-07-12T07:33:14.962258+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 63891.61,
+      "current": 63890.18,
       "qty": 0.0156,
       "notional": 996.6216,
-      "unrealized": 0.09,
-      "pnl_pct": 0.009,
+      "unrealized": 0.07,
+      "pnl_pct": 0.007,
       "sl": 62927.71,
       "tp": 65163.72,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 572.58,
+      "current": 572.69,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -5.57,
-      "pnl_pct": -0.559,
+      "unrealized": -5.38,
+      "pnl_pct": -0.54,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -459,9 +459,9 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.384,
-      "strength": 62.49999999999979,
-      "note": "RSI 27.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.383,
+      "strength": 62.757009345794245,
+      "note": "RSI 27.4 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783841400000
     },
     {
@@ -536,8 +536,8 @@
     "losses": 10,
     "win_rate": 44.4,
     "total_pnl": -47.4,
-    "equity": 4922.3,
-    "unrealized": -13.89,
+    "equity": 4921.96,
+    "unrealized": -14.23,
     "closed_this_cycle": 0
   }
 }
