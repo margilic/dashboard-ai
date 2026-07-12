@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T05:31:14.147114+00:00",
+  "cycle_at": "2026-07-12T05:32:14.160768+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4952.78
     },
-    "equity": 4935.92,
+    "equity": 4936.74,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -16.86,
+    "unrealized_pnl": -16.04,
     "realized_today": 0,
-    "updated_at": "2026-07-12T05:31:14.147114+00:00"
+    "updated_at": "2026-07-12T05:32:14.160768+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1794.88,
-      "current": 1801.32,
+      "current": 1802.2,
       "qty": 0.558,
       "notional": 1001.5430400000001,
-      "unrealized": 3.59,
-      "pnl_pct": 0.359,
+      "unrealized": 4.08,
+      "pnl_pct": 0.408,
       "sl": 1767.9568,
       "tp": 1830.7776,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.1042,
-      "current": 1.094,
+      "current": 1.0941,
       "qty": 904.8,
       "notional": 999.08016,
-      "unrealized": -9.23,
-      "pnl_pct": -0.924,
+      "unrealized": -9.14,
+      "pnl_pct": -0.915,
       "sl": 1.087637,
       "tp": 1.126284,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 63900.01,
+      "current": 63918.0,
       "qty": 0.0156,
       "notional": 996.6216,
-      "unrealized": 0.22,
-      "pnl_pct": 0.022,
+      "unrealized": 0.5,
+      "pnl_pct": 0.05,
       "sl": 62927.71,
       "tp": 65163.72,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 572.98,
+      "current": 573.1,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -4.88,
-      "pnl_pct": -0.49,
+      "unrealized": -4.67,
+      "pnl_pct": -0.469,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -117,11 +117,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.07345,
-      "current": 0.07305,
+      "current": 0.07306,
       "qty": 13610.0,
       "notional": 999.6545,
-      "unrealized": -5.44,
-      "pnl_pct": -0.545,
+      "unrealized": -5.31,
+      "pnl_pct": -0.531,
       "sl": 0.072348,
       "tp": 0.074919,
       "note": "adopted from Binance (orphan)",
@@ -455,7 +455,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0996,
+      "strength": 56.1111111111111,
+      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783834200000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-12T05:15:06.861630+00:00",
     "model": "deepseek-chat",
@@ -509,8 +519,8 @@
     "losses": 9,
     "win_rate": 47.1,
     "total_pnl": -31.2,
-    "equity": 4935.92,
-    "unrealized": -16.86,
+    "equity": 4936.74,
+    "unrealized": -16.04,
     "closed_this_cycle": 0
   }
 }
