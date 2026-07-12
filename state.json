@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T05:01:13.961435+00:00",
+  "cycle_at": "2026-07-12T05:02:13.968851+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4952.78
     },
-    "equity": 4944.51,
+    "equity": 4944.62,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -8.27,
+    "unrealized_pnl": -8.16,
     "realized_today": 0,
-    "updated_at": "2026-07-12T05:01:13.961435+00:00"
+    "updated_at": "2026-07-12T05:02:13.968851+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.1042,
-      "current": 1.0954,
+      "current": 1.0953,
       "qty": 904.8,
       "notional": 999.08016,
-      "unrealized": -7.96,
-      "pnl_pct": -0.797,
+      "unrealized": -8.05,
+      "pnl_pct": -0.806,
       "sl": 1.087637,
       "tp": 1.126284,
       "note": "adopted from Binance (orphan)",
@@ -77,7 +77,7 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 64002.0,
+      "current": 64001.99,
       "qty": 0.0156,
       "notional": 996.6216,
       "unrealized": 1.81,
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 574.25,
+      "current": 574.26,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -2.68,
-      "pnl_pct": -0.269,
+      "unrealized": -2.66,
+      "pnl_pct": -0.267,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -464,6 +464,15 @@
       "strength": 64.2307692307692,
       "note": "RSI 73.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783832400000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.439,
+      "strength": 55.16949152542361,
+      "note": "RSI 29.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783832400000
     }
   ],
   "swarm": {
@@ -519,8 +528,8 @@
     "losses": 9,
     "win_rate": 47.1,
     "total_pnl": -31.2,
-    "equity": 4944.51,
-    "unrealized": -8.27,
+    "equity": 4944.62,
+    "unrealized": -8.16,
     "closed_this_cycle": 0
   }
 }
