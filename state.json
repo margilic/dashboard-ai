@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T05:25:14.121384+00:00",
+  "cycle_at": "2026-07-12T05:26:14.126657+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4952.78
     },
-    "equity": 4937.28,
+    "equity": 4938.61,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -15.5,
+    "unrealized_pnl": -14.17,
     "realized_today": 0,
-    "updated_at": "2026-07-12T05:25:14.121384+00:00"
+    "updated_at": "2026-07-12T05:26:14.126657+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1794.88,
-      "current": 1801.39,
+      "current": 1802.74,
       "qty": 0.558,
       "notional": 1001.5430400000001,
-      "unrealized": 3.63,
-      "pnl_pct": 0.363,
+      "unrealized": 4.39,
+      "pnl_pct": 0.438,
       "sl": 1767.9568,
       "tp": 1830.7776,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.1042,
-      "current": 1.0939,
+      "current": 1.0946,
       "qty": 904.8,
       "notional": 999.08016,
-      "unrealized": -9.32,
-      "pnl_pct": -0.933,
+      "unrealized": -8.69,
+      "pnl_pct": -0.869,
       "sl": 1.087637,
       "tp": 1.126284,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 63914.79,
+      "current": 63923.99,
       "qty": 0.0156,
       "notional": 996.6216,
-      "unrealized": 0.45,
-      "pnl_pct": 0.045,
+      "unrealized": 0.59,
+      "pnl_pct": 0.059,
       "sl": 62927.71,
       "tp": 65163.72,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 573.24,
+      "current": 573.35,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -4.43,
-      "pnl_pct": -0.445,
+      "unrealized": -4.24,
+      "pnl_pct": -0.425,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -117,11 +117,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.07345,
-      "current": 0.07306,
+      "current": 0.07313,
       "qty": 13610.0,
       "notional": 999.6545,
-      "unrealized": -5.31,
-      "pnl_pct": -0.531,
+      "unrealized": -4.36,
+      "pnl_pct": -0.436,
       "sl": 0.072348,
       "tp": 0.074919,
       "note": "adopted from Binance (orphan)",
@@ -455,17 +455,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 1801.39,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783833300000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-12T05:15:06.861630+00:00",
     "model": "deepseek-chat",
@@ -519,8 +509,8 @@
     "losses": 9,
     "win_rate": 47.1,
     "total_pnl": -31.2,
-    "equity": 4937.28,
-    "unrealized": -15.5,
+    "equity": 4938.61,
+    "unrealized": -14.17,
     "closed_this_cycle": 0
   }
 }
