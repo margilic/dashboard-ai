@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T07:50:15.078942+00:00",
+  "cycle_at": "2026-07-12T07:51:15.086152+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4922.87,
-      "locked": 13.32
+      "free": 4922.18,
+      "locked": 14.01
     },
-    "equity": 4923.18,
+    "equity": 4922.39,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -13.01,
+    "unrealized_pnl": -13.8,
     "realized_today": 0,
-    "updated_at": "2026-07-12T07:50:15.078942+00:00"
+    "updated_at": "2026-07-12T07:51:15.086152+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1794.88,
-      "current": 1798.31,
+      "current": 1797.53,
       "qty": 0.558,
       "notional": 1001.5430400000001,
-      "unrealized": 1.91,
-      "pnl_pct": 0.191,
+      "unrealized": 1.48,
+      "pnl_pct": 0.148,
       "sl": 1767.9568,
       "tp": 1830.7776,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 63861.35,
+      "current": 63846.85,
       "qty": 0.0156,
       "notional": 996.6216,
-      "unrealized": -0.38,
-      "pnl_pct": -0.039,
+      "unrealized": -0.61,
+      "pnl_pct": -0.061,
       "sl": 62927.71,
       "tp": 65163.72,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 572.46,
+      "current": 572.25,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -5.78,
-      "pnl_pct": -0.58,
+      "unrealized": -6.14,
+      "pnl_pct": -0.617,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.07345,
-      "current": 0.07286,
+      "current": 0.07284,
       "qty": 13610.0,
       "notional": 999.6545,
-      "unrealized": -8.03,
-      "pnl_pct": -0.803,
+      "unrealized": -8.3,
+      "pnl_pct": -0.83,
       "sl": 0.072348,
       "tp": 0.074919,
       "note": "adopted from Binance (orphan)",
@@ -459,9 +459,9 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.378,
-      "strength": 66.0526315789473,
-      "note": "RSI 26.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.372,
+      "strength": 67.49240121580546,
+      "note": "RSI 25.8 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783842300000
     }
   ],
@@ -518,8 +518,8 @@
     "losses": 10,
     "win_rate": 44.4,
     "total_pnl": -47.4,
-    "equity": 4923.18,
-    "unrealized": -13.01,
+    "equity": 4922.39,
+    "unrealized": -13.8,
     "closed_this_cycle": 0
   }
 }
