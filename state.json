@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T18:31:19.514940+00:00",
+  "cycle_at": "2026-07-12T18:32:19.512133+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4908.29
     },
-    "equity": 4910.8,
+    "equity": 4911.25,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 2.5,
+    "unrealized_pnl": 2.95,
     "realized_today": 0,
-    "updated_at": "2026-07-12T18:31:19.514940+00:00"
+    "updated_at": "2026-07-12T18:32:19.512133+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 77.37,
+      "current": 77.39,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -7.55,
-      "pnl_pct": -0.755,
+      "unrealized": -7.81,
+      "pnl_pct": -0.781,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 579.34,
+      "current": 579.33,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 6.29,
-      "pnl_pct": 0.631,
+      "unrealized": 6.31,
+      "pnl_pct": 0.633,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.1641,
+      "current": 0.164,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": 3.03,
-      "pnl_pct": 0.304,
+      "unrealized": 3.63,
+      "pnl_pct": 0.365,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -579,17 +579,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 1.0986,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1783881000000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-12T18:17:14.172578+00:00",
     "model": "deepseek-chat",
@@ -643,8 +633,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4910.8,
-    "unrealized": 2.5,
+    "equity": 4911.25,
+    "unrealized": 2.95,
     "closed_this_cycle": 0
   }
 }
