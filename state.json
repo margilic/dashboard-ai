@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T15:18:18.181866+00:00",
+  "cycle_at": "2026-07-12T15:18:59.318587+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4908.23
     },
-    "equity": 4903.54,
+    "equity": 4903.89,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -4.69,
+    "unrealized_pnl": -4.34,
     "realized_today": 0,
-    "updated_at": "2026-07-12T15:18:08.043995+00:00"
+    "updated_at": "2026-07-12T15:18:59.318587+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 580.48,
+      "current": 580.47,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 4.34,
-      "pnl_pct": 0.436,
+      "unrealized": 4.36,
+      "pnl_pct": 0.437,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -128,7 +128,7 @@
       "opened_at": 1783849519,
       "closed_at": 1783858520,
       "duration_s": 9001,
-      "algo_version": "2.0",
+      "algo_version": "1.0",
       "trade_no": 23,
       "trade_id": "T0023",
       "id": "BNBUSDT-1783858520-23",
@@ -584,9 +584,9 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1820.65,
-      "strength": 81.23978201635032,
-      "note": "RSI 78.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1820.42,
+      "strength": 79.40351470091382,
+      "note": "RSI 78.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783869300000
     }
   ],
@@ -643,8 +643,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4903.54,
-    "unrealized": -4.69,
+    "equity": 4903.89,
+    "unrealized": -4.34,
     "closed_this_cycle": 0
   }
 }
