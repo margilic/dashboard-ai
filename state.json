@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T09:32:15.748368+00:00",
+  "cycle_at": "2026-07-12T09:33:15.746339+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4924.07,
-      "locked": 11.95
+      "free": 4925.86,
+      "locked": 10.16
     },
-    "equity": 4924.53,
+    "equity": 4926.12,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -11.49,
+    "unrealized_pnl": -9.91,
     "realized_today": 0,
-    "updated_at": "2026-07-12T09:32:15.748368+00:00"
+    "updated_at": "2026-07-12T09:33:15.746339+00:00"
   },
   "open_positions": [
     {
@@ -111,6 +111,82 @@
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "entry": 0.07345,
+      "exit": 0.07286,
+      "qty": 13610.0,
+      "pnl": -8.0299,
+      "opened_at": 1783812733,
+      "closed_at": 1783848799,
+      "duration_s": 36066,
+      "trade_no": 22,
+      "trade_id": "T0022",
+      "id": "DOGEUSDT-1783848799-22",
+      "pnl_pct": -0.803,
+      "notional": 999.65,
+      "strategy": "live",
+      "exit_reason": "SL",
+      "opened_iso": "2026-07-11T23:32:13+00:00"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "entry": 575.8,
+      "exit": 573.43,
+      "qty": 1.73,
+      "pnl": -4.1001,
+      "opened_at": 1783812733,
+      "closed_at": 1783848799,
+      "duration_s": 36066,
+      "trade_no": 21,
+      "trade_id": "T0021",
+      "id": "BNBUSDT-1783848799-21",
+      "pnl_pct": -0.412,
+      "notional": 996.13,
+      "strategy": "live",
+      "exit_reason": "SL",
+      "opened_iso": "2026-07-11T23:32:13+00:00"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry": 1794.88,
+      "exit": 1799.79,
+      "qty": 0.558,
+      "pnl": 2.7398,
+      "opened_at": 1783812732,
+      "closed_at": 1783848798,
+      "duration_s": 36066,
+      "trade_no": 20,
+      "trade_id": "T0020",
+      "id": "ETHUSDT-1783848798-20",
+      "pnl_pct": 0.274,
+      "notional": 1001.54,
+      "strategy": "live",
+      "exit_reason": "TP",
+      "opened_iso": "2026-07-11T23:32:12+00:00"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry": 63886.0,
+      "exit": 63841.7,
+      "qty": 0.0156,
+      "pnl": -0.6911,
+      "opened_at": 1783812734,
+      "closed_at": 1783848798,
+      "duration_s": 36064,
+      "trade_no": 19,
+      "trade_id": "T0019",
+      "id": "BTCUSDT-1783848798-19",
+      "pnl_pct": -0.069,
+      "notional": 996.62,
+      "strategy": "live",
+      "exit_reason": "SL",
+      "opened_iso": "2026-07-11T23:32:14+00:00"
+    },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
@@ -459,9 +535,9 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 76.6,
-      "strength": 57.40875912408792,
-      "note": "RSI 70.8 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 76.65,
+      "strength": 60.4929577464799,
+      "note": "RSI 71.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783848600000
     }
   ],
@@ -513,13 +589,13 @@
   },
   "stats": {
     "open": 4,
-    "total_trades": 18,
-    "wins": 8,
-    "losses": 10,
-    "win_rate": 44.4,
-    "total_pnl": -47.4,
-    "equity": 4924.53,
-    "unrealized": -11.49,
+    "total_trades": 22,
+    "wins": 9,
+    "losses": 13,
+    "win_rate": 40.9,
+    "total_pnl": -57.48,
+    "equity": 4926.12,
+    "unrealized": -9.91,
     "closed_this_cycle": 0
   }
 }
