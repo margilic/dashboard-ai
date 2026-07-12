@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T19:39:19.967433+00:00",
+  "cycle_at": "2026-07-12T19:40:19.979448+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4908.29
     },
-    "equity": 4910.47,
+    "equity": 4911.18,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 2.18,
+    "unrealized_pnl": 2.88,
     "realized_today": 0,
-    "updated_at": "2026-07-12T19:39:19.967433+00:00"
+    "updated_at": "2026-07-12T19:40:19.979448+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 77.48,
+      "current": 77.46,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -8.98,
-      "pnl_pct": -0.899,
+      "unrealized": -8.72,
+      "pnl_pct": -0.873,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 579.06,
+      "current": 578.97,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 6.77,
-      "pnl_pct": 0.679,
+      "unrealized": 6.93,
+      "pnl_pct": 0.695,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.164,
+      "current": 0.1639,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": 3.63,
-      "pnl_pct": 0.365,
+      "unrealized": 4.24,
+      "pnl_pct": 0.425,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -581,21 +581,21 @@
   ],
   "signals": [
     {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.456,
-      "strength": 64.68503937007807,
-      "note": "RSI 73.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783884600000
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 579.06,
-      "strength": 61.82464454976288,
-      "note": "RSI 27.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 578.97,
+      "strength": 63.56148491879168,
+      "note": "RSI 27.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783884600000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.454,
+      "strength": 61.279069767440134,
+      "note": "RSI 72.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783884600000
     }
   ],
@@ -652,8 +652,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4910.47,
-    "unrealized": 2.18,
+    "equity": 4911.18,
+    "unrealized": 2.88,
     "closed_this_cycle": 0
   }
 }
