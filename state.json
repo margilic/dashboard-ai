@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T01:53:12.606350+00:00",
+  "cycle_at": "2026-07-12T01:54:12.611239+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4952.78
     },
-    "equity": 4952.01,
+    "equity": 4952.73,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -0.77,
+    "unrealized_pnl": -0.05,
     "realized_today": 0,
-    "updated_at": "2026-07-12T01:53:12.606350+00:00"
+    "updated_at": "2026-07-12T01:54:12.611239+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1794.88,
-      "current": 1807.67,
+      "current": 1807.27,
       "qty": 0.558,
       "notional": 1001.5430400000001,
-      "unrealized": 7.14,
-      "pnl_pct": 0.713,
+      "unrealized": 6.91,
+      "pnl_pct": 0.69,
       "sl": 1767.9568,
       "tp": 1830.7776,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 64139.27,
+      "current": 64130.0,
       "qty": 0.0156,
       "notional": 996.6216,
-      "unrealized": 3.95,
-      "pnl_pct": 0.396,
+      "unrealized": 3.81,
+      "pnl_pct": 0.382,
       "sl": 62927.71,
       "tp": 65163.72,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 574.13,
+      "current": 574.05,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -2.89,
-      "pnl_pct": -0.29,
+      "unrealized": -3.03,
+      "pnl_pct": -0.304,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -466,21 +466,21 @@
       "ts": 1783820700000
     },
     {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 574.05,
+      "strength": 69.71655328798276,
+      "note": "RSI 25.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783820700000
+    },
+    {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
       "price": 1.0981,
       "strength": 69.67532467532398,
       "note": "RSI 25.1 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783820700000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 574.13,
-      "strength": 68.36589030803925,
-      "note": "RSI 25.5 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783820700000
     },
     {
@@ -505,9 +505,9 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 76.82,
-      "strength": 57.08791208791317,
-      "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 76.81,
+      "strength": 57.40875912408839,
+      "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783820700000
     }
   ],
@@ -564,8 +564,8 @@
     "losses": 9,
     "win_rate": 47.1,
     "total_pnl": -31.2,
-    "equity": 4952.01,
-    "unrealized": -0.77,
+    "equity": 4952.73,
+    "unrealized": -0.05,
     "closed_this_cycle": 0
   }
 }
