@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T11:37:16.615286+00:00",
+  "cycle_at": "2026-07-12T11:38:16.618631+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4923.15
     },
-    "equity": 4917.13,
+    "equity": 4917.5,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.02,
+    "unrealized_pnl": -5.66,
     "realized_today": 0,
-    "updated_at": "2026-07-12T11:37:16.615286+00:00"
+    "updated_at": "2026-07-12T11:38:16.618631+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 76.96,
+      "current": 76.95,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -2.21,
-      "pnl_pct": -0.221,
+      "unrealized": -2.08,
+      "pnl_pct": -0.208,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 574.9300000000001,
-      "current": 577.85,
+      "current": 577.81,
       "qty": 1.73,
       "notional": 994.6289,
-      "unrealized": -5.05,
-      "pnl_pct": -0.508,
+      "unrealized": -4.98,
+      "pnl_pct": -0.501,
       "sl": 583.55395,
       "tp": 563.4314,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.1646,
+      "current": 0.1647,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -0.61,
+      "pnl_pct": -0.061,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -515,7 +515,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1806.1,
+      "price": 1806.12,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783855800000
@@ -524,7 +524,7 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.07322,
+      "price": 0.07319,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783855800000
@@ -533,9 +533,9 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 577.85,
-      "strength": 67.95454545454535,
-      "note": "RSI 74.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 577.81,
+      "strength": 67.60273972602664,
+      "note": "RSI 74.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783855800000
     }
   ],
@@ -592,8 +592,8 @@
     "losses": 13,
     "win_rate": 40.9,
     "total_pnl": -57.48,
-    "equity": 4917.13,
-    "unrealized": -6.02,
+    "equity": 4917.5,
+    "unrealized": -5.66,
     "closed_this_cycle": 0
   }
 }
