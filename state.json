@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T14:15:17.740339+00:00",
+  "cycle_at": "2026-07-12T14:16:17.719996+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4908.23
     },
-    "equity": 4913.45,
+    "equity": 4913.68,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 5.22,
+    "unrealized_pnl": 5.44,
     "realized_today": 0,
-    "updated_at": "2026-07-12T14:15:17.740339+00:00"
+    "updated_at": "2026-07-12T14:16:17.719996+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 580.16,
+      "current": 579.79,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 4.89,
-      "pnl_pct": 0.491,
+      "unrealized": 5.52,
+      "pnl_pct": 0.554,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -529,59 +529,49 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 580.16,
-      "strength": 55.633802816900356,
-      "note": "RSI 70.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783865700000
-    }
-  ],
+  "signals": [],
   "swarm": {
-    "updated_at": "2026-07-12T12:21:45.596592+00:00",
+    "updated_at": "2026-07-12T14:16:01.785392+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 11.2,
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 49.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik puan (+11.2) zay\u0131f, sinyaller birbiriyle \u00e7eli\u015fkili, likidasyon riski y\u00fcksek.",
+        "rationale": "Funding sa\u011fl\u0131kl\u0131, $62.8K'da birikim var, ancak likidasyon riski ve stablecoin arz\u0131 daral\u0131yor",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783857736.784007,
-        "at": "2026-07-12T12:02:16.784007+00:00"
+        "ts": 1783864937.62897,
+        "at": "2026-07-12T14:02:17.628970+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 33.0,
+        "conviction": "LOW",
+        "score": 59.0,
         "sl": null,
         "tp": null,
-        "rationale": "Fonlama n\u00f6tr, zincir \u00fcst\u00fc ak\u0131\u015flar hafif bullish, likidasyon yap\u0131s\u0131 orta destek. Genel e\u011filim hafif y\u00fckseli\u015f.",
+        "rationale": "Kar\u0131\u015f\u0131k sinyaller, hafif y\u00fckseli\u015f e\u011filimi. Fonlama ve baz olumlu, likidasyon riski a\u015fa\u011f\u0131 y\u00f6nl\u00fc, zincir \u00fcst\u00fc birikim devam ediyor.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783857736.784007,
-        "at": "2026-07-12T12:02:16.784007+00:00"
+        "ts": 1783864937.62897,
+        "at": "2026-07-12T14:02:17.628970+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -5.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "Kar\u0131\u015f\u0131k sinyaller net bir y\u00f6n vermiyor, beklenmesi \u00f6nerilir.",
-        "extract_model": "deepseek-v4-flash",
+        "direction": "LONG",
+        "conviction": "HIGH",
+        "score": 72.0,
+        "sl": 74.5,
+        "tp": 82.5,
+        "rationale": "T\u00fcm boyutlar olumlu hizaland\u0131: fonlama sa\u011fl\u0131kl\u0131, k\u0131sa s\u0131k\u0131\u015fma potansiyeli y\u00fcksek, y\u00fcksek zaman dilimi trendi bozulmad\u0131. D\u00fczeltme al\u0131m\u0131 \u00f6nerilir.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783857736.784007,
-        "at": "2026-07-12T12:02:16.784007+00:00"
+        "ts": 1783864937.62897,
+        "at": "2026-07-12T14:02:17.628970+00:00"
       }
     },
     "gated_this_cycle": []
@@ -593,8 +583,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4913.45,
-    "unrealized": 5.22,
+    "equity": 4913.68,
+    "unrealized": 5.44,
     "closed_this_cycle": 0
   }
 }
