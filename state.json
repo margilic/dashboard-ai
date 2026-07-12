@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T14:35:17.848489+00:00",
+  "cycle_at": "2026-07-12T14:36:17.860316+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -26,7 +26,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.96,
     "realized_today": 0,
-    "updated_at": "2026-07-12T14:35:17.848489+00:00"
+    "updated_at": "2026-07-12T14:36:17.860316+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 580.77,
+      "current": 580.95,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 3.85,
-      "pnl_pct": 0.386,
+      "unrealized": 3.54,
+      "pnl_pct": 0.355,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -531,21 +531,21 @@
   ],
   "signals": [
     {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.447,
-      "strength": 62.98561151079011,
-      "note": "RSI 72.7 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783866600000
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 580.77,
-      "strength": 62.7717019822274,
-      "note": "RSI 72.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 580.95,
+      "strength": 65.1929703652645,
+      "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783866600000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.45,
+      "strength": 64.71830985915372,
+      "note": "RSI 73.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     },
     {
@@ -558,12 +558,21 @@
       "ts": 1783866600000
     },
     {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 64047.99,
+      "strength": 55.9744694690623,
+      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783866600000
+    },
+    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1808.45,
-      "strength": 56.187399030695516,
-      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1808.39,
+      "strength": 55.97165991902938,
+      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     }
   ],
