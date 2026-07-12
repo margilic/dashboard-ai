@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T15:15:18.165321+00:00",
+  "cycle_at": "2026-07-12T15:15:48.207884+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -16,17 +16,41 @@
     "ARBUSDT"
   ],
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
+  "algo": {
+    "active_version": "2.0",
+    "active_name": "Regime-Filtered Adaptive Scalp",
+    "active_date": "2026-07-12",
+    "active_desc": "v1.0 \u00fczerine 3 katman: (1) ADX+EMA200 rejim filtresi \u2014 trend'de sadece trend-y\u00f6n\u00fc momentum, range'de sadece mean-reversion; (2) funding-rate bias\u0131 \u2014 a\u015f\u0131r\u0131 funding'de kalabal\u0131k y\u00f6nde yeni i\u015flem a\u00e7maz; (3) ATR-tabanl\u0131 dinamik SL/TP (R:R 2.0) sabit y\u00fczde yerine. Ama\u00e7: d\u00fc\u015f\u00fck WR + ters R:R kaynakl\u0131 negatif beklentiyi k\u0131rmak.",
+    "registry": {
+      "1.0": {
+        "date": "2026-07-10",
+        "name": "Baseline Scalp",
+        "desc": "RSI Reversal + EMA Cross sinyalleri, sabit %2.0 TP / %1.5 SL, swarm-desk y\u00f6n kap\u0131s\u0131. Rejim/funding/ATR filtresi YOK \u2014 y\u00f6n trend'e kar\u015f\u0131 a\u00e7\u0131labiliyordu, R:R sabit ve ger\u00e7ekle\u015fen kazan\u00e7lar erken kesiliyordu."
+      },
+      "2.0": {
+        "date": "2026-07-12",
+        "name": "Regime-Filtered Adaptive Scalp",
+        "desc": "v1.0 \u00fczerine 3 katman: (1) ADX+EMA200 rejim filtresi \u2014 trend'de sadece trend-y\u00f6n\u00fc momentum, range'de sadece mean-reversion; (2) funding-rate bias\u0131 \u2014 a\u015f\u0131r\u0131 funding'de kalabal\u0131k y\u00f6nde yeni i\u015flem a\u00e7maz; (3) ATR-tabanl\u0131 dinamik SL/TP (R:R 2.0) sabit y\u00fczde yerine. Ama\u00e7: d\u00fc\u015f\u00fck WR + ters R:R kaynakl\u0131 negatif beklentiyi k\u0131rmak."
+      }
+    },
+    "filters": {
+      "regime_filter": true,
+      "funding_bias": true,
+      "atr_dynamic_sl_tp": true,
+      "rr_target": 2.0
+    }
+  },
   "balance": {
     "USD": {
       "free": 0.0,
       "locked": 4908.23
     },
-    "equity": 4901.85,
+    "equity": 4901.83,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.38,
+    "unrealized_pnl": -6.4,
     "realized_today": 0,
-    "updated_at": "2026-07-12T15:15:18.165321+00:00"
+    "updated_at": "2026-07-12T15:15:48.207884+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 77.53,
+      "current": 77.51,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -9.63,
-      "pnl_pct": -0.964,
+      "unrealized": -9.37,
+      "pnl_pct": -0.938,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -58,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 580.7,
+      "current": 580.69,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 3.97,
-      "pnl_pct": 0.398,
+      "unrealized": 3.98,
+      "pnl_pct": 0.4,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -79,11 +103,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.1648,
+      "current": 0.1649,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": -1.21,
-      "pnl_pct": -0.122,
+      "unrealized": -1.82,
+      "pnl_pct": -0.182,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -537,18 +561,18 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1821.84,
-      "strength": 91.21938232161895,
-      "note": "RSI 82.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1821.17,
+      "strength": 85.49930651872543,
+      "note": "RSI 80.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783869300000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 77.53,
-      "strength": 65.16129032258232,
-      "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 77.51,
+      "strength": 61.6666666666689,
+      "note": "RSI 72.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783869300000
     }
   ],
@@ -605,8 +629,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4901.85,
-    "unrealized": -6.38,
+    "equity": 4901.83,
+    "unrealized": -6.4,
     "closed_this_cycle": 0
   }
 }
