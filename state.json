@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T09:02:15.552146+00:00",
+  "cycle_at": "2026-07-12T09:03:15.555732+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4934.03,
-      "locked": 2.0
+      "free": 4933.39,
+      "locked": 2.64
     },
-    "equity": 4934.04,
+    "equity": 4933.39,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.98,
+    "unrealized_pnl": -2.63,
     "realized_today": 0,
-    "updated_at": "2026-07-12T09:02:15.552146+00:00"
+    "updated_at": "2026-07-12T09:03:15.555732+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1794.88,
-      "current": 1805.9,
+      "current": 1804.33,
       "qty": 0.558,
       "notional": 1001.5430400000001,
-      "unrealized": 6.15,
-      "pnl_pct": 0.614,
+      "unrealized": 5.27,
+      "pnl_pct": 0.526,
       "sl": 1767.9568,
       "tp": 1830.7776,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 63989.71,
+      "current": 63965.72,
       "qty": 0.0156,
       "notional": 996.6216,
-      "unrealized": 1.62,
-      "pnl_pct": 0.162,
+      "unrealized": 1.24,
+      "pnl_pct": 0.125,
       "sl": 62927.71,
       "tp": 65163.72,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 573.89,
+      "current": 573.71,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -3.3,
-      "pnl_pct": -0.332,
+      "unrealized": -3.62,
+      "pnl_pct": -0.363,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.07345,
-      "current": 0.07306,
+      "current": 0.07302,
       "qty": 13610.0,
       "notional": 999.6545,
-      "unrealized": -5.31,
-      "pnl_pct": -0.531,
+      "unrealized": -5.85,
+      "pnl_pct": -0.585,
       "sl": 0.072348,
       "tp": 0.074919,
       "note": "adopted from Binance (orphan)",
@@ -456,24 +456,6 @@
   ],
   "signals": [
     {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 63989.71,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783846800000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 76.75,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1783846800000
-    },
-    {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
@@ -536,8 +518,8 @@
     "losses": 10,
     "win_rate": 44.4,
     "total_pnl": -47.4,
-    "equity": 4934.04,
-    "unrealized": -1.98,
+    "equity": 4933.39,
+    "unrealized": -2.63,
     "closed_this_cycle": 0
   }
 }
