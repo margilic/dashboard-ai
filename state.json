@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T19:46:20.017966+00:00",
+  "cycle_at": "2026-07-12T19:47:20.030915+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -43,37 +43,16 @@
   "balance": {
     "USD": {
       "free": 0.0,
-      "locked": 4908.29
+      "locked": 4902.89
     },
-    "equity": 4910.35,
+    "equity": 4909.38,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 2.05,
+    "unrealized_pnl": 6.49,
     "realized_today": 0,
-    "updated_at": "2026-07-12T19:46:20.017966+00:00"
+    "updated_at": "2026-07-12T19:47:20.030915+00:00"
   },
   "open_positions": [
-    {
-      "id": "SOLUSDT-1783849575",
-      "trade_no": 27,
-      "trade_id": "T0027",
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "adopted",
-      "entry": 76.79,
-      "current": 77.49,
-      "qty": 13.01,
-      "notional": 999.0379,
-      "unrealized": -9.11,
-      "pnl_pct": -0.912,
-      "sl": 77.94185,
-      "tp": 75.2542,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783849575.837674,
-      "opened_iso": "2026-07-12T09:46:15.837674+00:00",
-      "swarm_aligned": false,
-      "algo_version": "1.0"
-    },
     {
       "id": "BNBUSDT-1783858636",
       "trade_no": 30,
@@ -92,27 +71,6 @@
       "note": "adopted from Binance (orphan)",
       "opened_at": 1783858636.905315,
       "opened_iso": "2026-07-12T12:17:16.905315+00:00",
-      "swarm_aligned": false,
-      "algo_version": "1.0"
-    },
-    {
-      "id": "ADAUSDT-1783849575",
-      "trade_no": 29,
-      "trade_id": "T0029",
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "adopted",
-      "entry": 0.16460000000000002,
-      "current": 0.164,
-      "qty": 6056.0,
-      "notional": 996.8176000000002,
-      "unrealized": 3.63,
-      "pnl_pct": 0.365,
-      "sl": 0.167069,
-      "tp": 0.161308,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783849575.837674,
-      "opened_iso": "2026-07-12T09:46:15.837674+00:00",
       "swarm_aligned": false,
       "algo_version": "1.0"
     }
@@ -677,14 +635,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
+    "open": 1,
     "total_trades": 25,
     "wins": 10,
     "losses": 15,
     "win_rate": 40.0,
     "total_pnl": -76.2,
-    "equity": 4910.35,
-    "unrealized": 2.05,
+    "equity": 4909.38,
+    "unrealized": 6.49,
     "closed_this_cycle": 0
   }
 }
