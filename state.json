@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T18:16:19.401165+00:00",
+  "cycle_at": "2026-07-12T18:17:19.413458+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4908.29
     },
-    "equity": 4912.13,
+    "equity": 4911.39,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 3.84,
+    "unrealized_pnl": 3.09,
     "realized_today": 0,
-    "updated_at": "2026-07-12T18:16:19.401165+00:00"
+    "updated_at": "2026-07-12T18:17:19.413458+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 77.37,
+      "current": 77.36,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -7.55,
-      "pnl_pct": -0.755,
+      "unrealized": -7.42,
+      "pnl_pct": -0.742,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 579.37,
+      "current": 579.36,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 6.24,
-      "pnl_pct": 0.626,
+      "unrealized": 6.26,
+      "pnl_pct": 0.628,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -581,47 +581,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-12T16:13:19.816062+00:00",
+    "updated_at": "2026-07-12T18:17:14.172578+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 0.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "S\u00fcre\u00e7 ba\u015far\u0131s\u0131z oldu, karar al\u0131namad\u0131.",
-        "extract_model": "deepseek-v4-flash",
-        "target": "BTC-USDT",
-        "ts": 1783872138.48462,
-        "at": "2026-07-12T16:02:18.484620+00:00"
-      },
-      "ETHUSDT": {
-        "direction": "SHORT",
-        "conviction": "LOW",
-        "score": -17.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "Temkinli d\u00fc\u015f\u00fc\u015f: organik ralli ile zincir \u00fcst\u00fc da\u011f\u0131t\u0131m aras\u0131nda uyumsuzluk.",
-        "extract_model": "deepseek-v4-flash",
-        "target": "ETH-USDT",
-        "ts": 1783872138.48462,
-        "at": "2026-07-12T16:02:18.484620+00:00"
-      },
-      "SOLUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 41.0,
+        "score": 66.0,
         "sl": null,
         "tp": null,
-        "rationale": "Funding flat ve on-chain ak\u0131\u015flar bo\u011fa sinyali verirken, a\u015f\u0131r\u0131 long pozisyonlanma risk olu\u015fturuyor. Kompozit skor hafif bo\u011fa, ancak temkinli olunmal\u0131.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Sinyaller tutarl\u0131 bullish: fonlama d\u00fc\u015f\u00fck pozitif, organik y\u00fckseli\u015f, zincir \u00fcst\u00fc birikim, orta likidasyon riski.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "BTC-USDT",
+        "ts": 1783879339.304564,
+        "at": "2026-07-12T18:02:19.304564+00:00"
+      },
+      "ETHUSDT": {
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": -2.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Spot-driven rally without leverage; DeFi TVL reversal; tight risk management due to liquidation clusters below.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "ETH-USDT",
+        "ts": 1783879339.304564,
+        "at": "2026-07-12T18:02:19.304564+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": -0.293,
+        "sl": null,
+        "tp": null,
+        "rationale": "T\u00fcm boyutlar d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc: fonlama n\u00f6tr, likidasyon kaskad riski, on-chain sermaye \u00e7\u0131k\u0131\u015f\u0131. Tutarl\u0131 d\u00fc\u015f\u00fc\u015f e\u011filimi.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783872138.48462,
-        "at": "2026-07-12T16:02:18.484620+00:00"
+        "ts": 1783879339.304564,
+        "at": "2026-07-12T18:02:19.304564+00:00"
       }
     },
     "gated_this_cycle": []
@@ -633,8 +633,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4912.13,
-    "unrealized": 3.84,
+    "equity": 4911.39,
+    "unrealized": 3.09,
     "closed_this_cycle": 0
   }
 }
