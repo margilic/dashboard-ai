@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T10:08:15.989563+00:00",
+  "cycle_at": "2026-07-12T10:09:15.997969+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4923.15
     },
-    "equity": 4926.73,
+    "equity": 4927.65,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 3.58,
+    "unrealized_pnl": 4.5,
     "realized_today": 0,
-    "updated_at": "2026-07-12T10:08:15.989563+00:00"
+    "updated_at": "2026-07-12T10:09:15.997969+00:00"
   },
   "open_positions": [
     {
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 574.9300000000001,
-      "current": 574.28,
+      "current": 574.39,
       "qty": 1.73,
       "notional": 994.6289,
-      "unrealized": 1.12,
-      "pnl_pct": 0.113,
+      "unrealized": 0.93,
+      "pnl_pct": 0.094,
       "sl": 583.55395,
       "tp": 563.4314,
       "note": "adopted from Binance (orphan)",
@@ -515,16 +515,16 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.403,
-      "strength": 85.9090909090908,
-      "note": "RSI 80.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.401,
+      "strength": 82.31343283582115,
+      "note": "RSI 79.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783850400000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 1800.7,
+      "price": 1800.19,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783850400000
@@ -583,8 +583,8 @@
     "losses": 13,
     "win_rate": 40.9,
     "total_pnl": -57.48,
-    "equity": 4926.73,
-    "unrealized": 3.58,
+    "equity": 4927.65,
+    "unrealized": 4.5,
     "closed_this_cycle": 0
   }
 }
