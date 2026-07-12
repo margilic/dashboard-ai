@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T07:05:14.775053+00:00",
+  "cycle_at": "2026-07-12T07:06:14.777999+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4920.79,
-      "locked": 15.4
+      "free": 4922.51,
+      "locked": 13.69
     },
-    "equity": 4920.96,
+    "equity": 4922.51,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -15.23,
+    "unrealized_pnl": -13.69,
     "realized_today": 0,
-    "updated_at": "2026-07-12T07:05:14.775053+00:00"
+    "updated_at": "2026-07-12T07:06:14.777999+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1794.88,
-      "current": 1796.85,
+      "current": 1797.54,
       "qty": 0.558,
       "notional": 1001.5430400000001,
-      "unrealized": 1.1,
-      "pnl_pct": 0.11,
+      "unrealized": 1.48,
+      "pnl_pct": 0.148,
       "sl": 1767.9568,
       "tp": 1830.7776,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 63798.23,
+      "current": 63801.99,
       "qty": 0.0156,
       "notional": 996.6216,
-      "unrealized": -1.37,
-      "pnl_pct": -0.137,
+      "unrealized": -1.31,
+      "pnl_pct": -0.131,
       "sl": 62927.71,
       "tp": 65163.72,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 572.18,
+      "current": 572.24,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -6.26,
-      "pnl_pct": -0.629,
+      "unrealized": -6.16,
+      "pnl_pct": -0.618,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.07345,
-      "current": 0.07297,
+      "current": 0.07299,
       "qty": 13610.0,
       "notional": 999.6545,
-      "unrealized": -6.53,
-      "pnl_pct": -0.654,
+      "unrealized": -6.26,
+      "pnl_pct": -0.626,
       "sl": 0.072348,
       "tp": 0.074919,
       "note": "adopted from Binance (orphan)",
@@ -456,15 +456,6 @@
   ],
   "signals": [
     {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 6.364,
-      "strength": 72.21311475409841,
-      "note": "RSI 24.3 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783839600000
-    },
-    {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
@@ -474,21 +465,30 @@
       "ts": 1783839600000
     },
     {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.37,
+      "strength": 67.82958199356905,
+      "note": "RSI 25.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783839600000
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1634,
-      "strength": 62.24137931034532,
-      "note": "RSI 27.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.1633,
+      "strength": 66.05263157894743,
+      "note": "RSI 26.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783839600000
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 63798.23,
-      "strength": 60.254962750450545,
-      "note": "RSI 28.2 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 63801.99,
+      "strength": 59.322736696614385,
+      "note": "RSI 28.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783839600000
     }
   ],
@@ -545,8 +545,8 @@
     "losses": 10,
     "win_rate": 44.4,
     "total_pnl": -47.4,
-    "equity": 4920.96,
-    "unrealized": -15.23,
+    "equity": 4922.51,
+    "unrealized": -13.69,
     "closed_this_cycle": 0
   }
 }
