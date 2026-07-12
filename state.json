@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T22:14:21.027615+00:00",
+  "cycle_at": "2026-07-12T22:15:21.033699+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4915.32,
-      "locked": -12.83
+      "free": 4916.02,
+      "locked": -13.53
     },
-    "equity": 4915.32,
+    "equity": 4916.02,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 12.83,
+    "unrealized_pnl": 13.53,
     "realized_today": 0,
-    "updated_at": "2026-07-12T22:14:21.027615+00:00"
+    "updated_at": "2026-07-12T22:15:21.033699+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0891,
-      "current": 1.088,
+      "current": 1.0884,
       "qty": 918.2,
       "notional": 1000.01162,
-      "unrealized": -1.01,
-      "pnl_pct": -0.101,
+      "unrealized": -0.64,
+      "pnl_pct": -0.064,
       "sl": 1.072763,
       "tp": 1.110882,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 574.08,
+      "current": 574.11,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 15.29,
-      "pnl_pct": 1.533,
+      "unrealized": 15.24,
+      "pnl_pct": 1.528,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -600,58 +600,67 @@
   ],
   "signals": [
     {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 574.08,
-      "strength": 88.35664335664272,
-      "note": "RSI 18.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783893600000
-    },
-    {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.088,
-      "strength": 83.7755102040771,
-      "note": "RSI 20.4 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783893600000
+      "price": 1.0884,
+      "strength": 91.87499999999699,
+      "note": "RSI 17.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783894500000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 574.11,
+      "strength": 89.01408450704425,
+      "note": "RSI 18.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783894500000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.07273,
-      "strength": 75.48780487804652,
-      "note": "RSI 23.2 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783893600000
+      "price": 0.07277,
+      "strength": 76.90184049079669,
+      "note": "RSI 22.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783894500000
     },
     {
-      "symbol": "ADAUSDT",
+      "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.162,
-      "strength": 73.2608695652175,
-      "note": "RSI 23.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783893600000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 63802.0,
-      "strength": 67.03610700323605,
-      "note": "RSI 26.0 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783893600000
+      "price": 6.398,
+      "strength": 74.99999999999895,
+      "note": "RSI 23.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783894500000
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 76.72,
-      "strength": 64.76744186046434,
-      "note": "RSI 26.7 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783893600000
+      "price": 76.7,
+      "strength": 72.2189349112412,
+      "note": "RSI 24.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783894500000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.1621,
+      "strength": 68.40425531914956,
+      "note": "RSI 25.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783894500000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 63814.39,
+      "strength": 66.7583961912418,
+      "note": "RSI 26.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783894500000
     }
   ],
   "swarm": {
@@ -707,8 +716,8 @@
     "losses": 15,
     "win_rate": 40.0,
     "total_pnl": -76.2,
-    "equity": 4915.32,
-    "unrealized": 12.83,
+    "equity": 4916.02,
+    "unrealized": 13.53,
     "closed_this_cycle": 0
   }
 }
