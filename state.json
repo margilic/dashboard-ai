@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T19:45:20.018864+00:00",
+  "cycle_at": "2026-07-12T19:46:20.017966+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4908.29
     },
-    "equity": 4910.42,
+    "equity": 4910.35,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 2.12,
+    "unrealized_pnl": 2.05,
     "realized_today": 0,
-    "updated_at": "2026-07-12T19:45:20.018864+00:00"
+    "updated_at": "2026-07-12T19:46:20.017966+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 579.0,
+      "current": 579.07,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 6.87,
-      "pnl_pct": 0.69,
+      "unrealized": 6.75,
+      "pnl_pct": 0.678,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -118,6 +118,46 @@
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "entry": 76.79,
+      "exit": 77.47,
+      "qty": 13.01,
+      "pnl": -8.8468,
+      "opened_at": 1783849519,
+      "closed_at": 1783885583,
+      "duration_s": 36064,
+      "algo_version": "1.0",
+      "trade_no": 25,
+      "trade_id": "T0025",
+      "id": "SOLUSDT-1783885583-25",
+      "pnl_pct": -0.886,
+      "notional": 999.04,
+      "strategy": "live",
+      "exit_reason": "SL",
+      "opened_iso": "2026-07-12T09:45:19+00:00"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "entry": 0.1646,
+      "exit": 0.1639,
+      "qty": 6056.0,
+      "pnl": 4.2392,
+      "opened_at": 1783849519,
+      "closed_at": 1783885583,
+      "duration_s": 36064,
+      "algo_version": "1.0",
+      "trade_no": 24,
+      "trade_id": "T0024",
+      "id": "ADAUSDT-1783885583-24",
+      "pnl_pct": 0.425,
+      "notional": 996.82,
+      "strategy": "live",
+      "exit_reason": "TP",
+      "opened_iso": "2026-07-12T09:45:19+00:00"
+    },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
@@ -584,9 +624,9 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 579.0,
-      "strength": 83.1679389312891,
-      "note": "RSI 20.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 579.07,
+      "strength": 78.99999999998892,
+      "note": "RSI 22.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783885500000
     }
   ],
@@ -638,13 +678,13 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 23,
-    "wins": 9,
-    "losses": 14,
-    "win_rate": 39.1,
-    "total_pnl": -71.6,
-    "equity": 4910.42,
-    "unrealized": 2.12,
+    "total_trades": 25,
+    "wins": 10,
+    "losses": 15,
+    "win_rate": 40.0,
+    "total_pnl": -76.2,
+    "equity": 4910.35,
+    "unrealized": 2.05,
     "closed_this_cycle": 0
   }
 }
