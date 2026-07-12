@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T16:12:18.564383+00:00",
+  "cycle_at": "2026-07-12T16:13:18.567277+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4908.29
     },
-    "equity": 4900.65,
+    "equity": 4903.52,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -7.64,
+    "unrealized_pnl": -4.78,
     "realized_today": 0,
-    "updated_at": "2026-07-12T16:12:18.564383+00:00"
+    "updated_at": "2026-07-12T16:13:18.567277+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 77.55,
+      "current": 77.48,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -9.89,
-      "pnl_pct": -0.99,
+      "unrealized": -8.98,
+      "pnl_pct": -0.899,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 581.51,
+      "current": 581.2,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 2.58,
-      "pnl_pct": 0.259,
+      "unrealized": 3.11,
+      "pnl_pct": 0.312,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.1646,
+      "current": 0.1644,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 1.21,
+      "pnl_pct": 0.122,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -581,47 +581,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-12T14:16:01.785392+00:00",
+    "updated_at": "2026-07-12T16:13:19.816062+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 49.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "Funding sa\u011fl\u0131kl\u0131, $62.8K'da birikim var, ancak likidasyon riski ve stablecoin arz\u0131 daral\u0131yor",
+        "rationale": "S\u00fcre\u00e7 ba\u015far\u0131s\u0131z oldu, karar al\u0131namad\u0131.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783864937.62897,
-        "at": "2026-07-12T14:02:17.628970+00:00"
+        "ts": 1783872138.48462,
+        "at": "2026-07-12T16:02:18.484620+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
+        "direction": "SHORT",
         "conviction": "LOW",
-        "score": 59.0,
+        "score": -17.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kar\u0131\u015f\u0131k sinyaller, hafif y\u00fckseli\u015f e\u011filimi. Fonlama ve baz olumlu, likidasyon riski a\u015fa\u011f\u0131 y\u00f6nl\u00fc, zincir \u00fcst\u00fc birikim devam ediyor.",
+        "rationale": "Temkinli d\u00fc\u015f\u00fc\u015f: organik ralli ile zincir \u00fcst\u00fc da\u011f\u0131t\u0131m aras\u0131nda uyumsuzluk.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783864937.62897,
-        "at": "2026-07-12T14:02:17.628970+00:00"
+        "ts": 1783872138.48462,
+        "at": "2026-07-12T16:02:18.484620+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 72.0,
-        "sl": 74.5,
-        "tp": 82.5,
-        "rationale": "T\u00fcm boyutlar olumlu hizaland\u0131: fonlama sa\u011fl\u0131kl\u0131, k\u0131sa s\u0131k\u0131\u015fma potansiyeli y\u00fcksek, y\u00fcksek zaman dilimi trendi bozulmad\u0131. D\u00fczeltme al\u0131m\u0131 \u00f6nerilir.",
+        "conviction": "MEDIUM",
+        "score": 41.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Funding flat ve on-chain ak\u0131\u015flar bo\u011fa sinyali verirken, a\u015f\u0131r\u0131 long pozisyonlanma risk olu\u015fturuyor. Kompozit skor hafif bo\u011fa, ancak temkinli olunmal\u0131.",
         "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783864937.62897,
-        "at": "2026-07-12T14:02:17.628970+00:00"
+        "ts": 1783872138.48462,
+        "at": "2026-07-12T16:02:18.484620+00:00"
       }
     },
     "gated_this_cycle": []
@@ -633,8 +633,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4900.65,
-    "unrealized": -7.64,
+    "equity": 4903.52,
+    "unrealized": -4.78,
     "closed_this_cycle": 0
   }
 }
