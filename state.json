@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T22:09:20.991975+00:00",
+  "cycle_at": "2026-07-12T22:10:20.990584+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4916.49,
-      "locked": -14.01
+      "free": 4916.13,
+      "locked": -13.64
     },
-    "equity": 4916.83,
+    "equity": 4916.61,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 14.35,
+    "unrealized_pnl": 14.12,
     "realized_today": 0,
-    "updated_at": "2026-07-12T22:09:20.991975+00:00"
+    "updated_at": "2026-07-12T22:10:20.990584+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0891,
-      "current": 1.0888,
+      "current": 1.0893,
       "qty": 918.2,
       "notional": 1000.01162,
-      "unrealized": -0.28,
-      "pnl_pct": -0.028,
+      "unrealized": 0.18,
+      "pnl_pct": 0.018,
       "sl": 1.072763,
       "tp": 1.110882,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 574.29,
+      "current": 574.56,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 14.93,
-      "pnl_pct": 1.497,
+      "unrealized": 14.47,
+      "pnl_pct": 1.451,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -603,54 +603,54 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 574.29,
-      "strength": 86.9354838709676,
-      "note": "RSI 19.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 574.56,
+      "strength": 85.0,
+      "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783893600000
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.0888,
-      "strength": 81.17021276595307,
-      "note": "RSI 21.3 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783893600000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.07275,
-      "strength": 74.62962962962773,
-      "note": "RSI 23.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1.0893,
+      "strength": 79.42622950819253,
+      "note": "RSI 21.9 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783893600000
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.162,
-      "strength": 73.2608695652175,
-      "note": "RSI 23.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.1619,
+      "strength": 74.78723404255359,
+      "note": "RSI 23.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783893600000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.07277,
+      "strength": 73.74999999999783,
+      "note": "RSI 23.8 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783893600000
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 63813.3,
-      "strength": 65.72446290589113,
-      "note": "RSI 26.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 63821.08,
+      "strength": 64.79544804109112,
+      "note": "RSI 26.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783893600000
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 76.77,
-      "strength": 62.36526946107719,
-      "note": "RSI 27.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 76.8,
+      "strength": 60.853658536584646,
+      "note": "RSI 28.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783893600000
     }
   ],
@@ -707,8 +707,8 @@
     "losses": 15,
     "win_rate": 40.0,
     "total_pnl": -76.2,
-    "equity": 4916.83,
-    "unrealized": 14.35,
+    "equity": 4916.61,
+    "unrealized": 14.12,
     "closed_this_cycle": 0
   }
 }
