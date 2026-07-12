@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T10:19:16.089462+00:00",
+  "cycle_at": "2026-07-12T10:20:16.090457+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4923.15
     },
-    "equity": 4926.05,
+    "equity": 4925.98,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 2.9,
+    "unrealized_pnl": 2.82,
     "realized_today": 0,
-    "updated_at": "2026-07-12T10:19:16.089462+00:00"
+    "updated_at": "2026-07-12T10:20:16.090457+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 76.74,
+      "current": 76.78,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": 0.65,
-      "pnl_pct": 0.065,
+      "unrealized": 0.13,
+      "pnl_pct": 0.013,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 574.9300000000001,
-      "current": 574.55,
+      "current": 574.62,
       "qty": 1.73,
       "notional": 994.6289,
-      "unrealized": 0.66,
-      "pnl_pct": 0.066,
+      "unrealized": 0.54,
+      "pnl_pct": 0.054,
       "sl": 583.55395,
       "tp": 563.4314,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.1643,
+      "current": 0.1644,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": 1.82,
-      "pnl_pct": 0.182,
+      "unrealized": 1.21,
+      "pnl_pct": 0.122,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -515,63 +515,81 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.409,
-      "strength": 83.88888888888997,
-      "note": "RSI 79.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.411,
+      "strength": 85.00000000000098,
+      "note": "RSI 80.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783851300000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 1.0952,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783851300000
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0956,
-      "strength": 64.23076923077001,
-      "note": "RSI 26.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0957,
+      "strength": 60.09433962264265,
+      "note": "RSI 28.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783851300000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 574.62,
+      "strength": 55.84695393759105,
+      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783851300000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-12T05:15:06.861630+00:00",
+    "updated_at": "2026-07-12T10:19:43.292738+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -14.0,
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 64.0,
         "sl": null,
         "tp": null,
-        "rationale": "On-chain ve likitasyon d\u00fc\u015f\u00fc\u015f e\u011filimli, fonlama hafif y\u00fckseli\u015f - bile\u015fik n\u00f6tr.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "BTC, ETF ak\u0131\u015flar\u0131n\u0131n tersine d\u00f6nmesi ve sa\u011fl\u0131kl\u0131 fonlama yap\u0131s\u0131yla desteklenen %10'luk toparlanma g\u00f6steriyor. Bask\u0131n sinyal kurumsal talep.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1783832533.961913,
-        "at": "2026-07-12T05:02:13.961913+00:00"
+        "ts": 1783850535.956504,
+        "at": "2026-07-12T10:02:15.956504+00:00"
       },
       "ETHUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": -0.12,
+        "score": -1.0,
         "sl": null,
         "tp": null,
-        "rationale": "Farkl\u0131 sinyaller, Pazar g\u00fcn\u00fc d\u00fc\u015f\u00fck likidite ve fiyat\u0131n diren\u00e7ten d\u00f6n\u00fc\u015f\u00fc.",
+        "rationale": "On-chain ak\u0131\u015f bo\u011fa, fonlama ve likidasyon yap\u0131s\u0131 ay\u0131; a\u011f\u0131rl\u0131kl\u0131 skor s\u0131f\u0131ra yak\u0131n, net y\u00f6n yok.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783832533.961913,
-        "at": "2026-07-12T05:02:13.961913+00:00"
+        "ts": 1783850535.956504,
+        "at": "2026-07-12T10:02:15.956504+00:00"
       },
       "SOLUSDT": {
-        "direction": "SHORT",
-        "conviction": "HIGH",
-        "score": -52.0,
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 57.0,
         "sl": null,
         "tp": null,
-        "rationale": "Beklenti d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde, s\u0131\u00e7ramalarda k\u0131sa pozisyon. Bile\u015fik sinyal -0.52, L/S oran\u0131 2.3-2.5x (kalabal\u0131k long), hacim d\u00fc\u015f\u00fcyor, 75.65 alt\u0131nda kaskad riski.",
+        "rationale": "D\u00fc\u015f\u00fck volatilite (9. y\u00fczdelik), negatif fonlama, d\u00fc\u015fen hacim ve y\u00fcksek stablecoin bakiyesi ile temkinli y\u00fckseli\u015f.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783832533.961913,
-        "at": "2026-07-12T05:02:13.961913+00:00"
+        "ts": 1783850535.956504,
+        "at": "2026-07-12T10:02:15.956504+00:00"
       }
     },
     "gated_this_cycle": []
@@ -583,8 +601,8 @@
     "losses": 13,
     "win_rate": 40.9,
     "total_pnl": -57.48,
-    "equity": 4926.05,
-    "unrealized": 2.9,
+    "equity": 4925.98,
+    "unrealized": 2.82,
     "closed_this_cycle": 0
   }
 }
