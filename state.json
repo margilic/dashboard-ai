@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T14:36:17.860316+00:00",
+  "cycle_at": "2026-07-12T14:37:17.862038+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4908.23
     },
-    "equity": 4909.19,
+    "equity": 4908.45,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 0.96,
+    "unrealized_pnl": 0.21,
     "realized_today": 0,
-    "updated_at": "2026-07-12T14:36:17.860316+00:00"
+    "updated_at": "2026-07-12T14:37:17.862038+00:00"
   },
   "open_positions": [
     {
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.1644,
+      "current": 0.1643,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": 1.21,
-      "pnl_pct": 0.122,
+      "unrealized": 1.82,
+      "pnl_pct": 0.182,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -531,21 +531,21 @@
   ],
   "signals": [
     {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.454,
+      "strength": 66.91780821917664,
+      "note": "RSI 74.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783866600000
+    },
+    {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "price": 580.95,
       "strength": 65.1929703652645,
       "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783866600000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.45,
-      "strength": 64.71830985915372,
-      "note": "RSI 73.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     },
     {
@@ -561,17 +561,17 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64047.99,
-      "strength": 55.9744694690623,
-      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 64054.31,
+      "strength": 57.10363650959275,
+      "note": "RSI 70.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1808.39,
-      "strength": 55.97165991902938,
+      "price": 1808.4,
+      "strength": 56.007689194659065,
       "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     }
@@ -629,8 +629,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4909.19,
-    "unrealized": 0.96,
+    "equity": 4908.45,
+    "unrealized": 0.21,
     "closed_this_cycle": 0
   }
 }
