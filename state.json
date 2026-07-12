@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T08:46:15.453232+00:00",
+  "cycle_at": "2026-07-12T08:47:15.456889+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -18,15 +18,15 @@
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "balance": {
     "USD": {
-      "free": 4932.9,
-      "locked": 3.13
+      "free": 4932.99,
+      "locked": 3.04
     },
-    "equity": 4933.06,
+    "equity": 4933.13,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -2.96,
+    "unrealized_pnl": -2.9,
     "realized_today": 0,
-    "updated_at": "2026-07-12T08:46:15.453232+00:00"
+    "updated_at": "2026-07-12T08:47:15.456889+00:00"
   },
   "open_positions": [
     {
@@ -57,7 +57,7 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63886.0,
-      "current": 64004.18,
+      "current": 64004.19,
       "qty": 0.0156,
       "notional": 996.6216,
       "unrealized": 1.84,
@@ -77,11 +77,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 575.8000000000001,
-      "current": 573.64,
+      "current": 573.63,
       "qty": 1.73,
       "notional": 996.1340000000001,
-      "unrealized": -3.74,
-      "pnl_pct": -0.375,
+      "unrealized": -3.75,
+      "pnl_pct": -0.377,
       "sl": 567.163,
       "tp": 587.316,
       "note": "adopted from Binance (orphan)",
@@ -97,11 +97,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.07345,
-      "current": 0.07302,
+      "current": 0.07304,
       "qty": 13610.0,
       "notional": 999.6545,
-      "unrealized": -5.85,
-      "pnl_pct": -0.585,
+      "unrealized": -5.58,
+      "pnl_pct": -0.558,
       "sl": 0.072348,
       "tp": 0.074919,
       "note": "adopted from Binance (orphan)",
@@ -459,9 +459,9 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0961,
-      "strength": 74.6875,
-      "note": "RSI 23.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0962,
+      "strength": 71.1538461538465,
+      "note": "RSI 24.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783845900000
     },
     {
@@ -527,8 +527,8 @@
     "losses": 10,
     "win_rate": 44.4,
     "total_pnl": -47.4,
-    "equity": 4933.06,
-    "unrealized": -2.96,
+    "equity": 4933.13,
+    "unrealized": -2.9,
     "closed_this_cycle": 0
   }
 }
