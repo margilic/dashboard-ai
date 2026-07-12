@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-12T14:39:17.870719+00:00",
+  "cycle_at": "2026-07-12T14:40:17.871666+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -21,12 +21,12 @@
       "free": 0.0,
       "locked": 4908.23
     },
-    "equity": 4908.43,
+    "equity": 4909.51,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 0.2,
+    "unrealized_pnl": 1.28,
     "realized_today": 0,
-    "updated_at": "2026-07-12T14:39:17.870719+00:00"
+    "updated_at": "2026-07-12T14:40:17.871666+00:00"
   },
   "open_positions": [
     {
@@ -37,11 +37,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 76.79,
-      "current": 77.2,
+      "current": 77.17,
       "qty": 13.01,
       "notional": 999.0379,
-      "unrealized": -5.33,
-      "pnl_pct": -0.534,
+      "unrealized": -4.94,
+      "pnl_pct": -0.495,
       "sl": 77.94185,
       "tp": 75.2542,
       "note": "adopted from Binance (orphan)",
@@ -57,11 +57,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 583.02,
-      "current": 580.71,
+      "current": 580.49,
       "qty": 1.71,
       "notional": 996.9641999999999,
-      "unrealized": 3.95,
-      "pnl_pct": 0.396,
+      "unrealized": 4.33,
+      "pnl_pct": 0.434,
       "sl": 591.7653,
       "tp": 571.3596,
       "note": "adopted from Binance (orphan)",
@@ -77,11 +77,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 0.16460000000000002,
-      "current": 0.1644,
+      "current": 0.1642,
       "qty": 6056.0,
       "notional": 996.8176000000002,
-      "unrealized": 1.21,
-      "pnl_pct": 0.122,
+      "unrealized": 2.42,
+      "pnl_pct": 0.243,
       "sl": 0.167069,
       "tp": 0.161308,
       "note": "adopted from Binance (orphan)",
@@ -534,45 +534,45 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.453,
-      "strength": 66.37931034482642,
-      "note": "RSI 73.8 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783866600000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 580.71,
-      "strength": 61.882232811436296,
-      "note": "RSI 72.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.45,
+      "strength": 64.71830985915372,
+      "note": "RSI 73.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 77.2,
-      "strength": 61.8067226890775,
-      "note": "RSI 72.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 77.17,
+      "strength": 59.65517241379489,
+      "note": "RSI 71.6 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783866600000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 580.49,
+      "strength": 58.68209255533159,
+      "note": "RSI 71.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64066.0,
-      "strength": 59.11847755750354,
-      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 64062.81,
+      "strength": 58.5778838943918,
+      "note": "RSI 71.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1808.79,
-      "strength": 57.390438247012526,
-      "note": "RSI 70.8 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1808.16,
+      "strength": 55.134859011034905,
+      "note": "RSI 70.0 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783866600000
     }
   ],
@@ -629,8 +629,8 @@
     "losses": 14,
     "win_rate": 39.1,
     "total_pnl": -71.6,
-    "equity": 4908.43,
-    "unrealized": 0.2,
+    "equity": 4909.51,
+    "unrealized": 1.28,
     "closed_this_cycle": 0
   }
 }
