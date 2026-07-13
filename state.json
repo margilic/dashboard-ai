@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T19:40:29.991036+00:00",
+  "cycle_at": "2026-07-13T19:41:29.983989+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4913.24,
-      "locked": -3.69
+      "free": 4914.22,
+      "locked": -4.67
     },
-    "equity": 4913.28,
+    "equity": 4914.7,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 3.73,
+    "unrealized_pnl": 5.15,
     "realized_today": 0,
-    "updated_at": "2026-07-13T19:40:29.991036+00:00"
+    "updated_at": "2026-07-13T19:41:29.983989+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.479,
-      "current": 6.465,
+      "current": 6.471,
       "qty": 154.0,
       "notional": 997.766,
-      "unrealized": -2.16,
-      "pnl_pct": -0.216,
+      "unrealized": -1.23,
+      "pnl_pct": -0.123,
       "sl": 6.381815,
       "tp": 6.60858,
       "note": "adopted from Binance (orphan)",
@@ -803,9 +803,9 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0908,
-      "strength": 65.4081632653058,
-      "note": "RSI 26.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0909,
+      "strength": 61.00000000000013,
+      "note": "RSI 28.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783971000000
     }
   ],
@@ -862,8 +862,8 @@
     "losses": 20,
     "win_rate": 42.9,
     "total_pnl": -61.58,
-    "equity": 4913.28,
-    "unrealized": 3.73,
+    "equity": 4914.7,
+    "unrealized": 5.15,
     "closed_this_cycle": 0
   }
 }
