@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T11:44:26.563181+00:00",
+  "cycle_at": "2026-07-13T11:45:26.563328+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4884.48,
-      "locked": 2.76
+      "free": 4883.89,
+      "locked": 3.35
     },
-    "equity": 4884.48,
+    "equity": 4883.98,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -2.76,
+    "unrealized_pnl": -3.26,
     "realized_today": 0,
-    "updated_at": "2026-07-13T11:44:26.563181+00:00"
+    "updated_at": "2026-07-13T11:45:26.563328+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1.0803,
-      "current": 1.0788,
+      "current": 1.0784,
       "qty": 925.1,
       "notional": 999.38553,
-      "unrealized": 1.39,
-      "pnl_pct": 0.139,
+      "unrealized": 1.76,
+      "pnl_pct": 0.176,
       "sl": 1.096504,
       "tp": 1.058694,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.633,
+      "current": 6.642,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": -4.68,
-      "pnl_pct": -0.47,
+      "unrealized": -6.04,
+      "pnl_pct": -0.606,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -738,17 +738,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 7.939,
-      "strength": 60.32258064516131,
-      "note": "RSI 28.2 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783942200000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-13T10:16:44.513754+00:00",
     "model": "deepseek-chat",
@@ -802,8 +792,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4884.48,
-    "unrealized": -2.76,
+    "equity": 4883.98,
+    "unrealized": -3.26,
     "closed_this_cycle": 0
   }
 }
