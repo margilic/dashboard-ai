@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T20:16:30.248925+00:00",
+  "cycle_at": "2026-07-13T20:17:30.250451+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -17,10 +17,10 @@
   ],
   "bridge_url": "https://cohen-still-minnesota-battery.trycloudflare.com",
   "algo": {
-    "active_version": "2.0",
-    "active_name": "Regime-Filtered Adaptive Scalp",
-    "active_date": "2026-07-12",
-    "active_desc": "v1.0 \u00fczerine 3 katman: (1) ADX+EMA200 rejim filtresi \u2014 trend'de sadece trend-y\u00f6n\u00fc momentum, range'de sadece mean-reversion; (2) funding-rate bias\u0131 \u2014 a\u015f\u0131r\u0131 funding'de kalabal\u0131k y\u00f6nde yeni i\u015flem a\u00e7maz; (3) ATR-tabanl\u0131 dinamik SL/TP (R:R 2.0) sabit y\u00fczde yerine. Ama\u00e7: d\u00fc\u015f\u00fck WR + ters R:R kaynakl\u0131 negatif beklentiyi k\u0131rmak.",
+    "active_version": "3.0",
+    "active_name": "Self-Learning Adaptive Engine",
+    "active_date": "2026-07-13",
+    "active_desc": "v2.0 \u00fczerine adaptif \u00f6\u011frenme katman\u0131: trade ge\u00e7mi\u015finden strateji baz\u0131nda win rate, PnL ve trend analizi yap\u0131p dinamik a\u011f\u0131rl\u0131kland\u0131rma. D\u00fc\u015f\u00fck performansl\u0131 stratejiler otomatik zay\u0131flat\u0131l\u0131r/disable edilir; y\u00fcksek performansl\u0131lar \u00f6nceliklendirilir. \u0130lk kez denenmemi\u015f stratejilere kontroll\u00fc ke\u015fif penceresi tan\u0131r.",
     "registry": {
       "1.0": {
         "date": "2026-07-10",
@@ -31,6 +31,11 @@
         "date": "2026-07-12",
         "name": "Regime-Filtered Adaptive Scalp",
         "desc": "v1.0 \u00fczerine 3 katman: (1) ADX+EMA200 rejim filtresi \u2014 trend'de sadece trend-y\u00f6n\u00fc momentum, range'de sadece mean-reversion; (2) funding-rate bias\u0131 \u2014 a\u015f\u0131r\u0131 funding'de kalabal\u0131k y\u00f6nde yeni i\u015flem a\u00e7maz; (3) ATR-tabanl\u0131 dinamik SL/TP (R:R 2.0) sabit y\u00fczde yerine. Ama\u00e7: d\u00fc\u015f\u00fck WR + ters R:R kaynakl\u0131 negatif beklentiyi k\u0131rmak."
+      },
+      "3.0": {
+        "date": "2026-07-13",
+        "name": "Self-Learning Adaptive Engine",
+        "desc": "v2.0 \u00fczerine adaptif \u00f6\u011frenme katman\u0131: trade ge\u00e7mi\u015finden strateji baz\u0131nda win rate, PnL ve trend analizi yap\u0131p dinamik a\u011f\u0131rl\u0131kland\u0131rma. D\u00fc\u015f\u00fck performansl\u0131 stratejiler otomatik zay\u0131flat\u0131l\u0131r/disable edilir; y\u00fcksek performansl\u0131lar \u00f6nceliklendirilir. \u0130lk kez denenmemi\u015f stratejilere kontroll\u00fc ke\u015fif penceresi tan\u0131r."
       }
     },
     "filters": {
@@ -42,15 +47,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4909.94,
-      "locked": -0.39
+      "free": 4908.72,
+      "locked": 0.83
     },
-    "equity": 4910.74,
+    "equity": 4909.5,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 1.19,
+    "unrealized_pnl": -0.04,
     "realized_today": 0,
-    "updated_at": "2026-07-13T20:16:30.248925+00:00"
+    "updated_at": "2026-07-13T20:17:30.250451+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +66,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0634,
+      "current": 1.0624,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 5.39,
-      "pnl_pct": 0.539,
+      "unrealized": 4.44,
+      "pnl_pct": 0.444,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +87,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.479,
-      "current": 6.453,
+      "current": 6.447,
       "qty": 154.0,
       "notional": 997.766,
-      "unrealized": -4.0,
-      "pnl_pct": -0.401,
+      "unrealized": -4.93,
+      "pnl_pct": -0.494,
       "sl": 6.381815,
       "tp": 6.60858,
       "note": "adopted from Binance (orphan)",
@@ -852,8 +857,8 @@
     "losses": 20,
     "win_rate": 42.9,
     "total_pnl": -61.58,
-    "equity": 4910.74,
-    "unrealized": 1.19,
+    "equity": 4909.5,
+    "unrealized": -0.04,
     "closed_this_cycle": 0
   }
 }
