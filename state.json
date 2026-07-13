@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T00:22:21.876276+00:00",
+  "cycle_at": "2026-07-13T00:23:21.882909+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4976.95,
-      "locked": -32.86
+      "free": 4980.12,
+      "locked": -36.03
     },
-    "equity": 4977.82,
+    "equity": 4980.15,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 33.73,
+    "unrealized_pnl": 36.05,
     "realized_today": 0,
-    "updated_at": "2026-07-13T00:22:21.876276+00:00"
+    "updated_at": "2026-07-13T00:23:21.882909+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63802.1,
-      "current": 64245.9,
+      "current": 64281.04,
       "qty": 0.0156,
       "notional": 995.3127599999999,
-      "unrealized": 6.92,
-      "pnl_pct": 0.696,
+      "unrealized": 7.47,
+      "pnl_pct": 0.751,
       "sl": 62845.0685,
       "tp": 65078.142,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 579.24,
+      "current": 579.78,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": 8.98,
-      "pnl_pct": 0.899,
+      "unrealized": 9.92,
+      "pnl_pct": 0.993,
       "sl": 565.4688,
       "tp": 585.5616,
       "note": "adopted from Binance (orphan)",
@@ -124,11 +124,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 0.1618,
-      "current": 0.1639,
+      "current": 0.164,
       "qty": 6195.0,
       "notional": 1002.351,
-      "unrealized": 13.01,
-      "pnl_pct": 1.298,
+      "unrealized": 13.63,
+      "pnl_pct": 1.36,
       "sl": 0.159373,
       "tp": 0.165036,
       "note": "adopted from Binance (orphan)",
@@ -705,7 +705,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 77.86,
+      "price": 77.89,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783901700000
@@ -714,7 +714,7 @@
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 8.112,
+      "price": 8.119,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1783901700000
@@ -773,8 +773,8 @@
     "losses": 15,
     "win_rate": 46.4,
     "total_pnl": -31.39,
-    "equity": 4977.82,
-    "unrealized": 33.73,
+    "equity": 4980.15,
+    "unrealized": 36.05,
     "closed_this_cycle": 0
   }
 }
