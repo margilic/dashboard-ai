@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T16:24:28.597295+00:00",
+  "cycle_at": "2026-07-13T16:25:28.617863+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4886.84
     },
-    "equity": 4908.81,
+    "equity": 4909.38,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 21.97,
+    "unrealized_pnl": 22.55,
     "realized_today": 0,
-    "updated_at": "2026-07-13T16:24:28.597295+00:00"
+    "updated_at": "2026-07-13T16:25:28.617863+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.507,
+      "current": 6.504,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": 14.35,
-      "pnl_pct": 1.439,
+      "unrealized": 14.8,
+      "pnl_pct": 1.484,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -761,7 +761,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-13T14:24:11.216495+00:00",
+    "updated_at": "2026-07-13T16:25:28.848564+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -769,39 +769,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -49.0,
+        "conviction": "LOW",
+        "score": -33.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller a\u011f\u0131rl\u0131kl\u0131 olarak bearish, funding ve likidasyon bask\u0131s\u0131 var, fakat on-chain ak\u0131\u015f hafif bullish. Genel e\u011filim d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde.",
+        "rationale": "D\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc sinyaller: fonlama n\u00f6tr-ay\u0131, tasfiye ve stablecoin \u00e7\u0131k\u0131\u015flar\u0131 zay\u0131flat\u0131c\u0131. Bile\u015fik skor 3.35/10 ile d\u00fc\u015f\u00fc\u015f e\u011filimi.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1783951347.583428,
-        "at": "2026-07-13T14:02:27.583428+00:00"
+        "ts": 1783958548.444261,
+        "at": "2026-07-13T16:02:28.444261+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 24.0,
+        "score": 55.0,
         "sl": null,
         "tp": null,
-        "rationale": "Flow analizi yap\u0131sal bo\u011fa tezi sunuyor, likidasyon riski stop ile y\u00f6netiliyor. Temkinli LONG.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Kar\u0131\u015f\u0131k sinyaller ancak net bullish, dip al\u0131m\u0131 tercih edilmeli, $1,795 \u00fczeri takip edilmemeli.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783951347.583428,
-        "at": "2026-07-13T14:02:27.583428+00:00"
+        "ts": 1783958548.444261,
+        "at": "2026-07-13T16:02:28.444261+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 15.0,
+        "direction": "SHORT",
+        "conviction": "HIGH",
+        "score": -69.5,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k: ak\u0131\u015f bullish, likitasyon bearish, fonlama n\u00f6tr. Beklenmesi tercih edilir.",
+        "rationale": "\u00dc\u00e7 sinyal tutarl\u0131 \u015fekilde bearish, y\u00fcksek g\u00fcvenle SHORT \u00f6neriliyor.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783951347.583428,
-        "at": "2026-07-13T14:02:27.583428+00:00"
+        "ts": 1783958548.444261,
+        "at": "2026-07-13T16:02:28.444261+00:00"
       }
     },
     "gated_this_cycle": []
@@ -813,8 +813,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4908.81,
-    "unrealized": 21.97,
+    "equity": 4909.38,
+    "unrealized": 22.55,
     "closed_this_cycle": 0
   }
 }
