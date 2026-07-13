@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T14:09:27.627019+00:00",
+  "cycle_at": "2026-07-13T14:10:27.633693+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4886.84
     },
-    "equity": 4901.89,
+    "equity": 4900.69,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 15.05,
+    "unrealized_pnl": 13.85,
     "realized_today": 0,
-    "updated_at": "2026-07-13T14:09:27.627019+00:00"
+    "updated_at": "2026-07-13T14:10:27.633693+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1.0803,
-      "current": 1.07,
+      "current": 1.0704,
       "qty": 925.1,
       "notional": 999.38553,
-      "unrealized": 9.53,
-      "pnl_pct": 0.953,
+      "unrealized": 9.16,
+      "pnl_pct": 0.916,
       "sl": 1.096504,
       "tp": 1.058694,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 7.933,
-      "current": 7.911,
+      "current": 7.909,
       "qty": 125.97,
       "notional": 999.32001,
-      "unrealized": -2.77,
-      "pnl_pct": -0.277,
+      "unrealized": -3.02,
+      "pnl_pct": -0.303,
       "sl": 7.814005,
       "tp": 8.09166,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.562,
+      "current": 6.571,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": 6.04,
-      "pnl_pct": 0.606,
+      "unrealized": 4.68,
+      "pnl_pct": 0.47,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -759,17 +759,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.1584,
-      "strength": 59.28571428571259,
-      "note": "RSI 28.6 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783951200000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-13T12:18:07.175887+00:00",
     "model": "deepseek-chat",
@@ -823,8 +813,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4901.89,
-    "unrealized": 15.05,
+    "equity": 4900.69,
+    "unrealized": 13.85,
     "closed_this_cycle": 0
   }
 }
