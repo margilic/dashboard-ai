@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T08:44:25.329202+00:00",
+  "cycle_at": "2026-07-13T08:45:25.339448+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -50,7 +50,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-13T08:44:25.329202+00:00"
+    "updated_at": "2026-07-13T08:45:25.339448+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -695,7 +695,26 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 1.0804,
+      "strength": 76.7073170731715,
+      "note": "RSI 77.2 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783932300000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 7.986,
+      "strength": 60.90909090908997,
+      "note": "RSI 72.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783932300000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-13T05:16:47.589376+00:00",
     "model": "deepseek-chat",
