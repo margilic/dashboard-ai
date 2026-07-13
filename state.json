@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T23:52:31.758064+00:00",
+  "cycle_at": "2026-07-13T23:53:31.755103+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 7.84,
     "realized_today": 0,
-    "updated_at": "2026-07-13T23:52:31.758064+00:00"
+    "updated_at": "2026-07-13T23:53:31.755103+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0665,
+      "current": 1.0663,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 8.32,
-      "pnl_pct": 0.832,
+      "unrealized": 8.13,
+      "pnl_pct": 0.813,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -820,52 +820,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 1776.8,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783986300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 567.09,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783986300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1776.8,
-      "strength": 26,
-      "note": "z=2.08",
-      "ts": 1783986300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 52.03908467600257
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 567.09,
-      "strength": 25,
-      "note": "z=2.01",
-      "ts": 1783986300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 50.29383062360067
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-13T22:16:40.180716+00:00",
     "model": "deepseek-chat",
