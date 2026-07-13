@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T08:19:25.170393+00:00",
+  "cycle_at": "2026-07-13T08:20:25.170498+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,39 +42,17 @@
   },
   "balance": {
     "USD": {
-      "free": 0.0,
-      "locked": 4895.1
+      "free": 4888.04,
+      "locked": 0.0
     },
-    "equity": 4888.45,
+    "equity": 4888.04,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.65,
+    "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-13T08:19:25.170393+00:00"
+    "updated_at": "2026-07-13T08:20:25.170498+00:00"
   },
-  "open_positions": [
-    {
-      "id": "BNBUSDT-1783894761",
-      "trade_no": 34,
-      "trade_id": "T0034",
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "adopted",
-      "entry": 574.08,
-      "current": 570.06,
-      "qty": 1.74,
-      "notional": 998.8992000000001,
-      "unrealized": -6.99,
-      "pnl_pct": -0.7,
-      "sl": 565.4688,
-      "tp": 585.5616,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783894761.054432,
-      "opened_iso": "2026-07-12T22:19:21.054432+00:00",
-      "swarm_aligned": false,
-      "algo_version": "2.0"
-    }
-  ],
+  "open_positions": [],
   "recent_trades": [
     {
       "symbol": "BNBUSDT",
@@ -765,14 +743,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 1,
+    "open": 0,
     "total_trades": 32,
     "wins": 13,
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4888.45,
-    "unrealized": -6.65,
+    "equity": 4888.04,
+    "unrealized": 0.0,
     "closed_this_cycle": 0
   }
 }
