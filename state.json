@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T10:29:26.054976+00:00",
+  "cycle_at": "2026-07-13T10:30:26.053452+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4889.2,
-      "locked": -1.96
+      "free": 4888.26,
+      "locked": -1.02
     },
-    "equity": 4889.2,
+    "equity": 4888.26,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 1.96,
+    "unrealized_pnl": 1.02,
     "realized_today": 0,
-    "updated_at": "2026-07-13T10:29:26.054976+00:00"
+    "updated_at": "2026-07-13T10:30:26.053452+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1.0803,
-      "current": 1.0778,
+      "current": 1.0782,
       "qty": 925.1,
       "notional": 999.38553,
-      "unrealized": 2.31,
-      "pnl_pct": 0.231,
+      "unrealized": 1.94,
+      "pnl_pct": 0.194,
       "sl": 1.096504,
       "tp": 1.058694,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.611,
+      "current": 6.613,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": -1.36,
-      "pnl_pct": -0.136,
+      "unrealized": -1.66,
+      "pnl_pct": -0.167,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -743,10 +743,10 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.611,
-      "strength": 58.24041811846669,
-      "note": "RSI 71.1 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783937700000
+      "price": 6.613,
+      "strength": 56.95652173913092,
+      "note": "RSI 70.7 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783938600000
     }
   ],
   "swarm": {
@@ -802,8 +802,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4889.2,
-    "unrealized": 1.96,
+    "equity": 4888.26,
+    "unrealized": 1.02,
     "closed_this_cycle": 0
   }
 }
