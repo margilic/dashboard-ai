@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T17:20:29.016666+00:00",
+  "cycle_at": "2026-07-13T17:21:29.008020+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 0.0,
-      "locked": 4886.84
+      "free": 4915.88,
+      "locked": -9.31
     },
-    "equity": 4915.53,
+    "equity": 4915.88,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 28.69,
+    "unrealized_pnl": 9.31,
     "realized_today": 0,
-    "updated_at": "2026-07-13T17:20:29.016666+00:00"
+    "updated_at": "2026-07-13T17:21:29.008020+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1.0803,
-      "current": 1.0679,
+      "current": 1.0681,
       "qty": 925.1,
       "notional": 999.38553,
-      "unrealized": 11.47,
-      "pnl_pct": 1.148,
+      "unrealized": 11.29,
+      "pnl_pct": 1.129,
       "sl": 1.096504,
       "tp": 1.058694,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 7.933,
-      "current": 7.889,
+      "current": 7.887,
       "qty": 125.97,
       "notional": 999.32001,
-      "unrealized": -5.54,
-      "pnl_pct": -0.555,
+      "unrealized": -5.79,
+      "pnl_pct": -0.58,
       "sl": 7.814005,
       "tp": 8.09166,
       "note": "adopted from Binance (orphan)",
@@ -94,30 +94,29 @@
       "opened_iso": "2026-07-13T12:16:26.812021+00:00",
       "swarm_aligned": false,
       "algo_version": "2.0"
-    },
-    {
-      "id": "AVAXUSDT-1783935085",
-      "trade_no": 38,
-      "trade_id": "T0038",
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "adopted",
-      "entry": 6.602,
-      "current": 6.477,
-      "qty": 151.0,
-      "notional": 996.902,
-      "unrealized": 18.88,
-      "pnl_pct": 1.893,
-      "sl": 6.70103,
-      "tp": 6.46996,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783935085.645678,
-      "opened_iso": "2026-07-13T09:31:25.645678+00:00",
-      "swarm_aligned": false,
-      "algo_version": "2.0"
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "entry": 6.602,
+      "exit": 6.47,
+      "qty": 151.0,
+      "pnl": 19.932,
+      "opened_at": 1783935030,
+      "closed_at": 1783963279,
+      "duration_s": 28249,
+      "algo_version": "2.0",
+      "trade_no": 33,
+      "trade_id": "T0033",
+      "id": "AVAXUSDT-1783963279-33",
+      "pnl_pct": 1.999,
+      "notional": 996.9,
+      "strategy": "live",
+      "exit_reason": "TP",
+      "opened_iso": "2026-07-13T09:30:30+00:00"
+    },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
@@ -807,14 +806,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 32,
-    "wins": 13,
+    "open": 2,
+    "total_trades": 33,
+    "wins": 14,
     "losses": 19,
-    "win_rate": 40.6,
-    "total_pnl": -85.87,
-    "equity": 4915.53,
-    "unrealized": 28.69,
+    "win_rate": 42.4,
+    "total_pnl": -65.94,
+    "equity": 4915.88,
+    "unrealized": 9.31,
     "closed_this_cycle": 0
   }
 }
