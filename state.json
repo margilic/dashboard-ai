@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T10:50:26.181865+00:00",
+  "cycle_at": "2026-07-13T10:51:26.194401+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4885.95,
-      "locked": 1.29
+      "free": 4886.22,
+      "locked": 1.02
     },
-    "equity": 4885.95,
+    "equity": 4886.22,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.29,
+    "unrealized_pnl": -1.02,
     "realized_today": 0,
-    "updated_at": "2026-07-13T10:50:26.181865+00:00"
+    "updated_at": "2026-07-13T10:51:26.194401+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.636,
+      "current": 6.634,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": -5.13,
-      "pnl_pct": -0.515,
+      "unrealized": -4.83,
+      "pnl_pct": -0.485,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -743,16 +743,16 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1778.41,
-      "strength": 75.74162679425935,
-      "note": "RSI 23.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1778.29,
+      "strength": 76.23515439430074,
+      "note": "RSI 22.9 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783939500000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 62925.68,
+      "price": 62923.26,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1783939500000
@@ -761,9 +761,9 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.636,
-      "strength": 64.85559566787026,
-      "note": "RSI 73.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.634,
+      "strength": 64.27272727272754,
+      "note": "RSI 73.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783939500000
     }
   ],
@@ -820,8 +820,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4885.95,
-    "unrealized": -1.29,
+    "equity": 4886.22,
+    "unrealized": -1.02,
     "closed_this_cycle": 0
   }
 }
