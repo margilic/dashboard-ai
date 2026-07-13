@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T21:38:30.889883+00:00",
+  "cycle_at": "2026-07-13T21:39:30.905200+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -65,15 +65,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4891.16,
-      "locked": 18.39
+      "free": 0.0,
+      "locked": 4896.68
     },
-    "equity": 4891.43,
+    "equity": 4894.98,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -18.11,
+    "unrealized_pnl": -1.7,
     "realized_today": 0,
-    "updated_at": "2026-07-13T21:38:30.889883+00:00"
+    "updated_at": "2026-07-13T21:39:30.905200+00:00"
   },
   "open_positions": [
     {
@@ -84,37 +84,16 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0568,
+      "current": 1.0569,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": -0.85,
-      "pnl_pct": -0.085,
+      "unrealized": -0.76,
+      "pnl_pct": -0.076,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
       "opened_at": 1783966349.359282,
       "opened_iso": "2026-07-13T18:12:29.359282+00:00",
-      "swarm_aligned": false,
-      "algo_version": "2.0"
-    },
-    {
-      "id": "AVAXUSDT-1783964789",
-      "trade_no": 40,
-      "trade_id": "T0040",
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "adopted",
-      "entry": 6.479,
-      "current": 6.406,
-      "qty": 154.0,
-      "notional": 997.766,
-      "unrealized": -11.24,
-      "pnl_pct": -1.127,
-      "sl": 6.381815,
-      "tp": 6.60858,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783964789.185419,
-      "opened_iso": "2026-07-13T17:46:29.185419+00:00",
       "swarm_aligned": false,
       "algo_version": "2.0"
     }
@@ -846,7 +825,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 6.368,
+      "price": 6.376,
       "strength": 38,
       "note": "20-bar dip + hacim",
       "ts": 1783978200000,
@@ -857,7 +836,7 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 0.156,
+      "price": 0.1563,
       "strength": 38,
       "note": "20-bar dip + hacim",
       "ts": 1783978200000,
@@ -912,14 +891,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 1,
     "total_trades": 36,
     "wins": 15,
     "losses": 21,
     "win_rate": 41.7,
     "total_pnl": -74.05,
-    "equity": 4891.43,
-    "unrealized": -18.11,
+    "equity": 4894.98,
+    "unrealized": -1.7,
     "closed_this_cycle": 0
   }
 }
