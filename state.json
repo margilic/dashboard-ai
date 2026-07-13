@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T12:01:26.689565+00:00",
+  "cycle_at": "2026-07-13T12:02:26.702786+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4885.25,
-      "locked": 1.99
+      "free": 4882.83,
+      "locked": 4.41
     },
-    "equity": 4885.25,
+    "equity": 4882.83,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.99,
+    "unrealized_pnl": -4.41,
     "realized_today": 0,
-    "updated_at": "2026-07-13T12:01:26.689565+00:00"
+    "updated_at": "2026-07-13T12:02:26.702786+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1.0803,
-      "current": 1.0766,
+      "current": 1.0782,
       "qty": 925.1,
       "notional": 999.38553,
-      "unrealized": 3.42,
-      "pnl_pct": 0.342,
+      "unrealized": 1.94,
+      "pnl_pct": 0.194,
       "sl": 1.096504,
       "tp": 1.058694,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.642,
+      "current": 6.655,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": -6.04,
-      "pnl_pct": -0.606,
+      "unrealized": -8.0,
+      "pnl_pct": -0.803,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -738,26 +738,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 1780.01,
-      "strength": 66.80409518539209,
-      "note": "RSI 26.1 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783944000000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 7.93,
-      "strength": 63.40000000000046,
-      "note": "RSI 27.2 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783944000000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-13T10:16:44.513754+00:00",
     "model": "deepseek-chat",
@@ -811,8 +792,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4885.25,
-    "unrealized": -1.99,
+    "equity": 4882.83,
+    "unrealized": -4.41,
     "closed_this_cycle": 0
   }
 }
