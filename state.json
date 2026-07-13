@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T03:10:23.048065+00:00",
+  "cycle_at": "2026-07-13T03:11:23.056392+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4923.87
     },
-    "equity": 4889.48,
+    "equity": 4888.5,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -34.4,
+    "unrealized_pnl": -35.37,
     "realized_today": 0,
-    "updated_at": "2026-07-13T03:10:23.048065+00:00"
+    "updated_at": "2026-07-13T03:11:23.056392+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63802.1,
-      "current": 63052.8,
+      "current": 62986.01,
       "qty": 0.0156,
       "notional": 995.3127599999999,
-      "unrealized": -11.69,
-      "pnl_pct": -1.174,
+      "unrealized": -12.73,
+      "pnl_pct": -1.279,
       "sl": 62845.0685,
       "tp": 65078.142,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 568.69,
+      "current": 568.19,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": -9.38,
-      "pnl_pct": -0.939,
+      "unrealized": -10.25,
+      "pnl_pct": -1.026,
       "sl": 565.4688,
       "tp": 585.5616,
       "note": "adopted from Binance (orphan)",
@@ -118,6 +118,26 @@
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "entry": 1.0891,
+      "exit": 1.0725,
+      "qty": 918.2,
+      "pnl": -15.2421,
+      "opened_at": 1783893865,
+      "closed_at": 1783912285,
+      "duration_s": 18420,
+      "algo_version": "2.0",
+      "trade_no": 30,
+      "trade_id": "T0030",
+      "id": "XRPUSDT-1783912285-30",
+      "pnl_pct": -1.524,
+      "notional": 1000.01,
+      "strategy": "live",
+      "exit_reason": "SL",
+      "opened_iso": "2026-07-12T22:04:25+00:00"
+    },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
@@ -748,13 +768,13 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 29,
+    "total_trades": 30,
     "wins": 13,
-    "losses": 16,
-    "win_rate": 44.8,
-    "total_pnl": -51.22,
-    "equity": 4889.48,
-    "unrealized": -34.4,
+    "losses": 17,
+    "win_rate": 43.3,
+    "total_pnl": -66.46,
+    "equity": 4888.5,
+    "unrealized": -35.37,
     "closed_this_cycle": 0
   }
 }
