@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T19:34:29.943842+00:00",
+  "cycle_at": "2026-07-13T19:35:29.946534+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4913.29,
-      "locked": -3.74
+      "free": 4915.99,
+      "locked": -6.45
     },
-    "equity": 4913.68,
+    "equity": 4915.99,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 4.13,
+    "unrealized_pnl": 6.45,
     "realized_today": 0,
-    "updated_at": "2026-07-13T19:34:29.943842+00:00"
+    "updated_at": "2026-07-13T19:35:29.946534+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0653,
+      "current": 1.066,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 7.18,
-      "pnl_pct": 0.719,
+      "unrealized": 7.84,
+      "pnl_pct": 0.785,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.479,
-      "current": 6.477,
+      "current": 6.478,
       "qty": 154.0,
       "notional": 997.766,
-      "unrealized": -0.31,
-      "pnl_pct": -0.031,
+      "unrealized": -0.15,
+      "pnl_pct": -0.015,
       "sl": 6.381815,
       "tp": 6.60858,
       "note": "adopted from Binance (orphan)",
@@ -803,9 +803,9 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0908,
-      "strength": 65.4081632653058,
-      "note": "RSI 26.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0909,
+      "strength": 61.00000000000013,
+      "note": "RSI 28.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783971000000
     }
   ],
@@ -862,8 +862,8 @@
     "losses": 20,
     "win_rate": 42.9,
     "total_pnl": -61.58,
-    "equity": 4913.68,
-    "unrealized": 4.13,
+    "equity": 4915.99,
+    "unrealized": 6.45,
     "closed_this_cycle": 0
   }
 }
