@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T04:17:23.509754+00:00",
+  "cycle_at": "2026-07-13T04:18:23.514718+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4895.1
     },
-    "equity": 4886.46,
+    "equity": 4886.57,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -8.64,
+    "unrealized_pnl": -8.53,
     "realized_today": 0,
-    "updated_at": "2026-07-13T04:17:23.509754+00:00"
+    "updated_at": "2026-07-13T04:18:23.514718+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 569.01,
+      "current": 568.97,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": -8.82,
-      "pnl_pct": -0.883,
+      "unrealized": -8.89,
+      "pnl_pct": -0.89,
       "sl": 565.4688,
       "tp": 585.5616,
       "note": "adopted from Binance (orphan)",
@@ -699,47 +699,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-13T00:14:10.426097+00:00",
+    "updated_at": "2026-07-13T04:18:02.144317+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 20.5,
+        "direction": "SHORT",
+        "conviction": "LOW",
+        "score": 51.0,
         "sl": null,
         "tp": null,
-        "rationale": "Saglam yap\u0131, co\u015fku yok, ancak fiyat likidasyon s\u0131n\u0131r\u0131nda. Net bo\u011fa e\u011filimi.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Bile\u015fik skor 0.51 ile kar\u0131\u015f\u0131k sinyaller var. Likidasyon mikro yap\u0131s\u0131 en i\u015flem g\u00f6ren sinyal: 2.000+ BTC long pozisyon temizlendi, emir defteri ince. $62.710 alt\u0131nda k\u0131r\u0131l\u0131m $62.432'deki kalan 230 BTC l",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1783900941.728402,
-        "at": "2026-07-13T00:02:21.728402+00:00"
+        "ts": 1783915343.405281,
+        "at": "2026-07-13T04:02:23.405281+00:00"
       },
       "ETHUSDT": {
-        "direction": "NEUTRAL",
+        "direction": "LONG",
         "conviction": "LOW",
-        "score": -2.0,
+        "score": 29.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kar\u0131\u015f\u0131k sinyaller: fonlama ve likitasyon k\u0131sa vadede y\u00fckseli\u015fi desteklerken, zincir i\u00e7i ak\u0131\u015flar d\u00fc\u015f\u00fc\u015f sinyali veriyor. Bekle.",
+        "rationale": "Hafif y\u00fckseli\u015f e\u011filimi, fonlama normal, ETF giri\u015fleri ve stablecoin geni\u015flemesi destekliyor, likidasyon ve emir defteri riskleri mevcut.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783900941.728402,
-        "at": "2026-07-13T00:02:21.728402+00:00"
+        "ts": 1783915343.405281,
+        "at": "2026-07-13T04:02:23.405281+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 71.0,
+        "score": 23.0,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm \u00fc\u00e7 boyut ihtiyatl\u0131 bo\u011fa g\u00f6r\u00fcn\u00fcm\u00fcnde uyumlu: fonlama n\u00f6tr ama hafif bo\u011fa sapmas\u0131, likidasyon s\u0131k\u0131\u015fma kurulumu, Solana'ya ak\u0131\u015f d\u00f6n\u00fc\u015f\u00fc.",
+        "rationale": "Short squeeze magnet at $78 + accumulation pattern + USD",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783900941.728402,
-        "at": "2026-07-13T00:02:21.728402+00:00"
+        "ts": 1783915343.405281,
+        "at": "2026-07-13T04:02:23.405281+00:00"
       }
     },
     "gated_this_cycle": []
@@ -751,8 +751,8 @@
     "losses": 18,
     "win_rate": 41.9,
     "total_pnl": -79.2,
-    "equity": 4886.46,
-    "unrealized": -8.64,
+    "equity": 4886.57,
+    "unrealized": -8.53,
     "closed_this_cycle": 0
   }
 }
