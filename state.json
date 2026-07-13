@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T19:51:30.054638+00:00",
+  "cycle_at": "2026-07-13T19:52:30.069632+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4918.5,
-      "locked": -8.95
+      "free": 4917.38,
+      "locked": -7.83
     },
-    "equity": 4918.94,
+    "equity": 4918.16,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 9.39,
+    "unrealized_pnl": 8.61,
     "realized_today": 0,
-    "updated_at": "2026-07-13T19:51:30.054638+00:00"
+    "updated_at": "2026-07-13T19:52:30.069632+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.479,
-      "current": 6.482,
+      "current": 6.477,
       "qty": 154.0,
       "notional": 997.766,
-      "unrealized": 0.46,
-      "pnl_pct": 0.046,
+      "unrealized": -0.31,
+      "pnl_pct": -0.031,
       "sl": 6.381815,
       "tp": 6.60858,
       "note": "adopted from Binance (orphan)",
@@ -852,8 +852,8 @@
     "losses": 20,
     "win_rate": 42.9,
     "total_pnl": -61.58,
-    "equity": 4918.94,
-    "unrealized": 9.39,
+    "equity": 4918.16,
+    "unrealized": 8.61,
     "closed_this_cycle": 0
   }
 }
