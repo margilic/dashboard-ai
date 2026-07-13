@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T03:29:23.176361+00:00",
+  "cycle_at": "2026-07-13T03:30:23.192341+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4895.1
     },
-    "equity": 4888.43,
+    "equity": 4888.37,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.66,
+    "unrealized_pnl": -6.72,
     "realized_today": 0,
-    "updated_at": "2026-07-13T03:29:23.176361+00:00"
+    "updated_at": "2026-07-13T03:30:23.192341+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 570.1,
+      "current": 570.11,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": -6.93,
-      "pnl_pct": -0.693,
+      "unrealized": -6.91,
+      "pnl_pct": -0.692,
       "sl": 565.4688,
       "tp": 585.5616,
       "note": "adopted from Binance (orphan)",
@@ -697,7 +697,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 1794.87,
+      "strength": 64.93808049535657,
+      "note": "RSI 26.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783913400000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-13T00:14:10.426097+00:00",
     "model": "deepseek-chat",
@@ -751,8 +761,8 @@
     "losses": 18,
     "win_rate": 41.9,
     "total_pnl": -79.2,
-    "equity": 4888.43,
-    "unrealized": -6.66,
+    "equity": 4888.37,
+    "unrealized": -6.72,
     "closed_this_cycle": 0
   }
 }
