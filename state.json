@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T01:02:22.136090+00:00",
+  "cycle_at": "2026-07-13T01:03:22.143394+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0891,
-      "current": 1.0924,
+      "current": 1.0928,
       "qty": 918.2,
       "notional": 1000.01162,
-      "unrealized": 3.03,
-      "pnl_pct": 0.303,
+      "unrealized": 3.4,
+      "pnl_pct": 0.34,
       "sl": 1.072763,
       "tp": 1.110882,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63802.1,
-      "current": 63999.99,
+      "current": 64004.0,
       "qty": 0.0156,
       "notional": 995.3127599999999,
-      "unrealized": 3.09,
-      "pnl_pct": 0.31,
+      "unrealized": 3.15,
+      "pnl_pct": 0.316,
       "sl": 62845.0685,
       "tp": 65078.142,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 578.68,
+      "current": 578.77,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": 8.0,
-      "pnl_pct": 0.801,
+      "unrealized": 8.16,
+      "pnl_pct": 0.817,
       "sl": 565.4688,
       "tp": 585.5616,
       "note": "adopted from Binance (orphan)",
@@ -700,7 +700,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 578.77,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1783904400000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-13T00:14:10.426097+00:00",
     "model": "deepseek-chat",
