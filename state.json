@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T03:18:23.099108+00:00",
+  "cycle_at": "2026-07-13T03:19:23.111197+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4888.21,
-      "locked": 20.02
+      "free": 4884.57,
+      "locked": 23.67
     },
-    "equity": 4888.21,
+    "equity": 4884.61,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -20.02,
+    "unrealized_pnl": -23.63,
     "realized_today": 0,
-    "updated_at": "2026-07-13T03:18:23.099108+00:00"
+    "updated_at": "2026-07-13T03:19:23.111197+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 569.05,
+      "current": 567.63,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": -8.75,
-      "pnl_pct": -0.876,
+      "unrealized": -11.22,
+      "pnl_pct": -1.124,
       "sl": 565.4688,
       "tp": 585.5616,
       "note": "adopted from Binance (orphan)",
@@ -97,6 +97,26 @@
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry": 63802.1,
+      "exit": 62985.0,
+      "qty": 0.0156,
+      "pnl": -12.7468,
+      "opened_at": 1783894707,
+      "closed_at": 1783912767,
+      "duration_s": 18060,
+      "algo_version": "2.0",
+      "trade_no": 31,
+      "trade_id": "T0031",
+      "id": "BTCUSDT-1783912767-31",
+      "pnl_pct": -1.281,
+      "notional": 995.31,
+      "strategy": "live",
+      "exit_reason": "SL",
+      "opened_iso": "2026-07-12T22:18:27+00:00"
+    },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
@@ -747,13 +767,13 @@
   },
   "stats": {
     "open": 2,
-    "total_trades": 30,
+    "total_trades": 31,
     "wins": 13,
-    "losses": 17,
-    "win_rate": 43.3,
-    "total_pnl": -66.46,
-    "equity": 4888.21,
-    "unrealized": -20.02,
+    "losses": 18,
+    "win_rate": 41.9,
+    "total_pnl": -79.2,
+    "equity": 4884.61,
+    "unrealized": -23.63,
     "closed_this_cycle": 0
   }
 }
