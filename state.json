@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T18:22:29.448446+00:00",
+  "cycle_at": "2026-07-13T18:23:29.457065+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4901.77,
-      "locked": 7.77
+      "free": 4901.55,
+      "locked": 8.0
     },
-    "equity": 4902.55,
+    "equity": 4902.3,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -7.0,
+    "unrealized_pnl": -7.25,
     "realized_today": 0,
-    "updated_at": "2026-07-13T18:22:29.448446+00:00"
+    "updated_at": "2026-07-13T18:23:29.457065+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0591,
+      "current": 1.0586,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 1.32,
-      "pnl_pct": 0.132,
+      "unrealized": 0.85,
+      "pnl_pct": 0.085,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.479,
-      "current": 6.428,
+      "current": 6.427,
       "qty": 154.0,
       "notional": 997.766,
-      "unrealized": -7.85,
-      "pnl_pct": -0.787,
+      "unrealized": -8.01,
+      "pnl_pct": -0.803,
       "sl": 6.381815,
       "tp": 6.60858,
       "note": "adopted from Binance (orphan)",
@@ -803,9 +803,9 @@
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.0591,
+      "price": 1.0586,
       "strength": 100,
-      "note": "RSI 11.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 11.4 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783966500000
     }
   ],
@@ -862,8 +862,8 @@
     "losses": 20,
     "win_rate": 42.9,
     "total_pnl": -61.58,
-    "equity": 4902.55,
-    "unrealized": -7.0,
+    "equity": 4902.3,
+    "unrealized": -7.25,
     "closed_this_cycle": 0
   }
 }
