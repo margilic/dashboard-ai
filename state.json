@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T12:13:26.785431+00:00",
+  "cycle_at": "2026-07-13T12:14:26.795676+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4887.37,
-      "locked": -0.14
+      "free": 4887.32,
+      "locked": -0.08
     },
-    "equity": 4887.37,
+    "equity": 4887.32,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 0.14,
+    "unrealized_pnl": 0.08,
     "realized_today": 0,
-    "updated_at": "2026-07-13T12:13:26.785431+00:00"
+    "updated_at": "2026-07-13T12:14:26.795676+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.62,
+      "current": 6.622,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": -2.72,
-      "pnl_pct": -0.273,
+      "unrealized": -3.02,
+      "pnl_pct": -0.303,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -743,18 +743,9 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1780.48,
-      "strength": 64.71590909091087,
-      "note": "RSI 26.8 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783944000000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 7.937,
-      "strength": 56.47540983606497,
-      "note": "RSI 29.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1780.83,
+      "strength": 62.383820998281664,
+      "note": "RSI 27.5 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783944000000
     }
   ],
@@ -811,8 +802,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4887.37,
-    "unrealized": 0.14,
+    "equity": 4887.32,
+    "unrealized": 0.08,
     "closed_this_cycle": 0
   }
 }
