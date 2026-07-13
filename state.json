@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T18:11:29.356066+00:00",
+  "cycle_at": "2026-07-13T18:12:29.359282+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,17 +42,38 @@
   },
   "balance": {
     "USD": {
-      "free": 0.0,
-      "locked": 4909.95
+      "free": 4902.22,
+      "locked": 7.33
     },
-    "equity": 4902.87,
+    "equity": 4902.83,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -7.08,
+    "unrealized_pnl": -6.72,
     "realized_today": 0,
-    "updated_at": "2026-07-13T18:11:29.356066+00:00"
+    "updated_at": "2026-07-13T18:12:29.359282+00:00"
   },
   "open_positions": [
+    {
+      "id": "XRPUSDT-1783966349",
+      "trade_no": 41,
+      "trade_id": "T0041",
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "adopted",
+      "entry": 1.0577,
+      "current": 1.0582,
+      "qty": 945.0,
+      "notional": 999.53,
+      "unrealized": 0.47,
+      "pnl_pct": 0.047,
+      "sl": 1.041834,
+      "tp": 1.078854,
+      "note": "adopted from Binance (orphan)",
+      "opened_at": 1783966349.359282,
+      "opened_iso": "2026-07-13T18:12:29.359282+00:00",
+      "swarm_aligned": false,
+      "algo_version": "2.0"
+    },
     {
       "id": "AVAXUSDT-1783964789",
       "trade_no": 40,
@@ -791,9 +812,18 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 61935.98,
-      "strength": 76.47859550919102,
-      "note": "RSI 22.8 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 61918.39,
+      "strength": 79.76199308114758,
+      "note": "RSI 21.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1783965600000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 1754.21,
+      "strength": 55.875912408758694,
+      "note": "RSI 29.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783965600000
     }
   ],
@@ -844,14 +874,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 1,
+    "open": 2,
     "total_trades": 35,
     "wins": 15,
     "losses": 20,
     "win_rate": 42.9,
     "total_pnl": -61.58,
-    "equity": 4902.87,
-    "unrealized": -7.08,
+    "equity": 4902.83,
+    "unrealized": -6.72,
     "closed_this_cycle": 0
   }
 }
