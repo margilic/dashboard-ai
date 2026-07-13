@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T08:16:25.138634+00:00",
+  "cycle_at": "2026-07-13T08:17:25.143340+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4895.1
     },
-    "equity": 4888.4,
+    "equity": 4888.82,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -6.69,
+    "unrealized_pnl": -6.28,
     "realized_today": 0,
-    "updated_at": "2026-07-13T08:16:25.138634+00:00"
+    "updated_at": "2026-07-13T08:17:25.143340+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 570.01,
+      "current": 570.31,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": -7.08,
-      "pnl_pct": -0.709,
+      "unrealized": -6.56,
+      "pnl_pct": -0.657,
       "sl": 565.4688,
       "tp": 585.5616,
       "note": "adopted from Binance (orphan)",
@@ -699,21 +699,21 @@
   ],
   "signals": [
     {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 1.0808,
+      "strength": 59.28571428571527,
+      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783930500000
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "price": 0.1605,
       "strength": 59.285714285712245,
       "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783930500000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1.0806,
-      "strength": 58.368983957220365,
-      "note": "RSI 71.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783930500000
     }
   ],
@@ -770,8 +770,8 @@
     "losses": 18,
     "win_rate": 41.9,
     "total_pnl": -79.2,
-    "equity": 4888.4,
-    "unrealized": -6.69,
+    "equity": 4888.82,
+    "unrealized": -6.28,
     "closed_this_cycle": 0
   }
 }
