@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T21:39:30.905200+00:00",
+  "cycle_at": "2026-07-13T21:40:30.909016+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,12 +68,12 @@
       "free": 0.0,
       "locked": 4896.68
     },
-    "equity": 4894.98,
+    "equity": 4894.66,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -1.7,
+    "unrealized_pnl": -2.02,
     "realized_today": 0,
-    "updated_at": "2026-07-13T21:39:30.905200+00:00"
+    "updated_at": "2026-07-13T21:40:30.909016+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0569,
+      "current": 1.056,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": -0.76,
-      "pnl_pct": -0.076,
+      "unrealized": -1.61,
+      "pnl_pct": -0.161,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -822,10 +822,21 @@
   ],
   "signals": [
     {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 74.19,
+      "strength": 38,
+      "note": "20-bar dip + hacim",
+      "ts": 1783978200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 6.376,
+      "price": 6.372,
       "strength": 38,
       "note": "20-bar dip + hacim",
       "ts": 1783978200000,
@@ -836,7 +847,7 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 0.1563,
+      "price": 0.1561,
       "strength": 38,
       "note": "20-bar dip + hacim",
       "ts": 1783978200000,
@@ -897,8 +908,8 @@
     "losses": 21,
     "win_rate": 41.7,
     "total_pnl": -74.05,
-    "equity": 4894.98,
-    "unrealized": -1.7,
+    "equity": 4894.66,
+    "unrealized": -2.02,
     "closed_this_cycle": 0
   }
 }
