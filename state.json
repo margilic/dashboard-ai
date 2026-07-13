@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T20:15:30.245353+00:00",
+  "cycle_at": "2026-07-13T20:16:30.248925+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4911.08,
-      "locked": -1.54
+      "free": 4909.94,
+      "locked": -0.39
     },
-    "equity": 4911.39,
+    "equity": 4910.74,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 1.84,
+    "unrealized_pnl": 1.19,
     "realized_today": 0,
-    "updated_at": "2026-07-13T20:15:30.245353+00:00"
+    "updated_at": "2026-07-13T20:16:30.248925+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.064,
+      "current": 1.0634,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 5.95,
-      "pnl_pct": 0.596,
+      "unrealized": 5.39,
+      "pnl_pct": 0.539,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 6.479,
-      "current": 6.454,
+      "current": 6.453,
       "qty": 154.0,
       "notional": 997.766,
-      "unrealized": -3.85,
-      "pnl_pct": -0.386,
+      "unrealized": -4.0,
+      "pnl_pct": -0.401,
       "sl": 6.381815,
       "tp": 6.60858,
       "note": "adopted from Binance (orphan)",
@@ -800,7 +800,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-13T18:17:26.548166+00:00",
+    "updated_at": "2026-07-13T20:15:42.803111+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -808,39 +808,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -21.0,
+        "conviction": "MEDIUM",
+        "score": 4.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k, n\u00f6tr-bearish e\u011filim, beklenmeli.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Fiyat, 62.200$'da yo\u011fun bir likidasyon k\u00fcmesinin hemen \u00fczerinde seyrediyor. Uzun pozisyon risk/\u00f6d\u00fcl oran\u0131 zay\u0131f, k\u0131sa i\u00e7in ise temkinli bekleyi\u015f \u00f6nerilir.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1783965749.288096,
-        "at": "2026-07-13T18:02:29.288096+00:00"
+        "ts": 1783972950.128075,
+        "at": "2026-07-13T20:02:30.128075+00:00"
       },
       "ETHUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": 40.0,
+        "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor 0.40 ile n\u00f6tr-ay\u0131 s\u0131n\u0131r\u0131nda. Sinyaller uyumsuz; fonlama y\u00fckseli\u015fi desteklerken likidasyon ve ak\u0131\u015f d\u00fc\u015f\u00fc\u015f\u00fc i\u015faret ediyor. Onay bekleniyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Hata nedeniyle n\u00f6tr karar, bekleyin.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783965749.288096,
-        "at": "2026-07-13T18:02:29.288096+00:00"
+        "ts": 1783972950.128075,
+        "at": "2026-07-13T20:02:30.128075+00:00"
       },
       "SOLUSDT": {
         "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": -34.0,
+        "score": -78.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor -0.675, en y\u00fcksek a\u011f\u0131rl\u0131kl\u0131 zincir\u00fcst\u00fc veriler d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc (sermaye rotasyonu, da\u011f\u0131t\u0131m), fonlama farkl\u0131l\u0131\u011f\u0131 hafif kar\u015f\u0131t sinyal ancak yetersiz.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Sinyaller a\u011f\u0131rl\u0131kl\u0131 olarak ay\u0131; fonlama/basis n\u00f6tr-ay\u0131, on-chain ak\u0131\u015f net ay\u0131. Likidasyon mikro yap\u0131s\u0131 n\u00f6tr. En y\u00fcksek a\u011f\u0131rl\u0131kl\u0131 boyut (on-chain %40) ay\u0131. Kompozit skor -0.775.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1783965749.288096,
-        "at": "2026-07-13T18:02:29.288096+00:00"
+        "ts": 1783972950.128075,
+        "at": "2026-07-13T20:02:30.128075+00:00"
       }
     },
     "gated_this_cycle": []
@@ -852,8 +852,8 @@
     "losses": 20,
     "win_rate": 42.9,
     "total_pnl": -61.58,
-    "equity": 4911.39,
-    "unrealized": 1.84,
+    "equity": 4910.74,
+    "unrealized": 1.19,
     "closed_this_cycle": 0
   }
 }
