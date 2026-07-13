@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T03:07:22.981594+00:00",
+  "cycle_at": "2026-07-13T03:08:22.988504+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4893.78,
-      "locked": 50.31
+      "free": 0.0,
+      "locked": 4923.87
     },
-    "equity": 4894.54,
+    "equity": 4891.08,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -49.55,
+    "unrealized_pnl": -32.79,
     "realized_today": 0,
-    "updated_at": "2026-07-13T03:07:22.981594+00:00"
+    "updated_at": "2026-07-13T03:08:22.988504+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0891,
-      "current": 1.0737,
+      "current": 1.0739,
       "qty": 918.2,
       "notional": 1000.01162,
-      "unrealized": -14.14,
-      "pnl_pct": -1.414,
+      "unrealized": -13.96,
+      "pnl_pct": -1.396,
       "sl": 1.072763,
       "tp": 1.110882,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 63802.1,
-      "current": 63123.76,
+      "current": 63110.7,
       "qty": 0.0156,
       "notional": 995.3127599999999,
-      "unrealized": -10.58,
-      "pnl_pct": -1.063,
+      "unrealized": -10.79,
+      "pnl_pct": -1.084,
       "sl": 62845.0685,
       "tp": 65078.142,
       "note": "adopted from Binance (orphan)",
@@ -103,34 +103,13 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 574.08,
-      "current": 569.56,
+      "current": 568.8,
       "qty": 1.74,
       "notional": 998.8992000000001,
-      "unrealized": -7.86,
-      "pnl_pct": -0.787,
+      "unrealized": -9.19,
+      "pnl_pct": -0.92,
       "sl": 565.4688,
       "tp": 585.5616,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783894761.054432,
-      "opened_iso": "2026-07-12T22:19:21.054432+00:00",
-      "swarm_aligned": false,
-      "algo_version": "2.0"
-    },
-    {
-      "id": "ADAUSDT-1783894761",
-      "trade_no": 36,
-      "trade_id": "T0036",
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "strategy": "adopted",
-      "entry": 0.1618,
-      "current": 0.1597,
-      "qty": 6195.0,
-      "notional": 1002.351,
-      "unrealized": -13.01,
-      "pnl_pct": -1.298,
-      "sl": 0.159373,
-      "tp": 0.165036,
       "note": "adopted from Binance (orphan)",
       "opened_at": 1783894761.054432,
       "opened_iso": "2026-07-12T22:19:21.054432+00:00",
@@ -768,14 +747,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 4,
+    "open": 3,
     "total_trades": 29,
     "wins": 13,
     "losses": 16,
     "win_rate": 44.8,
     "total_pnl": -51.22,
-    "equity": 4894.54,
-    "unrealized": -49.55,
+    "equity": 4891.08,
+    "unrealized": -32.79,
     "closed_this_cycle": 0
   }
 }
