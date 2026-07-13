@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T09:45:25.743493+00:00",
+  "cycle_at": "2026-07-13T09:46:25.745587+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -42,15 +42,15 @@
   },
   "balance": {
     "USD": {
-      "free": 4881.51,
-      "locked": 5.73
+      "free": 4882.07,
+      "locked": 5.16
     },
-    "equity": 4881.51,
+    "equity": 4882.07,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": -5.73,
+    "unrealized_pnl": -5.16,
     "realized_today": 0,
-    "updated_at": "2026-07-13T09:45:25.743493+00:00"
+    "updated_at": "2026-07-13T09:46:25.745587+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1.0803,
-      "current": 1.0798,
+      "current": 1.0793,
       "qty": 925.1,
       "notional": 999.38553,
-      "unrealized": 0.46,
-      "pnl_pct": 0.046,
+      "unrealized": 0.93,
+      "pnl_pct": 0.093,
       "sl": 1.096504,
       "tp": 1.058694,
       "note": "adopted from Binance (orphan)",
@@ -82,11 +82,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.646,
+      "current": 6.645,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": -6.64,
-      "pnl_pct": -0.666,
+      "unrealized": -6.49,
+      "pnl_pct": -0.651,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -743,9 +743,18 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.646,
-      "strength": 91.0526315789478,
-      "note": "RSI 82.0 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.645,
+      "strength": 90.81497797356863,
+      "note": "RSI 81.9 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1783935900000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 7.987,
+      "strength": 55.309278350515314,
+      "note": "RSI 70.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783935900000
     }
   ],
@@ -802,8 +811,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4881.51,
-    "unrealized": -5.73,
+    "equity": 4882.07,
+    "unrealized": -5.16,
     "closed_this_cycle": 0
   }
 }
