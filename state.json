@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-13T12:57:27.098162+00:00",
+  "cycle_at": "2026-07-13T12:58:27.112548+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,12 +45,12 @@
       "free": 0.0,
       "locked": 4886.84
     },
-    "equity": 4890.94,
+    "equity": 4890.41,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 4.11,
+    "unrealized_pnl": 3.57,
     "realized_today": 0,
-    "updated_at": "2026-07-13T12:57:27.098162+00:00"
+    "updated_at": "2026-07-13T12:58:27.112548+00:00"
   },
   "open_positions": [
     {
@@ -61,11 +61,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 1.0803,
-      "current": 1.073,
+      "current": 1.0733,
       "qty": 925.1,
       "notional": 999.38553,
-      "unrealized": 6.75,
-      "pnl_pct": 0.676,
+      "unrealized": 6.48,
+      "pnl_pct": 0.648,
       "sl": 1.096504,
       "tp": 1.058694,
       "note": "adopted from Binance (orphan)",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "adopted",
       "entry": 6.602,
-      "current": 6.597,
+      "current": 6.598,
       "qty": 151.0,
       "notional": 996.902,
-      "unrealized": 0.75,
-      "pnl_pct": 0.076,
+      "unrealized": 0.6,
+      "pnl_pct": 0.061,
       "sl": 6.70103,
       "tp": 6.46996,
       "note": "adopted from Binance (orphan)",
@@ -791,18 +791,9 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.07209,
-      "strength": 57.35955056179779,
-      "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1783946700000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 1.073,
-      "strength": 56.11111111110807,
-      "note": "RSI 29.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.07208,
+      "strength": 58.333333333333044,
+      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1783946700000
     }
   ],
@@ -859,8 +850,8 @@
     "losses": 19,
     "win_rate": 40.6,
     "total_pnl": -85.87,
-    "equity": 4890.94,
-    "unrealized": 4.11,
+    "equity": 4890.41,
+    "unrealized": 3.57,
     "closed_this_cycle": 0
   }
 }
