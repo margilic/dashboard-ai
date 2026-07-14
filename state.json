@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T10:50:36.305581+00:00",
+  "cycle_at": "2026-07-14T10:51:36.304945+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T10:50:36.305581+00:00"
+    "updated_at": "2026-07-14T10:51:36.304945+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,29 +823,18 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1799.15,
-      "strength": 37,
-      "note": "z=2.96",
+      "price": 1797.59,
+      "strength": 34,
+      "note": "z=2.76",
       "ts": 1784025900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 74.0541580219762
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 62896.69,
-      "strength": 33,
-      "note": "z=2.66",
-      "ts": 1784025900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 66.55273091211151
+      "v3_raw_strength": 68.97652674829436
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 62896.69,
+      "price": 62872.0,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784025900000,
@@ -856,7 +845,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1799.15,
+      "price": 1797.59,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784025900000,
@@ -873,6 +862,17 @@
       "ts": 1784025900000,
       "v3_weight": 0.5,
       "v3_raw_strength": 65
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 62872.0,
+      "strength": 31,
+      "note": "z=2.48",
+      "ts": 1784025900000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 61.98894077061343
     },
     {
       "symbol": "XRPUSDT",
