@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T17:19:39.251745+00:00",
+  "cycle_at": "2026-07-14T17:20:39.272046+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T17:19:39.251745+00:00"
+    "updated_at": "2026-07-14T17:20:39.272046+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -890,7 +890,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-14 17:05:01.592891",
         "open_rate": 1870.45,
-        "current_rate": 1864.24,
+        "current_rate": 1865.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.88,
@@ -899,10 +899,25 @@
         "sl_price": 1842.39,
         "tp_price": 1907.86,
         "trailing_active_price": 1885.41
+      },
+      {
+        "id": 3,
+        "pair": "BTC/USDT",
+        "open_date": "2026-07-14 17:20:01.799889",
+        "open_rate": 64461.18,
+        "current_rate": 64454.0,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 99.91,
+        "amount": 0.00155,
+        "side": "LONG",
+        "sl_price": 63494.26,
+        "tp_price": 65750.4,
+        "trailing_active_price": 64976.87
       }
     ],
     "stats": {
-      "open": 1,
+      "open": 2,
       "total_closed": 1,
       "wins": 1,
       "losses": 0,
