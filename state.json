@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T01:05:32.231697+00:00",
+  "cycle_at": "2026-07-14T01:06:32.243111+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,12 +68,12 @@
       "free": 0.0,
       "locked": 4896.65
     },
-    "equity": 4906.57,
+    "equity": 4906.08,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 9.92,
+    "unrealized_pnl": 9.43,
     "realized_today": 0,
-    "updated_at": "2026-07-14T01:05:32.231697+00:00"
+    "updated_at": "2026-07-14T01:06:32.243111+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0684,
+      "current": 1.0681,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 10.11,
-      "pnl_pct": 1.012,
+      "unrealized": 9.83,
+      "pnl_pct": 0.983,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -825,12 +825,12 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 7.949,
-      "strength": 49,
-      "note": "RSI 84.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 7.939,
+      "strength": 43,
+      "note": "RSI 80.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783990800000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 98.84615384615448
+      "v3_raw_strength": 86.4634146341471
     },
     {
       "symbol": "ETHUSDT",
@@ -847,23 +847,23 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 75.35,
-      "strength": 38,
-      "note": "RSI 77.0 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 75.33,
+      "strength": 37,
+      "note": "RSI 76.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783990800000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 75.89005235601995
+      "v3_raw_strength": 73.4974093264244
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 568.86,
-      "strength": 36,
-      "note": "RSI 75.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 568.79,
+      "strength": 35,
+      "note": "RSI 74.9 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783990800000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 71.47975077881753
+      "v3_raw_strength": 69.84536082474239
     },
     {
       "symbol": "ARBUSDT",
@@ -880,45 +880,12 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1.0684,
-      "strength": 33,
-      "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1.0681,
+      "strength": 31,
+      "note": "RSI 72.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1783990800000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 65.23809523809453
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 7.949,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783990800000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.07221,
-      "strength": 28,
-      "note": "RSI 70.6 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783990800000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 56.926605504587
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 7.949,
-      "strength": 27,
-      "note": "z=2.13",
-      "ts": 1783990800000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 53.14950130566305
+      "v3_raw_strength": 62.64705882352902
     }
   ],
   "swarm": {
@@ -974,8 +941,8 @@
     "losses": 21,
     "win_rate": 41.7,
     "total_pnl": -74.05,
-    "equity": 4906.57,
-    "unrealized": 9.92,
+    "equity": 4906.08,
+    "unrealized": 9.43,
     "closed_this_cycle": 0
   }
 }
