@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T06:30:34.485561+00:00",
+  "cycle_at": "2026-07-14T06:31:34.494667+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T06:30:34.485561+00:00"
+    "updated_at": "2026-07-14T06:31:34.494667+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -831,26 +831,48 @@
       "v3_raw_strength": 74.90654205607478
     },
     {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.515,
+      "strength": 36,
+      "note": "RSI 75.6 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784010600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 71.87500000000021
+    },
+    {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 75.24,
+      "price": 75.25,
       "strength": 35,
-      "note": "RSI 74.8 a\u015f\u0131r\u0131 al\u0131m",
+      "note": "RSI 75.0 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784010600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 69.27184466019482
+      "v3_raw_strength": 70.00000000000102
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1.0706,
-      "strength": 33,
-      "note": "RSI 73.8 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1.0708,
+      "strength": 34,
+      "note": "RSI 74.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784010600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 66.25000000000043
+      "v3_raw_strength": 67.22222222222253
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 6.515,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784010600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
     },
     {
       "symbol": "LINKUSDT",
@@ -864,26 +886,26 @@
       "v3_raw_strength": 61.55629139072872
     },
     {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.494,
-      "strength": 30,
-      "note": "RSI 71.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784010600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 60.82733812949664
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 62684.39,
-      "strength": 28,
-      "note": "RSI 70.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 62699.99,
+      "strength": 30,
+      "note": "RSI 71.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784010600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 56.880485103240005
+      "v3_raw_strength": 59.58350915688969
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 6.515,
+      "strength": 27,
+      "note": "z=2.18",
+      "ts": 1784010600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 54.596111968892934
     }
   ],
   "swarm": {
