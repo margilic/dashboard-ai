@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T00:01:31.824888+00:00",
+  "cycle_at": "2026-07-14T00:02:31.811809+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0678,
+      "current": 1.0677,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 9.54,
-      "pnl_pct": 0.955,
+      "unrealized": 9.45,
+      "pnl_pct": 0.945,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -820,30 +820,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 567.62,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1783987200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 567.62,
-      "strength": 26,
-      "note": "z=2.12",
-      "ts": 1783987200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 52.9470078470208
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-13T22:16:40.180716+00:00",
     "model": "deepseek-chat",
