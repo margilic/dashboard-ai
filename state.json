@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T22:19:41.263061+00:00",
+  "cycle_at": "2026-07-14T22:20:41.277427+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T22:19:41.263061+00:00"
+    "updated_at": "2026-07-14T22:20:41.277427+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -818,7 +818,63 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 64955.98,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784067300000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 1879.93,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784067300000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 77.52,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784067300000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 581.56,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784067300000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 581.56,
+      "strength": 30,
+      "note": "z=2.43",
+      "ts": 1784067300000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 60.653697676926996
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-14T20:18:53.034435+00:00",
     "model": "deepseek-chat",
@@ -890,7 +946,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-14 21:55:01.609005",
         "open_rate": 1876.45,
-        "current_rate": 1875.04,
+        "current_rate": 1882.04,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.83,
@@ -899,33 +955,32 @@
         "sl_price": 1848.3,
         "tp_price": 1913.98,
         "trailing_active_price": 1891.46
-      },
+      }
+    ],
+    "stats": {
+      "open": 1,
+      "total_closed": 10,
+      "wins": 4,
+      "losses": 6,
+      "win_rate": 40.0,
+      "total_pnl": 0.06,
+      "avg_profit_pct": 0.01
+    },
+    "recent_trades": [
       {
         "id": 11,
         "pair": "BTC/USDT",
         "open_date": "2026-07-14 22:10:01.798139",
-        "open_rate": 64594.41,
-        "current_rate": 64713.19,
+        "close_date": "2026-07-14 22:20:11.250000",
+        "entry": 64594.41,
+        "exit": 64766.59,
+        "pnl_pct": 0.07,
+        "pnl_abs": 0.07,
+        "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "stake": 99.48,
-        "amount": 0.00154,
-        "side": "LONG",
-        "sl_price": 63625.49,
-        "tp_price": 65886.3,
-        "trailing_active_price": 65111.17
-      }
-    ],
-    "stats": {
-      "open": 2,
-      "total_closed": 9,
-      "wins": 3,
-      "losses": 6,
-      "win_rate": 33.3,
-      "total_pnl": -0.01,
-      "avg_profit_pct": -0.0
-    },
-    "recent_trades": [
+        "side": "LONG"
+      },
       {
         "id": 9,
         "pair": "ETH/USDT",
