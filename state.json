@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T16:18:38.787639+00:00",
+  "cycle_at": "2026-07-14T16:19:38.800661+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T16:18:38.787639+00:00"
+    "updated_at": "2026-07-14T16:19:38.800661+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,47 +820,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-14T14:19:05.841442+00:00",
+    "updated_at": "2026-07-14T16:18:45.860426+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
+        "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": 60.0,
+        "score": -40.0,
         "sl": null,
         "tp": null,
-        "rationale": "Likidite arka plan\u0131 g\u00fc\u00e7l\u00fc, k\u0131sa squeeze potansiyeli var, hacim art\u0131\u015f\u0131 teyit ediyor.",
+        "rationale": "Fonlama oran\u0131 t\u00fcm borsalarda %0.01 s\u0131n\u0131r\u0131nda, bu g\u00fc\u00e7l\u00fc bir kontra sinyali. Piyasa a\u015f\u0131r\u0131 uzun pozisyonlu ve kalabal\u0131k. K\u0131sa pozisyon \u00f6nerilir.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784037757.738909,
-        "at": "2026-07-14T14:02:37.738909+00:00"
+        "ts": 1784044958.667717,
+        "at": "2026-07-14T16:02:38.667717+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "HIGH",
-        "score": 73.0,
+        "score": 65.0,
         "sl": null,
         "tp": null,
-        "rationale": "G\u00fc\u00e7l\u00fc bullish uyum, d\u00fc\u015f\u00fck fonlama ile organik y\u00fckseli\u015f, short squeeze devam ediyor. Perakende long kalabal\u0131\u011f\u0131 riski d\u00fc\u015f\u00fck.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Sinyal entegrasyonu tutarl\u0131 bo\u011fa y\u00f6n\u00fcnde. Y\u00fcksek hacimli k\u0131r\u0131l\u0131m, kurumsal rotasyon ve d\u00fc\u015f\u00fck fonlama oranlar\u0131 destekliyor.",
+        "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1784037757.738909,
-        "at": "2026-07-14T14:02:37.738909+00:00"
+        "ts": 1784044958.667717,
+        "at": "2026-07-14T16:02:38.667717+00:00"
       },
       "SOLUSDT": {
         "direction": "SHORT",
-        "conviction": "LOW",
-        "score": -2.65,
-        "sl": 78.8,
+        "conviction": "MEDIUM",
+        "score": -41.5,
+        "sl": null,
         "tp": null,
-        "rationale": "D\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, d\u00fc\u015f\u00fck kanaat; stablecoin \u00e7\u0131k\u0131\u015flar\u0131 g\u00fc\u00e7l\u00fc sinyal, ancak likidasyon ve fonlama ayr\u0131\u015f\u0131yor.",
+        "rationale": "T\u00fcm sinyaller d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc ve uyumlu, ancak fonlama oranlar\u0131 a\u015f\u0131r\u0131 de\u011fil; orta g\u00fcven.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784037757.738909,
-        "at": "2026-07-14T14:02:37.738909+00:00"
+        "ts": 1784044958.667717,
+        "at": "2026-07-14T16:02:38.667717+00:00"
       }
     },
     "gated_this_cycle": []
@@ -890,7 +890,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-14 15:00:01.580354",
         "open_rate": 64305.86,
-        "current_rate": 64731.41,
+        "current_rate": 64749.99,
         "enter_tag": "breakout_v2",
         "strategy": "MomentumBreakoutV2",
         "stake": 99.67,
