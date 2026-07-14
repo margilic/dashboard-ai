@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T12:16:36.963531+00:00",
+  "cycle_at": "2026-07-14T12:17:36.986477+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T12:16:36.963531+00:00"
+    "updated_at": "2026-07-14T12:17:36.986477+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,56 +823,56 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.433,
-      "strength": 35,
-      "note": "RSI 25.2 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 6.43,
+      "strength": 37,
+      "note": "RSI 24.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784031300000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 69.50331125827888
+      "v3_raw_strength": 73.00000000000055
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-14T10:16:01.162970+00:00",
+    "updated_at": "2026-07-14T12:17:06.823814+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
+        "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": 10.0,
-        "sl": 62300,
-        "tp": 63000,
-        "rationale": "Kompozit skor +0.10 ile n\u00f6tr-hafif y\u00fckseli\u015f e\u011filimi. Fonlama ve likidasyon y\u00fckseli\u015fi desteklerken, zincir \u00fcst\u00fc ak\u0131\u015f d\u00fc\u015f\u00fc\u015f sinyali veriyor. K\u0131sa vadeli long \u00f6nerisi, s\u0131k\u0131 risk kontrolleri ve onay bekle",
-        "extract_model": "deepseek-chat",
+        "score": -25.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Funding d\u00fc\u015f\u00fc\u015f\u00fc ve likidasyon k\u00fcmeleri a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk; sermaye yan \u00e7izgide.",
+        "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784023355.962433,
-        "at": "2026-07-14T10:02:35.962433+00:00"
+        "ts": 1784030556.853484,
+        "at": "2026-07-14T12:02:36.853484+00:00"
       },
       "ETHUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -43.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": -10.5,
         "sl": null,
         "tp": null,
-        "rationale": "Stablecoin arz\u0131 daral\u0131yor, ETF \u00e7\u0131k\u0131\u015flar\u0131 var ve uzun pozisyonlar kalabal\u0131k. A\u015fa\u011f\u0131 y\u00f6nl\u00fc risk bask\u0131n.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Sinyaller kar\u0131\u015f\u0131k; fonlama d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, likidasyonlar a\u015fa\u011f\u0131 risk g\u00f6steriyor, ancak on-chain ak\u0131\u015f y\u00fckseli\u015fi destekliyor. Bekle ve onayla.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784023355.962433,
-        "at": "2026-07-14T10:02:35.962433+00:00"
+        "ts": 1784030556.853484,
+        "at": "2026-07-14T12:02:36.853484+00:00"
       },
       "SOLUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": 42.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": -15.0,
         "sl": null,
         "tp": null,
-        "rationale": "On-chain ak\u0131\u015f analizi a\u011f\u0131rl\u0131kl\u0131 olarak d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc; daralan stablecoin arz\u0131, d\u00fc\u015fen hacim ve da\u011f\u0131t\u0131m paterni. Ancak $76 \u00fczerinde k\u0131sa s\u0131k\u0131\u015fma riski y\u00fcksek, bu nedenle s\u0131k\u0131 risk y\u00f6netimi ile SHORT \u00f6neri",
-        "extract_model": "deepseek-chat",
+        "rationale": "Sinyaller uyumsuz, d\u00fc\u015f\u00fck g\u00fcven, sermaye \u00e7\u0131k\u0131\u015f\u0131na ra\u011fmen k\u0131sa s\u0131k\u0131\u015fma riski.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784023355.962433,
-        "at": "2026-07-14T10:02:35.962433+00:00"
+        "ts": 1784030556.853484,
+        "at": "2026-07-14T12:02:36.853484+00:00"
       }
     },
     "gated_this_cycle": []
