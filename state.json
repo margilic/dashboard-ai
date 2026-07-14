@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T20:19:40.469966+00:00",
+  "cycle_at": "2026-07-14T20:20:40.472522+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T20:19:40.469966+00:00"
+    "updated_at": "2026-07-14T20:20:40.472522+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -902,7 +902,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-14 20:05:01.591762",
         "open_rate": 64510.0,
-        "current_rate": 64491.99,
+        "current_rate": 64490.86,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.99,
@@ -911,33 +911,32 @@
         "sl_price": 63542.35,
         "tp_price": 65800.2,
         "trailing_active_price": 65026.08
-      },
+      }
+    ],
+    "stats": {
+      "open": 1,
+      "total_closed": 7,
+      "wins": 3,
+      "losses": 4,
+      "win_rate": 42.9,
+      "total_pnl": 0.17,
+      "avg_profit_pct": 0.02
+    },
+    "recent_trades": [
       {
         "id": 8,
         "pair": "ETH/USDT",
         "open_date": "2026-07-14 20:15:01.800655",
-        "open_rate": 1874.82,
-        "current_rate": 1876.97,
+        "close_date": "2026-07-14 20:20:01.797000",
+        "entry": 1874.82,
+        "exit": 1876.97,
+        "pnl_pct": -0.09,
+        "pnl_abs": -0.09,
+        "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "stake": 99.93,
-        "amount": 0.0533,
-        "side": "LONG",
-        "sl_price": 1846.7,
-        "tp_price": 1912.32,
-        "trailing_active_price": 1889.82
-      }
-    ],
-    "stats": {
-      "open": 2,
-      "total_closed": 6,
-      "wins": 3,
-      "losses": 3,
-      "win_rate": 50.0,
-      "total_pnl": 0.26,
-      "avg_profit_pct": 0.04
-    },
-    "recent_trades": [
+        "side": "LONG"
+      },
       {
         "id": 6,
         "pair": "BTC/USDT",
