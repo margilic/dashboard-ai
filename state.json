@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T04:19:33.552934+00:00",
+  "cycle_at": "2026-07-14T04:20:33.574427+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T04:19:33.552934+00:00"
+    "updated_at": "2026-07-14T04:20:33.574427+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -832,47 +832,47 @@
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-14T00:17:21.093293+00:00",
+    "updated_at": "2026-07-14T04:20:01.005544+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -58.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "\u00dc\u00e7 boyutlu sinyal entegrasyonu g\u00fc\u00e7l\u00fc d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc; fonlama/baz, likidasyon/mikro ve zincir i\u00e7i ak\u0131\u015f verileri tutarl\u0131 \u015fekilde bearish. Perakende long oran\u0131 a\u015f\u0131r\u0131, stablecoin arz\u0131 daral\u0131yor. D\u00fc\u015f\u00fck volati",
-        "extract_model": "deepseek-chat",
-        "target": "BTC-USDT",
-        "ts": 1783987351.801388,
-        "at": "2026-07-14T00:02:31.801388+00:00"
-      },
-      "ETHUSDT": {
-        "direction": "SHORT",
+        "direction": "NEUTRAL",
         "conviction": "LOW",
         "score": -27.0,
         "sl": null,
         "tp": null,
-        "rationale": "Ak\u0131\u015f verileri d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, fonlama hafif y\u00fckseli\u015f, sinyaller ayr\u0131\u015f\u0131k. D\u00fc\u015f\u00fck inan\u00e7la k\u0131sa pozisyon \u00f6nerilir.",
+        "rationale": "Hafif d\u00fc\u015f\u00fc\u015f e\u011filimi ancak g\u00fcven e\u015fi\u011finin alt\u0131nda, bekleniyor.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "BTC-USDT",
+        "ts": 1784001753.435907,
+        "at": "2026-07-14T04:02:33.435907+00:00"
+      },
+      "ETHUSDT": {
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 65.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Sinyal karma\u015f\u0131k ancak bullish a\u011f\u0131rl\u0131kl\u0131. Fonlama rejimi sa\u011fl\u0131kl\u0131, CEX rezervleri azal\u0131yor, ETF giri\u015fleri pozitif. Perakende a\u015f\u0131r\u0131 long pozisyonda, denge riski var. Orta vadeli long y\u00f6nl\u00fc carry trade \u00f6",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1783987351.801388,
-        "at": "2026-07-14T00:02:31.801388+00:00"
+        "ts": 1784001753.435907,
+        "at": "2026-07-14T04:02:33.435907+00:00"
       },
       "SOLUSDT": {
         "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -40.0,
-        "sl": 76.5,
-        "tp": 74.1,
-        "rationale": "Fonlama sapmas\u0131, a\u015f\u0131r\u0131 long y\u00f6nelimi ve likidasyon kaskad\u0131 riski nedeniyle k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f bask\u0131n. RSI a\u015f\u0131r\u0131 sat\u0131mda, ancak yap\u0131sal g\u00fc\u00e7l\u00fc temeller olas\u0131 toparlanmay\u0131 destekliyor.",
-        "extract_model": "deepseek-chat",
+        "conviction": "HIGH",
+        "score": -64.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Finansman oranlar\u0131 negatif, likidasyon analizi d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, on-chain ak\u0131\u015flar g\u00fc\u00e7l\u00fc d\u00fc\u015f\u00fc\u015f sinyali veriyor. T\u00fcm sinyaller uyumlu.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1783987351.801388,
-        "at": "2026-07-14T00:02:31.801388+00:00"
+        "ts": 1784001753.435907,
+        "at": "2026-07-14T04:02:33.435907+00:00"
       }
     },
     "gated_this_cycle": []
