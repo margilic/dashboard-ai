@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T23:50:41.862186+00:00",
+  "cycle_at": "2026-07-14T23:51:41.860473+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T23:50:41.862186+00:00"
+    "updated_at": "2026-07-14T23:51:41.860473+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,6 +820,17 @@
   ],
   "signals": [
     {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 6.701,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784072700000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    },
+    {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
@@ -840,6 +851,17 @@
       "ts": 1784072700000,
       "v3_weight": 0.5,
       "v3_raw_strength": 58.536307947371704
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 6.701,
+      "strength": 27,
+      "note": "z=2.15",
+      "ts": 1784072700000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 53.846181216169455
     }
   ],
   "swarm": {
