@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T22:32:41.339873+00:00",
+  "cycle_at": "2026-07-14T22:33:41.345489+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T22:32:41.339873+00:00"
+    "updated_at": "2026-07-14T22:33:41.345489+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,10 +820,32 @@
   ],
   "signals": [
     {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 1891.9,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784068200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 582.46,
+      "strength": 38,
+      "note": "z=3.04",
+      "ts": 1784068200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75.94042467374946
+    },
+    {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 581.85,
+      "price": 582.46,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784068200000,
@@ -831,15 +853,26 @@
       "v3_raw_strength": 65
     },
     {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 581.85,
-      "strength": 31,
-      "note": "z=2.46",
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 0.1649,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784068200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 61.49629727405692
+      "v3_raw_strength": 65
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.1649,
+      "strength": 25,
+      "note": "z=2.02",
+      "ts": 1784068200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 50.60567513333347
     }
   ],
   "swarm": {
