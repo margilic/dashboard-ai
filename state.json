@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T23:09:41.588488+00:00",
+  "cycle_at": "2026-07-14T23:10:41.600097+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T23:09:41.588488+00:00"
+    "updated_at": "2026-07-14T23:10:41.600097+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -818,7 +818,30 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 582.56,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784070000000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 582.56,
+      "strength": 31,
+      "note": "z=2.50",
+      "ts": 1784070000000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 62.467058780169815
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-14T22:22:36.656242+00:00",
     "model": "deepseek-chat",
