@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T22:24:41.297323+00:00",
+  "cycle_at": "2026-07-14T22:25:41.304521+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T22:24:41.297323+00:00"
+    "updated_at": "2026-07-14T22:25:41.304521+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,7 +823,7 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 64946.68,
+      "price": 64935.78,
       "strength": 38,
       "note": "20-bar tepe + hacim",
       "ts": 1784067300000,
@@ -834,7 +834,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 1881.0,
+      "price": 1881.47,
       "strength": 38,
       "note": "20-bar tepe + hacim",
       "ts": 1784067300000,
@@ -845,7 +845,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 77.52,
+      "price": 77.54,
       "strength": 38,
       "note": "20-bar tepe + hacim",
       "ts": 1784067300000,
@@ -918,33 +918,31 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [
+    "open_positions": [],
+    "stats": {
+      "open": 0,
+      "total_closed": 11,
+      "wins": 5,
+      "losses": 6,
+      "win_rate": 45.5,
+      "total_pnl": 0.17,
+      "avg_profit_pct": 0.02
+    },
+    "recent_trades": [
       {
         "id": 10,
         "pair": "ETH/USDT",
         "open_date": "2026-07-14 21:55:01.609005",
-        "open_rate": 1876.45,
-        "current_rate": 1881.2,
+        "close_date": "2026-07-14 22:25:01.552000",
+        "entry": 1876.45,
+        "exit": 1882.33,
+        "pnl_pct": 0.11,
+        "pnl_abs": 0.11,
+        "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "stake": 99.83,
-        "amount": 0.0532,
-        "side": "LONG",
-        "sl_price": 1848.3,
-        "tp_price": 1913.98,
-        "trailing_active_price": 1891.46
-      }
-    ],
-    "stats": {
-      "open": 1,
-      "total_closed": 10,
-      "wins": 4,
-      "losses": 6,
-      "win_rate": 40.0,
-      "total_pnl": 0.06,
-      "avg_profit_pct": 0.01
-    },
-    "recent_trades": [
+        "side": "LONG"
+      },
       {
         "id": 11,
         "pair": "BTC/USDT",
@@ -1069,20 +1067,6 @@
         "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "side": "LONG"
-      },
-      {
-        "id": 1,
-        "pair": "BTC/USDT",
-        "open_date": "2026-07-14 15:00:01.580354",
-        "close_date": "2026-07-14 17:01:32.512000",
-        "entry": 64305.86,
-        "exit": 64715.31,
-        "pnl_pct": 0.44,
-        "pnl_abs": 0.43,
-        "exit_reason": "rsi_gt52",
-        "enter_tag": "breakout_v2",
-        "strategy": "MomentumBreakoutV2",
         "side": "LONG"
       }
     ]
