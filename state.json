@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T14:59:38.218380+00:00",
+  "cycle_at": "2026-07-14T15:00:38.242656+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T14:59:38.218380+00:00"
+    "updated_at": "2026-07-14T15:00:38.242656+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -818,19 +818,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 0.07447,
-      "strength": 38,
-      "note": "20-bar tepe + hacim",
-      "ts": 1784040300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 75
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-14T14:19:05.841442+00:00",
     "model": "deepseek-chat",
@@ -890,9 +878,20 @@
   },
   "freqtrade": {
     "status": "running",
-    "open_positions": [],
+    "open_positions": [
+      {
+        "pair": "BTC/USDT",
+        "open_date": "2026-07-14 15:00:01.580354",
+        "open_rate": 64305.86,
+        "enter_tag": "breakout_v2",
+        "strategy": "MomentumBreakoutV2",
+        "stake": 99.67,
+        "amount": 0.00155,
+        "side": "LONG"
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 0,
       "wins": 0,
       "losses": 0,
