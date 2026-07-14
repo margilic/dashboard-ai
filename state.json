@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T04:11:33.497872+00:00",
+  "cycle_at": "2026-07-14T04:12:33.501616+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,12 +68,12 @@
       "free": 0.0,
       "locked": 4896.65
     },
-    "equity": 4903.31,
+    "equity": 4902.97,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 6.65,
+    "unrealized_pnl": 6.32,
     "realized_today": 0,
-    "updated_at": "2026-07-14T04:11:33.497872+00:00"
+    "updated_at": "2026-07-14T04:12:33.501616+00:00"
   },
   "open_positions": [
     {
@@ -99,6 +99,26 @@
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "entry": 1.0577,
+      "exit": 1.0643,
+      "qty": 945.0,
+      "pnl": 6.237,
+      "opened_at": 1783966293,
+      "closed_at": 1784002356,
+      "duration_s": 36063,
+      "algo_version": "2.0",
+      "trade_no": 37,
+      "trade_id": "T0037",
+      "id": "XRPUSDT-1784002356-37",
+      "pnl_pct": 0.624,
+      "notional": 999.53,
+      "strategy": "live",
+      "exit_reason": "TP",
+      "opened_iso": "2026-07-13T18:11:33+00:00"
+    },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
@@ -825,7 +845,7 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 570.14,
+      "price": 570.23,
       "strength": 38,
       "note": "20-bar tepe + hacim",
       "ts": 1784001600000,
@@ -881,13 +901,13 @@
   },
   "stats": {
     "open": 1,
-    "total_trades": 36,
-    "wins": 15,
+    "total_trades": 37,
+    "wins": 16,
     "losses": 21,
-    "win_rate": 41.7,
-    "total_pnl": -74.05,
-    "equity": 4903.31,
-    "unrealized": 6.65,
+    "win_rate": 43.2,
+    "total_pnl": -67.81,
+    "equity": 4902.97,
+    "unrealized": 6.32,
     "closed_this_cycle": 0
   }
 }
