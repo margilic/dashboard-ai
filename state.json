@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T00:21:31.945213+00:00",
+  "cycle_at": "2026-07-14T00:22:31.956898+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,12 +68,12 @@
       "free": 0.0,
       "locked": 4896.65
     },
-    "equity": 4904.68,
+    "equity": 4904.78,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 8.03,
+    "unrealized_pnl": 8.13,
     "realized_today": 0,
-    "updated_at": "2026-07-14T00:21:31.945213+00:00"
+    "updated_at": "2026-07-14T00:22:31.956898+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0669,
+      "current": 1.0668,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 8.69,
-      "pnl_pct": 0.87,
+      "unrealized": 8.6,
+      "pnl_pct": 0.86,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -825,7 +825,7 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 568.21,
+      "price": 568.03,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1783988100000,
@@ -836,12 +836,12 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 568.21,
-      "strength": 27,
-      "note": "z=2.17",
+      "price": 568.03,
+      "strength": 26,
+      "note": "z=2.04",
       "ts": 1783988100000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 54.31163641870026
+      "v3_raw_strength": 51.10777725724247
     }
   ],
   "swarm": {
@@ -897,8 +897,8 @@
     "losses": 21,
     "win_rate": 41.7,
     "total_pnl": -74.05,
-    "equity": 4904.68,
-    "unrealized": 8.03,
+    "equity": 4904.78,
+    "unrealized": 8.13,
     "closed_this_cycle": 0
   }
 }
