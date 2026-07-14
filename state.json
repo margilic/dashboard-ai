@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T11:51:36.791563+00:00",
+  "cycle_at": "2026-07-14T11:52:36.785421+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T11:51:36.791563+00:00"
+    "updated_at": "2026-07-14T11:52:36.785421+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -818,7 +818,63 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 1.0726,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784029500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 7.995,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784029500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1.0726,
+      "strength": 28,
+      "note": "z=2.23",
+      "ts": 1784029500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 55.635675699561695
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 7.995,
+      "strength": 28,
+      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784029500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 56.18421052631672
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 7.995,
+      "strength": 27,
+      "note": "z=2.16",
+      "ts": 1784029500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 53.99555302196838
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-14T10:16:01.162970+00:00",
     "model": "deepseek-chat",
