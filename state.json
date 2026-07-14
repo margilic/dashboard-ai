@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T04:12:33.501616+00:00",
+  "cycle_at": "2026-07-14T04:13:33.505346+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -65,39 +65,17 @@
   },
   "balance": {
     "USD": {
-      "free": 0.0,
-      "locked": 4896.65
+      "free": 4902.49,
+      "locked": 0.0
     },
-    "equity": 4902.97,
+    "equity": 4902.49,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 6.32,
+    "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T04:12:33.501616+00:00"
+    "updated_at": "2026-07-14T04:13:33.505346+00:00"
   },
-  "open_positions": [
-    {
-      "id": "XRPUSDT-1783966349",
-      "trade_no": 41,
-      "trade_id": "T0041",
-      "symbol": "XRPUSDT",
-      "side": "LONG",
-      "strategy": "adopted",
-      "entry": 1.0577,
-      "current": 1.0649,
-      "qty": 945.0,
-      "notional": 999.5265,
-      "unrealized": 6.8,
-      "pnl_pct": 0.681,
-      "sl": 1.041834,
-      "tp": 1.078854,
-      "note": "adopted from Binance (orphan)",
-      "opened_at": 1783966349.359282,
-      "opened_iso": "2026-07-13T18:12:29.359282+00:00",
-      "swarm_aligned": false,
-      "algo_version": "2.0"
-    }
-  ],
+  "open_positions": [],
   "recent_trades": [
     {
       "symbol": "XRPUSDT",
@@ -845,7 +823,7 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 570.23,
+      "price": 570.18,
       "strength": 38,
       "note": "20-bar tepe + hacim",
       "ts": 1784001600000,
@@ -900,14 +878,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 1,
+    "open": 0,
     "total_trades": 37,
     "wins": 16,
     "losses": 21,
     "win_rate": 43.2,
     "total_pnl": -67.81,
-    "equity": 4902.97,
-    "unrealized": 6.32,
+    "equity": 4902.49,
+    "unrealized": 0.0,
     "closed_this_cycle": 0
   }
 }
