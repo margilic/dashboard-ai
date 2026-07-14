@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T14:18:37.957139+00:00",
+  "cycle_at": "2026-07-14T14:19:37.959260+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T14:18:37.957139+00:00"
+    "updated_at": "2026-07-14T14:19:37.959260+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,47 +820,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-14T12:17:06.823814+00:00",
+    "updated_at": "2026-07-14T14:19:05.841442+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -25.0,
+        "score": 60.0,
         "sl": null,
         "tp": null,
-        "rationale": "Funding d\u00fc\u015f\u00fc\u015f\u00fc ve likidasyon k\u00fcmeleri a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk; sermaye yan \u00e7izgide.",
+        "rationale": "Likidite arka plan\u0131 g\u00fc\u00e7l\u00fc, k\u0131sa squeeze potansiyeli var, hacim art\u0131\u015f\u0131 teyit ediyor.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784030556.853484,
-        "at": "2026-07-14T12:02:36.853484+00:00"
+        "ts": 1784037757.738909,
+        "at": "2026-07-14T14:02:37.738909+00:00"
       },
       "ETHUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -10.5,
+        "direction": "LONG",
+        "conviction": "HIGH",
+        "score": 73.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k; fonlama d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, likidasyonlar a\u015fa\u011f\u0131 risk g\u00f6steriyor, ancak on-chain ak\u0131\u015f y\u00fckseli\u015fi destekliyor. Bekle ve onayla.",
+        "rationale": "G\u00fc\u00e7l\u00fc bullish uyum, d\u00fc\u015f\u00fck fonlama ile organik y\u00fckseli\u015f, short squeeze devam ediyor. Perakende long kalabal\u0131\u011f\u0131 riski d\u00fc\u015f\u00fck.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784030556.853484,
-        "at": "2026-07-14T12:02:36.853484+00:00"
+        "ts": 1784037757.738909,
+        "at": "2026-07-14T14:02:37.738909+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
+        "direction": "SHORT",
         "conviction": "LOW",
-        "score": -15.0,
-        "sl": null,
+        "score": -2.65,
+        "sl": 78.8,
         "tp": null,
-        "rationale": "Sinyaller uyumsuz, d\u00fc\u015f\u00fck g\u00fcven, sermaye \u00e7\u0131k\u0131\u015f\u0131na ra\u011fmen k\u0131sa s\u0131k\u0131\u015fma riski.",
+        "rationale": "D\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, d\u00fc\u015f\u00fck kanaat; stablecoin \u00e7\u0131k\u0131\u015flar\u0131 g\u00fc\u00e7l\u00fc sinyal, ancak likidasyon ve fonlama ayr\u0131\u015f\u0131yor.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784030556.853484,
-        "at": "2026-07-14T12:02:36.853484+00:00"
+        "ts": 1784037757.738909,
+        "at": "2026-07-14T14:02:37.738909+00:00"
       }
     },
     "gated_this_cycle": []
