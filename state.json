@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T19:13:39.996356+00:00",
+  "cycle_at": "2026-07-14T19:14:40.000265+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T19:13:39.996356+00:00"
+    "updated_at": "2026-07-14T19:14:40.000265+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,15 +820,26 @@
   ],
   "signals": [
     {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 1.1143,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784055600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1635,
-      "strength": 36,
-      "note": "RSI 24.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.1634,
+      "strength": 37,
+      "note": "RSI 23.4 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784055600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 71.15384615384573
+      "v3_raw_strength": 74.68750000000013
     }
   ],
   "swarm": {
