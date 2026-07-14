@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T18:15:39.634470+00:00",
+  "cycle_at": "2026-07-14T18:16:39.609303+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T18:15:39.634470+00:00"
+    "updated_at": "2026-07-14T18:16:39.609303+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -821,20 +821,9 @@
   "signals": [
     {
       "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.0908,
-      "strength": 33,
-      "note": "RSI 26.7 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784052900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65.0000000000002
-    },
-    {
-      "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.0908,
+      "price": 0.0909,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784052900000,
@@ -844,57 +833,68 @@
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0908,
-      "strength": 28,
-      "note": "z=-2.24",
+      "strategy": "RSI Reversal",
+      "price": 0.0909,
+      "strength": 29,
+      "note": "RSI 29.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784052900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 56.066608934566695
+      "v3_raw_strength": 57.903225806452554
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0909,
+      "strength": 26,
+      "note": "z=-2.09",
+      "ts": 1784052900000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 52.23929974580721
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-14T16:18:45.860426+00:00",
+    "updated_at": "2026-07-14T18:16:12.008760+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -40.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 4.0,
         "sl": null,
         "tp": null,
-        "rationale": "Fonlama oran\u0131 t\u00fcm borsalarda %0.01 s\u0131n\u0131r\u0131nda, bu g\u00fc\u00e7l\u00fc bir kontra sinyali. Piyasa a\u015f\u0131r\u0131 uzun pozisyonlu ve kalabal\u0131k. K\u0131sa pozisyon \u00f6nerilir.",
+        "rationale": "Sinyaller kar\u0131\u015f\u0131k; fonlama ve likidasyon y\u00fckseli\u015fi desteklerken, on-chain ak\u0131\u015flar d\u00fc\u015f\u00fc\u015f sinyali veriyor. Bekliyoruz.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784044958.667717,
-        "at": "2026-07-14T16:02:38.667717+00:00"
+        "ts": 1784052159.507282,
+        "at": "2026-07-14T18:02:39.507282+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 65.0,
+        "conviction": "MEDIUM",
+        "score": 64.2,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyal entegrasyonu tutarl\u0131 bo\u011fa y\u00f6n\u00fcnde. Y\u00fcksek hacimli k\u0131r\u0131l\u0131m, kurumsal rotasyon ve d\u00fc\u015f\u00fck fonlama oranlar\u0131 destekliyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Funding n\u00f6tral ama yap\u0131c\u0131 ayr\u0131\u015fma, k\u0131sa s\u0131k\u0131\u015fma potansiyeli, on-chain temkinli. Orta derecede y\u00fckseli\u015f.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784044958.667717,
-        "at": "2026-07-14T16:02:38.667717+00:00"
+        "ts": 1784052159.507282,
+        "at": "2026-07-14T18:02:39.507282+00:00"
       },
       "SOLUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -41.5,
+        "score": 38.0,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm sinyaller d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc ve uyumlu, ancak fonlama oranlar\u0131 a\u015f\u0131r\u0131 de\u011fil; orta g\u00fcven.",
+        "rationale": "G\u00fc\u00e7l\u00fc zincir i\u00e7i ak\u0131\u015flara ra\u011fmen k\u0131sa vadeli likidasyon bask\u0131s\u0131 nedeniyle d\u00fc\u015f\u00fc\u015fte al\u0131m yap\u0131lmas\u0131 \u00f6nerilir.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784044958.667717,
-        "at": "2026-07-14T16:02:38.667717+00:00"
+        "ts": 1784052159.507282,
+        "at": "2026-07-14T18:02:39.507282+00:00"
       }
     },
     "gated_this_cycle": []
@@ -924,7 +924,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-14 18:10:01.573539",
         "open_rate": 64494.01,
-        "current_rate": 64514.0,
+        "current_rate": 64524.01,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.97,
@@ -939,7 +939,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-14 18:10:02.102778",
         "open_rate": 1869.38,
-        "current_rate": 1870.71,
+        "current_rate": 1871.14,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.82,
