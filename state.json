@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T06:39:34.538044+00:00",
+  "cycle_at": "2026-07-14T06:40:34.545853+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T06:39:34.538044+00:00"
+    "updated_at": "2026-07-14T06:40:34.545853+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,48 +820,37 @@
   ],
   "signals": [
     {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.497,
+      "strength": 31,
+      "note": "RSI 72.5 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784010600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 62.60563380281724
+    },
+    {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07231,
-      "strength": 34,
-      "note": "RSI 74.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.07227,
+      "strength": 30,
+      "note": "RSI 71.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784010600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 67.93577981651362
+      "v3_raw_strength": 60.04424778761083
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 75.21,
-      "strength": 33,
-      "note": "RSI 73.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 75.17,
+      "strength": 29,
+      "note": "RSI 70.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784010600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 65.5882352941174
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.501,
-      "strength": 32,
-      "note": "RSI 73.3 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784010600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 64.86301369863071
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1.0701,
-      "strength": 31,
-      "note": "RSI 72.3 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784010600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 61.9811320754726
+      "v3_raw_strength": 57.264150943397425
     }
   ],
   "swarm": {
