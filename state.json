@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T13:18:37.395049+00:00",
+  "cycle_at": "2026-07-14T13:19:37.402406+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T13:18:37.395049+00:00"
+    "updated_at": "2026-07-14T13:19:37.402406+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,17 +820,6 @@
   ],
   "signals": [
     {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.07343,
-      "strength": 49,
-      "note": "RSI 84.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784034900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 97.55102040816263
-    },
-    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
@@ -845,29 +834,40 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 577.22,
+      "price": 577.33,
       "strength": 41,
-      "note": "RSI 79.1 a\u015f\u0131r\u0131 al\u0131m",
+      "note": "RSI 79.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784034900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 82.3892022562446
+      "v3_raw_strength": 82.93929712460034
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 0.07343,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784034900000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 76.65,
-      "strength": 36,
-      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 76.67,
+      "strength": 37,
+      "note": "RSI 76.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784034900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 72.7227722772277
+      "v3_raw_strength": 73.1967213114753
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 76.65,
+      "price": 76.67,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784034900000,
@@ -878,18 +878,7 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 577.22,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784034900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 0.07343,
+      "price": 577.33,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784034900000,
@@ -930,26 +919,15 @@
       "v3_raw_strength": 60.07406578126814
     },
     {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07343,
-      "strength": 29,
-      "note": "z=2.34",
-      "ts": 1784034900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 58.552033899270796
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 577.22,
+      "price": 577.33,
       "strength": 28,
-      "note": "z=2.24",
+      "note": "z=2.28",
       "ts": 1784034900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 56.07843323608467
+      "v3_raw_strength": 56.87600389384673
     },
     {
       "symbol": "ARBUSDT",
@@ -966,12 +944,12 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 76.65,
+      "price": 76.67,
       "strength": 26,
-      "note": "z=2.07",
+      "note": "z=2.09",
       "ts": 1784034900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 51.65260463513619
+      "v3_raw_strength": 52.33172057814929
     },
     {
       "symbol": "ARBUSDT",
