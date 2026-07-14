@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T10:15:36.060121+00:00",
+  "cycle_at": "2026-07-14T10:16:36.062307+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T10:15:36.060121+00:00"
+    "updated_at": "2026-07-14T10:16:36.062307+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,47 +820,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-14T05:14:50.143477+00:00",
+    "updated_at": "2026-07-14T10:16:01.162970+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 8.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k: ak\u0131\u015f y\u00fckseli\u015f y\u00f6nl\u00fc ancak mikro yap\u0131 temkinli. Bekleme ve onay bekleniyor.",
-        "extract_model": "deepseek-v4-flash",
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 10.0,
+        "sl": 62300,
+        "tp": 63000,
+        "rationale": "Kompozit skor +0.10 ile n\u00f6tr-hafif y\u00fckseli\u015f e\u011filimi. Fonlama ve likidasyon y\u00fckseli\u015fi desteklerken, zincir \u00fcst\u00fc ak\u0131\u015f d\u00fc\u015f\u00fc\u015f sinyali veriyor. K\u0131sa vadeli long \u00f6nerisi, s\u0131k\u0131 risk kontrolleri ve onay bekle",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1784005353.846953,
-        "at": "2026-07-14T05:02:33.846953+00:00"
+        "ts": 1784023355.962433,
+        "at": "2026-07-14T10:02:35.962433+00:00"
       },
       "ETHUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -23.5,
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": -43.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor -0.235 yeterli g\u00fcven vermiyor; ay\u0131 sinyalleri y\u00fckseli\u015f sapmas\u0131 ile dengeleniyor, bu nedenle beklenmelidir.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Stablecoin arz\u0131 daral\u0131yor, ETF \u00e7\u0131k\u0131\u015flar\u0131 var ve uzun pozisyonlar kalabal\u0131k. A\u015fa\u011f\u0131 y\u00f6nl\u00fc risk bask\u0131n.",
+        "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1784005353.846953,
-        "at": "2026-07-14T05:02:33.846953+00:00"
+        "ts": 1784023355.962433,
+        "at": "2026-07-14T10:02:35.962433+00:00"
       },
       "SOLUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 0.0,
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": 42.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k, ay\u0131 fakt\u00f6rler a\u011f\u0131r bas\u0131yor ancak a\u015f\u0131r\u0131 sat\u0131m b\u00f6lgesi, bekle.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "On-chain ak\u0131\u015f analizi a\u011f\u0131rl\u0131kl\u0131 olarak d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc; daralan stablecoin arz\u0131, d\u00fc\u015fen hacim ve da\u011f\u0131t\u0131m paterni. Ancak $76 \u00fczerinde k\u0131sa s\u0131k\u0131\u015fma riski y\u00fcksek, bu nedenle s\u0131k\u0131 risk y\u00f6netimi ile SHORT \u00f6neri",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1784005353.846953,
-        "at": "2026-07-14T05:02:33.846953+00:00"
+        "ts": 1784023355.962433,
+        "at": "2026-07-14T10:02:35.962433+00:00"
       }
     },
     "gated_this_cycle": []
