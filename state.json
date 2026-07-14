@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T18:43:39.805043+00:00",
+  "cycle_at": "2026-07-14T18:44:39.814254+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T18:43:39.805043+00:00"
+    "updated_at": "2026-07-14T18:44:39.814254+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -818,7 +818,41 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 0.0907,
+      "strength": 32,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784053800000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.0907,
+      "strength": 28,
+      "note": "RSI 29.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784053800000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 56.76470588235338
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0907,
+      "strength": 27,
+      "note": "z=-2.14",
+      "ts": 1784053800000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 53.51402119871794
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-14T18:16:12.008760+00:00",
     "model": "deepseek-chat",
