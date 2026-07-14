@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T01:32:32.405243+00:00",
+  "cycle_at": "2026-07-14T01:33:32.411490+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,12 +68,12 @@
       "free": 0.0,
       "locked": 4896.65
     },
-    "equity": 4906.2,
+    "equity": 4905.72,
     "initial_balance": 4999.87,
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
-    "unrealized_pnl": 9.54,
+    "unrealized_pnl": 9.07,
     "realized_today": 0,
-    "updated_at": "2026-07-14T01:32:32.405243+00:00"
+    "updated_at": "2026-07-14T01:33:32.411490+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "adopted",
       "entry": 1.0577,
-      "current": 1.0683,
+      "current": 1.0677,
       "qty": 945.0,
       "notional": 999.5265,
-      "unrealized": 10.02,
-      "pnl_pct": 1.002,
+      "unrealized": 9.45,
+      "pnl_pct": 0.945,
       "sl": 1.041834,
       "tp": 1.078854,
       "note": "adopted from Binance (orphan)",
@@ -820,19 +820,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 75.32,
-      "strength": 30,
-      "note": "RSI 71.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1783992600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 59.545454545453225
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-14T00:17:21.093293+00:00",
     "model": "deepseek-chat",
@@ -886,8 +874,8 @@
     "losses": 21,
     "win_rate": 41.7,
     "total_pnl": -74.05,
-    "equity": 4906.2,
-    "unrealized": 9.54,
+    "equity": 4905.72,
+    "unrealized": 9.07,
     "closed_this_cycle": 0
   }
 }
