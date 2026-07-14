@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T19:49:40.258133+00:00",
+  "cycle_at": "2026-07-14T19:50:40.262068+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-14T19:49:40.258133+00:00"
+    "updated_at": "2026-07-14T19:50:40.262068+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,12 +823,12 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1634,
-      "strength": 50,
-      "note": "RSI 13.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.1635,
+      "strength": 49,
+      "note": "RSI 15.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784058300000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 100
+      "v3_raw_strength": 98.33333333333299
     }
   ],
   "swarm": {
@@ -896,33 +896,31 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [
+    "open_positions": [],
+    "stats": {
+      "open": 0,
+      "total_closed": 6,
+      "wins": 3,
+      "losses": 3,
+      "win_rate": 50.0,
+      "total_pnl": 0.26,
+      "avg_profit_pct": 0.04
+    },
+    "recent_trades": [
       {
         "id": 6,
         "pair": "BTC/USDT",
         "open_date": "2026-07-14 19:30:01.634753",
-        "open_rate": 64521.15,
-        "current_rate": 64591.99,
+        "close_date": "2026-07-14 19:50:16.270000",
+        "entry": 64521.15,
+        "exit": 64573.99,
+        "pnl_pct": -0.12,
+        "pnl_abs": -0.12,
+        "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "stake": 99.36,
-        "amount": 0.00154,
-        "side": "LONG",
-        "sl_price": 63553.33,
-        "tp_price": 65811.57,
-        "trailing_active_price": 65037.32
-      }
-    ],
-    "stats": {
-      "open": 1,
-      "total_closed": 5,
-      "wins": 3,
-      "losses": 2,
-      "win_rate": 60.0,
-      "total_pnl": 0.38,
-      "avg_profit_pct": 0.08
-    },
-    "recent_trades": [
+        "side": "LONG"
+      },
       {
         "id": 4,
         "pair": "BTC/USDT",
