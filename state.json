@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-14T13:32:37.500457+00:00",
+  "cycle_at": "2026-07-14T13:33:37.504447+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -831,6 +831,17 @@
       "v3_raw_strength": 88.0379746835444
     },
     {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 580.11,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784035800000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
@@ -845,23 +856,12 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.0926,
+      "price": 0.0924,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784035800000,
       "v3_weight": 0.5,
       "v3_raw_strength": 65
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.0926,
-      "strength": 30,
-      "note": "RSI 71.7 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784035800000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 60.00000000000023
     },
     {
       "symbol": "ADAUSDT",
@@ -878,12 +878,12 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.0926,
-      "strength": 27,
-      "note": "z=2.20",
+      "price": 0.0924,
+      "strength": 26,
+      "note": "z=2.07",
       "ts": 1784035800000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 54.89537518176321
+      "v3_raw_strength": 51.67821713265357
     }
   ],
   "swarm": {
