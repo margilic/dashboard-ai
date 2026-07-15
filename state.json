@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T04:16:43.607892+00:00",
+  "cycle_at": "2026-07-15T04:17:43.604200+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T04:16:43.607892+00:00"
+    "updated_at": "2026-07-15T04:17:43.604200+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,56 +823,56 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0907,
-      "strength": 38,
-      "note": "RSI 23.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0906,
+      "strength": 39,
+      "note": "RSI 22.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784088900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 75.76923076923097
+      "v3_raw_strength": 77.07547169811345
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-15T00:15:11.189433+00:00",
+    "updated_at": "2026-07-15T04:17:06.343081+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 6.95,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 4.72,
         "sl": null,
         "tp": null,
-        "rationale": "Bo\u011fa e\u011filimi: fiyat dip d\u00f6n\u00fc\u015f\u00fc, k\u0131sa s\u0131k\u0131\u015fma setu, fonlama sa\u011fl\u0131kl\u0131. Skor 6.95.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Sinyaller uyumsuz: fonlama n\u00f6tr, likidasyon dengeli, ak\u0131\u015f hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Y\u00f6nl\u00fc pozisyon almak i\u00e7in yeterli uyum yok.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1784073761.940777,
-        "at": "2026-07-15T00:02:41.940777+00:00"
+        "ts": 1784088163.513864,
+        "at": "2026-07-15T04:02:43.513864+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 82.5,
+        "conviction": "MEDIUM",
+        "score": 39.0,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm sinyaller y\u00fckseli\u015f y\u00f6n\u00fcnde: fonlama/baz sa\u011fl\u0131kl\u0131, ak\u0131\u015f balina al\u0131m\u0131, likidasyon a\u015fa\u011f\u0131 y\u00f6nl\u00fc olsa da mikro yap\u0131 destekli. Y\u00fcksek g\u00fcven.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "T\u00fcm sinyaller y\u00fckseli\u015f y\u00f6n\u00fcnde uyumlu; TVL art\u0131\u015f\u0131, k\u0131sa s\u0131k\u0131\u015fma potansiyeli ve sa\u011fl\u0131kl\u0131 fonlama oranlar\u0131 var. Ancak stablecoin arz\u0131 daral\u0131yor ve ETF \u00e7\u0131k\u0131\u015f\u0131 risk olu\u015fturuyor.",
+        "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1784073761.940777,
-        "at": "2026-07-15T00:02:41.940777+00:00"
+        "ts": 1784088163.513864,
+        "at": "2026-07-15T04:02:43.513864+00:00"
       },
       "SOLUSDT": {
-        "direction": "SHORT",
-        "conviction": "LOW",
-        "score": -20.5,
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 66.5,
         "sl": null,
         "tp": null,
-        "rationale": "Solana'dan b\u00fcy\u00fck stabilcoin \u00e7\u0131k\u0131\u015f\u0131 ve a\u015fa\u011f\u0131 likidasyon magneti nedeniyle k\u0131sa y\u00f6nl\u00fc, ancak fonlama/baz ayr\u0131\u015fmas\u0131 nedeniyle d\u00fc\u015f\u00fck kanaat.",
+        "rationale": "On-chain ak\u0131\u015f ve likidasyon yap\u0131s\u0131 uzun pozisyonu destekliyor, fonlama ta\u015f\u0131ma sa\u011fl\u0131kl\u0131, ancak L/S oran\u0131 2.24 zay\u0131f uyar\u0131 veriyor. Orta derecede y\u00fckseli\u015f beklentisi.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784073761.940777,
-        "at": "2026-07-15T00:02:41.940777+00:00"
+        "ts": 1784088163.513864,
+        "at": "2026-07-15T04:02:43.513864+00:00"
       }
     },
     "gated_this_cycle": []
