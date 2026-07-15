@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T05:19:44.030661+00:00",
+  "cycle_at": "2026-07-15T05:20:44.037297+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T05:19:44.030661+00:00"
+    "updated_at": "2026-07-15T05:20:44.037297+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,47 +820,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-15T04:17:06.343081+00:00",
+    "updated_at": "2026-07-15T05:20:10.001199+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 4.72,
+        "direction": "LONG",
+        "conviction": "HIGH",
+        "score": 80.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller uyumsuz: fonlama n\u00f6tr, likidasyon dengeli, ak\u0131\u015f hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Y\u00f6nl\u00fc pozisyon almak i\u00e7in yeterli uyum yok.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Bo\u011fa sapmas\u0131, spot kaynakl\u0131 y\u00fckseli\u015f, d\u00fc\u015f\u00fck fonlama, g\u00fc\u00e7l\u00fc zincir i\u00e7i ak\u0131\u015f.",
+        "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784088163.513864,
-        "at": "2026-07-15T04:02:43.513864+00:00"
+        "ts": 1784091763.885738,
+        "at": "2026-07-15T05:02:43.885738+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 39.0,
+        "score": 64.5,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm sinyaller y\u00fckseli\u015f y\u00f6n\u00fcnde uyumlu; TVL art\u0131\u015f\u0131, k\u0131sa s\u0131k\u0131\u015fma potansiyeli ve sa\u011fl\u0131kl\u0131 fonlama oranlar\u0131 var. Ancak stablecoin arz\u0131 daral\u0131yor ve ETF \u00e7\u0131k\u0131\u015f\u0131 risk olu\u015fturuyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Orta dereceli bo\u011fa e\u011filimi, giri\u015f 1855-1885, stop 1858 alt\u0131, hedef belirtilmemi\u015f.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784088163.513864,
-        "at": "2026-07-15T04:02:43.513864+00:00"
+        "ts": 1784091763.885738,
+        "at": "2026-07-15T05:02:43.885738+00:00"
       },
       "SOLUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 66.5,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": -4.0,
         "sl": null,
         "tp": null,
-        "rationale": "On-chain ak\u0131\u015f ve likidasyon yap\u0131s\u0131 uzun pozisyonu destekliyor, fonlama ta\u015f\u0131ma sa\u011fl\u0131kl\u0131, ancak L/S oran\u0131 2.24 zay\u0131f uyar\u0131 veriyor. Orta derecede y\u00fckseli\u015f beklentisi.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "Sinyaller \u00e7eli\u015fkili: fonlama y\u00fckseli\u015f, zincir ak\u0131\u015f\u0131 d\u00fc\u015f\u00fc\u015f, likidasyon n\u00f6tr. $580M haftal\u0131k stablecoin \u00e7\u0131k\u0131\u015f\u0131 e\u015fi\u011fi a\u015ft\u0131, y\u00fcksek g\u00fcvenli y\u00f6n \u00e7a\u011fr\u0131s\u0131 engelleniyor. Bekle.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1784088163.513864,
-        "at": "2026-07-15T04:02:43.513864+00:00"
+        "ts": 1784091763.885738,
+        "at": "2026-07-15T05:02:43.885738+00:00"
       }
     },
     "gated_this_cycle": []
@@ -890,7 +890,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 05:05:01.691978",
         "open_rate": 64735.62,
-        "current_rate": 64670.0,
+        "current_rate": 64667.55,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.69,
@@ -905,7 +905,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 05:15:01.826940",
         "open_rate": 1872.37,
-        "current_rate": 1874.09,
+        "current_rate": 1873.76,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.98,
