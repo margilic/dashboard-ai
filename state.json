@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T03:29:43.289009+00:00",
+  "cycle_at": "2026-07-15T03:30:43.312635+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T03:29:43.289009+00:00"
+    "updated_at": "2026-07-15T03:30:43.312635+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -818,30 +818,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 1869.08,
-      "strength": 30,
-      "note": "RSI 28.3 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784085300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 60.201220675186065
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 6.635,
-      "strength": 28,
-      "note": "RSI 29.4 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784085300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 56.764705882353084
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-15T00:15:11.189433+00:00",
     "model": "deepseek-chat",
@@ -913,7 +890,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 00:20:01.606815",
         "open_rate": 64875.01,
-        "current_rate": 64615.18,
+        "current_rate": 64670.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.91,
@@ -928,7 +905,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 02:30:01.804885",
         "open_rate": 1864.84,
-        "current_rate": 1868.79,
+        "current_rate": 1871.11,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.96,
