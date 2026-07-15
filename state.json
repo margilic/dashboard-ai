@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T12:06:46.769067+00:00",
+  "cycle_at": "2026-07-15T12:07:46.772168+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 4885.11,
       "locked": 0
     },
-    "equity": 4890.28,
+    "equity": 4892.62,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 5.17,
+    "unrealized_pnl": 7.51,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T12:06:46.769067+00:00"
+    "updated_at": "2026-07-15T12:07:46.772168+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 577.15,
-      "current": 578.3,
+      "current": 578.67,
       "qty": 1.732652,
       "notional": 1000.0,
-      "unrealized": -1.99,
-      "pnl_pct": -0.199,
+      "unrealized": -2.63,
+      "pnl_pct": -0.263,
       "sl": 580.6129,
       "tp": 570.2242,
       "note": "20-bar dip + hacim",
@@ -108,11 +108,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0882,
-      "current": 0.0891,
+      "current": 0.0892,
       "qty": 11337.868481,
       "notional": 1000.0,
-      "unrealized": 10.2,
-      "pnl_pct": 1.02,
+      "unrealized": 11.34,
+      "pnl_pct": 1.134,
       "sl": 0.087368,
       "tp": 0.089863,
       "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
@@ -132,11 +132,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1885.29,
-      "current": 1879.56,
+      "current": 1883.03,
       "qty": 0.530422,
       "notional": 1000.0,
-      "unrealized": -3.04,
-      "pnl_pct": -0.304,
+      "unrealized": -1.2,
+      "pnl_pct": -0.12,
       "sl": 1873.97826,
       "tp": 1907.91348,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -1159,7 +1159,19 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0892,
+      "strength": 28,
+      "note": "RSI 70.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784116800000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 55.000000000000426
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-15T10:19:04.864232+00:00",
     "model": "deepseek-chat",
@@ -1213,8 +1225,8 @@
     "losses": 34,
     "win_rate": 32.0,
     "total_pnl": -76.72,
-    "equity": 4890.28,
-    "unrealized": 5.17,
+    "equity": 4892.62,
+    "unrealized": 7.51,
     "closed_this_cycle": 0
   },
   "freqtrade": {
