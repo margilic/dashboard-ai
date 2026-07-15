@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T09:17:45.651958+00:00",
+  "cycle_at": "2026-07-15T09:18:45.658434+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 4885.11,
       "locked": 0
     },
-    "equity": 4889.58,
+    "equity": 4891.02,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 4.47,
+    "unrealized_pnl": 5.91,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T09:17:45.651958+00:00"
+    "updated_at": "2026-07-15T09:18:45.658434+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 577.15,
-      "current": 577.38,
+      "current": 577.43,
       "qty": 1.732652,
       "notional": 1000.0,
-      "unrealized": -0.4,
-      "pnl_pct": -0.04,
+      "unrealized": -0.49,
+      "pnl_pct": -0.049,
       "sl": 580.6129,
       "tp": 570.2242,
       "note": "20-bar dip + hacim",
@@ -108,11 +108,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0882,
-      "current": 0.0887,
+      "current": 0.0888,
       "qty": 11337.868481,
       "notional": 1000.0,
-      "unrealized": 5.67,
-      "pnl_pct": 0.567,
+      "unrealized": 6.8,
+      "pnl_pct": 0.68,
       "sl": 0.087368,
       "tp": 0.089863,
       "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
@@ -132,11 +132,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1885.29,
-      "current": 1883.79,
+      "current": 1884.54,
       "qty": 0.530422,
       "notional": 1000.0,
-      "unrealized": -0.8,
-      "pnl_pct": -0.08,
+      "unrealized": -0.4,
+      "pnl_pct": -0.04,
       "sl": 1873.97826,
       "tp": 1907.91348,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -1164,7 +1164,7 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 64836.0,
+      "price": 64863.75,
       "strength": 35,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784106900000,
@@ -1175,7 +1175,7 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 6.676,
+      "price": 6.681,
       "strength": 35,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784106900000,
@@ -1186,7 +1186,7 @@
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 8.433,
+      "price": 8.429,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784106900000,
@@ -1194,26 +1194,15 @@
       "v3_raw_strength": 65
     },
     {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.0887,
-      "strength": 29,
-      "note": "RSI 29.0 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784106900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 57.90322580645157
-    },
-    {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 8.433,
-      "strength": 28,
-      "note": "z=2.21",
+      "price": 8.429,
+      "strength": 26,
+      "note": "z=2.11",
       "ts": 1784106900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 55.130920276821
+      "v3_raw_strength": 52.864097406583824
     }
   ],
   "swarm": {
@@ -1269,8 +1258,8 @@
     "losses": 34,
     "win_rate": 32.0,
     "total_pnl": -76.72,
-    "equity": 4889.58,
-    "unrealized": 4.47,
+    "equity": 4891.02,
+    "unrealized": 5.91,
     "closed_this_cycle": 0
   },
   "freqtrade": {
