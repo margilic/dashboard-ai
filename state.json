@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T00:37:42.158927+00:00",
+  "cycle_at": "2026-07-15T00:38:42.167703+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -818,7 +818,19 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 0.0934,
+      "strength": 38,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784075400000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-15T00:15:11.189433+00:00",
     "model": "deepseek-chat",
@@ -890,7 +902,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 00:20:01.606815",
         "open_rate": 64875.01,
-        "current_rate": 64802.96,
+        "current_rate": 64808.82,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.91,
@@ -905,7 +917,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 00:20:02.167305",
         "open_rate": 1885.3,
-        "current_rate": 1879.39,
+        "current_rate": 1879.86,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.92,
