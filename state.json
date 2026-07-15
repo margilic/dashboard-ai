@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T15:44:48.169880+00:00",
+  "cycle_at": "2026-07-15T15:45:48.209247+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 4932.4,
       "locked": 0
     },
-    "equity": 4937.39,
+    "equity": 4937.29,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 4.99,
+    "unrealized_pnl": 4.89,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T15:44:48.169880+00:00"
+    "updated_at": "2026-07-15T15:45:48.209247+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 6.695,
-      "current": 6.718,
+      "current": 6.715,
       "qty": 149.365198,
       "notional": 1000.0,
-      "unrealized": 3.44,
-      "pnl_pct": 0.344,
+      "unrealized": 2.99,
+      "pnl_pct": 0.299,
       "sl": 6.65483,
       "tp": 6.77534,
       "note": "20-bar tepe + hacim",
@@ -108,11 +108,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.128,
-      "current": 1.1256,
+      "current": 1.1252,
       "qty": 886.524823,
       "notional": 1000.0,
-      "unrealized": 2.13,
-      "pnl_pct": 0.213,
+      "unrealized": 2.48,
+      "pnl_pct": 0.248,
       "sl": 1.134768,
       "tp": 1.114464,
       "note": "RSI 79.6 a\u015f\u0131r\u0131 al\u0131m",
@@ -1426,55 +1426,44 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "price": 1933.93,
-      "strength": 84,
-      "note": "RSI 79.6 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784129400000,
+      "strength": 82,
+      "note": "RSI 78.9 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784130300000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 83.70549398726737
+      "v3_raw_strength": 81.79674407469507
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 65474.0,
-      "strength": 77,
-      "note": "RSI 77.4 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784129400000,
+      "price": 65452.81,
+      "strength": 79,
+      "note": "RSI 78.1 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784130300000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 77.091056046414
+      "v3_raw_strength": 79.30227000316228
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1.1256,
-      "strength": 67,
-      "note": "RSI 73.8 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784129400000,
+      "price": 1.1252,
+      "strength": 62,
+      "note": "RSI 72.5 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784130300000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 66.53846153846067
+      "v3_raw_strength": 62.42424242424204
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "price": 8.564,
-      "strength": 61,
-      "note": "RSI 71.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784129400000,
+      "strength": 58,
+      "note": "RSI 71.0 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784130300000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 60.74074074074015
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 65474.0,
-      "strength": 38,
-      "note": "20-bar tepe + hacim",
-      "ts": 1784129400000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 75
+      "v3_raw_strength": 58.0573248407638
     }
   ],
   "swarm": {
@@ -1530,8 +1519,8 @@
     "losses": 38,
     "win_rate": 35.6,
     "total_pnl": -29.43,
-    "equity": 4937.39,
-    "unrealized": 4.99,
+    "equity": 4937.29,
+    "unrealized": 4.89,
     "closed_this_cycle": 0
   },
   "freqtrade": {
