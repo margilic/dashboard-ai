@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T00:14:42.025328+00:00",
+  "cycle_at": "2026-07-15T00:15:42.031361+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T00:14:42.025328+00:00"
+    "updated_at": "2026-07-15T00:15:42.031361+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -820,74 +820,19 @@
   ],
   "signals": [
     {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 582.83,
-      "strength": 38,
-      "note": "20-bar tepe + hacim",
-      "ts": 1784073600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 75
-    },
-    {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0922,
-      "strength": 36,
-      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784073600000,
+      "price": 0.0921,
+      "strength": 30,
+      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784074500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 72.58620689655146
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 6.706,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784073600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 0.0922,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784073600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0922,
-      "strength": 28,
-      "note": "z=2.22",
-      "ts": 1784073600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 55.59971114753488
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 6.706,
-      "strength": 25,
-      "note": "z=2.00",
-      "ts": 1784073600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 50.00926630088526
+      "v3_raw_strength": 59.28571428571408
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-14T22:22:36.656242+00:00",
+    "updated_at": "2026-07-15T00:15:11.189433+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -895,39 +840,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 53.0,
+        "conviction": "HIGH",
+        "score": 6.95,
         "sl": null,
         "tp": null,
-        "rationale": "K\u0131sa vadede likidasyon riski bask\u0131n olsa da ak\u0131\u015f ve fonlama uzunu destekliyor. Temkinli uzun pozisyon \u00f6nerilir.",
+        "rationale": "Bo\u011fa e\u011filimi: fiyat dip d\u00f6n\u00fc\u015f\u00fc, k\u0131sa s\u0131k\u0131\u015fma setu, fonlama sa\u011fl\u0131kl\u0131. Skor 6.95.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784066561.130927,
-        "at": "2026-07-14T22:02:41.130927+00:00"
+        "ts": 1784073761.940777,
+        "at": "2026-07-15T00:02:41.940777+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 67.0,
-        "sl": 1836.0,
-        "tp": null,
-        "rationale": "Ak\u0131\u015f ve fonlama bo\u011fa uyumlu, likidasyon mikro ay\u0131 kar\u015f\u0131 a\u011f\u0131rl\u0131k. Fiyat %5.5 y\u00fckseldi ancak fonlama sabit kald\u0131, spot kaynakl\u0131 hareket devam potansiyeli var. A\u015fa\u011f\u0131da ince destek, s\u0131k\u0131 stop ile y\u00f6netilm",
-        "extract_model": "deepseek-chat",
-        "target": "ETH-USDT",
-        "ts": 1784066561.130927,
-        "at": "2026-07-14T22:02:41.130927+00:00"
-      },
-      "SOLUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 48.0,
+        "conviction": "HIGH",
+        "score": 82.5,
         "sl": null,
         "tp": null,
-        "rationale": "Kar\u0131\u015f\u0131k sinyaller: hafif bullish fonlama/likidasyon, bearish on-chain ak\u0131\u015f. K\u0131sa vadeli f\u0131rsat fakat yap\u0131sal r\u00fczgarlar.",
+        "rationale": "T\u00fcm sinyaller y\u00fckseli\u015f y\u00f6n\u00fcnde: fonlama/baz sa\u011fl\u0131kl\u0131, ak\u0131\u015f balina al\u0131m\u0131, likidasyon a\u015fa\u011f\u0131 y\u00f6nl\u00fc olsa da mikro yap\u0131 destekli. Y\u00fcksek g\u00fcven.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "ETH-USDT",
+        "ts": 1784073761.940777,
+        "at": "2026-07-15T00:02:41.940777+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "SHORT",
+        "conviction": "LOW",
+        "score": -20.5,
+        "sl": null,
+        "tp": null,
+        "rationale": "Solana'dan b\u00fcy\u00fck stabilcoin \u00e7\u0131k\u0131\u015f\u0131 ve a\u015fa\u011f\u0131 likidasyon magneti nedeniyle k\u0131sa y\u00f6nl\u00fc, ancak fonlama/baz ayr\u0131\u015fmas\u0131 nedeniyle d\u00fc\u015f\u00fck kanaat.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784066561.130927,
-        "at": "2026-07-14T22:02:41.130927+00:00"
+        "ts": 1784073761.940777,
+        "at": "2026-07-15T00:02:41.940777+00:00"
       }
     },
     "gated_this_cycle": []
