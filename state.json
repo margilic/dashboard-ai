@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T18:23:49.240698+00:00",
+  "cycle_at": "2026-07-15T18:24:49.239148+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4968.23,
       "locked": 0
     },
-    "equity": 4988.05,
+    "equity": 4988.13,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 19.82,
+    "unrealized_pnl": 19.9,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T18:23:49.240698+00:00"
+    "updated_at": "2026-07-15T18:24:49.239148+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 576.77,
-      "current": 581.63,
+      "current": 581.68,
       "qty": 1.733793,
       "notional": 1000.0,
-      "unrealized": 8.43,
-      "pnl_pct": 0.843,
+      "unrealized": 8.51,
+      "pnl_pct": 0.851,
       "sl": 573.30938,
       "tp": 583.69124,
       "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1540,7 +1540,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 78.02,
+      "price": 78.01,
       "strength": 35,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784139300000,
@@ -1551,7 +1551,7 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 581.63,
+      "price": 581.68,
       "strength": 35,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784139300000,
@@ -1625,13 +1625,7 @@
         "at": "2026-07-15T18:02:49.064574+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "LONG",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 3,
@@ -1640,8 +1634,8 @@
     "losses": 39,
     "win_rate": 38.1,
     "total_pnl": 6.4,
-    "equity": 4988.05,
-    "unrealized": 19.82,
+    "equity": 4988.13,
+    "unrealized": 19.9,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1658,7 +1652,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 18:20:01.556175",
         "open_rate": 65086.01,
-        "current_rate": 65100.0,
+        "current_rate": 65102.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.58,
