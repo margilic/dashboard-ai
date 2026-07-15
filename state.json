@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T02:17:42.819421+00:00",
+  "cycle_at": "2026-07-15T02:18:42.822264+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T02:17:42.819421+00:00"
+    "updated_at": "2026-07-15T02:18:42.822264+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -818,30 +818,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 0.1632,
-      "strength": 32,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784081700000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 0.1632,
-      "strength": 26,
-      "note": "z=-2.05",
-      "ts": 1784081700000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 51.22299575213349
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-15T00:15:11.189433+00:00",
     "model": "deepseek-chat",
@@ -913,7 +890,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 00:20:01.606815",
         "open_rate": 64875.01,
-        "current_rate": 64655.96,
+        "current_rate": 64631.93,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.91,
@@ -928,7 +905,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 00:20:02.167305",
         "open_rate": 1885.3,
-        "current_rate": 1870.53,
+        "current_rate": 1869.32,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.92,
