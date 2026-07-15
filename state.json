@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T05:04:43.915137+00:00",
+  "cycle_at": "2026-07-15T05:05:43.915205+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T05:04:43.915137+00:00"
+    "updated_at": "2026-07-15T05:05:43.915205+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,12 +823,12 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0898,
-      "strength": 29,
-      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0897,
+      "strength": 32,
+      "note": "RSI 27.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784091600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 58.33333333333343
+      "v3_raw_strength": 63.181818181818414
     }
   ],
   "swarm": {
@@ -896,9 +896,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 15,
+        "pair": "BTC/USDT",
+        "open_date": "2026-07-15 05:05:01.691978",
+        "open_rate": 64735.62,
+        "current_rate": 64694.01,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 99.69,
+        "amount": 0.00154,
+        "side": "LONG",
+        "sl_price": 63764.59,
+        "tp_price": 66030.33,
+        "trailing_active_price": 65253.5
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 14,
       "wins": 6,
       "losses": 8,
