@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T13:47:47.422167+00:00",
+  "cycle_at": "2026-07-15T13:48:47.437803+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -49,7 +49,7 @@
   "strategy_performance": {
     "enabled": true,
     "weights": {
-      "RSI Reversal": 0.5,
+      "RSI Reversal": 1.0,
       "EMA Cross": 0.5,
       "Bollinger Breakout": 0.5,
       "Momentum Breakout": 0.5,
@@ -68,11 +68,11 @@
       "free": 4944.84,
       "locked": 0
     },
-    "equity": 4945.14,
+    "equity": 4944.69,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 0.3,
-    "realized_today": 29.1,
-    "updated_at": "2026-07-15T13:47:47.422167+00:00"
+    "unrealized_pnl": -0.15,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-15T13:48:47.437803+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 6.695,
-      "current": 6.697,
+      "current": 6.693,
       "qty": 149.365198,
       "notional": 1000.0,
-      "unrealized": 0.3,
-      "pnl_pct": 0.03,
+      "unrealized": -0.3,
+      "pnl_pct": -0.03,
       "sl": 6.65483,
       "tp": 6.77534,
       "note": "20-bar tepe + hacim",
@@ -108,11 +108,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.1209,
-      "current": 1.1209,
+      "current": 1.121,
       "qty": 892.140244,
       "notional": 1000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -0.09,
+      "pnl_pct": -0.009,
       "sl": 1.127625,
       "tp": 1.107449,
       "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -132,11 +132,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.507,
-      "current": 8.507,
+      "current": 8.505,
       "qty": 117.550253,
       "notional": 1000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 0.24,
+      "pnl_pct": 0.024,
       "sl": 8.558754,
       "tp": 8.403491,
       "note": "RSI 71.6 a\u015f\u0131r\u0131 al\u0131m",
@@ -1367,34 +1367,34 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1923.1,
-      "strength": 38,
-      "note": "RSI 76.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1920.11,
+      "strength": 68,
+      "note": "RSI 74.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784123100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 75.70539419087132
+      "v3_weight": 1.0,
+      "v3_raw_strength": 68.01949860724221
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1.1209,
-      "strength": 33,
-      "note": "RSI 73.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1.121,
+      "strength": 66,
+      "note": "RSI 73.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784123100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65.32786885245798
+      "v3_weight": 1.0,
+      "v3_raw_strength": 66.05263157894623
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.507,
-      "strength": 30,
-      "note": "RSI 71.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.505,
+      "strength": 59,
+      "note": "RSI 71.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784123100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 59.713216957606306
+      "v3_weight": 1.0,
+      "v3_raw_strength": 58.64764267990165
     }
   ],
   "swarm": {
@@ -1441,13 +1441,7 @@
         "at": "2026-07-15T12:02:46.715162+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "ETHUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 3,
@@ -1456,9 +1450,9 @@
     "losses": 36,
     "win_rate": 36.8,
     "total_pnl": -16.99,
-    "equity": 4945.14,
-    "unrealized": 0.3,
-    "closed_this_cycle": 2
+    "equity": 4944.69,
+    "unrealized": -0.15,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
