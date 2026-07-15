@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T00:20:42.063156+00:00",
+  "cycle_at": "2026-07-15T00:21:42.062922+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T00:20:42.063156+00:00"
+    "updated_at": "2026-07-15T00:21:42.062922+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,34 +823,12 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0923,
-      "strength": 35,
-      "note": "RSI 75.0 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0921,
+      "strength": 30,
+      "note": "RSI 71.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784074500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 69.99999999999962
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 0.0923,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784074500000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0923,
-      "strength": 26,
-      "note": "z=2.07",
-      "ts": 1784074500000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 51.70500075190848
+      "v3_raw_strength": 59.28571428571408
     }
   ],
   "swarm": {
@@ -924,7 +902,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 00:20:01.606815",
         "open_rate": 64875.01,
-        "current_rate": 64899.99,
+        "current_rate": 64870.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.91,
@@ -939,7 +917,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 00:20:02.167305",
         "open_rate": 1885.3,
-        "current_rate": 1886.31,
+        "current_rate": 1883.99,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.92,
