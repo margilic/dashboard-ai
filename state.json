@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T03:15:43.218102+00:00",
+  "cycle_at": "2026-07-15T03:16:43.225882+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T03:15:43.218102+00:00"
+    "updated_at": "2026-07-15T03:16:43.225882+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -834,34 +834,23 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1870.28,
+      "price": 1869.89,
       "strength": 29,
-      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 28.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784085300000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 58.21491313683393
+      "v3_raw_strength": 58.87059279349069
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.632,
+      "price": 6.633,
       "strength": 29,
-      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 29.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784085300000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 58.15789473684232
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.07385,
-      "strength": 28,
-      "note": "RSI 30.0 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784085300000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 55.00000000000085
+      "v3_raw_strength": 57.69841269841278
     }
   ],
   "swarm": {
@@ -935,7 +924,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 00:20:01.606815",
         "open_rate": 64875.01,
-        "current_rate": 64630.39,
+        "current_rate": 64614.24,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.91,
@@ -950,7 +939,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 02:30:01.804885",
         "open_rate": 1864.84,
-        "current_rate": 1870.28,
+        "current_rate": 1870.1,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.96,
