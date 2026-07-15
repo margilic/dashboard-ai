@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T21:39:50.586010+00:00",
+  "cycle_at": "2026-07-15T21:40:20.522945+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4960.96,
       "locked": 0
     },
-    "equity": 4972.26,
+    "equity": 4972.52,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 11.3,
+    "unrealized_pnl": 11.56,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T21:39:50.586010+00:00"
+    "updated_at": "2026-07-15T21:40:20.522945+00:00"
   },
   "open_positions": [
     {
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 576.77,
-      "current": 580.57,
+      "current": 580.69,
       "qty": 1.733793,
       "notional": 1000.0,
-      "unrealized": 6.59,
-      "pnl_pct": 0.659,
+      "unrealized": 6.8,
+      "pnl_pct": 0.68,
       "sl": 573.30938,
       "tp": 583.69124,
       "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 64860.42,
-      "current": 64797.06,
+      "current": 64800.0,
       "qty": 0.015418,
       "notional": 1000.0,
-      "unrealized": -0.98,
-      "pnl_pct": -0.098,
+      "unrealized": -0.93,
+      "pnl_pct": -0.093,
       "sl": 64471.25748,
       "tp": 65638.74504,
       "note": "RSI 26.6 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1571,29 +1571,29 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 77.25,
-      "strength": 69,
-      "note": "RSI 25.4 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 77.29,
+      "strength": 67,
+      "note": "RSI 26.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784151000000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 68.66863905325502
+      "v3_raw_strength": 66.81818181818211
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1920.54,
-      "strength": 62,
-      "note": "RSI 27.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1921.18,
+      "strength": 61,
+      "note": "RSI 28.1 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784151000000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 62.25394896719256
+      "v3_raw_strength": 60.61338289962734
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 64797.06,
+      "price": 64800.0,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784151000000,
@@ -1604,12 +1604,12 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 64797.06,
+      "price": 64800.0,
       "strength": 26,
-      "note": "z=-2.10",
+      "note": "z=-2.07",
       "ts": 1784151000000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 52.418151864354435
+      "v3_raw_strength": 51.79390836873101
     }
   ],
   "swarm": {
@@ -1665,8 +1665,8 @@
     "losses": 40,
     "win_rate": 37.5,
     "total_pnl": -0.87,
-    "equity": 4972.26,
-    "unrealized": 11.3,
+    "equity": 4972.52,
+    "unrealized": 11.56,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1683,7 +1683,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 20:50:01.633194",
         "open_rate": 64977.25,
-        "current_rate": 64797.05,
+        "current_rate": 64799.99,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.42,
@@ -1698,7 +1698,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 20:50:02.170383",
         "open_rate": 1924.63,
-        "current_rate": 1920.53,
+        "current_rate": 1921.12,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.89,
