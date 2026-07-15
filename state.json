@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T00:05:41.965011+00:00",
+  "cycle_at": "2026-07-15T00:06:41.973907+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T00:05:41.965011+00:00"
+    "updated_at": "2026-07-15T00:06:41.973907+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,18 +823,18 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0924,
-      "strength": 39,
-      "note": "RSI 77.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0926,
+      "strength": 41,
+      "note": "RSI 78.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784073600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 77.25806451612857
+      "v3_raw_strength": 81.363636363636
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 582.57,
+      "price": 582.72,
       "strength": 38,
       "note": "20-bar tepe + hacim",
       "ts": 1784073600000,
@@ -844,30 +844,41 @@
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 6.733,
+      "strength": 35,
+      "note": "z=2.76",
+      "ts": 1784073600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 69.02944245391967
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0926,
+      "strength": 35,
+      "note": "z=2.83",
+      "ts": 1784073600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 70.76148402301729
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.729,
-      "strength": 33,
-      "note": "RSI 73.8 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.733,
+      "strength": 34,
+      "note": "RSI 74.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784073600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 66.31147540983525
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 6.729,
-      "strength": 33,
-      "note": "z=2.67",
-      "ts": 1784073600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 66.69394320065969
+      "v3_raw_strength": 67.99465240641612
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 6.729,
+      "price": 6.733,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784073600000,
@@ -878,23 +889,12 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.0924,
+      "price": 0.0926,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784073600000,
       "v3_weight": 0.5,
       "v3_raw_strength": 65
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0924,
-      "strength": 32,
-      "note": "z=2.56",
-      "ts": 1784073600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 63.8795898110447
     }
   ],
   "swarm": {
