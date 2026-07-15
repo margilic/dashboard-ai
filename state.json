@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T09:33:45.756356+00:00",
+  "cycle_at": "2026-07-15T09:34:45.761096+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 4885.11,
       "locked": 0
     },
-    "equity": 4891.55,
+    "equity": 4890.51,
     "initial_balance": 1000.0,
-    "unrealized_pnl": 6.44,
+    "unrealized_pnl": 5.4,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T09:33:45.756356+00:00"
+    "updated_at": "2026-07-15T09:34:45.761096+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 577.15,
-      "current": 577.32,
+      "current": 577.3,
       "qty": 1.732652,
       "notional": 1000.0,
-      "unrealized": -0.29,
-      "pnl_pct": -0.029,
+      "unrealized": -0.26,
+      "pnl_pct": -0.026,
       "sl": 580.6129,
       "tp": 570.2242,
       "note": "20-bar dip + hacim",
@@ -108,11 +108,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0882,
-      "current": 0.089,
+      "current": 0.0889,
       "qty": 11337.868481,
       "notional": 1000.0,
-      "unrealized": 9.07,
-      "pnl_pct": 0.907,
+      "unrealized": 7.94,
+      "pnl_pct": 0.794,
       "sl": 0.087368,
       "tp": 0.089863,
       "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
@@ -132,11 +132,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1885.29,
-      "current": 1880.87,
+      "current": 1881.0,
       "qty": 0.530422,
       "notional": 1000.0,
-      "unrealized": -2.34,
-      "pnl_pct": -0.234,
+      "unrealized": -2.28,
+      "pnl_pct": -0.228,
       "sl": 1873.97826,
       "tp": 1907.91348,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -1161,26 +1161,26 @@
   ],
   "signals": [
     {
-      "symbol": "BNBUSDT",
+      "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 577.32,
+      "price": 77.69,
       "strength": 31,
       "note": "RSI 27.8 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784107800000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 61.573971078973955
+      "v3_raw_strength": 61.568047337278216
     },
     {
-      "symbol": "SOLUSDT",
+      "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 77.71,
-      "strength": 30,
-      "note": "RSI 28.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 577.3,
+      "strength": 31,
+      "note": "RSI 27.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784107800000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 60.568862275449405
+      "v3_raw_strength": 61.759156492784
     }
   ],
   "swarm": {
@@ -1236,8 +1236,8 @@
     "losses": 34,
     "win_rate": 32.0,
     "total_pnl": -76.72,
-    "equity": 4891.55,
-    "unrealized": 6.44,
+    "equity": 4890.51,
+    "unrealized": 5.4,
     "closed_this_cycle": 0
   },
   "freqtrade": {
