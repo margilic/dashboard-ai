@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T07:26:44.893206+00:00",
+  "cycle_at": "2026-07-15T07:27:44.900143+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T07:26:44.893206+00:00"
+    "updated_at": "2026-07-15T07:27:44.900143+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,29 +823,40 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.088,
-      "strength": 44,
-      "note": "RSI 18.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0877,
+      "strength": 46,
+      "note": "RSI 17.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784099700000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 88.75000000000013
+      "v3_raw_strength": 92.05882352941182
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.088,
-      "strength": 33,
-      "note": "z=-2.66",
+      "price": 0.0877,
+      "strength": 36,
+      "note": "z=-2.88",
       "ts": 1784099700000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 66.38356208583889
+      "v3_raw_strength": 71.89317560586306
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 577.71,
+      "strength": 34,
+      "note": "z=-2.71",
+      "ts": 1784099700000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 67.67060982980806
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 578.27,
+      "price": 577.71,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784099700000,
@@ -856,23 +867,12 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.088,
+      "price": 0.0877,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784099700000,
       "v3_weight": 0.5,
       "v3_raw_strength": 65
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 578.27,
-      "strength": 28,
-      "note": "z=-2.27",
-      "ts": 1784099700000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 56.656564999841144
     }
   ],
   "swarm": {
@@ -946,7 +946,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 07:00:02.279260",
         "open_rate": 64818.36,
-        "current_rate": 64618.01,
+        "current_rate": 64530.72,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.82,
@@ -961,7 +961,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 07:00:03.360749",
         "open_rate": 1875.87,
-        "current_rate": 1869.39,
+        "current_rate": 1866.65,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.98,
