@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T02:31:42.925327+00:00",
+  "cycle_at": "2026-07-15T02:32:42.911457+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T02:31:42.925327+00:00"
+    "updated_at": "2026-07-15T02:32:42.911457+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,29 +823,18 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 64505.99,
+      "price": 64500.01,
       "strength": 33,
-      "note": "RSI 26.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 26.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784082600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 65.56118386733623
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.07369,
-      "strength": 32,
-      "note": "RSI 27.3 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784082600000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 63.18181818181888
+      "v3_raw_strength": 65.99356494670765
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.07369,
+      "price": 0.07372,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784082600000,
@@ -856,7 +845,7 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.1627,
+      "price": 0.1628,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784082600000,
@@ -864,37 +853,48 @@
       "v3_raw_strength": 65
     },
     {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.07372,
+      "strength": 31,
+      "note": "RSI 27.8 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784082600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 61.666666666667965
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1627,
+      "price": 0.1628,
       "strength": 30,
-      "note": "RSI 28.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 28.6 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784082600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 60.789473684210776
+      "v3_raw_strength": 59.28571428571472
     },
     {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.1627,
-      "strength": 28,
-      "note": "z=-2.23",
+      "price": 0.1628,
+      "strength": 27,
+      "note": "z=-2.13",
       "ts": 1784082600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 55.6665833342623
+      "v3_raw_strength": 53.28116762864603
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.07369,
-      "strength": 27,
-      "note": "z=-2.18",
+      "price": 0.07372,
+      "strength": 26,
+      "note": "z=-2.08",
       "ts": 1784082600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 54.38504697705895
+      "v3_raw_strength": 51.91145756169784
     }
   ],
   "swarm": {
@@ -968,7 +968,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 00:20:01.606815",
         "open_rate": 64875.01,
-        "current_rate": 64523.99,
+        "current_rate": 64500.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.91,
@@ -983,7 +983,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 02:30:01.804885",
         "open_rate": 1864.84,
-        "current_rate": 1866.08,
+        "current_rate": 1865.91,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.96,
