@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T11:10:46.402690+00:00",
+  "cycle_at": "2026-07-15T11:11:46.398488+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 4885.11,
       "locked": 0
     },
-    "equity": 4892.37,
+    "equity": 4892.11,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 7.26,
+    "unrealized_pnl": 7.0,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T11:10:46.402690+00:00"
+    "updated_at": "2026-07-15T11:11:46.398488+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 577.15,
-      "current": 578.48,
+      "current": 578.41,
       "qty": 1.732652,
       "notional": 1000.0,
-      "unrealized": -2.3,
-      "pnl_pct": -0.23,
+      "unrealized": -2.18,
+      "pnl_pct": -0.218,
       "sl": 580.6129,
       "tp": 570.2242,
       "note": "20-bar dip + hacim",
@@ -132,11 +132,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1885.29,
-      "current": 1881.93,
+      "current": 1881.21,
       "qty": 0.530422,
       "notional": 1000.0,
-      "unrealized": -1.78,
-      "pnl_pct": -0.178,
+      "unrealized": -2.16,
+      "pnl_pct": -0.216,
       "sl": 1873.97826,
       "tp": 1907.91348,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -1170,6 +1170,17 @@
       "ts": 1784113200000,
       "v3_weight": 0.5,
       "v3_raw_strength": 97.63157894736887
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 8.35,
+      "strength": 35,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784113200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 70
     }
   ],
   "swarm": {
@@ -1225,8 +1236,8 @@
     "losses": 34,
     "win_rate": 32.0,
     "total_pnl": -76.72,
-    "equity": 4892.37,
-    "unrealized": 7.26,
+    "equity": 4892.11,
+    "unrealized": 7.0,
     "closed_this_cycle": 0
   },
   "freqtrade": {
