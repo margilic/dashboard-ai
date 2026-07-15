@@ -1,7 +1,7 @@
 {
-  "engine": "hermes-live",
+  "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T07:49:45.052979+00:00",
+  "cycle_at": "2026-07-15T07:50:15.883427+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -39,7 +39,7 @@
       }
     },
     "filters": {
-      "regime_filter": true,
+      "regime_filter": false,
       "funding_bias": true,
       "atr_dynamic_sl_tp": true,
       "rr_target": 2.0,
@@ -66,16 +66,40 @@
   "balance": {
     "USD": {
       "free": 4891.27,
-      "locked": 0.0
+      "locked": 0
     },
     "equity": 4891.27,
-    "initial_balance": 4999.87,
-    "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
+    "initial_balance": 1000.0,
     "unrealized_pnl": 0.0,
-    "realized_today": 0,
-    "updated_at": "2026-07-15T07:49:45.052979+00:00"
+    "realized_today": 0.0,
+    "updated_at": "2026-07-15T07:50:15.883427+00:00"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "id": "BNBUSDT-1784101815",
+      "trade_no": 42,
+      "trade_id": "T0042",
+      "binance_order_id": "",
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "entry": 577.15,
+      "current": 577.15,
+      "qty": 1.732652,
+      "notional": 1000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 580.6129,
+      "tp": 570.2242,
+      "note": "20-bar dip + hacim",
+      "opened_at": 1784101815.883427,
+      "opened_iso": "2026-07-15T07:50:15.883427+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    }
+  ],
   "recent_trades": [
     {
       "symbol": "BNBUSDT",
@@ -1062,8 +1086,19 @@
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 577.15,
+      "strength": 38,
+      "note": "20-bar dip + hacim",
+      "ts": 1784101500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 75
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 577.1,
+      "price": 577.15,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784101500000,
@@ -1074,12 +1109,12 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 577.1,
+      "price": 577.15,
       "strength": 27,
-      "note": "z=-2.15",
+      "note": "z=-2.12",
       "ts": 1784101500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 53.844917433132736
+      "v3_raw_strength": 53.099432823008556
     }
   ],
   "swarm": {
@@ -1129,7 +1164,7 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 0,
+    "open": 1,
     "total_trades": 49,
     "wins": 16,
     "losses": 33,
@@ -1153,7 +1188,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 07:00:02.279260",
         "open_rate": 64818.36,
-        "current_rate": 64602.0,
+        "current_rate": 64610.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.82,
@@ -1168,7 +1203,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 07:00:03.360749",
         "open_rate": 1875.87,
-        "current_rate": 1871.05,
+        "current_rate": 1871.15,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.98,
