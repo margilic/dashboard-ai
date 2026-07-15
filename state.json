@@ -1,7 +1,7 @@
 {
   "engine": "hermes-live",
   "status": "running",
-  "cycle_at": "2026-07-15T06:11:44.385634+00:00",
+  "cycle_at": "2026-07-15T06:12:44.398342+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance_at": "2026-07-10T11:47:05.745775+00:00",
     "unrealized_pnl": 0.0,
     "realized_today": 0,
-    "updated_at": "2026-07-15T06:11:44.385634+00:00"
+    "updated_at": "2026-07-15T06:12:44.398342+00:00"
   },
   "open_positions": [],
   "recent_trades": [
@@ -823,7 +823,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 78.31,
+      "price": 78.43,
       "strength": 38,
       "note": "20-bar tepe + hacim",
       "ts": 1784095200000,
@@ -834,18 +834,40 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1887.85,
-      "strength": 34,
-      "note": "RSI 74.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1888.31,
+      "strength": 35,
+      "note": "RSI 74.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784095200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 68.36229161775094
+      "v3_raw_strength": 69.18118466898991
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 8.383,
+      "strength": 34,
+      "note": "RSI 74.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784095200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 67.89719626167974
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07451,
+      "strength": 33,
+      "note": "z=2.66",
+      "ts": 1784095200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 66.59254519578646
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 64959.1,
+      "price": 64985.0,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784095200000,
@@ -856,7 +878,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1887.85,
+      "price": 1888.31,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784095200000,
@@ -867,18 +889,18 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1887.85,
+      "price": 1888.31,
       "strength": 32,
-      "note": "z=2.54",
+      "note": "z=2.60",
       "ts": 1784095200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 63.62168844510659
+      "v3_raw_strength": 64.88551239755765
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1.1092,
+      "price": 1.1097,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784095200000,
@@ -887,9 +909,20 @@
     },
     {
       "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.07451,
+      "strength": 32,
+      "note": "RSI 72.9 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784095200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 63.709677419354634
+    },
+    {
+      "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.07446,
+      "price": 0.07451,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784095200000,
@@ -900,7 +933,7 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 6.698,
+      "price": 6.701,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784095200000,
@@ -909,69 +942,47 @@
     },
     {
       "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 8.38,
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 8.383,
       "strength": 32,
-      "note": "RSI 73.3 a\u015f\u0131r\u0131 al\u0131m",
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784095200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 64.81566820276427
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07446,
-      "strength": 31,
-      "note": "z=2.49",
-      "ts": 1784095200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 62.35863228181977
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.07446,
-      "strength": 30,
-      "note": "RSI 72.0 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784095200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 60.99999999999932
+      "v3_raw_strength": 65
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1.1092,
-      "strength": 29,
-      "note": "z=2.32",
+      "price": 1.1097,
+      "strength": 31,
+      "note": "z=2.45",
       "ts": 1784095200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 58.075495363246155
+      "v3_raw_strength": 61.19727945617033
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.698,
-      "strength": 28,
-      "note": "z=2.23",
+      "price": 6.701,
+      "strength": 29,
+      "note": "z=2.33",
       "ts": 1784095200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 55.80383609444301
+      "v3_raw_strength": 58.15335330242687
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 64959.1,
-      "strength": 25,
-      "note": "z=2.01",
+      "price": 64985.0,
+      "strength": 27,
+      "note": "z=2.16",
       "ts": 1784095200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 50.240615792745736
+      "v3_raw_strength": 54.07241337565141
     }
   ],
   "swarm": {
