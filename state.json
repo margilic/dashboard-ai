@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-15T21:48:50.647261+00:00",
+  "cycle_at": "2026-07-15T21:49:50.651953+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -73,7 +73,7 @@
     "initial_balance": 4999.87,
     "unrealized_pnl": 12.41,
     "realized_today": 0.0,
-    "updated_at": "2026-07-15T21:48:50.647261+00:00"
+    "updated_at": "2026-07-15T21:49:50.651953+00:00"
   },
   "open_positions": [
     {
@@ -133,7 +133,7 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 64860.42,
-      "current": 64830.41,
+      "current": 64830.4,
       "qty": 0.015418,
       "notional": 1000.0,
       "unrealized": -0.46,
@@ -1579,10 +1579,21 @@
       "v3_raw_strength": 57.307692307692236
     },
     {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 77.35,
+      "strength": 56,
+      "note": "RSI 29.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784151900000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 56.184210526316974
+    },
+    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 1921.52,
+      "price": 1921.51,
       "strength": 35,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784151900000,
@@ -1661,7 +1672,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 20:50:01.633194",
         "open_rate": 64977.25,
-        "current_rate": 64830.41,
+        "current_rate": 64823.15,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.42,
@@ -1676,7 +1687,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-15 20:50:02.170383",
         "open_rate": 1924.63,
-        "current_rate": 1921.82,
+        "current_rate": 1921.32,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 99.89,
