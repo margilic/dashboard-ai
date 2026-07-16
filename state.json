@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T03:07:53.475170+00:00",
+  "cycle_at": "2026-07-16T03:08:53.493178+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5076.72,
+    "equity": 5073.74,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 126.54,
+    "unrealized_pnl": 123.56,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T03:07:53.475170+00:00"
+    "updated_at": "2026-07-16T03:08:53.493178+00:00"
   },
   "open_positions": [
     {
@@ -133,11 +133,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 6.698,
-      "current": 6.721,
+      "current": 6.723,
       "qty": 1492.98298,
       "notional": 10000.0,
-      "unrealized": -34.34,
-      "pnl_pct": -0.343,
+      "unrealized": -37.32,
+      "pnl_pct": -0.373,
       "sl": 6.738188,
       "tp": 6.617624,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -1653,7 +1653,19 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 8.541,
+      "strength": 35,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784170800000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 70
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-16T00:16:25.339283+00:00",
     "model": "deepseek-chat",
@@ -1707,8 +1719,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5076.72,
-    "unrealized": 126.54,
+    "equity": 5073.74,
+    "unrealized": 123.56,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1725,7 +1737,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 02:15:01.752118",
         "open_rate": 64656.0,
-        "current_rate": 64605.22,
+        "current_rate": 64622.84,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.79,
