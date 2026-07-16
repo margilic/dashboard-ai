@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T14:56:57.614703+00:00",
+  "cycle_at": "2026-07-16T14:58:57.613651+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -52,7 +52,7 @@
     "enabled": true,
     "weights": {
       "RSI Reversal": 0.3,
-      "EMA Cross": 1.0,
+      "EMA Cross": 0.56,
       "Bollinger Breakout": 0.5,
       "Momentum Breakout": 0.32,
       "Z-Score Reversion": 0.5
@@ -68,11 +68,11 @@
       "free": 4925.71,
       "locked": 0
     },
-    "equity": 5037.06,
+    "equity": 4999.46,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 111.35,
-    "realized_today": -71.89,
-    "updated_at": "2026-07-16T14:56:57.614703+00:00"
+    "unrealized_pnl": 73.75,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-16T14:58:57.613651+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07371,
-      "current": 0.07347,
+      "current": 0.07358,
       "qty": 135666.802333,
       "notional": 10000.0,
-      "unrealized": 32.56,
-      "pnl_pct": 0.326,
+      "unrealized": 17.64,
+      "pnl_pct": 0.176,
       "sl": 0.074152,
       "tp": 0.072825,
       "note": "z=2.70",
@@ -108,11 +108,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.165,
-      "current": 0.1637,
+      "current": 0.1638,
       "qty": 60606.060606,
       "notional": 10000.0,
-      "unrealized": 78.79,
-      "pnl_pct": 0.788,
+      "unrealized": 72.73,
+      "pnl_pct": 0.727,
       "sl": 0.16599,
       "tp": 0.16302,
       "note": "z=3.09",
@@ -132,11 +132,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 8.424,
-      "current": 8.424,
+      "current": 8.438,
       "qty": 1187.08452,
       "notional": 10000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -16.62,
+      "pnl_pct": -0.166,
       "sl": 8.474544,
       "tp": 8.322912,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -2000,19 +2000,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 8.424,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784213100000,
-      "v3_weight": 1.0,
-      "v3_raw_strength": 70
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-16T14:16:03.971298+00:00",
     "model": "deepseek-chat",
@@ -2066,9 +2054,9 @@
     "losses": 50,
     "win_rate": 36.7,
     "total_pnl": -36.11,
-    "equity": 5037.06,
-    "unrealized": 111.35,
-    "closed_this_cycle": 1
+    "equity": 4999.46,
+    "unrealized": 73.75,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
@@ -2084,7 +2072,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-16 14:55:01.595982",
         "open_rate": 1882.0,
-        "current_rate": 1879.3,
+        "current_rate": 1882.96,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
