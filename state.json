@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T15:08:57.676715+00:00",
+  "cycle_at": "2026-07-16T15:10:57.684886+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -55,7 +55,7 @@
       "EMA Cross": 0.56,
       "Bollinger Breakout": 0.5,
       "Momentum Breakout": 0.32,
-      "Z-Score Reversion": 0.5
+      "Z-Score Reversion": 1.0
     },
     "active": [
       "Bollinger Breakout",
@@ -68,11 +68,11 @@
       "free": 5046.92,
       "locked": 0
     },
-    "equity": 5121.88,
+    "equity": 5111.19,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 74.96,
-    "realized_today": 121.21,
-    "updated_at": "2026-07-16T15:08:57.676715+00:00"
+    "unrealized_pnl": 64.27,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-16T15:10:57.684886+00:00"
   },
   "open_positions": [
     {
@@ -108,11 +108,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 8.424,
-      "current": 8.402,
+      "current": 8.411,
       "qty": 1187.08452,
       "notional": 10000.0,
-      "unrealized": 26.12,
-      "pnl_pct": 0.261,
+      "unrealized": 15.43,
+      "pnl_pct": 0.154,
       "sl": 8.474544,
       "tp": 8.322912,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -2010,7 +2010,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 8.402,
+      "price": 8.411,
       "strength": 39,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784214000000,
@@ -2071,9 +2071,9 @@
     "losses": 50,
     "win_rate": 37.5,
     "total_pnl": 85.1,
-    "equity": 5121.88,
-    "unrealized": 74.96,
-    "closed_this_cycle": 1
+    "equity": 5111.19,
+    "unrealized": 64.27,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
@@ -2089,7 +2089,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-16 14:55:01.595982",
         "open_rate": 1882.0,
-        "current_rate": 1875.55,
+        "current_rate": 1877.44,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
