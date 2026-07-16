@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T02:10:53.106775+00:00",
+  "cycle_at": "2026-07-16T02:11:53.101909+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4944.65,
       "locked": 0
     },
-    "equity": 5061.49,
+    "equity": 5051.99,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 116.84,
+    "unrealized_pnl": 107.34,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T02:10:53.106775+00:00"
+    "updated_at": "2026-07-16T02:11:53.101909+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 576.77,
-      "current": 579.74,
+      "current": 579.85,
       "qty": 1.733793,
       "notional": 1000.0,
-      "unrealized": 5.15,
-      "pnl_pct": 0.515,
+      "unrealized": 5.34,
+      "pnl_pct": 0.534,
       "sl": 573.30938,
       "tp": 583.69124,
       "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.087,
-      "current": 0.0875,
+      "current": 0.0874,
       "qty": 114942.528736,
       "notional": 10000.0,
-      "unrealized": 57.47,
-      "pnl_pct": 0.575,
+      "unrealized": 45.98,
+      "pnl_pct": 0.46,
       "sl": 0.086407,
       "tp": 0.088185,
       "note": "RSI 24.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1127,
+      "current": 1.1129,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 54.22,
-      "pnl_pct": 0.542,
+      "unrealized": 56.02,
+      "pnl_pct": 0.56,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1629,12 +1629,23 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0875,
-      "strength": 55,
-      "note": "RSI 30.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0874,
+      "strength": 58,
+      "note": "RSI 29.0 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784167200000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 55.00000000000141
+      "v3_raw_strength": 57.903225806452724
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 6.707,
+      "strength": 35,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784167200000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 70
     },
     {
       "symbol": "ADAUSDT",
@@ -1701,8 +1712,8 @@
     "losses": 42,
     "win_rate": 36.4,
     "total_pnl": -17.18,
-    "equity": 5061.49,
-    "unrealized": 116.84,
+    "equity": 5051.99,
+    "unrealized": 107.34,
     "closed_this_cycle": 0
   },
   "freqtrade": {
