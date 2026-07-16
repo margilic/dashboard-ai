@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T02:57:53.415229+00:00",
+  "cycle_at": "2026-07-16T02:58:53.430809+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5107.7,
+    "equity": 5101.73,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 157.52,
+    "unrealized_pnl": 151.55,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T02:57:53.415229+00:00"
+    "updated_at": "2026-07-16T02:58:53.430809+00:00"
   },
   "open_positions": [
     {
@@ -133,11 +133,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 6.698,
-      "current": 6.714,
+      "current": 6.718,
       "qty": 1492.98298,
       "notional": 10000.0,
-      "unrealized": -23.89,
-      "pnl_pct": -0.239,
+      "unrealized": -29.86,
+      "pnl_pct": -0.299,
       "sl": 6.738188,
       "tp": 6.617624,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -1658,7 +1658,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1924.18,
+      "price": 1924.47,
       "strength": 35,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784169900000,
@@ -1680,12 +1680,23 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 6.714,
+      "price": 6.718,
       "strength": 35,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784169900000,
       "v3_weight": 0.5,
       "v3_raw_strength": 70
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 0.07433,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784169900000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
     },
     {
       "symbol": "ADAUSDT",
@@ -1708,6 +1719,17 @@
       "ts": 1784169900000,
       "v3_weight": 0.5,
       "v3_raw_strength": 54.327803980917565
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07433,
+      "strength": 25,
+      "note": "z=2.03",
+      "ts": 1784169900000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 50.871044492519765
     }
   ],
   "swarm": {
@@ -1763,8 +1785,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5107.7,
-    "unrealized": 157.52,
+    "equity": 5101.73,
+    "unrealized": 151.55,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1781,7 +1803,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 02:15:01.752118",
         "open_rate": 64656.0,
-        "current_rate": 64634.0,
+        "current_rate": 64648.45,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.79,
