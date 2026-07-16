@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T02:41:53.298566+00:00",
+  "cycle_at": "2026-07-16T02:42:53.313386+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5077.23,
+    "equity": 5065.74,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 127.05,
+    "unrealized_pnl": 115.56,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T02:41:53.298566+00:00"
+    "updated_at": "2026-07-16T02:42:53.313386+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.087,
-      "current": 0.0875,
+      "current": 0.0874,
       "qty": 114942.528736,
       "notional": 10000.0,
-      "unrealized": 57.47,
-      "pnl_pct": 0.575,
+      "unrealized": 45.98,
+      "pnl_pct": 0.46,
       "sl": 0.086407,
       "tp": 0.088185,
       "note": "RSI 24.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -119,6 +119,30 @@
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
       "opened_at": 1784164732.756014,
       "opened_iso": "2026-07-16T01:18:52.756014+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "AVAXUSDT-1784169773",
+      "trade_no": 62,
+      "trade_id": "T0062",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 6.698,
+      "current": 6.698,
+      "qty": 1492.98298,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 6.738188,
+      "tp": 6.617624,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1784169773.313386,
+      "opened_iso": "2026-07-16T02:42:53.313386+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -1629,7 +1653,19 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 6.698,
+      "strength": 35,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784169000000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 70
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-16T00:16:25.339283+00:00",
     "model": "deepseek-chat",
@@ -1677,14 +1713,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 67,
     "wins": 25,
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5077.23,
-    "unrealized": 127.05,
+    "equity": 5065.74,
+    "unrealized": 115.56,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1701,7 +1737,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 02:15:01.752118",
         "open_rate": 64656.0,
-        "current_rate": 64601.41,
+        "current_rate": 64589.99,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.79,
