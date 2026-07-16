@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T06:01:54.644642+00:00",
+  "cycle_at": "2026-07-16T06:02:54.659994+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5105.3,
+    "equity": 5100.78,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 155.12,
+    "unrealized_pnl": 150.6,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T06:01:54.644642+00:00"
+    "updated_at": "2026-07-16T06:02:54.659994+00:00"
   },
   "open_positions": [
     {
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1165,
+      "current": 1.116,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 88.55,
-      "pnl_pct": 0.886,
+      "unrealized": 84.03,
+      "pnl_pct": 0.84,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1658,29 +1658,29 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64922.81,
-      "strength": 76,
-      "note": "RSI 77.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 64905.71,
+      "strength": 71,
+      "note": "RSI 75.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784181600000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 76.43616759391381
+      "v3_raw_strength": 71.29257932197314
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 583.87,
-      "strength": 66,
-      "note": "RSI 73.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 584.15,
+      "strength": 68,
+      "note": "RSI 74.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784181600000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 65.76124567474136
+      "v3_raw_strength": 68.24022346368781
     },
     {
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 77.51,
+      "price": 77.48,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784181600000,
@@ -1691,12 +1691,12 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 77.51,
-      "strength": 28,
-      "note": "z=2.21",
+      "price": 77.48,
+      "strength": 26,
+      "note": "z=2.10",
       "ts": 1784181600000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 55.28858969888803
+      "v3_raw_strength": 52.61223258937363
     }
   ],
   "swarm": {
@@ -1752,8 +1752,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5105.3,
-    "unrealized": 155.12,
+    "equity": 5100.78,
+    "unrealized": 150.6,
     "closed_this_cycle": 0
   },
   "freqtrade": {
