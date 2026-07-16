@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T02:42:53.313386+00:00",
+  "cycle_at": "2026-07-16T02:43:53.311179+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5065.74,
+    "equity": 5064.83,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 115.56,
+    "unrealized_pnl": 114.65,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T02:42:53.313386+00:00"
+    "updated_at": "2026-07-16T02:43:53.311179+00:00"
   },
   "open_positions": [
     {
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1144,
+      "current": 1.1143,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 69.58,
-      "pnl_pct": 0.696,
+      "unrealized": 68.67,
+      "pnl_pct": 0.687,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -136,8 +136,8 @@
       "current": 6.698,
       "qty": 1492.98298,
       "notional": 10000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 6.738188,
       "tp": 6.617624,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -1719,8 +1719,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5065.74,
-    "unrealized": 115.56,
+    "equity": 5064.83,
+    "unrealized": 114.65,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1737,7 +1737,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 02:15:01.752118",
         "open_rate": 64656.0,
-        "current_rate": 64589.99,
+        "current_rate": 64588.12,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.79,
