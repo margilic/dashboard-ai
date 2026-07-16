@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T01:51:52.977204+00:00",
+  "cycle_at": "2026-07-16T01:52:52.988155+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4944.65,
       "locked": 0
     },
-    "equity": 5104.31,
+    "equity": 5095.37,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 159.66,
+    "unrealized_pnl": 150.72,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T01:51:52.977204+00:00"
+    "updated_at": "2026-07-16T01:52:52.988155+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 576.77,
-      "current": 579.86,
+      "current": 579.77,
       "qty": 1.733793,
       "notional": 1000.0,
-      "unrealized": 5.36,
-      "pnl_pct": 0.536,
+      "unrealized": 5.2,
+      "pnl_pct": 0.52,
       "sl": 573.30938,
       "tp": 583.69124,
       "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.087,
-      "current": 0.0878,
+      "current": 0.0877,
       "qty": 114942.528736,
       "notional": 10000.0,
-      "unrealized": 91.95,
-      "pnl_pct": 0.92,
+      "unrealized": 80.46,
+      "pnl_pct": 0.805,
       "sl": 0.086407,
       "tp": 0.088185,
       "note": "RSI 24.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1136,
+      "current": 1.1139,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 62.35,
-      "pnl_pct": 0.623,
+      "unrealized": 65.06,
+      "pnl_pct": 0.651,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1624,7 +1624,19 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 0.0877,
+      "strength": 56,
+      "note": "RSI 29.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784166300000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 56.11111111111268
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-16T00:16:25.339283+00:00",
     "model": "deepseek-chat",
@@ -1678,8 +1690,8 @@
     "losses": 42,
     "win_rate": 36.4,
     "total_pnl": -17.18,
-    "equity": 5104.31,
-    "unrealized": 159.66,
+    "equity": 5095.37,
+    "unrealized": 150.72,
     "closed_this_cycle": 0
   },
   "freqtrade": {
