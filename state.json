@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T00:14:52.334495+00:00",
+  "cycle_at": "2026-07-16T00:15:52.451439+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4960.96,
       "locked": 0
     },
-    "equity": 4976.7,
+    "equity": 4971.72,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 15.74,
+    "unrealized_pnl": 10.76,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T00:14:52.334495+00:00"
+    "updated_at": "2026-07-16T00:15:52.451439+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0878,
-      "current": 0.0884,
+      "current": 0.088,
       "qty": 11389.52164,
       "notional": 1000.0,
-      "unrealized": 6.83,
-      "pnl_pct": 0.683,
+      "unrealized": 2.28,
+      "pnl_pct": 0.228,
       "sl": 0.087,
       "tp": 0.0894,
       "note": "RSI 18.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 576.77,
-      "current": 582.23,
+      "current": 582.09,
       "qty": 1.733793,
       "notional": 1000.0,
-      "unrealized": 9.47,
-      "pnl_pct": 0.947,
+      "unrealized": 9.22,
+      "pnl_pct": 0.922,
       "sl": 573.30938,
       "tp": 583.69124,
       "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 64860.42,
-      "current": 64823.99,
+      "current": 64812.33,
       "qty": 0.015418,
       "notional": 1000.0,
-      "unrealized": -0.56,
-      "pnl_pct": -0.056,
+      "unrealized": -0.74,
+      "pnl_pct": -0.074,
       "sl": 64471.25748,
       "tp": 65638.74504,
       "note": "RSI 26.6 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1568,24 +1568,13 @@
   ],
   "signals": [
     {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 0.07421,
-      "strength": 35,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1784160000000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 70
-    },
-    {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 582.23,
+      "price": 582.09,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784160000000,
+      "ts": 1784160900000,
       "v3_weight": 0.5,
       "v3_raw_strength": 65
     },
@@ -1593,34 +1582,12 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 582.23,
-      "strength": 32,
-      "note": "z=2.59",
-      "ts": 1784160000000,
+      "price": 582.09,
+      "strength": 26,
+      "note": "z=2.08",
+      "ts": 1784160900000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 64.66346200357785
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 6.723,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784160000000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 6.723,
-      "strength": 29,
-      "note": "z=2.35",
-      "ts": 1784160000000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 58.768139274754446
+      "v3_raw_strength": 51.92814371202418
     }
   ],
   "swarm": {
@@ -1676,8 +1643,8 @@
     "losses": 40,
     "win_rate": 37.5,
     "total_pnl": -0.87,
-    "equity": 4976.7,
-    "unrealized": 15.74,
+    "equity": 4971.72,
+    "unrealized": 10.76,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1694,7 +1661,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 23:25:01.589895",
         "open_rate": 64860.0,
-        "current_rate": 64823.99,
+        "current_rate": 64805.94,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.42,
