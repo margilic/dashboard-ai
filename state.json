@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T07:28:55.192841+00:00",
+  "cycle_at": "2026-07-16T07:30:55.213453+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5054.53,
+    "equity": 5050.92,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 104.35,
+    "unrealized_pnl": 100.74,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T07:28:55.192841+00:00"
+    "updated_at": "2026-07-16T07:30:55.213453+00:00"
   },
   "open_positions": [
     {
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1123,
+      "current": 1.1119,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 50.6,
-      "pnl_pct": 0.506,
+      "unrealized": 46.99,
+      "pnl_pct": 0.47,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1658,56 +1658,23 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1639,
-      "strength": 74,
-      "note": "RSI 23.8 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784186100000,
+      "price": 0.164,
+      "strength": 85,
+      "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784187000000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 73.57142857142917
+      "v3_raw_strength": 84.99999999999915
     },
     {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 64518.94,
-      "strength": 35,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784186100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 70
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 1917.21,
-      "strength": 35,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784186100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 70
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 1.1123,
-      "strength": 35,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784186100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 70
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 0.07397,
-      "strength": 35,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784186100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 70
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.662,
+      "strength": 63,
+      "note": "RSI 27.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784187000000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 63.181818181818585
     },
     {
       "symbol": "AVAXUSDT",
@@ -1716,7 +1683,7 @@
       "price": 6.662,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784186100000,
+      "ts": 1784187000000,
       "v3_weight": 0.5,
       "v3_raw_strength": 65
     },
@@ -1725,11 +1692,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "price": 6.662,
-      "strength": 30,
-      "note": "z=-2.37",
-      "ts": 1784186100000,
+      "strength": 25,
+      "note": "z=-2.02",
+      "ts": 1784187000000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 59.303801612867915
+      "v3_raw_strength": 50.431651642968724
     }
   ],
   "swarm": {
@@ -1785,8 +1752,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5054.53,
-    "unrealized": 104.35,
+    "equity": 5050.92,
+    "unrealized": 100.74,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1803,7 +1770,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-16 06:30:01.711442",
         "open_rate": 1922.52,
-        "current_rate": 1917.22,
+        "current_rate": 1917.19,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
