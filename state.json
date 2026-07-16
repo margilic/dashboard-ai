@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T04:46:54.141485+00:00",
+  "cycle_at": "2026-07-16T04:47:54.149343+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5075.72,
+    "equity": 5064.22,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 125.54,
+    "unrealized_pnl": 114.04,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T04:46:54.141485+00:00"
+    "updated_at": "2026-07-16T04:47:54.149343+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.087,
-      "current": 0.0876,
+      "current": 0.0875,
       "qty": 114942.528736,
       "notional": 10000.0,
-      "unrealized": 68.97,
-      "pnl_pct": 0.69,
+      "unrealized": 57.47,
+      "pnl_pct": 0.575,
       "sl": 0.086407,
       "tp": 0.088185,
       "note": "RSI 24.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1658,12 +1658,12 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.552,
-      "strength": 81,
-      "note": "RSI 78.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.55,
+      "strength": 77,
+      "note": "RSI 77.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784177100000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 80.5555555555579
+      "v3_raw_strength": 77.11678832117197
     },
     {
       "symbol": "XRPUSDT",
@@ -1741,8 +1741,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5075.72,
-    "unrealized": 125.54,
+    "equity": 5064.22,
+    "unrealized": 114.04,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1759,7 +1759,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 03:50:01.572692",
         "open_rate": 64557.61,
-        "current_rate": 64606.01,
+        "current_rate": 64586.48,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.68,
