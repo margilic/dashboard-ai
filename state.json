@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T04:58:54.215666+00:00",
+  "cycle_at": "2026-07-16T04:59:54.223249+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5039.55,
+    "equity": 5051.05,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 89.37,
+    "unrealized_pnl": 100.87,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T04:58:54.215666+00:00"
+    "updated_at": "2026-07-16T04:59:54.223249+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.087,
-      "current": 0.0873,
+      "current": 0.0874,
       "qty": 114942.528736,
       "notional": 10000.0,
-      "unrealized": 34.48,
-      "pnl_pct": 0.345,
+      "unrealized": 45.98,
+      "pnl_pct": 0.46,
       "sl": 0.086407,
       "tp": 0.088185,
       "note": "RSI 24.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1658,12 +1658,12 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.548,
-      "strength": 74,
-      "note": "RSI 76.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.547,
+      "strength": 72,
+      "note": "RSI 75.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784177100000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 73.776978417269
+      "v3_raw_strength": 72.14285714286079
     }
   ],
   "swarm": {
@@ -1719,8 +1719,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5039.55,
-    "unrealized": 89.37,
+    "equity": 5051.05,
+    "unrealized": 100.87,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1737,7 +1737,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 03:50:01.572692",
         "open_rate": 64557.61,
-        "current_rate": 64608.03,
+        "current_rate": 64638.77,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.68,
