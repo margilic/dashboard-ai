@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T00:15:52.451439+00:00",
+  "cycle_at": "2026-07-16T00:16:52.345091+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4960.96,
       "locked": 0
     },
-    "equity": 4971.72,
+    "equity": 4971.03,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 10.76,
+    "unrealized_pnl": 10.07,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T00:15:52.451439+00:00"
+    "updated_at": "2026-07-16T00:16:52.345091+00:00"
   },
   "open_positions": [
     {
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 576.77,
-      "current": 582.09,
+      "current": 581.95,
       "qty": 1.733793,
       "notional": 1000.0,
-      "unrealized": 9.22,
-      "pnl_pct": 0.922,
+      "unrealized": 8.98,
+      "pnl_pct": 0.898,
       "sl": 573.30938,
       "tp": 583.69124,
       "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 64860.42,
-      "current": 64812.33,
+      "current": 64782.92,
       "qty": 0.015418,
       "notional": 1000.0,
-      "unrealized": -0.74,
-      "pnl_pct": -0.074,
+      "unrealized": -1.19,
+      "pnl_pct": -0.119,
       "sl": 64471.25748,
       "tp": 65638.74504,
       "note": "RSI 26.6 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1566,72 +1566,49 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 582.09,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784160900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 582.09,
-      "strength": 26,
-      "note": "z=2.08",
-      "ts": 1784160900000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 51.92814371202418
-    }
-  ],
+  "signals": [],
   "swarm": {
-    "updated_at": "2026-07-15T22:14:59.683959+00:00",
+    "updated_at": "2026-07-16T00:16:25.339283+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 75.8,
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": -42.0,
         "sl": null,
         "tp": null,
-        "rationale": "Y\u00fcksek bile\u015fik skor (%75.8) ile uzun pozisyon \u00f6nerisi. On-chain ak\u0131\u015f ve fonlama/baz verileri bullish, k\u0131sa s\u0131k\u0131\u015fma potansiyeli mevcut.",
+        "rationale": "T\u00fcm sinyaller d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc: fonlama so\u011fuyor, likidasyon riski y\u00fcksek, on-chain ak\u0131\u015flar zay\u0131f. Bu nedenle SHORT y\u00f6n\u00fcnde MEDIUM seviyesinde karar.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784152970.73305,
-        "at": "2026-07-15T22:02:50.733050+00:00"
+        "ts": 1784160172.239194,
+        "at": "2026-07-16T00:02:52.239194+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 69.0,
+        "conviction": "HIGH",
+        "score": 70.0,
         "sl": null,
-        "tp": null,
-        "rationale": "D\u00fc\u015f\u00fck fonlama, k\u0131sa s\u0131k\u0131\u015fma magneti ve spot talebi nedeniyle orta seviyede bullish.",
-        "extract_model": "deepseek-v4-flash",
+        "tp": 1980,
+        "rationale": "T\u00fcm sinyaller y\u00fckseli\u015fi destekliyor; k\u0131sa s\u0131k\u0131\u015fma potansiyeli y\u00fcksek.",
+        "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1784152970.73305,
-        "at": "2026-07-15T22:02:50.733050+00:00"
+        "ts": 1784160172.239194,
+        "at": "2026-07-16T00:02:52.239194+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 55.5,
-        "sl": null,
-        "tp": null,
-        "rationale": "Stabilcoin likiditesi geni\u015fliyor, Solana TVL toparlan\u0131yor, fiyat $75.82 deste\u011finden artan hacimle s\u0131\u00e7rad\u0131.",
-        "extract_model": "deepseek-v4-flash",
+        "score": 73.0,
+        "sl": 76.8,
+        "tp": 79.5,
+        "rationale": "Likidite av\u0131 ile 76.80-77.00 b\u00f6lgesine d\u00fc\u015f\u00fc\u015f ard\u0131ndan 79-80 hedefine y\u00fckseli\u015f bekleniyor. On-chain ak\u0131\u015f g\u00fc\u00e7l\u00fc bo\u011fa sinyali veriyor.",
+        "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1784152970.73305,
-        "at": "2026-07-15T22:02:50.733050+00:00"
+        "ts": 1784160172.239194,
+        "at": "2026-07-16T00:02:52.239194+00:00"
       }
     },
     "gated_this_cycle": []
@@ -1643,8 +1620,8 @@
     "losses": 40,
     "win_rate": 37.5,
     "total_pnl": -0.87,
-    "equity": 4971.72,
-    "unrealized": 10.76,
+    "equity": 4971.03,
+    "unrealized": 10.07,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1661,7 +1638,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 23:25:01.589895",
         "open_rate": 64860.0,
-        "current_rate": 64805.94,
+        "current_rate": 64782.92,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.42,
