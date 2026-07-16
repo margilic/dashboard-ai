@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T01:21:52.780140+00:00",
+  "cycle_at": "2026-07-16T01:22:52.797197+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4944.65,
       "locked": 0
     },
-    "equity": 4989.74,
+    "equity": 4989.0,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 45.09,
+    "unrealized_pnl": 44.35,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T01:21:52.780140+00:00"
+    "updated_at": "2026-07-16T01:22:52.797197+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 576.77,
-      "current": 578.2,
+      "current": 578.29,
       "qty": 1.733793,
       "notional": 1000.0,
-      "unrealized": 2.48,
-      "pnl_pct": 0.248,
+      "unrealized": 2.64,
+      "pnl_pct": 0.264,
       "sl": 573.30938,
       "tp": 583.69124,
       "note": "RSI 20.0 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1076,
+      "current": 1.1075,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 8.13,
-      "pnl_pct": 0.081,
+      "unrealized": 7.23,
+      "pnl_pct": 0.072,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -1629,7 +1629,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 6.677,
+      "price": 6.676,
       "strength": 35,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784164500000,
@@ -1637,10 +1637,21 @@
       "v3_raw_strength": 70
     },
     {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07369,
+      "strength": 33,
+      "note": "z=-2.67",
+      "ts": 1784164500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 66.72944064392122
+    },
+    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 64480.0,
+      "price": 64467.43,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784164500000,
@@ -1651,7 +1662,7 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 578.2,
+      "price": 578.29,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784164500000,
@@ -1662,7 +1673,7 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 1.1076,
+      "price": 1.1075,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784164500000,
@@ -1673,7 +1684,7 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.07371,
+      "price": 0.07369,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784164500000,
@@ -1681,21 +1692,21 @@
       "v3_raw_strength": 65
     },
     {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07371,
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 6.676,
       "strength": 32,
-      "note": "z=-2.57",
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784164500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 64.22157853022497
+      "v3_raw_strength": 65
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 8.466,
+      "price": 8.465,
       "strength": 32,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784164500000,
@@ -1706,45 +1717,56 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 578.2,
-      "strength": 30,
-      "note": "z=-2.41",
+      "price": 578.29,
+      "strength": 29,
+      "note": "z=-2.34",
       "ts": 1784164500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 60.15160284726303
+      "v3_raw_strength": 58.555442328203654
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 8.466,
+      "price": 8.465,
       "strength": 28,
-      "note": "z=-2.25",
+      "note": "z=-2.27",
       "ts": 1784164500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 56.18763591848229
+      "v3_raw_strength": 56.81937772556779
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 1.1076,
+      "price": 1.1075,
       "strength": 27,
-      "note": "z=-2.16",
+      "note": "z=-2.19",
       "ts": 1784164500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 54.05445595022299
+      "v3_raw_strength": 54.72310737635545
     },
     {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 64480.0,
+      "price": 64467.43,
       "strength": 26,
-      "note": "z=-2.04",
+      "note": "z=-2.10",
       "ts": 1784164500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 51.051617258657465
+      "v3_raw_strength": 52.60211689997395
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 6.676,
+      "strength": 26,
+      "note": "z=-2.06",
+      "ts": 1784164500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 51.37693031037603
     }
   ],
   "swarm": {
@@ -1800,8 +1822,8 @@
     "losses": 42,
     "win_rate": 36.4,
     "total_pnl": -17.18,
-    "equity": 4989.74,
-    "unrealized": 45.09,
+    "equity": 4989.0,
+    "unrealized": 44.35,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1818,7 +1840,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-15 23:25:01.589895",
         "open_rate": 64860.0,
-        "current_rate": 64464.0,
+        "current_rate": 64467.43,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.42,
