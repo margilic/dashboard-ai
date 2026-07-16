@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T05:05:54.274524+00:00",
+  "cycle_at": "2026-07-16T05:06:54.325857+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5068.73,
+    "equity": 5068.45,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 118.55,
+    "unrealized_pnl": 118.27,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T05:05:54.274524+00:00"
+    "updated_at": "2026-07-16T05:06:54.325857+00:00"
   },
   "open_positions": [
     {
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1145,
+      "current": 1.1148,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 70.48,
-      "pnl_pct": 0.705,
+      "unrealized": 73.19,
+      "pnl_pct": 0.732,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 6.698,
-      "current": 6.712,
+      "current": 6.714,
       "qty": 1492.98298,
       "notional": 10000.0,
-      "unrealized": -20.9,
-      "pnl_pct": -0.209,
+      "unrealized": -23.89,
+      "pnl_pct": -0.239,
       "sl": 6.738188,
       "tp": 6.617624,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -1658,23 +1658,23 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.549,
-      "strength": 72,
-      "note": "RSI 75.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.556,
+      "strength": 77,
+      "note": "RSI 77.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784178000000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 71.71755725191053
+      "v3_raw_strength": 76.61764705882702
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 581.14,
-      "strength": 65,
-      "note": "RSI 73.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 581.37,
+      "strength": 68,
+      "note": "RSI 74.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784178000000,
       "v3_weight": 1.0,
-      "v3_raw_strength": 65.03577817531588
+      "v3_raw_strength": 68.19587628866286
     }
   ],
   "swarm": {
@@ -1730,8 +1730,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5068.73,
-    "unrealized": 118.55,
+    "equity": 5068.45,
+    "unrealized": 118.27,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1748,7 +1748,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 03:50:01.572692",
         "open_rate": 64557.61,
-        "current_rate": 64641.12,
+        "current_rate": 64672.64,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.68,
