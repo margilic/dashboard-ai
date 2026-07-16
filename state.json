@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T14:44:57.552529+00:00",
+  "cycle_at": "2026-07-16T14:46:57.557298+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 4997.6,
       "locked": 0
     },
-    "equity": 4996.71,
+    "equity": 4998.42,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -0.89,
+    "unrealized_pnl": 0.82,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T14:44:57.552529+00:00"
+    "updated_at": "2026-07-16T14:46:57.557298+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07371,
-      "current": 0.07375,
+      "current": 0.07372,
       "qty": 135666.802333,
       "notional": 10000.0,
-      "unrealized": -5.43,
-      "pnl_pct": -0.054,
+      "unrealized": -1.36,
+      "pnl_pct": -0.014,
       "sl": 0.074152,
       "tp": 0.072825,
       "note": "z=2.70",
@@ -132,11 +132,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.485,
-      "current": 8.458,
+      "current": 8.456,
       "qty": 1178.550383,
       "notional": 10000.0,
-      "unrealized": -31.82,
-      "pnl_pct": -0.318,
+      "unrealized": -34.18,
+      "pnl_pct": -0.342,
       "sl": 8.43409,
       "tp": 8.58682,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -1971,74 +1971,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 64732.0,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784212200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 580.36,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784212200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 1.1151,
-      "strength": 32,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784212200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 64732.0,
-      "strength": 27,
-      "note": "z=2.19",
-      "ts": 1784212200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 54.85964272344289
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 580.36,
-      "strength": 26,
-      "note": "z=2.07",
-      "ts": 1784212200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 51.73821041594097
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1.1151,
-      "strength": 26,
-      "note": "z=2.12",
-      "ts": 1784212200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 52.97740443896382
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-16T14:16:03.971298+00:00",
     "model": "deepseek-chat",
@@ -2092,8 +2025,8 @@
     "losses": 49,
     "win_rate": 37.2,
     "total_pnl": 35.78,
-    "equity": 4996.71,
-    "unrealized": -0.89,
+    "equity": 4998.42,
+    "unrealized": 0.82,
     "closed_this_cycle": 0
   },
   "freqtrade": {
