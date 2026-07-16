@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T20:16:59.256693+00:00",
+  "cycle_at": "2026-07-16T20:18:59.272742+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 4979.09,
       "locked": 0
     },
-    "equity": 5131.81,
+    "equity": 5094.96,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 152.72,
+    "unrealized_pnl": 115.87,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T20:16:59.256693+00:00"
+    "updated_at": "2026-07-16T20:18:59.272742+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07371,
-      "current": 0.07308,
+      "current": 0.07319,
       "qty": 135666.802333,
       "notional": 10000.0,
-      "unrealized": 85.47,
-      "pnl_pct": 0.855,
+      "unrealized": 70.55,
+      "pnl_pct": 0.705,
       "sl": 0.074152,
       "tp": 0.072825,
       "note": "z=2.70",
@@ -108,11 +108,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 8.424,
-      "current": 8.398,
+      "current": 8.414,
       "qty": 1187.08452,
       "notional": 10000.0,
-      "unrealized": 30.86,
-      "pnl_pct": 0.309,
+      "unrealized": 11.87,
+      "pnl_pct": 0.119,
       "sl": 8.474544,
       "tp": 8.322912,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -132,11 +132,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 577.02,
-      "current": 574.92,
+      "current": 575.09,
       "qty": 17.330422,
       "notional": 10000.0,
-      "unrealized": 36.39,
-      "pnl_pct": 0.364,
+      "unrealized": 33.45,
+      "pnl_pct": 0.334,
       "sl": 580.48212,
       "tp": 570.09576,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -2058,49 +2058,72 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0905,
+      "strength": 51,
+      "note": "z=2.02",
+      "ts": 1784232900000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 50.54770335254263
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 0.0905,
+      "strength": 32,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784232900000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    }
+  ],
   "swarm": {
-    "updated_at": "2026-07-16T18:18:52.022658+00:00",
+    "updated_at": "2026-07-16T20:17:25.661211+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 47.0,
+        "direction": "SHORT",
+        "conviction": "HIGH",
+        "score": -45.2,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyal entegrasyonu: fonlama ve baz bullish, likidasyon n\u00f6tr-bearish, zincir i\u00e7i ak\u0131\u015f bullish. Bile\u015fik: Bullish e\u011filimli, orta g\u00fcven.",
+        "rationale": "\u00dc\u00e7 birle\u015fen d\u00fc\u015f\u00fc\u015f sinyali: a\u015f\u0131r\u0131 fonlama, 67.8 milyon $ likidasyon manyeti\u011fi 53$ alt\u0131nda, hacim sapmas\u0131. En az diren\u00e7 a\u015fa\u011f\u0131.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784224978.542259,
-        "at": "2026-07-16T18:02:58.542259+00:00"
+        "ts": 1784232179.171927,
+        "at": "2026-07-16T20:02:59.171927+00:00"
       },
       "ETHUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": 57.0,
-        "sl": 1935,
-        "tp": 1820,
-        "rationale": "6 ard\u0131\u015f\u0131k k\u0131rm\u0131z\u0131 4h mumu, L/S 1.78, a\u015fa\u011f\u0131 y\u00f6nl\u00fc likidasyon \u00e7ekimi. K\u0131sa vadeli taktiksel short, yap\u0131sal olarak d\u00fc\u015f\u00fc\u015fte al\u0131m.",
-        "extract_model": "deepseek-chat",
-        "target": "ETH-USDT",
-        "ts": 1784224978.542259,
-        "at": "2026-07-16T18:02:58.542259+00:00"
-      },
-      "SOLUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": 0.0,
+        "score": -21.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller kar\u0131\u015f\u0131k; fonlama n\u00f6tr, likidasyon d\u00fc\u015f\u00fc\u015f riski ta\u015f\u0131yor, on-chain ak\u0131\u015f hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Net skor s\u0131f\u0131ra yak\u0131n, belirgin bir y\u00f6n avantaj\u0131 yok.",
-        "extract_model": "deepseek-chat",
+        "rationale": "\u00c7eli\u015fen sinyaller ve kalabal\u0131k long pozisyonlar nedeniyle bekleniyor, d\u00fc\u015f\u00fc\u015f e\u011filimi var.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "ETH-USDT",
+        "ts": 1784232179.171927,
+        "at": "2026-07-16T20:02:59.171927+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": -1.07,
+        "sl": null,
+        "tp": null,
+        "rationale": "T\u00fcm boyutlar sat\u0131\u015f y\u00f6n\u00fcnde uyumlu: fonlama/baz, likidasyon ve zincir i\u00e7i ak\u0131\u015flar sat\u0131\u015f\u0131 i\u015faret ediyor. USDT birikimi kar\u015f\u0131 sinyal olsa da k\u0131sa vadeli bask\u0131 a\u011f\u0131rl\u0131kl\u0131.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784224978.542259,
-        "at": "2026-07-16T18:02:58.542259+00:00"
+        "ts": 1784232179.171927,
+        "at": "2026-07-16T20:02:59.171927+00:00"
       }
     },
     "gated_this_cycle": []
@@ -2112,8 +2135,8 @@
     "losses": 51,
     "win_rate": 37.0,
     "total_pnl": 17.27,
-    "equity": 5131.81,
-    "unrealized": 152.72,
+    "equity": 5094.96,
+    "unrealized": 115.87,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2130,7 +2153,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 20:05:02.016763",
         "open_rate": 64227.07,
-        "current_rate": 64167.98,
+        "current_rate": 64201.99,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.69,
