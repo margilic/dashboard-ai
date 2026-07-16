@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-16T06:13:54.728935+00:00",
+  "cycle_at": "2026-07-16T06:14:54.741210+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -69,11 +69,11 @@
       "free": 4950.18,
       "locked": 0
     },
-    "equity": 5112.1,
+    "equity": 5128.98,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 161.92,
+    "unrealized_pnl": 178.8,
     "realized_today": 0.0,
-    "updated_at": "2026-07-16T06:13:54.728935+00:00"
+    "updated_at": "2026-07-16T06:14:54.741210+00:00"
   },
   "open_positions": [
     {
@@ -85,11 +85,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.087,
-      "current": 0.0878,
+      "current": 0.0879,
       "qty": 114942.528736,
       "notional": 10000.0,
-      "unrealized": 91.95,
-      "pnl_pct": 0.92,
+      "unrealized": 103.45,
+      "pnl_pct": 1.034,
       "sl": 0.086407,
       "tp": 0.088185,
       "note": "RSI 24.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -109,11 +109,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 1.1067,
-      "current": 1.1156,
+      "current": 1.1157,
       "qty": 9035.872413,
       "notional": 10000.0,
-      "unrealized": 80.42,
-      "pnl_pct": 0.804,
+      "unrealized": 81.32,
+      "pnl_pct": 0.813,
       "sl": 1.10006,
       "tp": 1.11998,
       "note": "RSI 29.2 a\u015f\u0131r\u0131 sat\u0131m",
@@ -133,11 +133,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 6.698,
-      "current": 6.705,
+      "current": 6.702,
       "qty": 1492.98298,
       "notional": 10000.0,
-      "unrealized": -10.45,
-      "pnl_pct": -0.105,
+      "unrealized": -5.97,
+      "pnl_pct": -0.06,
       "sl": 6.738188,
       "tp": 6.617624,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -1664,6 +1664,17 @@
       "ts": 1784181600000,
       "v3_weight": 1.0,
       "v3_raw_strength": 57.903225806450976
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.0879,
+      "strength": 35,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784181600000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 70
     }
   ],
   "swarm": {
@@ -1719,8 +1730,8 @@
     "losses": 42,
     "win_rate": 37.3,
     "total_pnl": -11.65,
-    "equity": 5112.1,
-    "unrealized": 161.92,
+    "equity": 5128.98,
+    "unrealized": 178.8,
     "closed_this_cycle": 0
   },
   "freqtrade": {
