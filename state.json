@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T18:48:10.250745+00:00",
+  "cycle_at": "2026-07-17T18:49:10.256443+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -64,14 +64,14 @@
   },
   "balance": {
     "USD": {
-      "free": 4901.55,
+      "free": 4833.88,
       "locked": 0
     },
-    "equity": 4897.88,
+    "equity": 4883.28,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -3.67,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-17T18:48:10.250745+00:00"
+    "unrealized_pnl": 49.4,
+    "realized_today": -67.67,
+    "updated_at": "2026-07-17T18:49:10.256443+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 74.88,
-      "current": 75.3,
+      "current": 75.34,
       "qty": 133.547009,
       "notional": 10000.0,
-      "unrealized": 56.09,
-      "pnl_pct": 0.561,
+      "unrealized": 61.43,
+      "pnl_pct": 0.614,
       "sl": 74.43072,
       "tp": 75.77856,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.1662,
-      "current": 0.1662,
+      "current": 0.1664,
       "qty": 60168.471721,
       "notional": 10000.0,
-      "unrealized": -0.0,
-      "pnl_pct": -0.0,
+      "unrealized": -12.03,
+      "pnl_pct": -0.12,
       "sl": 0.167709,
       "tp": 0.163181,
       "note": "z=2.13",
@@ -121,7 +121,9 @@
       "algo_version": "3.0",
       "sl_pct": 0.908,
       "tp_pct": 1.816
-    },
+    }
+  ],
+  "recent_trades": [
     {
       "id": "BTCUSDT-1784308149",
       "trade_no": 103,
@@ -135,7 +137,7 @@
       "qty": 0.156431,
       "notional": 10000.0,
       "unrealized": -59.76,
-      "pnl_pct": -0.598,
+      "pnl_pct": -0.677,
       "sl": 64309.54594,
       "tp": 63158.87812,
       "note": "z=2.31",
@@ -144,10 +146,13 @@
       "swarm_aligned": true,
       "algo_version": "3.0",
       "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
+      "tp_pct": 1.2,
+      "exit": 64358.55,
+      "closed_at": 1784314150.256443,
+      "pnl": -67.67,
+      "exit_reason": "SL",
+      "duration_s": 6000
+    },
     {
       "id": "BTCUSDT-1784297468",
       "trade_no": 97,
@@ -2888,15 +2893,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 108,
+    "open": 2,
+    "total_trades": 109,
     "wins": 39,
-    "losses": 69,
-    "win_rate": 36.1,
-    "total_pnl": -60.27,
-    "equity": 4897.88,
-    "unrealized": -3.67,
-    "closed_this_cycle": 0
+    "losses": 70,
+    "win_rate": 35.8,
+    "total_pnl": -127.94,
+    "equity": 4883.28,
+    "unrealized": 49.4,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
