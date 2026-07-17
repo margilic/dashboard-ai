@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T03:11:02.776681+00:00",
+  "cycle_at": "2026-07-17T03:12:02.783360+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 5319.33,
       "locked": 0
     },
-    "equity": 5344.88,
+    "equity": 5333.9,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 25.55,
+    "unrealized_pnl": 14.57,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T03:11:02.776681+00:00"
+    "updated_at": "2026-07-17T03:12:02.783360+00:00"
   },
   "open_positions": [
     {
@@ -108,11 +108,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 63386.22,
-      "current": 63606.94,
+      "current": 63608.01,
       "qty": 0.157763,
       "notional": 10000.0,
-      "unrealized": 34.82,
-      "pnl_pct": 0.348,
+      "unrealized": 34.99,
+      "pnl_pct": 0.35,
       "sl": 63005.90268,
       "tp": 64146.85464,
       "note": "z=-2.03",
@@ -132,11 +132,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.0897,
-      "current": 0.09,
+      "current": 0.0901,
       "qty": 111482.720178,
       "notional": 10000.0,
-      "unrealized": -33.44,
-      "pnl_pct": -0.334,
+      "unrealized": -44.59,
+      "pnl_pct": -0.446,
       "sl": 0.090466,
       "tp": 0.088169,
       "note": "z=2.02",
@@ -2264,20 +2264,31 @@
   "signals": [
     {
       "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.0901,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784257200000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 70
+    },
+    {
+      "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.09,
-      "strength": 57,
-      "note": "z=2.49",
+      "price": 0.0901,
+      "strength": 60,
+      "note": "z=2.62",
       "ts": 1784257200000,
       "v3_weight": 0.92,
-      "v3_raw_strength": 62.20474988662899
+      "v3_raw_strength": 65.51780229511982
     },
     {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.09,
+      "price": 0.0901,
       "strength": 32,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784257200000,
@@ -2338,8 +2349,8 @@
     "losses": 54,
     "win_rate": 38.6,
     "total_pnl": 357.51,
-    "equity": 5344.88,
-    "unrealized": 25.55,
+    "equity": 5333.9,
+    "unrealized": 14.57,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2356,7 +2367,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 02:40:16.981223",
         "open_rate": 63413.01,
-        "current_rate": 63606.93,
+        "current_rate": 63608.01,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.69,
