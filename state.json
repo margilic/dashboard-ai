@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T02:58:02.604465+00:00",
+  "cycle_at": "2026-07-17T02:59:02.621367+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -65,14 +65,14 @@
   },
   "balance": {
     "USD": {
-      "free": 5147.9,
+      "free": 5319.33,
       "locked": 0
     },
-    "equity": 5318.99,
+    "equity": 5334.89,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 171.09,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-17T02:58:02.604465+00:00"
+    "unrealized_pnl": 15.56,
+    "realized_today": 171.43,
+    "updated_at": "2026-07-17T02:59:02.621367+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 8.274,
-      "current": 8.269,
+      "current": 8.273,
       "qty": 1208.60527,
       "notional": 10000.0,
-      "unrealized": -6.04,
-      "pnl_pct": -0.06,
+      "unrealized": -1.21,
+      "pnl_pct": -0.012,
       "sl": 8.224356,
       "tp": 8.373288,
       "note": "z=-2.21",
@@ -99,6 +99,32 @@
       "sl_pct": 0.6,
       "tp_pct": 1.2
     },
+    {
+      "id": "BTCUSDT-1784256902",
+      "trade_no": 82,
+      "trade_id": "T0082",
+      "binance_order_id": "",
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "entry": 63386.22,
+      "current": 63492.54,
+      "qty": 0.157763,
+      "notional": 10000.0,
+      "unrealized": 16.77,
+      "pnl_pct": 0.168,
+      "sl": 63005.90268,
+      "tp": 64146.85464,
+      "note": "z=-2.03",
+      "opened_at": 1784256902.615734,
+      "opened_iso": "2026-07-17T02:55:02.615734+00:00",
+      "swarm_aligned": true,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ARBUSDT-1784254202",
       "trade_no": 81,
@@ -112,7 +138,7 @@
       "qty": 114285.714286,
       "notional": 10000.0,
       "unrealized": 160.0,
-      "pnl_pct": 1.6,
+      "pnl_pct": 1.714,
       "sl": 0.086755,
       "tp": 0.088989,
       "note": "z=-2.55",
@@ -121,34 +147,13 @@
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.851,
-      "tp_pct": 1.702
+      "tp_pct": 1.702,
+      "exit": 0.089,
+      "closed_at": 1784257142.621367,
+      "pnl": 171.43,
+      "exit_reason": "TP",
+      "duration_s": 2940
     },
-    {
-      "id": "BTCUSDT-1784256902",
-      "trade_no": 82,
-      "trade_id": "T0082",
-      "binance_order_id": "",
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "entry": 63386.22,
-      "current": 63494.79,
-      "qty": 0.157763,
-      "notional": 10000.0,
-      "unrealized": 17.13,
-      "pnl_pct": 0.171,
-      "sl": 63005.90268,
-      "tp": 64146.85464,
-      "note": "z=-2.03",
-      "opened_at": 1784256902.615734,
-      "opened_iso": "2026-07-17T02:55:02.615734+00:00",
-      "swarm_aligned": true,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
     {
       "id": "BNBUSDT-1784220298",
       "trade_no": 76,
@@ -2280,15 +2285,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 87,
-    "wins": 33,
+    "open": 2,
+    "total_trades": 88,
+    "wins": 34,
     "losses": 54,
-    "win_rate": 37.9,
-    "total_pnl": 186.08,
-    "equity": 5318.99,
-    "unrealized": 171.09,
-    "closed_this_cycle": 0
+    "win_rate": 38.6,
+    "total_pnl": 357.51,
+    "equity": 5334.89,
+    "unrealized": 15.56,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -2304,7 +2309,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 02:40:16.981223",
         "open_rate": 63413.01,
-        "current_rate": 63490.98,
+        "current_rate": 63496.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.69,
