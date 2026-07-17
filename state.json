@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T10:54:06.946496+00:00",
+  "cycle_at": "2026-07-17T10:55:06.973062+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4965.94,
       "locked": 0
     },
-    "equity": 5068.63,
+    "equity": 5071.01,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 102.69,
+    "unrealized_pnl": 105.07,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T10:54:06.946496+00:00"
+    "updated_at": "2026-07-17T10:55:06.973062+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 62998.0,
-      "current": 63184.12,
+      "current": 63199.1,
       "qty": 0.158735,
       "notional": 10000.0,
-      "unrealized": 29.54,
-      "pnl_pct": 0.295,
+      "unrealized": 31.92,
+      "pnl_pct": 0.319,
       "sl": 62620.012,
       "tp": 63753.976,
       "note": "z=-2.47",
@@ -2508,12 +2508,23 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.07202,
+      "price": 0.07205,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784285100000,
       "v3_weight": 1.0,
       "v3_raw_strength": 70
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 63199.1,
+      "strength": 25,
+      "note": "z=2.09",
+      "ts": 1784285100000,
+      "v3_weight": 0.48,
+      "v3_raw_strength": 52.32145432600196
     }
   ],
   "swarm": {
@@ -2569,8 +2580,8 @@
     "losses": 61,
     "win_rate": 36.5,
     "total_pnl": 4.12,
-    "equity": 5068.63,
-    "unrealized": 102.69,
+    "equity": 5071.01,
+    "unrealized": 105.07,
     "closed_this_cycle": 0
   },
   "freqtrade": {
