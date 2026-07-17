@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T16:47:09.423163+00:00",
+  "cycle_at": "2026-07-17T16:48:09.423094+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4970.32,
       "locked": 0
     },
-    "equity": 5023.39,
+    "equity": 4997.43,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 53.07,
+    "unrealized_pnl": 27.11,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T16:47:09.423163+00:00"
+    "updated_at": "2026-07-17T16:48:09.423094+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63491.92,
+      "current": 63610.01,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": -0.4,
-      "pnl_pct": -0.004,
+      "unrealized": -19.0,
+      "pnl_pct": -0.19,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 74.88,
-      "current": 74.92,
+      "current": 75.0,
       "qty": 133.547009,
       "notional": 10000.0,
-      "unrealized": 5.34,
-      "pnl_pct": 0.053,
+      "unrealized": 16.03,
+      "pnl_pct": 0.16,
       "sl": 74.43072,
       "tp": 75.77856,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -131,11 +131,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.1662,
-      "current": 0.1654,
+      "current": 0.1657,
       "qty": 60168.471721,
       "notional": 10000.0,
-      "unrealized": 48.13,
-      "pnl_pct": 0.481,
+      "unrealized": 30.08,
+      "pnl_pct": 0.301,
       "sl": 0.167709,
       "tp": 0.163181,
       "note": "z=2.13",
@@ -2816,12 +2816,23 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.564,
-      "strength": 32,
-      "note": "z=2.01",
+      "price": 6.575,
+      "strength": 35,
+      "note": "z=2.18",
       "ts": 1784306700000,
       "v3_weight": 0.64,
-      "v3_raw_strength": 50.1276198184163
+      "v3_raw_strength": 54.524443002462775
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.09,
+      "strength": 32,
+      "note": "z=2.02",
+      "ts": 1784306700000,
+      "v3_weight": 0.64,
+      "v3_raw_strength": 50.55526093108295
     }
   ],
   "swarm": {
@@ -2877,8 +2888,8 @@
     "losses": 68,
     "win_rate": 36.4,
     "total_pnl": 8.5,
-    "equity": 5023.39,
-    "unrealized": 53.07,
+    "equity": 4997.43,
+    "unrealized": 27.11,
     "closed_this_cycle": 0
   },
   "freqtrade": {
