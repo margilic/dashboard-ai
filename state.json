@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T12:59:07.845364+00:00",
+  "cycle_at": "2026-07-17T13:00:07.879012+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 5142.74,
       "locked": 0
     },
-    "equity": 5184.47,
+    "equity": 5183.33,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 41.73,
+    "unrealized_pnl": 40.59,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T12:59:07.845364+00:00"
+    "updated_at": "2026-07-17T13:00:07.879012+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 62998.0,
-      "current": 63118.0,
+      "current": 63103.07,
       "qty": 0.158735,
       "notional": 10000.0,
-      "unrealized": 19.05,
-      "pnl_pct": 0.19,
+      "unrealized": 16.68,
+      "pnl_pct": 0.167,
       "sl": 62620.012,
       "tp": 63753.976,
       "note": "z=-2.47",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1.08,
-      "current": 1.0784,
+      "current": 1.0781,
       "qty": 9259.259259,
       "notional": 10000.0,
-      "unrealized": -14.81,
-      "pnl_pct": -0.148,
+      "unrealized": -17.59,
+      "pnl_pct": -0.176,
       "sl": 1.07352,
       "tp": 1.09296,
       "note": "z=-2.76",
@@ -131,11 +131,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 74.69,
-      "current": 74.41,
+      "current": 74.38,
       "qty": 133.886732,
       "notional": 10000.0,
-      "unrealized": 37.49,
-      "pnl_pct": 0.375,
+      "unrealized": 41.5,
+      "pnl_pct": 0.415,
       "sl": 75.13814,
       "tp": 73.79372,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -2523,13 +2523,13 @@
   ],
   "signals": [
     {
-      "symbol": "DOGEUSDT",
+      "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.07173,
+      "price": 0.1597,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784292300000,
+      "ts": 1784293200000,
       "v3_weight": 1.0,
       "v3_raw_strength": 70
     },
@@ -2537,45 +2537,23 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 561.44,
-      "strength": 43,
-      "note": "z=-2.68",
-      "ts": 1784292300000,
+      "price": 561.37,
+      "strength": 36,
+      "note": "z=-2.24",
+      "ts": 1784293200000,
       "v3_weight": 0.64,
-      "v3_raw_strength": 66.97851469214744
+      "v3_raw_strength": 56.07057768346008
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 1.0784,
-      "strength": 40,
-      "note": "z=-2.48",
-      "ts": 1784292300000,
-      "v3_weight": 0.64,
-      "v3_raw_strength": 61.91104417605434
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 6.451,
-      "strength": 35,
-      "note": "z=-2.21",
-      "ts": 1784292300000,
-      "v3_weight": 0.64,
-      "v3_raw_strength": 55.222089219448186
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 8.156,
+      "price": 1.0781,
       "strength": 34,
       "note": "z=-2.12",
-      "ts": 1784292300000,
+      "ts": 1784293200000,
       "v3_weight": 0.64,
-      "v3_raw_strength": 52.966256581063185
+      "v3_raw_strength": 53.07638938036615
     }
   ],
   "swarm": {
@@ -2631,8 +2609,8 @@
     "losses": 61,
     "win_rate": 37.1,
     "total_pnl": 180.92,
-    "equity": 5184.47,
-    "unrealized": 41.73,
+    "equity": 5183.33,
+    "unrealized": 40.59,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2649,7 +2627,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-17 12:10:02.044418",
         "open_rate": 1836.91,
-        "current_rate": 1829.24,
+        "current_rate": 1828.48,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.82,
