@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T02:44:02.456979+00:00",
+  "cycle_at": "2026-07-17T02:45:02.503147+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -65,40 +65,16 @@
   },
   "balance": {
     "USD": {
-      "free": 5043.92,
+      "free": 5147.9,
       "locked": 0
     },
-    "equity": 5259.77,
+    "equity": 5271.19,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 215.85,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-17T02:44:02.456979+00:00"
+    "unrealized_pnl": 123.29,
+    "realized_today": 103.98,
+    "updated_at": "2026-07-17T02:45:02.503147+00:00"
   },
   "open_positions": [
-    {
-      "id": "BNBUSDT-1784220298",
-      "trade_no": 76,
-      "trade_id": "T0076",
-      "binance_order_id": "",
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "entry": 577.02,
-      "current": 571.02,
-      "qty": 17.330422,
-      "notional": 10000.0,
-      "unrealized": 103.98,
-      "pnl_pct": 1.04,
-      "sl": 580.48212,
-      "tp": 570.09576,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "opened_at": 1784220298.155618,
-      "opened_iso": "2026-07-16T16:44:58.155618+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
     {
       "id": "LINKUSDT-1784248680",
       "trade_no": 80,
@@ -132,11 +108,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 0.0875,
-      "current": 0.0885,
+      "current": 0.0886,
       "qty": 114285.714286,
       "notional": 10000.0,
-      "unrealized": 114.29,
-      "pnl_pct": 1.143,
+      "unrealized": 125.71,
+      "pnl_pct": 1.257,
       "sl": 0.086755,
       "tp": 0.088989,
       "note": "z=-2.55",
@@ -149,6 +125,35 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "BNBUSDT-1784220298",
+      "trade_no": 76,
+      "trade_id": "T0076",
+      "binance_order_id": "",
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 577.02,
+      "current": 571.02,
+      "qty": 17.330422,
+      "notional": 10000.0,
+      "unrealized": 103.98,
+      "pnl_pct": 1.04,
+      "sl": 580.48212,
+      "tp": 570.09576,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1784220298.155618,
+      "opened_iso": "2026-07-16T16:44:58.155618+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 571.02,
+      "closed_at": 1784256302.503147,
+      "pnl": 103.98,
+      "exit_reason": "time",
+      "duration_s": 36004
+    },
     {
       "id": "ETHUSDT-1784244180",
       "trade_no": 79,
@@ -2251,15 +2256,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 86,
-    "wins": 32,
+    "open": 2,
+    "total_trades": 87,
+    "wins": 33,
     "losses": 54,
-    "win_rate": 37.2,
-    "total_pnl": 82.1,
-    "equity": 5259.77,
-    "unrealized": 215.85,
-    "closed_this_cycle": 0
+    "win_rate": 37.9,
+    "total_pnl": 186.08,
+    "equity": 5271.19,
+    "unrealized": 123.29,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -2275,7 +2280,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 02:40:16.981223",
         "open_rate": 63413.01,
-        "current_rate": 63464.79,
+        "current_rate": 63464.09,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.69,
