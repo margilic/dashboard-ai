@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T13:58:08.261340+00:00",
+  "cycle_at": "2026-07-17T13:59:08.255297+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,16 +63,42 @@
   },
   "balance": {
     "USD": {
-      "free": 5001.64,
+      "free": 5124.88,
       "locked": 0
     },
-    "equity": 5178.02,
+    "equity": 5200.9,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 176.38,
-    "realized_today": -75.71,
-    "updated_at": "2026-07-17T13:58:08.261340+00:00"
+    "unrealized_pnl": 76.02,
+    "realized_today": 123.24,
+    "updated_at": "2026-07-17T13:59:08.255297+00:00"
   },
   "open_positions": [
+    {
+      "id": "BNBUSDT-1784295488",
+      "trade_no": 96,
+      "trade_id": "T0096",
+      "binance_order_id": "",
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "entry": 556.45,
+      "current": 560.68,
+      "qty": 17.971067,
+      "notional": 10000.0,
+      "unrealized": 76.02,
+      "pnl_pct": 0.76,
+      "sl": 553.1113,
+      "tp": 563.1274,
+      "note": "z=-2.84",
+      "opened_at": 1784295488.106926,
+      "opened_iso": "2026-07-17T13:38:08.106926+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ETHUSDT-1784295488",
       "trade_no": 95,
@@ -86,7 +112,7 @@
       "qty": 5.541456,
       "notional": 10000.0,
       "unrealized": 108.45,
-      "pnl_pct": 1.084,
+      "pnl_pct": 1.232,
       "sl": 1793.75252,
       "tp": 1826.23496,
       "note": "z=-2.95",
@@ -95,34 +121,13 @@
       "swarm_aligned": true,
       "algo_version": "3.0",
       "sl_pct": 0.6,
-      "tp_pct": 1.2
+      "tp_pct": 1.2,
+      "exit": 1826.82,
+      "closed_at": 1784296748.255297,
+      "pnl": 123.24,
+      "exit_reason": "TP",
+      "duration_s": 1260
     },
-    {
-      "id": "BNBUSDT-1784295488",
-      "trade_no": 96,
-      "trade_id": "T0096",
-      "binance_order_id": "",
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "entry": 556.45,
-      "current": 560.23,
-      "qty": 17.971067,
-      "notional": 10000.0,
-      "unrealized": 67.93,
-      "pnl_pct": 0.679,
-      "sl": 553.1113,
-      "tp": 563.1274,
-      "note": "z=-2.84",
-      "opened_at": 1784295488.106926,
-      "opened_iso": "2026-07-17T13:38:08.106926+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
     {
       "id": "ADAUSDT-1784293627",
       "trade_no": 93,
@@ -2689,14 +2694,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
-    "total_trades": 102,
-    "wins": 37,
+    "open": 1,
+    "total_trades": 103,
+    "wins": 38,
     "losses": 65,
-    "win_rate": 36.3,
-    "total_pnl": 39.82,
-    "equity": 5178.02,
-    "unrealized": 176.38,
+    "win_rate": 36.9,
+    "total_pnl": 163.06,
+    "equity": 5200.9,
+    "unrealized": 76.02,
     "closed_this_cycle": 1
   },
   "freqtrade": {
@@ -2713,7 +2718,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 13:06:56.783055",
         "open_rate": 62892.2,
-        "current_rate": 63061.99,
+        "current_rate": 63156.01,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.99,
