@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T18:15:10.054370+00:00",
+  "cycle_at": "2026-07-17T18:16:10.043682+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4901.55,
       "locked": 0
     },
-    "equity": 4956.85,
+    "equity": 4955.68,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 55.3,
+    "unrealized_pnl": 54.13,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T18:15:10.054370+00:00"
+    "updated_at": "2026-07-17T18:16:10.043682+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 74.88,
-      "current": 75.23,
+      "current": 75.19,
       "qty": 133.547009,
       "notional": 10000.0,
-      "unrealized": 46.74,
-      "pnl_pct": 0.467,
+      "unrealized": 41.4,
+      "pnl_pct": 0.414,
       "sl": 74.43072,
       "tp": 75.77856,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -131,11 +131,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63925.99,
-      "current": 64063.58,
+      "current": 64036.92,
       "qty": 0.156431,
       "notional": 10000.0,
-      "unrealized": -21.52,
-      "pnl_pct": -0.215,
+      "unrealized": -17.35,
+      "pnl_pct": -0.174,
       "sl": 64309.54594,
       "tp": 63158.87812,
       "note": "z=2.31",
@@ -2842,7 +2842,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-17T16:16:44.237435+00:00",
+    "updated_at": "2026-07-17T18:16:10.501967+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -2851,38 +2851,38 @@
       "BTCUSDT": {
         "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": 40.5,
+        "score": -47.0,
         "sl": null,
         "tp": null,
-        "rationale": "Binance long/short oran\u0131 1.83'e y\u00fckseldi, perakende al\u0131c\u0131lar d\u00fc\u015f\u00fc\u015f\u00fc al\u0131yor. Likitasyon riski y\u00fcksek, stabilcoin arz\u0131 daral\u0131yor.",
+        "rationale": "On-chain ak\u0131\u015f ve likidasyon riskleri a\u011f\u0131r bas\u0131yor, fonlama hafif y\u00fckseli\u015f destekli olsa da genel e\u011filim ay\u0131 y\u00f6nl\u00fc.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784304129.105173,
-        "at": "2026-07-17T16:02:09.105173+00:00"
+        "ts": 1784311329.929717,
+        "at": "2026-07-17T18:02:09.929717+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 39.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "T\u00fcm sinyaller y\u00f6nl\u00fc uyumlu; kurumsal birikim ve sa\u011fl\u0131kl\u0131 fonlama yap\u0131s\u0131 ile y\u00fckseli\u015f e\u011filimi destekleniyor.",
-        "extract_model": "deepseek-chat",
-        "target": "ETH-USDT",
-        "ts": 1784304129.105173,
-        "at": "2026-07-17T16:02:09.105173+00:00"
-      },
-      "SOLUSDT": {
         "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": -32.0,
+        "score": -52.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kalabal\u0131k long pozisyonlar, d\u00fc\u015fen fiyat ve 73.0-73.5$ likitasyon manyeti\u011fi k\u0131sa y\u00f6nl\u00fc bask\u0131 olu\u015fturuyor. Fonlama n\u00f6tr ancak ta\u015fma riski a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
+        "rationale": "T\u00fcm boyutlar d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc hizalan\u0131yor: ak\u0131\u015f, likidasyon ve fonlama n\u00f6tr. Bile\u015fik puan -0.52.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "ETH-USDT",
+        "ts": 1784311329.929717,
+        "at": "2026-07-17T18:02:09.929717+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 15.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Kompozit skor +0.15 ile hafif bullish. Fonlama n\u00f6tr, ak\u0131\u015f sat\u0131\u015f t\u00fckenmesi g\u00f6steriyor. Likitasyon yo\u011fun long pozisyon riski olu\u015ftursa da fonlama d\u00fc\u015f\u00fck oldu\u011fu i\u00e7in k\u0131r\u0131lgan denge korunuyor.",
         "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1784304129.105173,
-        "at": "2026-07-17T16:02:09.105173+00:00"
+        "ts": 1784311329.929717,
+        "at": "2026-07-17T18:02:09.929717+00:00"
       }
     },
     "gated_this_cycle": []
@@ -2894,8 +2894,8 @@
     "losses": 69,
     "win_rate": 36.1,
     "total_pnl": -60.27,
-    "equity": 4956.85,
-    "unrealized": 55.3,
+    "equity": 4955.68,
+    "unrealized": 54.13,
     "closed_this_cycle": 0
   },
   "freqtrade": {
