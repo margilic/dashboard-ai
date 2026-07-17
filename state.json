@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T12:16:07.548381+00:00",
+  "cycle_at": "2026-07-17T12:17:07.552072+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4965.94,
       "locked": 0
     },
-    "equity": 5193.22,
+    "equity": 5203.97,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 227.28,
+    "unrealized_pnl": 238.03,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T12:16:07.548381+00:00"
+    "updated_at": "2026-07-17T12:17:07.552072+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 62998.0,
-      "current": 63268.98,
+      "current": 63290.0,
       "qty": 0.158735,
       "notional": 10000.0,
-      "unrealized": 43.01,
-      "pnl_pct": 0.43,
+      "unrealized": 46.35,
+      "pnl_pct": 0.464,
       "sl": 62620.012,
       "tp": 63753.976,
       "note": "z=-2.47",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1.08,
-      "current": 1.082,
+      "current": 1.0828,
       "qty": 9259.259259,
       "notional": 10000.0,
-      "unrealized": 18.52,
-      "pnl_pct": 0.185,
+      "unrealized": 25.93,
+      "pnl_pct": 0.259,
       "sl": 1.07352,
       "tp": 1.09296,
       "note": "z=-2.76",
@@ -2494,47 +2494,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-17T10:16:47.348721+00:00",
+    "updated_at": "2026-07-17T12:16:56.507591+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "LONG",
+        "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": 60.0,
+        "score": -60.0,
         "sl": null,
         "tp": null,
-        "rationale": "Finansman temizli\u011fi, zincir\u00fcst\u00fc toparlanma ve al\u0131m deste\u011fi ile y\u00fckseli\u015f e\u011filimi; ancak likidasyon kaskad riski mevcut.",
+        "rationale": "Funding negatif, likidasyon kaskad riski y\u00fcksek, on-chain kar\u0131\u015f\u0131k; k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f e\u011filimi.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784282526.579757,
-        "at": "2026-07-17T10:02:06.579757+00:00"
+        "ts": 1784289727.435939,
+        "at": "2026-07-17T12:02:07.435939+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 60.0,
-        "sl": 1820,
-        "tp": null,
-        "rationale": "Ak\u0131\u015f ve fonlama uyumu y\u00fckseli\u015fi destekliyor; likidasyon riski a\u015fa\u011f\u0131da k\u0131s\u0131tl\u0131yor.",
-        "extract_model": "deepseek-chat",
-        "target": "ETH-USDT",
-        "ts": 1784282526.579757,
-        "at": "2026-07-17T10:02:06.579757+00:00"
-      },
-      "SOLUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -15.0,
+        "score": 11.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor -0.15, sinyaller da\u011f\u0131n\u0131k, net bir sinyal yok, beklenmeli.",
+        "rationale": "Flow analizi y\u00fckseli\u015fi desteklerken, funding/basis d\u00fc\u015f\u00fc\u015f sinyali veriyor. Kar\u0131\u015f\u0131k sinyaller, d\u00fc\u015f\u00fc\u015fte al\u0131m stratejisi \u00f6neriliyor.",
+        "extract_model": "deepseek-chat",
+        "target": "ETH-USDT",
+        "ts": 1784289727.435939,
+        "at": "2026-07-17T12:02:07.435939+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "SHORT",
+        "conviction": "MEDIUM",
+        "score": -29.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "T\u00fcm sinyaller d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, ancak a\u015f\u0131r\u0131 de\u011fil. D\u00fc\u015f\u00fck-orta g\u00fcvenle k\u0131sa pozisyon \u00f6nerilir.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784282526.579757,
-        "at": "2026-07-17T10:02:06.579757+00:00"
+        "ts": 1784289727.435939,
+        "at": "2026-07-17T12:02:07.435939+00:00"
       }
     },
     "gated_this_cycle": []
@@ -2546,8 +2546,8 @@
     "losses": 61,
     "win_rate": 36.5,
     "total_pnl": 4.12,
-    "equity": 5193.22,
-    "unrealized": 227.28,
+    "equity": 5203.97,
+    "unrealized": 238.03,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2564,7 +2564,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-17 12:10:02.044418",
         "open_rate": 1836.91,
-        "current_rate": 1835.58,
+        "current_rate": 1837.27,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.82,
