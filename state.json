@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T09:48:06.472765+00:00",
+  "cycle_at": "2026-07-17T09:49:06.483066+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 5055.13,
       "locked": 0
     },
-    "equity": 5042.72,
+    "equity": 5043.98,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -12.41,
+    "unrealized_pnl": -11.15,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T09:48:06.472765+00:00"
+    "updated_at": "2026-07-17T09:49:06.483066+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 62998.0,
-      "current": 63044.0,
+      "current": 63022.52,
       "qty": 0.158735,
       "notional": 10000.0,
-      "unrealized": 7.3,
-      "pnl_pct": 0.073,
+      "unrealized": 3.89,
+      "pnl_pct": 0.039,
       "sl": 62620.012,
       "tp": 63753.976,
       "note": "z=-2.47",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1.08,
-      "current": 1.0863,
+      "current": 1.0856,
       "qty": 9259.259259,
       "notional": 10000.0,
-      "unrealized": 58.33,
-      "pnl_pct": 0.583,
+      "unrealized": 51.85,
+      "pnl_pct": 0.519,
       "sl": 1.07352,
       "tp": 1.09296,
       "note": "z=-2.76",
@@ -131,11 +131,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.0897,
-      "current": 0.0904,
+      "current": 0.0903,
       "qty": 111482.720178,
       "notional": 10000.0,
-      "unrealized": -78.04,
-      "pnl_pct": -0.78,
+      "unrealized": -66.89,
+      "pnl_pct": -0.669,
       "sl": 0.090449,
       "tp": 0.088202,
       "note": "z=2.19",
@@ -2468,12 +2468,12 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.0904,
-      "strength": 26,
-      "note": "z=2.20",
+      "price": 0.0903,
+      "strength": 25,
+      "note": "z=2.10",
       "ts": 1784281500000,
       "v3_weight": 0.48,
-      "v3_raw_strength": 55.08867438163356
+      "v3_raw_strength": 52.43701371330898
     }
   ],
   "swarm": {
@@ -2529,8 +2529,8 @@
     "losses": 60,
     "win_rate": 36.8,
     "total_pnl": 93.31,
-    "equity": 5042.72,
-    "unrealized": -12.41,
+    "equity": 5043.98,
+    "unrealized": -11.15,
     "closed_this_cycle": 0
   },
   "freqtrade": {
