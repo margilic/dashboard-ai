@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T00:15:00.707794+00:00",
+  "cycle_at": "2026-07-17T00:16:00.709335+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 5166.14,
       "locked": 0
     },
-    "equity": 5245.13,
+    "equity": 5269.29,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 78.99,
+    "unrealized_pnl": 103.15,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T00:15:00.707794+00:00"
+    "updated_at": "2026-07-17T00:16:00.709335+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 577.02,
-      "current": 571.99,
+      "current": 572.21,
       "qty": 17.330422,
       "notional": 10000.0,
-      "unrealized": 87.17,
-      "pnl_pct": 0.872,
+      "unrealized": 83.36,
+      "pnl_pct": 0.834,
       "sl": 580.48212,
       "tp": 570.09576,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -108,11 +108,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 6.5,
-      "current": 6.478,
+      "current": 6.489,
       "qty": 1538.461538,
       "notional": 10000.0,
-      "unrealized": -33.85,
-      "pnl_pct": -0.338,
+      "unrealized": -16.92,
+      "pnl_pct": -0.169,
       "sl": 6.461,
       "tp": 6.578,
       "note": "z=-3.09",
@@ -132,11 +132,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1857.86,
-      "current": 1862.63,
+      "current": 1864.68,
       "qty": 5.382537,
       "notional": 10000.0,
-      "unrealized": 25.67,
-      "pnl_pct": 0.257,
+      "unrealized": 36.71,
+      "pnl_pct": 0.367,
       "sl": 1846.71284,
       "tp": 1880.15432,
       "note": "z=-3.27",
@@ -2147,7 +2147,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-16T22:17:14.440430+00:00",
+    "updated_at": "2026-07-17T00:15:52.167516+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -2155,39 +2155,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "LOW",
-        "score": 17.0,
+        "conviction": "MEDIUM",
+        "score": 64.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kompozit sinyal +0.165 ile hafif y\u00fckseli\u015f e\u011filimi. Finansman/baz ve zincir i\u00e7i ak\u0131\u015f olumlu, likidasyon riski s\u0131n\u0131rl\u0131.",
+        "rationale": "Funding/basis sa\u011fl\u0131kl\u0131, likidasyon n\u00f6tr-bullish, ak\u0131\u015f hafif bullish. Tutarl\u0131 sinyaller, kompozit skor 0.643. Orta kanaat.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784239379.759651,
-        "at": "2026-07-16T22:02:59.759651+00:00"
+        "ts": 1784246520.536634,
+        "at": "2026-07-17T00:02:00.536634+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 28.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 61.0,
         "sl": null,
         "tp": null,
-        "rationale": "Yap\u0131sal sermaye giri\u015fi nedeniyle uzun vadeli y\u00fckseli\u015f beklentisi var, ancak k\u0131sa vadede likidasyon riski nedeniyle dikkatli olunmal\u0131.",
+        "rationale": "K\u0131sa vadede d\u00fc\u015f\u00fc\u015f bask\u0131s\u0131, orta vadede y\u00fckseli\u015f potansiyeli; belirsizlik nedeniyle beklenmeli.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784239379.759651,
-        "at": "2026-07-16T22:02:59.759651+00:00"
+        "ts": 1784246520.536634,
+        "at": "2026-07-17T00:02:00.536634+00:00"
       },
       "SOLUSDT": {
         "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -19.0,
+        "conviction": "MEDIUM",
+        "score": -15.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller farkl\u0131 y\u00f6nlere \u00e7ekiyor; likidasyon riski ve fonlama n\u00f6tr, ak\u0131\u015f hafif y\u00fckseli\u015f. Bekleme \u00f6nerisi.",
+        "rationale": "Kar\u0131\u015f\u0131k sinyaller, ay\u0131 e\u011filimi bask\u0131n ancak net de\u011fil, bekle.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784239379.759651,
-        "at": "2026-07-16T22:02:59.759651+00:00"
+        "ts": 1784246520.536634,
+        "at": "2026-07-17T00:02:00.536634+00:00"
       }
     },
     "gated_this_cycle": []
@@ -2199,8 +2199,8 @@
     "losses": 52,
     "win_rate": 38.1,
     "total_pnl": 204.32,
-    "equity": 5245.13,
-    "unrealized": 78.99,
+    "equity": 5269.29,
+    "unrealized": 103.15,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2217,7 +2217,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-16 22:20:01.615960",
         "open_rate": 64152.0,
-        "current_rate": 63790.58,
+        "current_rate": 63855.83,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.74,
