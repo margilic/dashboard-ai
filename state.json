@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T17:07:09.561474+00:00",
+  "cycle_at": "2026-07-17T17:08:09.568741+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4970.32,
       "locked": 0
     },
-    "equity": 4948.92,
+    "equity": 4940.66,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -21.4,
+    "unrealized_pnl": -29.66,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T17:07:09.561474+00:00"
+    "updated_at": "2026-07-17T17:08:09.568741+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63782.0,
+      "current": 63834.31,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": -46.09,
-      "pnl_pct": -0.461,
+      "unrealized": -54.33,
+      "pnl_pct": -0.543,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 74.88,
-      "current": 75.2,
+      "current": 75.29,
       "qty": 133.547009,
       "notional": 10000.0,
-      "unrealized": 42.74,
-      "pnl_pct": 0.427,
+      "unrealized": 54.75,
+      "pnl_pct": 0.548,
       "sl": 74.43072,
       "tp": 75.77856,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -131,11 +131,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.1662,
-      "current": 0.1665,
+      "current": 0.1667,
       "qty": 60168.471721,
       "notional": 10000.0,
-      "unrealized": -18.05,
-      "pnl_pct": -0.181,
+      "unrealized": -30.08,
+      "pnl_pct": -0.301,
       "sl": 0.167709,
       "tp": 0.163181,
       "note": "z=2.13",
@@ -2813,15 +2813,70 @@
   ],
   "signals": [
     {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 6.593,
+      "strength": 35,
+      "note": "z=2.21",
+      "ts": 1784307600000,
+      "v3_weight": 0.64,
+      "v3_raw_strength": 55.239124441343236
+    },
+    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1844.75,
-      "strength": 32,
-      "note": "z=2.03",
+      "price": 1845.76,
+      "strength": 34,
+      "note": "z=2.11",
       "ts": 1784307600000,
       "v3_weight": 0.64,
-      "v3_raw_strength": 50.683458723099704
+      "v3_raw_strength": 52.73054485058141
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 566.46,
+      "strength": 34,
+      "note": "z=2.10",
+      "ts": 1784307600000,
+      "v3_weight": 0.64,
+      "v3_raw_strength": 52.390645384568735
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1.0923,
+      "strength": 34,
+      "note": "z=2.11",
+      "ts": 1784307600000,
+      "v3_weight": 0.64,
+      "v3_raw_strength": 52.681230509834556
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07272,
+      "strength": 34,
+      "note": "z=2.11",
+      "ts": 1784307600000,
+      "v3_weight": 0.64,
+      "v3_raw_strength": 52.63634441370677
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 63834.31,
+      "strength": 33,
+      "note": "z=2.09",
+      "ts": 1784307600000,
+      "v3_weight": 0.64,
+      "v3_raw_strength": 52.12603911906002
     }
   ],
   "swarm": {
@@ -2877,8 +2932,8 @@
     "losses": 68,
     "win_rate": 36.4,
     "total_pnl": 8.5,
-    "equity": 4948.92,
-    "unrealized": -21.4,
+    "equity": 4940.66,
+    "unrealized": -29.66,
     "closed_this_cycle": 0
   },
   "freqtrade": {
