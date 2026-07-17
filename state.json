@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T04:19:03.436735+00:00",
+  "cycle_at": "2026-07-17T04:20:03.468762+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -65,14 +65,14 @@
   },
   "balance": {
     "USD": {
-      "free": 5141.74,
+      "free": 5360.8,
       "locked": 0
     },
-    "equity": 5329.91,
+    "equity": 5315.67,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 188.17,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-17T04:19:03.436735+00:00"
+    "unrealized_pnl": -45.13,
+    "realized_today": 219.06,
+    "updated_at": "2026-07-17T04:20:03.468762+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 8.274,
-      "current": 8.266,
+      "current": 8.244,
       "qty": 1208.60527,
       "notional": 10000.0,
-      "unrealized": -9.67,
-      "pnl_pct": -0.097,
+      "unrealized": -36.26,
+      "pnl_pct": -0.363,
       "sl": 8.224356,
       "tp": 8.373288,
       "note": "z=-2.21",
@@ -108,11 +108,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 63386.22,
-      "current": 63460.0,
+      "current": 63330.01,
       "qty": 0.157763,
       "notional": 10000.0,
-      "unrealized": 11.64,
-      "pnl_pct": 0.116,
+      "unrealized": -8.87,
+      "pnl_pct": -0.089,
       "sl": 63005.90268,
       "tp": 64146.85464,
       "note": "z=-2.03",
@@ -122,7 +122,9 @@
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
-    },
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ARBUSDT-1784258822",
       "trade_no": 85,
@@ -136,7 +138,7 @@
       "qty": 109529.025192,
       "notional": 10000.0,
       "unrealized": 186.2,
-      "pnl_pct": 1.862,
+      "pnl_pct": 2.191,
       "sl": 0.09216,
       "tp": 0.08958,
       "note": "z=3.02",
@@ -145,10 +147,13 @@
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.942,
-      "tp_pct": 1.883
-    }
-  ],
-  "recent_trades": [
+      "tp_pct": 1.883,
+      "exit": 0.0893,
+      "closed_at": 1784262003.468762,
+      "pnl": 219.06,
+      "exit_reason": "TP",
+      "duration_s": 3180
+    },
     {
       "id": "ARBUSDT-1784258102",
       "trade_no": 84,
@@ -2319,7 +2324,30 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 8.244,
+      "strength": 32,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784261700000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 65
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 8.244,
+      "strength": 24,
+      "note": "z=-2.03",
+      "ts": 1784261700000,
+      "v3_weight": 0.48,
+      "v3_raw_strength": 50.712479409452015
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-17T04:15:13.885404+00:00",
     "model": "deepseek-chat",
@@ -2367,15 +2395,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 90,
-    "wins": 34,
+    "open": 2,
+    "total_trades": 91,
+    "wins": 35,
     "losses": 56,
-    "win_rate": 37.8,
-    "total_pnl": 179.92,
-    "equity": 5329.91,
-    "unrealized": 188.17,
-    "closed_this_cycle": 0
+    "win_rate": 38.5,
+    "total_pnl": 398.98,
+    "equity": 5315.67,
+    "unrealized": -45.13,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -2391,7 +2419,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 03:45:01.700232",
         "open_rate": 63618.0,
-        "current_rate": 63454.83,
+        "current_rate": 63341.35,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.4,
