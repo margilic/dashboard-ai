@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T20:14:10.849895+00:00",
+  "cycle_at": "2026-07-17T20:15:10.866119+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -70,7 +70,7 @@
     "initial_balance": 4999.87,
     "unrealized_pnl": 29.39,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T20:14:10.849895+00:00"
+    "updated_at": "2026-07-17T20:15:10.866119+00:00"
   },
   "open_positions": [
     {
@@ -2846,47 +2846,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-17T18:16:10.501967+00:00",
+    "updated_at": "2026-07-17T20:15:02.612615+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -47.0,
+        "score": 64.0,
         "sl": null,
         "tp": null,
-        "rationale": "On-chain ak\u0131\u015f ve likidasyon riskleri a\u011f\u0131r bas\u0131yor, fonlama hafif y\u00fckseli\u015f destekli olsa da genel e\u011filim ay\u0131 y\u00f6nl\u00fc.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "ETF ak\u0131\u015f toparlamas\u0131, bol stablecoin likiditesi, 64,250$'da short squeeze potansiyeli ve sa\u011fl\u0131kl\u0131 fonlama rejimi. Asimetrik yukar\u0131 y\u00f6nl\u00fc potansiyel.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1784311329.929717,
-        "at": "2026-07-17T18:02:09.929717+00:00"
+        "ts": 1784318530.746951,
+        "at": "2026-07-17T20:02:10.746951+00:00"
       },
       "ETHUSDT": {
         "direction": "SHORT",
         "conviction": "MEDIUM",
-        "score": -52.0,
+        "score": -2.7,
         "sl": null,
-        "tp": null,
-        "rationale": "T\u00fcm boyutlar d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc hizalan\u0131yor: ak\u0131\u015f, likidasyon ve fonlama n\u00f6tr. Bile\u015fik puan -0.52.",
+        "tp": 1808,
+        "rationale": "Fonlama s\u0131f\u0131ra yak\u0131n, likidasyon k\u00fcmeleri a\u015fa\u011f\u0131 y\u00f6nl\u00fc, on-chain ak\u0131\u015f zay\u0131f, hafif d\u00fc\u015f\u00fc\u015f e\u011filimi.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784311329.929717,
-        "at": "2026-07-17T18:02:09.929717+00:00"
+        "ts": 1784318530.746951,
+        "at": "2026-07-17T20:02:10.746951+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 15.0,
+        "conviction": "HIGH",
+        "score": 30.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kompozit skor +0.15 ile hafif bullish. Fonlama n\u00f6tr, ak\u0131\u015f sat\u0131\u015f t\u00fckenmesi g\u00f6steriyor. Likitasyon yo\u011fun long pozisyon riski olu\u015ftursa da fonlama d\u00fc\u015f\u00fck oldu\u011fu i\u00e7in k\u0131r\u0131lgan denge korunuyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "K\u0131sa s\u0131k\u0131\u015fma ve stablecoin ak\u0131\u015f\u0131 y\u00fckseli\u015fi destekliyor, finansman n\u00f6tr/hafif bearish.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784311329.929717,
-        "at": "2026-07-17T18:02:09.929717+00:00"
+        "ts": 1784318530.746951,
+        "at": "2026-07-17T20:02:10.746951+00:00"
       }
     },
     "gated_this_cycle": []
@@ -2916,7 +2916,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 20:05:01.596287",
         "open_rate": 64064.6,
-        "current_rate": 64025.33,
+        "current_rate": 64001.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.7,
