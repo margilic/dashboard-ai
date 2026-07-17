@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T13:32:08.085310+00:00",
+  "cycle_at": "2026-07-17T13:33:08.083774+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 5204.39,
       "locked": 0
     },
-    "equity": 5165.65,
+    "equity": 5170.02,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -38.74,
+    "unrealized_pnl": -34.37,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T13:32:08.085310+00:00"
+    "updated_at": "2026-07-17T13:33:08.083774+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 62998.0,
-      "current": 62905.15,
+      "current": 62932.69,
       "qty": 0.158735,
       "notional": 10000.0,
-      "unrealized": -14.74,
-      "pnl_pct": -0.147,
+      "unrealized": -10.37,
+      "pnl_pct": -0.104,
       "sl": 62620.012,
       "tp": 63753.976,
       "note": "z=-2.47",
@@ -2590,17 +2590,6 @@
       "ts": 1784295000000,
       "v3_weight": 0.48,
       "v3_raw_strength": 54.2707415379459
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 73.89,
-      "strength": 24,
-      "note": "z=-2.01",
-      "ts": 1784295000000,
-      "v3_weight": 0.48,
-      "v3_raw_strength": 50.23191667134761
     }
   ],
   "swarm": {
@@ -2656,8 +2645,8 @@
     "losses": 62,
     "win_rate": 37.4,
     "total_pnl": 242.57,
-    "equity": 5165.65,
-    "unrealized": -38.74,
+    "equity": 5170.02,
+    "unrealized": -34.37,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2674,7 +2663,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 13:06:56.783055",
         "open_rate": 62892.2,
-        "current_rate": 62906.01,
+        "current_rate": 62936.24,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.99,
