@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T14:39:08.543565+00:00",
+  "cycle_at": "2026-07-17T14:40:08.548172+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 5124.88,
       "locked": 0
     },
-    "equity": 5254.43,
+    "equity": 5254.53,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 129.55,
+    "unrealized_pnl": 129.65,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T14:39:08.543565+00:00"
+    "updated_at": "2026-07-17T14:40:08.548172+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 556.45,
-      "current": 562.76,
+      "current": 563.06,
       "qty": 17.971067,
       "notional": 10000.0,
-      "unrealized": 113.4,
-      "pnl_pct": 1.134,
+      "unrealized": 118.79,
+      "pnl_pct": 1.188,
       "sl": 553.1113,
       "tp": 563.1274,
       "note": "z=-2.84",
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63289.99,
+      "current": 63349.99,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": 31.4,
-      "pnl_pct": 0.314,
+      "unrealized": 21.95,
+      "pnl_pct": 0.22,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
@@ -131,11 +131,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.07214,
-      "current": 0.07203,
+      "current": 0.07206,
       "qty": 138619.351261,
       "notional": 10000.0,
-      "unrealized": -15.25,
-      "pnl_pct": -0.152,
+      "unrealized": -11.09,
+      "pnl_pct": -0.111,
       "sl": 0.071707,
       "tp": 0.073006,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2700,7 +2700,7 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.07203,
+      "price": 0.07206,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784298600000,
@@ -2761,8 +2761,8 @@
     "losses": 65,
     "win_rate": 36.9,
     "total_pnl": 163.06,
-    "equity": 5254.43,
-    "unrealized": 129.55,
+    "equity": 5254.53,
+    "unrealized": 129.65,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2773,33 +2773,31 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [
+    "open_positions": [],
+    "stats": {
+      "open": 0,
+      "total_closed": 63,
+      "wins": 15,
+      "losses": 48,
+      "win_rate": 23.8,
+      "total_pnl": -47.89,
+      "avg_profit_pct": -0.21
+    },
+    "recent_trades": [
       {
         "id": 63,
         "pair": "ETH/USDT",
         "open_date": "2026-07-17 14:30:01.801999",
-        "open_rate": 1823.76,
-        "current_rate": 1825.71,
+        "close_date": "2026-07-17 14:40:01.543000",
+        "entry": 1823.76,
+        "exit": 1826.74,
+        "pnl_pct": -0.04,
+        "pnl_abs": -0.18,
+        "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "stake": 499.89,
-        "amount": 0.2741,
-        "side": "LONG",
-        "sl_price": 1796.4,
-        "tp_price": 1860.24,
-        "trailing_active_price": 1838.35
-      }
-    ],
-    "stats": {
-      "open": 1,
-      "total_closed": 62,
-      "wins": 15,
-      "losses": 47,
-      "win_rate": 24.2,
-      "total_pnl": -47.71,
-      "avg_profit_pct": -0.21
-    },
-    "recent_trades": [
+        "side": "LONG"
+      },
       {
         "id": 62,
         "pair": "BTC/USDT",
@@ -2921,20 +2919,6 @@
         "exit": 64196.64,
         "pnl_pct": -0.18,
         "pnl_abs": -0.9,
-        "exit_reason": "rsi_gt52",
-        "enter_tag": "rsi_lt50",
-        "strategy": "RSIScalp",
-        "side": "LONG"
-      },
-      {
-        "id": 53,
-        "pair": "BTC/USDT",
-        "open_date": "2026-07-16 21:25:01.582411",
-        "close_date": "2026-07-16 21:45:01.559000",
-        "entry": 64166.66,
-        "exit": 64213.99,
-        "pnl_pct": -0.13,
-        "pnl_abs": -0.63,
         "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
