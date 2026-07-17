@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T04:21:03.459029+00:00",
+  "cycle_at": "2026-07-17T04:22:03.458347+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -68,11 +68,11 @@
       "free": 5360.8,
       "locked": 0
     },
-    "equity": 5324.4,
+    "equity": 5321.74,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -36.4,
+    "unrealized_pnl": -39.06,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T04:21:03.459029+00:00"
+    "updated_at": "2026-07-17T04:22:03.458347+00:00"
   },
   "open_positions": [
     {
@@ -84,11 +84,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 8.274,
-      "current": 8.249,
+      "current": 8.25,
       "qty": 1208.60527,
       "notional": 10000.0,
-      "unrealized": -30.22,
-      "pnl_pct": -0.302,
+      "unrealized": -29.01,
+      "pnl_pct": -0.29,
       "sl": 8.224356,
       "tp": 8.373288,
       "note": "z=-2.21",
@@ -108,11 +108,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 63386.22,
-      "current": 63347.04,
+      "current": 63339.41,
       "qty": 0.157763,
       "notional": 10000.0,
-      "unrealized": -6.18,
-      "pnl_pct": -0.062,
+      "unrealized": -7.38,
+      "pnl_pct": -0.074,
       "sl": 63005.90268,
       "tp": 64146.85464,
       "note": "z=-2.03",
@@ -132,11 +132,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 74.8,
-      "current": 74.8,
+      "current": 74.82,
       "qty": 133.68984,
       "notional": 10000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -2.67,
+      "pnl_pct": -0.027,
       "sl": 75.2488,
       "tp": 73.9024,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -2348,30 +2348,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 74.8,
-      "strength": 47,
-      "note": "z=-2.05",
-      "ts": 1784261700000,
-      "v3_weight": 0.92,
-      "v3_raw_strength": 51.36278338240826
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 74.8,
-      "strength": 32,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784261700000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 65
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-17T04:15:13.885404+00:00",
     "model": "deepseek-chat",
@@ -2416,13 +2393,7 @@
         "at": "2026-07-17T04:02:03.268696+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "LONG",
-        "reason": "desk=SHORT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 3,
@@ -2431,8 +2402,8 @@
     "losses": 56,
     "win_rate": 38.5,
     "total_pnl": 398.98,
-    "equity": 5324.4,
-    "unrealized": -36.4,
+    "equity": 5321.74,
+    "unrealized": -39.06,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2449,7 +2420,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 03:45:01.700232",
         "open_rate": 63618.0,
-        "current_rate": 63347.03,
+        "current_rate": 63339.41,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.4,
