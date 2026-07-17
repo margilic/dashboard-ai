@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T14:14:08.355725+00:00",
+  "cycle_at": "2026-07-17T14:15:08.389050+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 5124.88,
       "locked": 0
     },
-    "equity": 5249.35,
+    "equity": 5246.83,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 124.47,
+    "unrealized_pnl": 121.95,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T14:14:08.355725+00:00"
+    "updated_at": "2026-07-17T14:15:08.389050+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 556.45,
-      "current": 562.5,
+      "current": 562.4,
       "qty": 17.971067,
       "notional": 10000.0,
-      "unrealized": 108.72,
-      "pnl_pct": 1.087,
+      "unrealized": 106.93,
+      "pnl_pct": 1.069,
       "sl": 553.1113,
       "tp": 563.1274,
       "note": "z=-2.84",
@@ -107,17 +107,41 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63389.33,
+      "current": 63394.01,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": 15.75,
-      "pnl_pct": 0.158,
+      "unrealized": 15.02,
+      "pnl_pct": 0.15,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
       "opened_at": 1784297468.349435,
       "opened_iso": "2026-07-17T14:11:08.349435+00:00",
       "swarm_aligned": true,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "DOGEUSDT-1784297708",
+      "trade_no": 98,
+      "trade_id": "T0098",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "entry": 0.07214,
+      "current": 0.07214,
+      "qty": 138619.351261,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.071707,
+      "tp": 0.073006,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "opened_at": 1784297708.38905,
+      "opened_iso": "2026-07-17T14:15:08.389050+00:00",
+      "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
@@ -2671,7 +2695,41 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 63394.01,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784297700000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 70
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.07214,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784297700000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 70
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.1615,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784297700000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 70
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-17T12:16:56.507591+00:00",
     "model": "deepseek-chat",
@@ -2719,14 +2777,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 103,
     "wins": 38,
     "losses": 65,
     "win_rate": 36.9,
     "total_pnl": 163.06,
-    "equity": 5249.35,
-    "unrealized": 124.47,
+    "equity": 5246.83,
+    "unrealized": 121.95,
     "closed_this_cycle": 0
   },
   "freqtrade": {
