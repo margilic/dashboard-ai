@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T15:05:08.718895+00:00",
+  "cycle_at": "2026-07-17T15:06:08.722374+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -64,14 +64,14 @@
   },
   "balance": {
     "USD": {
-      "free": 5124.88,
+      "free": 5058.34,
       "locked": 0
     },
-    "equity": 5215.65,
+    "equity": 5200.22,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 90.77,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-17T15:05:08.718895+00:00"
+    "unrealized_pnl": 141.88,
+    "realized_today": -66.54,
+    "updated_at": "2026-07-17T15:06:08.722374+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 556.45,
-      "current": 560.9,
+      "current": 560.2,
       "qty": 17.971067,
       "notional": 10000.0,
-      "unrealized": 79.97,
-      "pnl_pct": 0.8,
+      "unrealized": 67.39,
+      "pnl_pct": 0.674,
       "sl": 553.1113,
       "tp": 563.1274,
       "note": "z=-2.84",
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63104.0,
+      "current": 63016.44,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": 60.7,
-      "pnl_pct": 0.607,
+      "unrealized": 74.49,
+      "pnl_pct": 0.745,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
@@ -122,6 +122,32 @@
       "sl_pct": 0.6,
       "tp_pct": 1.2
     },
+    {
+      "id": "DOGEUSDT-1784300768",
+      "trade_no": 99,
+      "trade_id": "T0099",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 0.07166,
+      "current": 0.07166,
+      "qty": 139547.864918,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.07209,
+      "tp": 0.0708,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1784300768.722374,
+      "opened_iso": "2026-07-17T15:06:08.722374+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    }
+  ],
+  "recent_trades": [
     {
       "id": "DOGEUSDT-1784297708",
       "trade_no": 98,
@@ -135,7 +161,7 @@
       "qty": 138619.351261,
       "notional": 10000.0,
       "unrealized": -49.9,
-      "pnl_pct": -0.499,
+      "pnl_pct": -0.665,
       "sl": 0.071707,
       "tp": 0.073006,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -144,10 +170,13 @@
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
+      "tp_pct": 1.2,
+      "exit": 0.07166,
+      "closed_at": 1784300768.722374,
+      "pnl": -66.54,
+      "exit_reason": "SL",
+      "duration_s": 3060
+    },
     {
       "id": "ETHUSDT-1784295488",
       "trade_no": 95,
@@ -2695,7 +2724,19 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 0.07166,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784300400000,
+      "v3_weight": 1.0,
+      "v3_raw_strength": 70
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-17T14:17:48.687124+00:00",
     "model": "deepseek-chat",
@@ -2744,14 +2785,14 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 103,
+    "total_trades": 104,
     "wins": 38,
-    "losses": 65,
-    "win_rate": 36.9,
-    "total_pnl": 163.06,
-    "equity": 5215.65,
-    "unrealized": 90.77,
-    "closed_this_cycle": 0
+    "losses": 66,
+    "win_rate": 36.5,
+    "total_pnl": 96.52,
+    "equity": 5200.22,
+    "unrealized": 141.88,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -2767,7 +2808,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-17 14:45:01.658645",
         "open_rate": 1821.75,
-        "current_rate": 1819.5,
+        "current_rate": 1815.11,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.89,
