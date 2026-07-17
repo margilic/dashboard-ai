@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T16:42:09.381636+00:00",
+  "cycle_at": "2026-07-17T16:43:09.387603+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -64,14 +64,14 @@
   },
   "balance": {
     "USD": {
-      "free": 5116.84,
+      "free": 4970.32,
       "locked": 0
     },
-    "equity": 5049.79,
+    "equity": 4986.89,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -67.05,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-17T16:42:09.381636+00:00"
+    "unrealized_pnl": 16.57,
+    "realized_today": -146.52,
+    "updated_at": "2026-07-17T16:43:09.387603+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63461.99,
+      "current": 63477.42,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": 4.31,
-      "pnl_pct": 0.043,
+      "unrealized": 1.88,
+      "pnl_pct": 0.019,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
@@ -98,6 +98,56 @@
       "sl_pct": 0.6,
       "tp_pct": 1.2
     },
+    {
+      "id": "SOLUSDT-1784304129",
+      "trade_no": 101,
+      "trade_id": "T0101",
+      "binance_order_id": "",
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "entry": 74.88,
+      "current": 74.99,
+      "qty": 133.547009,
+      "notional": 10000.0,
+      "unrealized": 14.69,
+      "pnl_pct": 0.147,
+      "sl": 74.43072,
+      "tp": 75.77856,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "opened_at": 1784304129.118212,
+      "opened_iso": "2026-07-17T16:02:09.118212+00:00",
+      "swarm_aligned": true,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "ADAUSDT-1784306589",
+      "trade_no": 102,
+      "trade_id": "T0102",
+      "binance_order_id": "",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.1662,
+      "current": 0.1662,
+      "qty": 60168.471721,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.167709,
+      "tp": 0.163181,
+      "note": "z=2.13",
+      "opened_at": 1784306589.387603,
+      "opened_iso": "2026-07-17T16:43:09.387603+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.908,
+      "tp_pct": 1.816
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ADAUSDT-1784303829",
       "trade_no": 100,
@@ -111,7 +161,7 @@
       "qty": 61050.06105,
       "notional": 10000.0,
       "unrealized": -79.37,
-      "pnl_pct": -0.794,
+      "pnl_pct": -1.465,
       "sl": 0.165206,
       "tp": 0.160989,
       "note": "z=2.03",
@@ -120,34 +170,13 @@
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.858,
-      "tp_pct": 1.716
+      "tp_pct": 1.716,
+      "exit": 0.1662,
+      "closed_at": 1784306589.387603,
+      "pnl": -146.52,
+      "exit_reason": "SL",
+      "duration_s": 2760
     },
-    {
-      "id": "SOLUSDT-1784304129",
-      "trade_no": 101,
-      "trade_id": "T0101",
-      "binance_order_id": "",
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "entry": 74.88,
-      "current": 74.94,
-      "qty": 133.547009,
-      "notional": 10000.0,
-      "unrealized": 8.01,
-      "pnl_pct": 0.08,
-      "sl": 74.43072,
-      "tp": 75.77856,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "opened_at": 1784304129.118212,
-      "opened_iso": "2026-07-17T16:02:09.118212+00:00",
-      "swarm_aligned": true,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
     {
       "id": "BNBUSDT-1784295488",
       "trade_no": 96,
@@ -2784,6 +2813,17 @@
   ],
   "signals": [
     {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.1662,
+      "strength": 34,
+      "note": "z=2.13",
+      "ts": 1784305800000,
+      "v3_weight": 0.64,
+      "v3_raw_strength": 53.36015528568802
+    },
+    {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
@@ -2798,12 +2838,12 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.545,
+      "price": 6.547,
       "strength": 33,
-      "note": "z=2.05",
+      "note": "z=2.09",
       "ts": 1784305800000,
       "v3_weight": 0.64,
-      "v3_raw_strength": 51.31927744085565
+      "v3_raw_strength": 52.30172939209542
     }
   ],
   "swarm": {
@@ -2854,14 +2894,14 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 106,
+    "total_trades": 107,
     "wins": 39,
-    "losses": 67,
-    "win_rate": 36.8,
-    "total_pnl": 155.02,
-    "equity": 5049.79,
-    "unrealized": -67.05,
-    "closed_this_cycle": 0
+    "losses": 68,
+    "win_rate": 36.4,
+    "total_pnl": 8.5,
+    "equity": 4986.89,
+    "unrealized": 16.57,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
