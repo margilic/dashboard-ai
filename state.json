@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T14:29:08.472114+00:00",
+  "cycle_at": "2026-07-17T14:30:08.500364+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 5124.88,
       "locked": 0
     },
-    "equity": 5224.15,
+    "equity": 5223.84,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 99.27,
+    "unrealized_pnl": 98.96,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T14:29:08.472114+00:00"
+    "updated_at": "2026-07-17T14:30:08.500364+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63240.0,
+      "current": 63241.98,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": 39.27,
-      "pnl_pct": 0.393,
+      "unrealized": 38.96,
+      "pnl_pct": 0.39,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
@@ -2697,24 +2697,13 @@
   ],
   "signals": [
     {
-      "symbol": "BTCUSDT",
+      "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 63240.0,
+      "price": 0.0719,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1784297700000,
-      "v3_weight": 1.0,
-      "v3_raw_strength": 70
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 0.1616,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1784297700000,
+      "ts": 1784298600000,
       "v3_weight": 1.0,
       "v3_raw_strength": 70
     }
@@ -2772,8 +2761,8 @@
     "losses": 65,
     "win_rate": 36.9,
     "total_pnl": 163.06,
-    "equity": 5224.15,
-    "unrealized": 99.27,
+    "equity": 5223.84,
+    "unrealized": 98.96,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2784,9 +2773,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 63,
+        "pair": "ETH/USDT",
+        "open_date": "2026-07-17 14:30:01.801999",
+        "open_rate": 1823.76,
+        "current_rate": 1823.63,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 499.89,
+        "amount": 0.2741,
+        "side": "LONG",
+        "sl_price": 1796.4,
+        "tp_price": 1860.24,
+        "trailing_active_price": 1838.35
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 62,
       "wins": 15,
       "losses": 47,
