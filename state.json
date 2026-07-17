@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T05:14:03.906517+00:00",
+  "cycle_at": "2026-07-17T05:15:03.943755+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 5300.64,
       "locked": 0
     },
-    "equity": 5330.45,
+    "equity": 5335.99,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 29.81,
+    "unrealized_pnl": 35.35,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T05:14:03.906517+00:00"
+    "updated_at": "2026-07-17T05:15:03.943755+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 8.274,
-      "current": 8.294,
+      "current": 8.297,
       "qty": 1208.60527,
       "notional": 10000.0,
-      "unrealized": 24.17,
-      "pnl_pct": 0.242,
+      "unrealized": 27.8,
+      "pnl_pct": 0.278,
       "sl": 8.224356,
       "tp": 8.373288,
       "note": "z=-2.21",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 63386.22,
-      "current": 63422.0,
+      "current": 63434.05,
       "qty": 0.157763,
       "notional": 10000.0,
-      "unrealized": 5.64,
-      "pnl_pct": 0.056,
+      "unrealized": 7.55,
+      "pnl_pct": 0.075,
       "sl": 63005.90268,
       "tp": 64146.85464,
       "note": "z=-2.03",
@@ -2354,47 +2354,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-17T04:15:13.885404+00:00",
+    "updated_at": "2026-07-17T05:14:44.638419+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 65.0,
+        "score": 50.0,
         "sl": null,
         "tp": null,
-        "rationale": "Fiyat y\u00fckselirken hacim d\u00fc\u015f\u00fcyor, stablecoin arz\u0131 daral\u0131yor ve likidasyon manyeti a\u015fa\u011f\u0131 y\u00f6nl\u00fc. Finansman n\u00f6tr, ak\u0131\u015f ve likidasyon d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc. Onay bekleniyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Kar\u0131\u015f\u0131k sinyallerle birlikte hafif bullish e\u011filim. Fonlama ve ak\u0131\u015f destekliyor, likidasyon yak\u0131n vadede riskli.",
+        "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784260923.268696,
-        "at": "2026-07-17T04:02:03.268696+00:00"
+        "ts": 1784264523.807173,
+        "at": "2026-07-17T05:02:03.807173+00:00"
       },
       "ETHUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "MEDIUM",
-        "score": 49.0,
+        "direction": "SHORT",
+        "conviction": "HIGH",
+        "score": -70.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor ~4.9/10, taktiksel olarak ay\u0131 e\u011filimli karma sinyaller. On-chain birikim orta vadede y\u00fckseli\u015f destekliyor ancak fonlama ve likidasyon k\u0131sa vadede d\u00fc\u015f\u00fc\u015f bask\u0131s\u0131 yarat\u0131yor. Daha iyi giri\u015f i",
-        "extract_model": "deepseek-chat",
+        "rationale": "\u00dc\u00e7 boyutlu sinyal uyumu: fonlama/basis, likidasyon ve on-chain ak\u0131\u015flar\u0131n t\u00fcm\u00fc d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc. A\u011f\u0131rl\u0131kl\u0131 puan %70 d\u00fc\u015f\u00fc\u015f. Giri\u015f $1,846-$1,855 aral\u0131\u011f\u0131.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784260923.268696,
-        "at": "2026-07-17T04:02:03.268696+00:00"
+        "ts": 1784264523.807173,
+        "at": "2026-07-17T05:02:03.807173+00:00"
       },
       "SOLUSDT": {
         "direction": "SHORT",
-        "conviction": "HIGH",
-        "score": -32.0,
+        "conviction": "MEDIUM",
+        "score": -9.0,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm sinyaller tutarl\u0131 \u015fekilde ay\u0131. Perakende uzun oran\u0131 y\u00fcksek, fiyat VWAP alt\u0131nda, stabilcoin arz\u0131 daral\u0131yor.",
+        "rationale": "K\u0131sa vadede hafif d\u00fc\u015f\u00fc\u015f e\u011filimi, ancak g\u00fc\u00e7l\u00fc yap\u0131sal destek var.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784260923.268696,
-        "at": "2026-07-17T04:02:03.268696+00:00"
+        "ts": 1784264523.807173,
+        "at": "2026-07-17T05:02:03.807173+00:00"
       }
     },
     "gated_this_cycle": []
@@ -2406,8 +2406,8 @@
     "losses": 57,
     "win_rate": 38.0,
     "total_pnl": 338.82,
-    "equity": 5330.45,
-    "unrealized": 29.81,
+    "equity": 5335.99,
+    "unrealized": 35.35,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2424,7 +2424,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-17 03:45:01.700232",
         "open_rate": 63618.0,
-        "current_rate": 63422.0,
+        "current_rate": 63436.34,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.4,
