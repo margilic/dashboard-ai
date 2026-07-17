@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T10:17:06.710517+00:00",
+  "cycle_at": "2026-07-17T10:18:06.718544+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4965.94,
       "locked": 0
     },
-    "equity": 5056.72,
+    "equity": 5053.6,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 90.78,
+    "unrealized_pnl": 87.66,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T10:17:06.710517+00:00"
+    "updated_at": "2026-07-17T10:18:06.718544+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 62998.0,
-      "current": 63104.0,
+      "current": 63090.14,
       "qty": 0.158735,
       "notional": 10000.0,
-      "unrealized": 16.83,
-      "pnl_pct": 0.168,
+      "unrealized": 14.63,
+      "pnl_pct": 0.146,
       "sl": 62620.012,
       "tp": 63753.976,
       "note": "z=-2.47",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1.08,
-      "current": 1.0856,
+      "current": 1.0855,
       "qty": 9259.259259,
       "notional": 10000.0,
-      "unrealized": 51.85,
-      "pnl_pct": 0.519,
+      "unrealized": 50.93,
+      "pnl_pct": 0.509,
       "sl": 1.07352,
       "tp": 1.09296,
       "note": "z=-2.76",
@@ -2497,34 +2497,12 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 6.502,
+      "price": 6.498,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784283300000,
       "v3_weight": 1.0,
       "v3_raw_strength": 70
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 63104.0,
-      "strength": 24,
-      "note": "z=2.01",
-      "ts": 1784283300000,
-      "v3_weight": 0.48,
-      "v3_raw_strength": 50.29808660453684
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1839.23,
-      "strength": 24,
-      "note": "z=2.02",
-      "ts": 1784283300000,
-      "v3_weight": 0.48,
-      "v3_raw_strength": 50.42721733152328
     }
   ],
   "swarm": {
@@ -2580,8 +2558,8 @@
     "losses": 61,
     "win_rate": 36.5,
     "total_pnl": 4.12,
-    "equity": 5056.72,
-    "unrealized": 90.78,
+    "equity": 5053.6,
+    "unrealized": 87.66,
     "closed_this_cycle": 0
   },
   "freqtrade": {
