@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T10:45:06.898938+00:00",
+  "cycle_at": "2026-07-17T10:46:06.913405+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4965.94,
       "locked": 0
     },
-    "equity": 5077.11,
+    "equity": 5063.89,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 111.17,
+    "unrealized_pnl": 97.95,
     "realized_today": 0.0,
-    "updated_at": "2026-07-17T10:45:06.898938+00:00"
+    "updated_at": "2026-07-17T10:46:06.913405+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 62998.0,
-      "current": 63191.29,
+      "current": 63177.63,
       "qty": 0.158735,
       "notional": 10000.0,
-      "unrealized": 30.68,
-      "pnl_pct": 0.307,
+      "unrealized": 28.51,
+      "pnl_pct": 0.285,
       "sl": 62620.012,
       "tp": 63753.976,
       "note": "z=-2.47",
@@ -131,11 +131,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.0905,
-      "current": 0.0904,
+      "current": 0.0905,
       "qty": 110497.237569,
       "notional": 10000.0,
-      "unrealized": 11.05,
-      "pnl_pct": 0.11,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 0.091255,
       "tp": 0.08899,
       "note": "z=2.30",
@@ -2503,17 +2503,6 @@
       "ts": 1784285100000,
       "v3_weight": 1.0,
       "v3_raw_strength": 70
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 63191.29,
-      "strength": 25,
-      "note": "z=2.04",
-      "ts": 1784285100000,
-      "v3_weight": 0.48,
-      "v3_raw_strength": 51.08238095033838
     }
   ],
   "swarm": {
@@ -2569,8 +2558,8 @@
     "losses": 61,
     "win_rate": 36.5,
     "total_pnl": 4.12,
-    "equity": 5077.11,
-    "unrealized": 111.17,
+    "equity": 5063.89,
+    "unrealized": 97.95,
     "closed_this_cycle": 0
   },
   "freqtrade": {
