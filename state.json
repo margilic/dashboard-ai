@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-17T15:56:09.054536+00:00",
+  "cycle_at": "2026-07-17T15:57:09.073273+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -64,14 +64,14 @@
   },
   "balance": {
     "USD": {
-      "free": 5058.34,
+      "free": 4995.54,
       "locked": 0
     },
-    "equity": 5133.55,
+    "equity": 5125.71,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 75.21,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-17T15:56:09.054536+00:00"
+    "unrealized_pnl": 130.17,
+    "realized_today": -62.8,
+    "updated_at": "2026-07-17T15:57:09.073273+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 556.45,
-      "current": 562.52,
+      "current": 562.77,
       "qty": 17.971067,
       "notional": 10000.0,
-      "unrealized": 109.08,
-      "pnl_pct": 1.091,
+      "unrealized": 113.58,
+      "pnl_pct": 1.136,
       "sl": 553.1113,
       "tp": 563.1274,
       "note": "z=-2.84",
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 63489.35,
-      "current": 63349.99,
+      "current": 63384.0,
       "qty": 0.157507,
       "notional": 10000.0,
-      "unrealized": 21.95,
-      "pnl_pct": 0.22,
+      "unrealized": 16.59,
+      "pnl_pct": 0.166,
       "sl": 63870.2861,
       "tp": 62727.4778,
       "note": "z=2.04",
@@ -122,6 +122,32 @@
       "sl_pct": 0.6,
       "tp_pct": 1.2
     },
+    {
+      "id": "ADAUSDT-1784303829",
+      "trade_no": 100,
+      "trade_id": "T0100",
+      "binance_order_id": "",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.1638,
+      "current": 0.1638,
+      "qty": 61050.06105,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.165206,
+      "tp": 0.160989,
+      "note": "z=2.03",
+      "opened_at": 1784303829.073273,
+      "opened_iso": "2026-07-17T15:57:09.073273+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.858,
+      "tp_pct": 1.716
+    }
+  ],
+  "recent_trades": [
     {
       "id": "DOGEUSDT-1784300768",
       "trade_no": 99,
@@ -135,7 +161,7 @@
       "qty": 139547.864918,
       "notional": 10000.0,
       "unrealized": -55.82,
-      "pnl_pct": -0.558,
+      "pnl_pct": -0.628,
       "sl": 0.07209,
       "tp": 0.0708,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -144,10 +170,13 @@
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
+      "tp_pct": 1.2,
+      "exit": 0.07211,
+      "closed_at": 1784303829.073273,
+      "pnl": -62.8,
+      "exit_reason": "SL",
+      "duration_s": 3060
+    },
     {
       "id": "DOGEUSDT-1784297708",
       "trade_no": 98,
@@ -2785,14 +2814,14 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 104,
+    "total_trades": 105,
     "wins": 38,
-    "losses": 66,
-    "win_rate": 36.5,
-    "total_pnl": 96.52,
-    "equity": 5133.55,
-    "unrealized": 75.21,
-    "closed_this_cycle": 0
+    "losses": 67,
+    "win_rate": 36.2,
+    "total_pnl": 33.72,
+    "equity": 5125.71,
+    "unrealized": 130.17,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
