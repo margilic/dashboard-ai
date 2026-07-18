@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T21:09:21.044359+00:00",
+  "cycle_at": "2026-07-18T21:10:21.047332+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4544.52,
       "locked": 0
     },
-    "equity": 4574.89,
+    "equity": 4566.34,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 30.37,
+    "unrealized_pnl": 21.82,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T21:09:21.044359+00:00"
+    "updated_at": "2026-07-18T21:10:21.047332+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1856.31,
+      "current": 1857.93,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 77.09,
-      "pnl_pct": 0.771,
+      "unrealized": 85.88,
+      "pnl_pct": 0.859,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0884,
-      "current": 0.0882,
+      "current": 0.0881,
       "qty": 113122.171946,
       "notional": 10000.0,
-      "unrealized": -22.62,
-      "pnl_pct": -0.226,
+      "unrealized": -33.94,
+      "pnl_pct": -0.339,
       "sl": 0.087851,
       "tp": 0.089499,
       "note": "RSI 21.4 a\u015f\u0131r\u0131 sat\u0131m",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.166,
-      "current": 0.1664,
+      "current": 0.1665,
       "qty": 60240.963855,
       "notional": 10000.0,
-      "unrealized": -24.1,
-      "pnl_pct": -0.241,
+      "unrealized": -30.12,
+      "pnl_pct": -0.301,
       "sl": 0.166996,
       "tp": 0.164008,
       "note": "z=2.01",
@@ -3184,7 +3184,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 8.365,
+      "strength": 60,
+      "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784408400000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-18T20:15:05.136490+00:00",
     "model": "deepseek-chat",
@@ -3238,8 +3248,8 @@
     "losses": 77,
     "win_rate": 35.8,
     "total_pnl": -417.3,
-    "equity": 4574.89,
-    "unrealized": 30.37,
+    "equity": 4566.34,
+    "unrealized": 21.82,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3250,9 +3260,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 95,
+        "pair": "ETH/USDT",
+        "open_date": "2026-07-18 21:10:01.597310",
+        "open_rate": 1857.16,
+        "current_rate": 1858.12,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 499.95,
+        "amount": 0.2692,
+        "side": "LONG",
+        "sl_price": 1829.3,
+        "tp_price": 1894.3,
+        "trailing_active_price": 1872.02
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 94,
       "wins": 17,
       "losses": 77,
