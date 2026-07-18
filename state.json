@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T15:27:18.764616+00:00",
+  "cycle_at": "2026-07-18T15:28:18.758875+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4645.95,
+    "equity": 4639.99,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 47.34,
+    "unrealized_pnl": 41.38,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T15:27:18.764616+00:00"
+    "updated_at": "2026-07-18T15:28:18.758875+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.286,
+      "current": 8.283,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 29.05,
-      "pnl_pct": 0.29,
+      "unrealized": 25.42,
+      "pnl_pct": 0.254,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1844.36,
+      "current": 1843.93,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 12.21,
-      "pnl_pct": 0.122,
+      "unrealized": 9.88,
+      "pnl_pct": 0.099,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3102,16 +3102,16 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.0886,
-      "strength": 91.91642121477398,
-      "note": "z=-3.68",
+      "price": 0.0887,
+      "strength": 89.86005344872082,
+      "note": "z=-3.59",
       "ts": 1784387700000
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 0.0886,
+      "price": 0.0887,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784387700000
@@ -3120,7 +3120,7 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.0886,
+      "price": 0.0887,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784387700000
@@ -3179,8 +3179,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4645.95,
-    "unrealized": 47.34,
+    "equity": 4639.99,
+    "unrealized": 41.38,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3197,7 +3197,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-18 15:10:01.606530",
         "open_rate": 64115.01,
-        "current_rate": 64087.38,
+        "current_rate": 64087.4,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.46,
