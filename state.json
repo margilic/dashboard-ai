@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T14:50:18.519254+00:00",
+  "cycle_at": "2026-07-18T14:51:18.512351+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4707.56,
+    "equity": 4730.47,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 108.95,
+    "unrealized_pnl": 131.86,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T14:50:18.519254+00:00"
+    "updated_at": "2026-07-18T14:51:18.512351+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.327,
+      "current": 8.334,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 78.67,
-      "pnl_pct": 0.787,
+      "unrealized": 87.15,
+      "pnl_pct": 0.871,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1845.45,
+      "current": 1845.87,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 18.13,
-      "pnl_pct": 0.181,
+      "unrealized": 20.41,
+      "pnl_pct": 0.204,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 0.1646,
-      "current": 0.1648,
+      "current": 0.165,
       "qty": 60753.341434,
       "notional": 10000.0,
-      "unrealized": 12.15,
-      "pnl_pct": 0.122,
+      "unrealized": 24.3,
+      "pnl_pct": 0.243,
       "sl": 0.163612,
       "tp": 0.166575,
       "note": "z=-2.45",
@@ -3102,7 +3102,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1845.45,
+      "price": 1845.87,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784385900000
@@ -3111,9 +3111,18 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.07231,
+      "price": 0.07234,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784385900000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 8.334,
+      "strength": 53.05260278831908,
+      "note": "z=2.12",
       "ts": 1784385900000
     }
   ],
@@ -3170,8 +3179,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4707.56,
-    "unrealized": 108.95,
+    "equity": 4730.47,
+    "unrealized": 131.86,
     "closed_this_cycle": 0
   },
   "freqtrade": {
