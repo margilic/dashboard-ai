@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T13:49:18.086675+00:00",
+  "cycle_at": "2026-07-18T13:50:18.096992+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4610.66,
+    "equity": 4609.09,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 12.05,
+    "unrealized_pnl": 10.48,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T13:49:18.086675+00:00"
+    "updated_at": "2026-07-18T13:50:18.096992+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1841.65,
+      "current": 1841.36,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": -2.5,
-      "pnl_pct": -0.025,
+      "unrealized": -4.07,
+      "pnl_pct": -0.041,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3151,8 +3151,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4610.66,
-    "unrealized": 12.05,
+    "equity": 4609.09,
+    "unrealized": 10.48,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3169,7 +3169,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 13:00:01.764761",
         "open_rate": 1844.96,
-        "current_rate": 1841.18,
+        "current_rate": 1841.36,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.98,
