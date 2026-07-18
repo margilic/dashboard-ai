@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T20:03:20.595651+00:00",
+  "cycle_at": "2026-07-18T20:04:20.611969+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4544.52,
       "locked": 0
     },
-    "equity": 4615.7,
+    "equity": 4605.25,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 71.18,
+    "unrealized_pnl": 60.73,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T20:03:20.595651+00:00"
+    "updated_at": "2026-07-18T20:04:20.611969+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1858.28,
+      "current": 1858.44,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 87.78,
-      "pnl_pct": 0.878,
+      "unrealized": 88.65,
+      "pnl_pct": 0.886,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0884,
-      "current": 0.0882,
+      "current": 0.0881,
       "qty": 113122.171946,
       "notional": 10000.0,
-      "unrealized": -22.62,
-      "pnl_pct": -0.226,
+      "unrealized": -33.94,
+      "pnl_pct": -0.339,
       "sl": 0.087851,
       "tp": 0.089499,
       "note": "RSI 21.4 a\u015f\u0131r\u0131 sat\u0131m",
@@ -3186,15 +3186,6 @@
   ],
   "signals": [
     {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 64551.99,
-      "strength": 62,
-      "note": "RSI 75.7 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784404800000
-    },
-    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
@@ -3257,8 +3248,8 @@
     "losses": 77,
     "win_rate": 35.8,
     "total_pnl": -417.3,
-    "equity": 4615.7,
-    "unrealized": 71.18,
+    "equity": 4605.25,
+    "unrealized": 60.73,
     "closed_this_cycle": 0
   },
   "freqtrade": {
