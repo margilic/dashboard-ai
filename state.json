@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T19:06:20.214464+00:00",
+  "cycle_at": "2026-07-18T19:07:20.220624+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4544.52,
       "locked": 0
     },
-    "equity": 4605.04,
+    "equity": 4609.87,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 60.52,
+    "unrealized_pnl": 65.35,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T19:06:20.214464+00:00"
+    "updated_at": "2026-07-18T19:07:20.220624+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1859.51,
+      "current": 1860.4,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 94.46,
-      "pnl_pct": 0.945,
+      "unrealized": 99.29,
+      "pnl_pct": 0.993,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3165,16 +3165,16 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64523.19,
-      "strength": 85,
-      "note": "RSI 81.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 64552.22,
+      "strength": 88,
+      "note": "RSI 82.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784401200000
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1859.51,
+      "price": 1860.4,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784401200000
@@ -3183,9 +3183,9 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1859.51,
-      "strength": 52.095433767211574,
-      "note": "z=2.08",
+      "price": 1860.4,
+      "strength": 55.03319579889181,
+      "note": "z=2.20",
       "ts": 1784401200000
     }
   ],
@@ -3248,8 +3248,8 @@
     "losses": 77,
     "win_rate": 35.8,
     "total_pnl": -417.3,
-    "equity": 4605.04,
-    "unrealized": 60.52,
+    "equity": 4609.87,
+    "unrealized": 65.35,
     "closed_this_cycle": 0
   },
   "freqtrade": {
