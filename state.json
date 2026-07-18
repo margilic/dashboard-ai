@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T05:22:14.559441+00:00",
+  "cycle_at": "2026-07-18T05:23:14.562075+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -66,11 +66,11 @@
       "free": 4779.67,
       "locked": 0
     },
-    "equity": 4763.39,
+    "equity": 4761.27,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -16.28,
+    "unrealized_pnl": -18.4,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T05:22:14.559441+00:00"
+    "updated_at": "2026-07-18T05:23:14.562075+00:00"
   },
   "open_positions": [
     {
@@ -130,11 +130,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 567.65,
+      "current": 567.53,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": -2.11,
-      "pnl_pct": -0.021,
+      "unrealized": -4.23,
+      "pnl_pct": -0.042,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2926,7 +2926,19 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 8.255,
+      "strength": 64,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784351700000,
+      "v3_weight": 0.92,
+      "v3_raw_strength": 70
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-18T05:16:20.546333+00:00",
     "model": "deepseek-chat",
@@ -2980,8 +2992,8 @@
     "losses": 71,
     "win_rate": 36.0,
     "total_pnl": -182.15,
-    "equity": 4763.39,
-    "unrealized": -16.28,
+    "equity": 4761.27,
+    "unrealized": -18.4,
     "closed_this_cycle": 0
   },
   "freqtrade": {
