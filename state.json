@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T08:44:15.972430+00:00",
+  "cycle_at": "2026-07-18T08:45:15.984379+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -64,40 +64,16 @@
   },
   "balance": {
     "USD": {
-      "free": 4779.67,
+      "free": 4762.2,
       "locked": 0
     },
-    "equity": 4775.62,
+    "equity": 4767.17,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -4.05,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-18T08:44:15.972430+00:00"
+    "unrealized_pnl": 4.97,
+    "realized_today": -17.47,
+    "updated_at": "2026-07-18T08:45:15.984379+00:00"
   },
   "open_positions": [
-    {
-      "id": "XRPUSDT-1784328311",
-      "trade_no": 104,
-      "trade_id": "T0104",
-      "binance_order_id": "",
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "entry": 1.0875,
-      "current": 1.0894,
-      "qty": 9195.402299,
-      "notional": 10000.0,
-      "unrealized": -17.47,
-      "pnl_pct": -0.175,
-      "sl": 1.094025,
-      "tp": 1.07445,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "opened_at": 1784328311.836632,
-      "opened_iso": "2026-07-17T22:45:11.836632+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
     {
       "id": "BTCUSDT-1784338212",
       "trade_no": 105,
@@ -107,7 +83,7 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 63988.01,
-      "current": 63983.73,
+      "current": 63983.72,
       "qty": 0.156279,
       "notional": 10000.0,
       "unrealized": -0.67,
@@ -131,11 +107,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 568.57,
+      "current": 568.09,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 14.09,
-      "pnl_pct": 0.141,
+      "unrealized": 5.64,
+      "pnl_pct": 0.056,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -148,6 +124,35 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "XRPUSDT-1784328311",
+      "trade_no": 104,
+      "trade_id": "T0104",
+      "binance_order_id": "",
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 1.0875,
+      "current": 1.0894,
+      "qty": 9195.402299,
+      "notional": 10000.0,
+      "unrealized": -17.47,
+      "pnl_pct": -0.175,
+      "sl": 1.094025,
+      "tp": 1.07445,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1784328311.836632,
+      "opened_iso": "2026-07-17T22:45:11.836632+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 1.0894,
+      "closed_at": 1784364315.984379,
+      "pnl": -17.47,
+      "exit_reason": "time",
+      "duration_s": 36004
+    },
     {
       "id": "SOLUSDT-1784304129",
       "trade_no": 101,
@@ -2975,15 +2980,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 111,
+    "open": 2,
+    "total_trades": 112,
     "wins": 40,
-    "losses": 71,
-    "win_rate": 36.0,
-    "total_pnl": -182.15,
-    "equity": 4775.62,
-    "unrealized": -4.05,
-    "closed_this_cycle": 0
+    "losses": 72,
+    "win_rate": 35.7,
+    "total_pnl": -199.62,
+    "equity": 4767.17,
+    "unrealized": 4.97,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -2993,9 +2998,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 84,
+        "pair": "BTC/USDT",
+        "open_date": "2026-07-18 08:45:01.625861",
+        "open_rate": 63983.73,
+        "current_rate": 63983.72,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 499.71,
+        "amount": 0.00781,
+        "side": "LONG",
+        "sl_price": 63023.97,
+        "tp_price": 65263.4,
+        "trailing_active_price": 64495.6
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 83,
       "wins": 17,
       "losses": 66,
