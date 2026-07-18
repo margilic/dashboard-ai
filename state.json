@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T23:27:21.978273+00:00",
+  "cycle_at": "2026-07-18T23:28:21.982569+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4605.17,
       "locked": 0
     },
-    "equity": 4640.74,
+    "equity": 4640.56,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 35.57,
+    "unrealized_pnl": 35.39,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T23:27:21.978273+00:00"
+    "updated_at": "2026-07-18T23:28:21.982569+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.353,
+      "current": 8.352,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 21.5,
-      "pnl_pct": 0.215,
+      "unrealized": 22.7,
+      "pnl_pct": 0.227,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07254,
-      "current": 0.07256,
+      "current": 0.07255,
       "qty": 137854.976565,
       "notional": 10000.0,
-      "unrealized": 2.76,
-      "pnl_pct": 0.028,
+      "unrealized": 1.38,
+      "pnl_pct": 0.014,
       "sl": 0.072105,
       "tp": 0.07341,
       "note": "20-bar tepe + hacim",
@@ -3246,8 +3246,17 @@
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 0.07255,
+      "strength": 75,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784416500000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.07256,
+      "price": 0.07255,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784416500000
@@ -3256,9 +3265,9 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.07256,
-      "strength": 56.439306469759764,
-      "note": "z=2.26",
+      "price": 0.07255,
+      "strength": 53.70991724865989,
+      "note": "z=2.15",
       "ts": 1784416500000
     }
   ],
@@ -3315,8 +3324,8 @@
     "losses": 78,
     "win_rate": 36.1,
     "total_pnl": -356.65,
-    "equity": 4640.74,
-    "unrealized": 35.57,
+    "equity": 4640.56,
+    "unrealized": 35.39,
     "closed_this_cycle": 0
   },
   "freqtrade": {
