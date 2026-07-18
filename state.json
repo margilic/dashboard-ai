@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T22:10:21.463554+00:00",
+  "cycle_at": "2026-07-18T22:11:21.459472+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4605.17,
       "locked": 0
     },
-    "equity": 4651.68,
+    "equity": 4646.9,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 46.51,
+    "unrealized_pnl": 41.73,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T22:10:21.463554+00:00"
+    "updated_at": "2026-07-18T22:11:21.459472+00:00"
   },
   "open_positions": [
     {
@@ -103,16 +103,40 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.351,
+      "current": 8.355,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 23.89,
-      "pnl_pct": 0.239,
+      "unrealized": 19.11,
+      "pnl_pct": 0.191,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1784409321.097809,
       "opened_iso": "2026-07-18T21:15:21.097809+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "DOGEUSDT-1784412681",
+      "trade_no": 117,
+      "trade_id": "T0117",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "entry": 0.07254,
+      "current": 0.07254,
+      "qty": 137854.976565,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.072105,
+      "tp": 0.07341,
+      "note": "20-bar tepe + hacim",
+      "opened_at": 1784412681.459472,
+      "opened_iso": "2026-07-18T22:11:21.459472+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -3218,7 +3242,44 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "price": 0.07254,
+      "strength": 75,
+      "note": "20-bar tepe + hacim",
+      "ts": 1784412000000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 0.07254,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784412000000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 64845.19,
+      "strength": 52.15057663470235,
+      "note": "z=2.09",
+      "ts": 1784412000000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07254,
+      "strength": 51.405975891563784,
+      "note": "z=2.06",
+      "ts": 1784412000000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-18T20:15:05.136490+00:00",
     "model": "deepseek-chat",
@@ -3266,14 +3327,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 122,
     "wins": 44,
     "losses": 78,
     "win_rate": 36.1,
     "total_pnl": -356.65,
-    "equity": 4651.68,
-    "unrealized": 46.51,
+    "equity": 4646.9,
+    "unrealized": 41.73,
     "closed_this_cycle": 0
   },
   "freqtrade": {
