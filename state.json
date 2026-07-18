@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T20:00:20.595207+00:00",
+  "cycle_at": "2026-07-18T20:01:20.583916+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4544.52,
       "locked": 0
     },
-    "equity": 4618.9,
+    "equity": 4611.79,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 74.38,
+    "unrealized_pnl": 67.27,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T20:00:20.595207+00:00"
+    "updated_at": "2026-07-18T20:01:20.583916+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1858.87,
+      "current": 1857.56,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 90.98,
-      "pnl_pct": 0.91,
+      "unrealized": 83.87,
+      "pnl_pct": 0.839,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3186,15 +3186,6 @@
   ],
   "signals": [
     {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 64569.28,
-      "strength": 64,
-      "note": "RSI 76.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784404800000
-    },
-    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
@@ -3257,8 +3248,8 @@
     "losses": 77,
     "win_rate": 35.8,
     "total_pnl": -417.3,
-    "equity": 4618.9,
-    "unrealized": 74.38,
+    "equity": 4611.79,
+    "unrealized": 67.27,
     "closed_this_cycle": 0
   },
   "freqtrade": {
