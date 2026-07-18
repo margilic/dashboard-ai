@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T00:12:12.446800+00:00",
+  "cycle_at": "2026-07-18T00:13:12.458955+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,14 +63,14 @@
   },
   "balance": {
     "USD": {
-      "free": 4833.88,
+      "free": 4731.59,
       "locked": 0
     },
-    "equity": 4759.13,
+    "equity": 4747.09,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -74.75,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-18T00:12:12.446800+00:00"
+    "unrealized_pnl": 15.5,
+    "realized_today": -102.29,
+    "updated_at": "2026-07-18T00:13:12.458955+00:00"
   },
   "open_positions": [
     {
@@ -98,30 +98,6 @@
       "tp_pct": 1.2
     },
     {
-      "id": "ADAUSDT-1784306589",
-      "trade_no": 102,
-      "trade_id": "T0102",
-      "binance_order_id": "",
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "entry": 0.1662,
-      "current": 0.1677,
-      "qty": 60168.471721,
-      "notional": 10000.0,
-      "unrealized": -90.25,
-      "pnl_pct": -0.903,
-      "sl": 0.167709,
-      "tp": 0.163181,
-      "note": "z=2.13",
-      "opened_at": 1784306589.387603,
-      "opened_iso": "2026-07-17T16:43:09.387603+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.908,
-      "tp_pct": 1.816
-    },
-    {
       "id": "XRPUSDT-1784328311",
       "trade_no": 104,
       "trade_id": "T0104",
@@ -147,6 +123,35 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "ADAUSDT-1784306589",
+      "trade_no": 102,
+      "trade_id": "T0102",
+      "binance_order_id": "",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.1662,
+      "current": 0.1677,
+      "qty": 60168.471721,
+      "notional": 10000.0,
+      "unrealized": -90.25,
+      "pnl_pct": -1.023,
+      "sl": 0.167709,
+      "tp": 0.163181,
+      "note": "z=2.13",
+      "opened_at": 1784306589.387603,
+      "opened_iso": "2026-07-17T16:43:09.387603+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.908,
+      "tp_pct": 1.816,
+      "exit": 0.1679,
+      "closed_at": 1784333592.458955,
+      "pnl": -102.29,
+      "exit_reason": "SL",
+      "duration_s": 27003
+    },
     {
       "id": "BTCUSDT-1784308149",
       "trade_no": 103,
@@ -2916,15 +2921,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 109,
+    "open": 2,
+    "total_trades": 110,
     "wins": 39,
-    "losses": 70,
-    "win_rate": 35.8,
-    "total_pnl": -127.94,
-    "equity": 4759.13,
-    "unrealized": -74.75,
-    "closed_this_cycle": 0
+    "losses": 71,
+    "win_rate": 35.5,
+    "total_pnl": -230.23,
+    "equity": 4747.09,
+    "unrealized": 15.5,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
