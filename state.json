@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T16:43:19.263461+00:00",
+  "cycle_at": "2026-07-18T16:44:19.278789+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4537.86,
       "locked": 0
     },
-    "equity": 4539.2,
+    "equity": 4538.44,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 1.34,
+    "unrealized_pnl": 0.58,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T16:43:19.263461+00:00"
+    "updated_at": "2026-07-18T16:44:19.278789+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1843.26,
+      "current": 1843.12,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 6.24,
-      "pnl_pct": 0.062,
+      "unrealized": 5.48,
+      "pnl_pct": 0.055,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3131,7 +3131,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 75.06,
+      "price": 75.05,
       "strength": 75,
       "note": "20-bar tepe + hacim",
       "ts": 1784392200000
@@ -3149,9 +3149,9 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 75.06,
-      "strength": 71,
-      "note": "RSI 77.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 75.05,
+      "strength": 70,
+      "note": "RSI 77.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784392200000
     },
     {
@@ -3217,8 +3217,8 @@
     "losses": 76,
     "win_rate": 35.6,
     "total_pnl": -423.96,
-    "equity": 4539.2,
-    "unrealized": 1.34,
+    "equity": 4538.44,
+    "unrealized": 0.58,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3235,7 +3235,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 16:00:01.614498",
         "open_rate": 1844.15,
-        "current_rate": 1843.26,
+        "current_rate": 1843.28,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.95,
