@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T00:49:12.689308+00:00",
+  "cycle_at": "2026-07-18T00:50:12.699213+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -66,11 +66,11 @@
       "free": 4731.59,
       "locked": 0
     },
-    "equity": 4735.05,
+    "equity": 4735.47,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 3.46,
+    "unrealized_pnl": 3.88,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T00:49:12.689308+00:00"
+    "updated_at": "2026-07-18T00:50:12.699213+00:00"
   },
   "open_positions": [
     {
@@ -82,11 +82,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 74.88,
-      "current": 75.14,
+      "current": 75.15,
       "qty": 133.547009,
       "notional": 10000.0,
-      "unrealized": 34.72,
-      "pnl_pct": 0.347,
+      "unrealized": 36.06,
+      "pnl_pct": 0.361,
       "sl": 74.43072,
       "tp": 75.77856,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -106,11 +106,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 1.0875,
-      "current": 1.0909,
+      "current": 1.091,
       "qty": 9195.402299,
       "notional": 10000.0,
-      "unrealized": -31.26,
-      "pnl_pct": -0.313,
+      "unrealized": -32.18,
+      "pnl_pct": -0.322,
       "sl": 1.094025,
       "tp": 1.07445,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -2873,19 +2873,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 63947.96,
-      "strength": 34,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784335500000,
-      "v3_weight": 0.48,
-      "v3_raw_strength": 70
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-18T00:16:29.554207+00:00",
     "model": "deepseek-chat",
@@ -2930,13 +2918,7 @@
         "at": "2026-07-18T00:02:12.358857+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "BTCUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 2,
@@ -2945,8 +2927,8 @@
     "losses": 71,
     "win_rate": 35.5,
     "total_pnl": -230.23,
-    "equity": 4735.05,
-    "unrealized": 3.46,
+    "equity": 4735.47,
+    "unrealized": 3.88,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2963,7 +2945,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-18 00:35:02.039310",
         "open_rate": 63947.1,
-        "current_rate": 63947.97,
+        "current_rate": 63952.35,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.43,
