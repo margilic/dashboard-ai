@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T14:53:18.528782+00:00",
+  "cycle_at": "2026-07-18T14:54:18.536739+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4732.13,
+    "equity": 4737.82,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 133.52,
+    "unrealized_pnl": 139.21,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T14:53:18.528782+00:00"
+    "updated_at": "2026-07-18T14:54:18.536739+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1846.18,
+      "current": 1846.11,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 22.09,
-      "pnl_pct": 0.221,
+      "unrealized": 21.71,
+      "pnl_pct": 0.217,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 0.1646,
-      "current": 0.1649,
+      "current": 0.165,
       "qty": 60753.341434,
       "notional": 10000.0,
-      "unrealized": 18.23,
-      "pnl_pct": 0.182,
+      "unrealized": 24.3,
+      "pnl_pct": 0.243,
       "sl": 0.163612,
       "tp": 0.166575,
       "note": "z=-2.45",
@@ -3102,7 +3102,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1846.18,
+      "price": 1846.11,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784385900000
@@ -3111,7 +3111,7 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.07234,
+      "price": 0.07233,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784385900000
@@ -3179,8 +3179,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4732.13,
-    "unrealized": 133.52,
+    "equity": 4737.82,
+    "unrealized": 139.21,
     "closed_this_cycle": 0
   },
   "freqtrade": {
