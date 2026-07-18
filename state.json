@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T14:15:18.280645+00:00",
+  "cycle_at": "2026-07-18T14:16:18.284901+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4632.91,
+    "equity": 4626.45,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 34.3,
+    "unrealized_pnl": 27.84,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T14:15:18.280645+00:00"
+    "updated_at": "2026-07-18T14:16:18.284901+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1843.3,
+      "current": 1843.23,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 6.46,
-      "pnl_pct": 0.065,
+      "unrealized": 6.08,
+      "pnl_pct": 0.061,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 0.1646,
-      "current": 0.1646,
+      "current": 0.1645,
       "qty": 60753.341434,
       "notional": 10000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -6.08,
+      "pnl_pct": -0.061,
       "sl": 0.163612,
       "tp": 0.166575,
       "note": "z=-2.45",
@@ -3099,47 +3099,47 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-18T12:14:00.028772+00:00",
+    "updated_at": "2026-07-18T14:15:49.158376+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "MEDIUM",
-        "score": 11.0,
+        "direction": "LONG",
+        "conviction": "LOW",
+        "score": 53.0,
         "sl": null,
         "tp": null,
-        "rationale": "Piyasa konsolidasyon b\u00f6lgesinde, net y\u00f6n sinyali yok. K\u0131sa vadede $64,300'de s\u0131k\u0131\u015fma riski var ancak zincir\u00fcst\u00fc ak\u0131\u015flar y\u00fckseli\u015fi desteklemiyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Ak\u0131\u015f analizi bo\u011fa, fonlama ve likidasyon n\u00f6tr. Bile\u015fik puan 0.53 ile hafif bo\u011fa e\u011filimi.",
+        "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784376137.326541,
-        "at": "2026-07-18T12:02:17.326541+00:00"
+        "ts": 1784383338.164029,
+        "at": "2026-07-18T14:02:18.164029+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 32.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": -4.1,
         "sl": null,
         "tp": null,
-        "rationale": "Yap\u0131sal olarak bo\u011fa sinyalleri (fonlama s\u0131f\u0131ra yak\u0131n, TVL art\u0131yor, ETH/BTC d\u00fc\u015f\u00fck) likitasyon riskine kar\u015f\u0131 dengelenmi\u015f; orta vadeli pozitif g\u00f6r\u00fcn\u00fcm.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Bile\u015fik puan -4.1/100, neredeyse s\u0131f\u0131r. Ak\u0131\u015f bo\u011fa (+36.7) ancak likidasyon riski d\u00fc\u015f\u00fc\u015f (-54.0) birbirini dengeliyor. Fonlama masas\u0131 so\u011fuma evresini teyit ediyor, net y\u00f6nl\u00fc kataliz\u00f6r yok.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784376137.326541,
-        "at": "2026-07-18T12:02:17.326541+00:00"
+        "ts": 1784383338.164029,
+        "at": "2026-07-18T14:02:18.164029+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
-        "conviction": "LOW",
-        "score": 20.0,
+        "conviction": "MEDIUM",
+        "score": 33.0,
         "sl": null,
         "tp": null,
-        "rationale": "Ak\u0131\u015f/on-chain g\u00fc\u00e7l\u00fc bo\u011fa, fonlama hafif ay\u0131, likidasyon n\u00f6tr. Bile\u015fik skor +0.20 ile hafif bo\u011fa, teyit beklenmeli.",
+        "rationale": "Hafif y\u00fckseli\u015f bias\u0131, uzun pozisyon, s\u0131k\u0131 stop-loss, a\u011f\u0131rl\u0131kl\u0131 puan +0.65.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784376137.326541,
-        "at": "2026-07-18T12:02:17.326541+00:00"
+        "ts": 1784383338.164029,
+        "at": "2026-07-18T14:02:18.164029+00:00"
       }
     },
     "gated_this_cycle": []
@@ -3151,8 +3151,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4632.91,
-    "unrealized": 34.3,
+    "equity": 4626.45,
+    "unrealized": 27.84,
     "closed_this_cycle": 0
   },
   "freqtrade": {
