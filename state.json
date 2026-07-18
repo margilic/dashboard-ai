@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T11:44:17.208967+00:00",
+  "cycle_at": "2026-07-18T11:45:17.219146+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4767.29,
       "locked": 0
     },
-    "equity": 4816.76,
+    "equity": 4815.53,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 49.47,
+    "unrealized_pnl": 48.24,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T11:44:17.208967+00:00"
+    "updated_at": "2026-07-18T11:45:17.219146+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 570.51,
+      "current": 570.44,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 48.26,
-      "pnl_pct": 0.483,
+      "unrealized": 47.03,
+      "pnl_pct": 0.47,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -117,6 +117,30 @@
       "note": "EMA9>EMA21 kesi\u015fim",
       "opened_at": 1784364616.027155,
       "opened_iso": "2026-07-18T08:50:16.027155+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "ARBUSDT-1784375117",
+      "trade_no": 108,
+      "trade_id": "T0108",
+      "binance_order_id": "",
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "entry": 0.0902,
+      "current": 0.0902,
+      "qty": 110864.745011,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.089659,
+      "tp": 0.091282,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "opened_at": 1784375117.219146,
+      "opened_iso": "2026-07-18T11:45:17.219146+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -2963,15 +2987,15 @@
   ],
   "signals": [
     {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 570.51,
-      "strength": 29,
-      "note": "z=2.32",
-      "ts": 1784374200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 58.10074114523906
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 0.0902,
+      "strength": 64,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784375100000,
+      "v3_weight": 0.92,
+      "v3_raw_strength": 70
     }
   ],
   "swarm": {
@@ -3021,14 +3045,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 113,
     "wins": 41,
     "losses": 72,
     "win_rate": 36.3,
     "total_pnl": -194.53,
-    "equity": 4816.76,
-    "unrealized": 49.47,
+    "equity": 4815.53,
+    "unrealized": 48.24,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3045,7 +3069,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 11:35:01.600795",
         "open_rate": 1845.17,
-        "current_rate": 1844.88,
+        "current_rate": 1844.76,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
