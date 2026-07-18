@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T11:48:17.257634+00:00",
+  "cycle_at": "2026-07-18T11:49:17.249236+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4767.29,
       "locked": 0
     },
-    "equity": 4841.16,
+    "equity": 4859.45,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 73.87,
+    "unrealized_pnl": 92.16,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T11:48:17.257634+00:00"
+    "updated_at": "2026-07-18T11:49:17.249236+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 570.51,
+      "current": 570.29,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 48.26,
-      "pnl_pct": 0.483,
+      "unrealized": 44.38,
+      "pnl_pct": 0.444,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -131,11 +131,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.0902,
-      "current": 0.0903,
+      "current": 0.0905,
       "qty": 110864.745011,
       "notional": 10000.0,
-      "unrealized": 11.09,
-      "pnl_pct": 0.111,
+      "unrealized": 33.26,
+      "pnl_pct": 0.333,
       "sl": 0.089659,
       "tp": 0.091282,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2990,23 +2990,12 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.0903,
+      "price": 0.0905,
       "strength": 64,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784375100000,
       "v3_weight": 0.92,
       "v3_raw_strength": 70
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 570.51,
-      "strength": 25,
-      "note": "z=2.02",
-      "ts": 1784375100000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 50.56654500416234
     }
   ],
   "swarm": {
@@ -3062,8 +3051,8 @@
     "losses": 72,
     "win_rate": 36.3,
     "total_pnl": -194.53,
-    "equity": 4841.16,
-    "unrealized": 73.87,
+    "equity": 4859.45,
+    "unrealized": 92.16,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3080,7 +3069,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 11:35:01.600795",
         "open_rate": 1845.17,
-        "current_rate": 1845.42,
+        "current_rate": 1845.62,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
