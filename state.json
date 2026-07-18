@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T11:30:17.120250+00:00",
+  "cycle_at": "2026-07-18T11:31:17.119820+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -52,7 +52,7 @@
     "enabled": true,
     "weights": {
       "RSI Reversal": 0.3,
-      "EMA Cross": 0.48,
+      "EMA Cross": 0.92,
       "Bollinger Breakout": 0.16,
       "Momentum Breakout": 0.32,
       "Z-Score Reversion": 0.5
@@ -67,11 +67,11 @@
       "free": 4767.29,
       "locked": 0
     },
-    "equity": 4823.2,
+    "equity": 4823.02,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 55.91,
-    "realized_today": 5.09,
-    "updated_at": "2026-07-18T11:30:17.120250+00:00"
+    "unrealized_pnl": 55.73,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-18T11:31:17.119820+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 570.12,
+      "current": 570.11,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 41.39,
-      "pnl_pct": 0.414,
+      "unrealized": 41.21,
+      "pnl_pct": 0.412,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2961,19 +2961,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 570.12,
-      "strength": 25,
-      "note": "z=2.00",
-      "ts": 1784374200000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 50.106889206951486
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-18T10:16:25.820500+00:00",
     "model": "deepseek-chat",
@@ -3027,9 +3015,9 @@
     "losses": 72,
     "win_rate": 36.3,
     "total_pnl": -194.53,
-    "equity": 4823.2,
-    "unrealized": 55.91,
-    "closed_this_cycle": 1
+    "equity": 4823.02,
+    "unrealized": 55.73,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
