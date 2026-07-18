@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T18:11:19.852262+00:00",
+  "cycle_at": "2026-07-18T18:12:19.854870+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4476.74,
       "locked": 0
     },
-    "equity": 4582.35,
+    "equity": 4580.06,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 105.61,
+    "unrealized_pnl": 103.32,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T18:11:19.852262+00:00"
+    "updated_at": "2026-07-18T18:12:19.854870+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.3,
+      "current": 8.299,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 45.99,
-      "pnl_pct": 0.46,
+      "unrealized": 44.78,
+      "pnl_pct": 0.448,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1851.01,
+      "current": 1850.81,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 48.31,
-      "pnl_pct": 0.483,
+      "unrealized": 47.23,
+      "pnl_pct": 0.472,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3155,26 +3155,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 1851.01,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784397600000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1851.01,
-      "strength": 50.34545216959688,
-      "note": "z=2.01",
-      "ts": 1784397600000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-18T16:15:58.069875+00:00",
     "model": "deepseek-chat",
@@ -3228,8 +3209,8 @@
     "losses": 77,
     "win_rate": 35.3,
     "total_pnl": -485.08,
-    "equity": 4582.35,
-    "unrealized": 105.61,
+    "equity": 4580.06,
+    "unrealized": 103.32,
     "closed_this_cycle": 0
   },
   "freqtrade": {
