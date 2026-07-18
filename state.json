@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T17:18:19.504587+00:00",
+  "cycle_at": "2026-07-18T17:19:19.526813+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4476.74,
       "locked": 0
     },
-    "equity": 4541.51,
+    "equity": 4530.13,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 64.77,
-    "realized_today": -61.12,
-    "updated_at": "2026-07-18T17:18:19.504587+00:00"
+    "unrealized_pnl": 53.39,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-18T17:19:19.526813+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.293,
+      "current": 8.287,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 37.52,
-      "pnl_pct": 0.375,
+      "unrealized": 30.26,
+      "pnl_pct": 0.303,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1847.13,
+      "current": 1846.37,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 27.25,
-      "pnl_pct": 0.273,
+      "unrealized": 23.13,
+      "pnl_pct": 0.231,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3178,7 +3178,7 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 0.0723,
+      "price": 0.07229,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784394900000
@@ -3196,9 +3196,9 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 64359.75,
-      "strength": 57.24481453344562,
-      "note": "z=2.29",
+      "price": 64361.95,
+      "strength": 57.66079905905082,
+      "note": "z=2.31",
       "ts": 1784394900000
     },
     {
@@ -3255,13 +3255,7 @@
         "at": "2026-07-18T16:02:18.981549+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "SHORT",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 3,
@@ -3270,9 +3264,9 @@
     "losses": 77,
     "win_rate": 35.3,
     "total_pnl": -485.08,
-    "equity": 4541.51,
-    "unrealized": 64.77,
-    "closed_this_cycle": 1
+    "equity": 4530.13,
+    "unrealized": 53.39,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
