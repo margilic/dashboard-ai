@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T20:23:20.737488+00:00",
+  "cycle_at": "2026-07-18T20:24:20.750246+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4544.52,
       "locked": 0
     },
-    "equity": 4610.27,
+    "equity": 4605.98,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 65.75,
+    "unrealized_pnl": 61.46,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T20:23:20.737488+00:00"
+    "updated_at": "2026-07-18T20:24:20.750246+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1861.99,
+      "current": 1861.2,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 107.92,
-      "pnl_pct": 1.079,
+      "unrealized": 103.63,
+      "pnl_pct": 1.036,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3195,21 +3195,12 @@
       "ts": 1784405700000
     },
     {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Bollinger Breakout",
-      "price": 572.08,
-      "strength": 65,
-      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784405700000
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64710.48,
-      "strength": 62,
-      "note": "RSI 75.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 64693.29,
+      "strength": 60,
+      "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784405700000
     },
     {
@@ -3219,24 +3210,6 @@
       "price": 0.1667,
       "strength": 51.41277837647223,
       "note": "z=2.06",
-      "ts": 1784405700000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 572.08,
-      "strength": 51.033613993191615,
-      "note": "z=2.04",
-      "ts": 1784405700000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 8.361,
-      "strength": 50.83712545789537,
-      "note": "z=2.03",
       "ts": 1784405700000
     }
   ],
@@ -3293,8 +3266,8 @@
     "losses": 77,
     "win_rate": 35.8,
     "total_pnl": -417.3,
-    "equity": 4610.27,
-    "unrealized": 65.75,
+    "equity": 4605.98,
+    "unrealized": 61.46,
     "closed_this_cycle": 0
   },
   "freqtrade": {
