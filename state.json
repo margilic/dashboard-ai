@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T13:19:17.877018+00:00",
+  "cycle_at": "2026-07-18T13:20:17.881294+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -64,14 +64,14 @@
   },
   "balance": {
     "USD": {
-      "free": 4659.88,
+      "free": 4598.61,
       "locked": 0
     },
-    "equity": 4611.93,
+    "equity": 4589.77,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -47.95,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-18T13:19:17.877018+00:00"
+    "unrealized_pnl": -8.84,
+    "realized_today": -61.27,
+    "updated_at": "2026-07-18T13:20:17.881294+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.276,
+      "current": 8.266,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 16.95,
-      "pnl_pct": 0.169,
+      "unrealized": 4.84,
+      "pnl_pct": 0.048,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1839.97,
+      "current": 1839.59,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": -11.62,
-      "pnl_pct": -0.116,
+      "unrealized": -13.68,
+      "pnl_pct": -0.137,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -122,6 +122,32 @@
       "sl_pct": 0.6,
       "tp_pct": 1.2
     },
+    {
+      "id": "ADAUSDT-1784380817",
+      "trade_no": 112,
+      "trade_id": "T0112",
+      "binance_order_id": "",
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.1646,
+      "current": 0.1646,
+      "qty": 60753.341434,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.163612,
+      "tp": 0.166575,
+      "note": "z=-2.45",
+      "opened_at": 1784380817.881294,
+      "opened_iso": "2026-07-18T13:20:17.881294+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    }
+  ],
+  "recent_trades": [
     {
       "id": "SOLUSDT-1784378837",
       "trade_no": 111,
@@ -135,7 +161,7 @@
       "qty": 133.191263,
       "notional": 10000.0,
       "unrealized": -53.28,
-      "pnl_pct": -0.533,
+      "pnl_pct": -0.613,
       "sl": 74.62952,
       "tp": 75.98096,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -144,10 +170,13 @@
       "swarm_aligned": true,
       "algo_version": "3.0",
       "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
+      "tp_pct": 1.2,
+      "exit": 74.62,
+      "closed_at": 1784380817.881294,
+      "pnl": -61.27,
+      "exit_reason": "SL",
+      "duration_s": 1980
+    },
     {
       "id": "ARBUSDT-1784377637",
       "trade_no": 109,
@@ -3077,23 +3106,34 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.1644,
-      "strength": 34,
-      "note": "z=-2.70",
+      "price": 0.1646,
+      "strength": 31,
+      "note": "z=-2.45",
       "ts": 1784380500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 67.54116036864356
+      "v3_raw_strength": 61.26776023984408
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 1839.97,
-      "strength": 28,
-      "note": "z=-2.23",
+      "price": 1839.59,
+      "strength": 29,
+      "note": "z=-2.36",
       "ts": 1784380500000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 55.81477707345167
+      "v3_raw_strength": 58.87609567138282
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 74.62,
+      "strength": 27,
+      "note": "z=-2.20",
+      "ts": 1784380500000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 54.9589387618859
     }
   ],
   "swarm": {
@@ -3144,14 +3184,14 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 116,
+    "total_trades": 117,
     "wins": 42,
-    "losses": 74,
-    "win_rate": 36.2,
-    "total_pnl": -301.94,
-    "equity": 4611.93,
-    "unrealized": -47.95,
-    "closed_this_cycle": 0
+    "losses": 75,
+    "win_rate": 35.9,
+    "total_pnl": -363.21,
+    "equity": 4589.77,
+    "unrealized": -8.84,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -3167,7 +3207,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 13:00:01.764761",
         "open_rate": 1844.96,
-        "current_rate": 1839.97,
+        "current_rate": 1839.6,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.98,
