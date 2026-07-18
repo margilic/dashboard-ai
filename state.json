@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T09:34:16.338639+00:00",
+  "cycle_at": "2026-07-18T09:35:16.340004+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4762.2,
       "locked": 0
     },
-    "equity": 4699.3,
+    "equity": 4697.95,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -62.9,
+    "unrealized_pnl": -64.25,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T09:34:16.338639+00:00"
+    "updated_at": "2026-07-18T09:35:16.340004+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 63988.01,
-      "current": 63953.76,
+      "current": 63954.29,
       "qty": 0.156279,
       "notional": 10000.0,
-      "unrealized": -5.35,
-      "pnl_pct": -0.054,
+      "unrealized": -5.27,
+      "pnl_pct": -0.053,
       "sl": 63604.08194,
       "tp": 64755.86612,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 567.87,
+      "current": 567.72,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 1.76,
-      "pnl_pct": 0.018,
+      "unrealized": -0.88,
+      "pnl_pct": -0.009,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -131,11 +131,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.213,
+      "current": 8.214,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": -59.31,
-      "pnl_pct": -0.593,
+      "unrealized": -58.1,
+      "pnl_pct": -0.581,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2958,59 +2958,59 @@
   ],
   "signals": [
     {
-      "symbol": "XRPUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 1.0844,
-      "strength": 34,
-      "note": "z=-2.74",
-      "ts": 1784367000000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 68.56617657978373
-    },
-    {
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 8.213,
-      "strength": 34,
-      "note": "z=-2.69",
+      "price": 8.214,
+      "strength": 33,
+      "note": "z=-2.65",
       "ts": 1784367000000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 67.32136863233661
+      "v3_raw_strength": 66.13770980384417
     },
     {
-      "symbol": "SOLUSDT",
+      "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 74.7,
+      "price": 1.0849,
       "strength": 32,
-      "note": "z=-2.55",
+      "note": "z=-2.54",
       "ts": 1784367000000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 63.73488735194911
+      "v3_raw_strength": 63.45169015271775
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 6.533,
-      "strength": 32,
-      "note": "z=-2.54",
+      "price": 6.535,
+      "strength": 31,
+      "note": "z=-2.48",
       "ts": 1784367000000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 63.43952914746207
+      "v3_raw_strength": 62.07606808133171
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 74.73,
+      "strength": 29,
+      "note": "z=-2.35",
+      "ts": 1784367000000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 58.67843687183709
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.072,
+      "price": 0.07201,
       "strength": 29,
-      "note": "z=-2.34",
+      "note": "z=-2.29",
       "ts": 1784367000000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 58.549464780513574
+      "v3_raw_strength": 57.23248257000494
     },
     {
       "symbol": "ADAUSDT",
@@ -3088,8 +3088,8 @@
     "losses": 72,
     "win_rate": 35.7,
     "total_pnl": -199.62,
-    "equity": 4699.3,
-    "unrealized": -62.9,
+    "equity": 4697.95,
+    "unrealized": -64.25,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3106,7 +3106,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-18 09:05:01.605255",
         "open_rate": 63979.41,
-        "current_rate": 63954.01,
+        "current_rate": 63959.99,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.68,
