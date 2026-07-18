@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T15:21:18.720004+00:00",
+  "cycle_at": "2026-07-18T15:22:18.721193+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4674.17,
+    "equity": 4677.98,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 75.56,
+    "unrealized_pnl": 79.37,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T15:21:18.720004+00:00"
+    "updated_at": "2026-07-18T15:22:18.721193+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.296,
+      "current": 8.3,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 41.15,
-      "pnl_pct": 0.412,
+      "unrealized": 45.99,
+      "pnl_pct": 0.46,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1845.09,
+      "current": 1844.9,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 16.18,
-      "pnl_pct": 0.162,
+      "unrealized": 15.15,
+      "pnl_pct": 0.151,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3102,16 +3102,16 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.089,
-      "strength": 81.28449594389036,
-      "note": "z=-3.25",
+      "price": 0.0888,
+      "strength": 87.45270459083432,
+      "note": "z=-3.50",
       "ts": 1784387700000
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 0.089,
+      "price": 0.0888,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784387700000
@@ -3120,7 +3120,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 74.93,
+      "price": 74.92,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784387700000
@@ -3129,7 +3129,7 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.089,
+      "price": 0.0888,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784387700000
@@ -3188,8 +3188,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4674.17,
-    "unrealized": 75.56,
+    "equity": 4677.98,
+    "unrealized": 79.37,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3206,7 +3206,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-18 15:10:01.606530",
         "open_rate": 64115.01,
-        "current_rate": 64109.99,
+        "current_rate": 64100.73,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.46,
