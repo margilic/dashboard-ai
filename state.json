@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T16:24:19.135610+00:00",
+  "cycle_at": "2026-07-18T16:25:19.143906+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4594.01,
+    "equity": 4591.23,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -4.6,
+    "unrealized_pnl": -7.38,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T16:24:19.135610+00:00"
+    "updated_at": "2026-07-18T16:25:19.143906+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.272,
+      "current": 8.271,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 12.1,
-      "pnl_pct": 0.121,
+      "unrealized": 10.89,
+      "pnl_pct": 0.109,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1843.51,
+      "current": 1843.22,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 7.6,
-      "pnl_pct": 0.076,
+      "unrealized": 6.03,
+      "pnl_pct": 0.06,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3102,9 +3102,27 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0882,
-      "strength": 75,
-      "note": "RSI 21.2 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.0881,
+      "strength": 77,
+      "note": "RSI 20.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784391300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 0.0881,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784391300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0881,
+      "strength": 52.63159988875537,
+      "note": "z=-2.11",
       "ts": 1784391300000
     }
   ],
@@ -3161,8 +3179,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4594.01,
-    "unrealized": -4.6,
+    "equity": 4591.23,
+    "unrealized": -7.38,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3179,7 +3197,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 16:00:01.614498",
         "open_rate": 1844.15,
-        "current_rate": 1843.5,
+        "current_rate": 1843.22,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.95,
