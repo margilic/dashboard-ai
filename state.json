@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T11:39:17.173738+00:00",
+  "cycle_at": "2026-07-18T11:40:17.172756+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4767.29,
       "locked": 0
     },
-    "equity": 4807.71,
+    "equity": 4807.19,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 40.42,
+    "unrealized_pnl": 39.9,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T11:39:17.173738+00:00"
+    "updated_at": "2026-07-18T11:40:17.172756+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 570.34,
+      "current": 570.31,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 45.26,
-      "pnl_pct": 0.453,
+      "unrealized": 44.74,
+      "pnl_pct": 0.447,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2966,12 +2966,12 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 570.34,
+      "price": 570.31,
       "strength": 27,
-      "note": "z=2.19",
+      "note": "z=2.17",
       "ts": 1784374200000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 54.75898563982201
+      "v3_raw_strength": 54.14653985623431
     }
   ],
   "swarm": {
@@ -3027,8 +3027,8 @@
     "losses": 72,
     "win_rate": 36.3,
     "total_pnl": -194.53,
-    "equity": 4807.71,
-    "unrealized": 40.42,
+    "equity": 4807.19,
+    "unrealized": 39.9,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3045,7 +3045,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 11:35:01.600795",
         "open_rate": 1845.17,
-        "current_rate": 1844.73,
+        "current_rate": 1844.72,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
