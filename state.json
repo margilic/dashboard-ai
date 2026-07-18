@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T15:56:18.962012+00:00",
+  "cycle_at": "2026-07-18T15:57:18.969952+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4630.63,
+    "equity": 4631.99,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 32.02,
+    "unrealized_pnl": 33.38,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T15:56:18.962012+00:00"
+    "updated_at": "2026-07-18T15:57:18.969952+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1844.44,
+      "current": 1844.69,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 12.65,
-      "pnl_pct": 0.126,
+      "unrealized": 14.01,
+      "pnl_pct": 0.14,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3099,10 +3099,19 @@
   ],
   "signals": [
     {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 1844.69,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784389500000
+    },
+    {
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 74.99,
+      "price": 75.0,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784389500000
@@ -3111,7 +3120,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 6.55,
+      "price": 6.553,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784389500000
@@ -3188,8 +3197,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4630.63,
-    "unrealized": 32.02,
+    "equity": 4631.99,
+    "unrealized": 33.38,
     "closed_this_cycle": 0
   },
   "freqtrade": {
