@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T16:26:19.153628+00:00",
+  "cycle_at": "2026-07-18T16:27:19.153988+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4598.61,
       "locked": 0
     },
-    "equity": 4595.72,
+    "equity": 4592.82,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -2.89,
+    "unrealized_pnl": -5.79,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T16:26:19.153628+00:00"
+    "updated_at": "2026-07-18T16:27:19.153988+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.274,
+      "current": 8.272,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 14.52,
-      "pnl_pct": 0.145,
+      "unrealized": 12.1,
+      "pnl_pct": 0.121,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1843.38,
+      "current": 1843.29,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 6.89,
-      "pnl_pct": 0.069,
+      "unrealized": 6.41,
+      "pnl_pct": 0.064,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -3099,6 +3099,15 @@
   ],
   "signals": [
     {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 0.1642,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784391300000
+    },
+    {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
@@ -3161,8 +3170,8 @@
     "losses": 75,
     "win_rate": 35.9,
     "total_pnl": -363.21,
-    "equity": 4595.72,
-    "unrealized": -2.89,
+    "equity": 4592.82,
+    "unrealized": -5.79,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3179,7 +3188,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-18 16:00:01.614498",
         "open_rate": 1844.15,
-        "current_rate": 1843.38,
+        "current_rate": 1843.3,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.95,
