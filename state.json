@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T19:20:20.306759+00:00",
+  "cycle_at": "2026-07-18T19:21:20.324946+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4544.52,
       "locked": 0
     },
-    "equity": 4615.27,
+    "equity": 4602.59,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 70.75,
+    "unrealized_pnl": 58.07,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T19:20:20.306759+00:00"
+    "updated_at": "2026-07-18T19:21:20.324946+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 1842.11,
-      "current": 1859.31,
+      "current": 1859.06,
       "qty": 5.428557,
       "notional": 10000.0,
-      "unrealized": 93.37,
-      "pnl_pct": 0.934,
+      "unrealized": 92.01,
+      "pnl_pct": 0.92,
       "sl": 1831.05734,
       "tp": 1864.21532,
       "note": "z=-2.02",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0884,
-      "current": 0.0882,
+      "current": 0.0881,
       "qty": 113122.171946,
       "notional": 10000.0,
-      "unrealized": -22.62,
-      "pnl_pct": -0.226,
+      "unrealized": -33.94,
+      "pnl_pct": -0.339,
       "sl": 0.087851,
       "tp": 0.089499,
       "note": "RSI 21.4 a\u015f\u0131r\u0131 sat\u0131m",
@@ -117,6 +117,30 @@
       "algo_version": "3.0",
       "sl_pct": 0.621,
       "tp_pct": 1.243
+    },
+    {
+      "id": "ADAUSDT-1784402480",
+      "trade_no": 115,
+      "trade_id": "T0115",
+      "binance_order_id": "",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.166,
+      "current": 0.166,
+      "qty": 60240.963855,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.166996,
+      "tp": 0.164008,
+      "note": "z=2.01",
+      "opened_at": 1784402480.324946,
+      "opened_iso": "2026-07-18T19:21:20.324946+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
     }
   ],
   "recent_trades": [
@@ -3165,9 +3189,18 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 64564.07,
-      "strength": 82,
-      "note": "RSI 80.5 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 64573.14,
+      "strength": 83,
+      "note": "RSI 80.8 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784402100000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.166,
+      "strength": 50.15596081985705,
+      "note": "z=2.01",
       "ts": 1784402100000
     }
   ],
@@ -3224,14 +3257,14 @@
     ]
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 120,
     "wins": 43,
     "losses": 77,
     "win_rate": 35.8,
     "total_pnl": -417.3,
-    "equity": 4615.27,
-    "unrealized": 70.75,
+    "equity": 4602.59,
+    "unrealized": 58.07,
     "closed_this_cycle": 0
   },
   "freqtrade": {
