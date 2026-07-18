@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T11:05:16.941972+00:00",
+  "cycle_at": "2026-07-18T11:06:16.953931+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4762.2,
       "locked": 0
     },
-    "equity": 4814.59,
+    "equity": 4811.84,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 52.39,
+    "unrealized_pnl": 49.64,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T11:05:16.941972+00:00"
+    "updated_at": "2026-07-18T11:06:16.953931+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 569.76,
+      "current": 569.81,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 35.05,
-      "pnl_pct": 0.35,
+      "unrealized": 35.93,
+      "pnl_pct": 0.359,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -131,11 +131,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 8.262,
-      "current": 8.272,
+      "current": 8.269,
       "qty": 1210.360687,
       "notional": 10000.0,
-      "unrealized": 12.1,
-      "pnl_pct": 0.121,
+      "unrealized": 8.47,
+      "pnl_pct": 0.085,
       "sl": 8.212428,
       "tp": 8.361144,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2961,12 +2961,12 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 569.76,
+      "price": 569.81,
       "strength": 29,
-      "note": "z=2.28",
+      "note": "z=2.33",
       "ts": 1784372400000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 57.04358484484809
+      "v3_raw_strength": 58.2334675571875
     }
   ],
   "swarm": {
@@ -3022,8 +3022,8 @@
     "losses": 72,
     "win_rate": 35.7,
     "total_pnl": -199.62,
-    "equity": 4814.59,
-    "unrealized": 52.39,
+    "equity": 4811.84,
+    "unrealized": 49.64,
     "closed_this_cycle": 0
   },
   "freqtrade": {
