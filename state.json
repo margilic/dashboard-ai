@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T08:34:15.898967+00:00",
+  "cycle_at": "2026-07-18T08:35:15.916231+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4779.67,
       "locked": 0
     },
-    "equity": 4763.23,
+    "equity": 4761.57,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -16.44,
+    "unrealized_pnl": -18.1,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T08:34:15.898967+00:00"
+    "updated_at": "2026-07-18T08:35:15.916231+00:00"
   },
   "open_positions": [
     {
@@ -83,11 +83,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 1.0875,
-      "current": 1.0913,
+      "current": 1.0915,
       "qty": 9195.402299,
       "notional": 10000.0,
-      "unrealized": -34.94,
-      "pnl_pct": -0.349,
+      "unrealized": -36.78,
+      "pnl_pct": -0.368,
       "sl": 1.094025,
       "tp": 1.07445,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -107,7 +107,7 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 63988.01,
-      "current": 64019.63,
+      "current": 64019.64,
       "qty": 0.156279,
       "notional": 10000.0,
       "unrealized": 4.94,
@@ -131,11 +131,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 568.54,
+      "current": 568.55,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 13.56,
-      "pnl_pct": 0.136,
+      "unrealized": 13.74,
+      "pnl_pct": 0.137,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2943,12 +2943,23 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1849.34,
-      "strength": 40,
-      "note": "z=3.17",
+      "price": 1848.88,
+      "strength": 37,
+      "note": "z=3.00",
       "ts": 1784363400000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 79.21823093422535
+      "v3_raw_strength": 74.94929677083991
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1.0915,
+      "strength": 26,
+      "note": "z=2.09",
+      "ts": 1784363400000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 52.12835516396538
     }
   ],
   "swarm": {
@@ -3004,8 +3015,8 @@
     "losses": 71,
     "win_rate": 36.0,
     "total_pnl": -182.15,
-    "equity": 4763.23,
-    "unrealized": -16.44,
+    "equity": 4761.57,
+    "unrealized": -18.1,
     "closed_this_cycle": 0
   },
   "freqtrade": {
