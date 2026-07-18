@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-18T09:39:16.372704+00:00",
+  "cycle_at": "2026-07-18T09:40:16.374817+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -67,11 +67,11 @@
       "free": 4762.2,
       "locked": 0
     },
-    "equity": 4705.09,
+    "equity": 4707.56,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -57.11,
+    "unrealized_pnl": -54.64,
     "realized_today": 0.0,
-    "updated_at": "2026-07-18T09:39:16.372704+00:00"
+    "updated_at": "2026-07-18T09:40:16.374817+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 567.77,
-      "current": 567.81,
+      "current": 567.95,
       "qty": 17.612766,
       "notional": 10000.0,
-      "unrealized": 0.7,
-      "pnl_pct": 0.007,
+      "unrealized": 3.17,
+      "pnl_pct": 0.032,
       "sl": 564.36338,
       "tp": 574.58324,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -2961,12 +2961,12 @@
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 1.0849,
-      "strength": 32,
-      "note": "z=-2.54",
+      "price": 1.0845,
+      "strength": 34,
+      "note": "z=-2.70",
       "ts": 1784367000000,
       "v3_weight": 0.5,
-      "v3_raw_strength": 63.45169015271775
+      "v3_raw_strength": 67.59790936806841
     },
     {
       "symbol": "LINKUSDT",
@@ -3002,6 +3002,17 @@
       "v3_raw_strength": 54.978231281106204
     },
     {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07203,
+      "strength": 27,
+      "note": "z=-2.18",
+      "ts": 1784367000000,
+      "v3_weight": 0.5,
+      "v3_raw_strength": 54.491423225946136
+    },
+    {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
@@ -3011,17 +3022,6 @@
       "ts": 1784367000000,
       "v3_weight": 0.5,
       "v3_raw_strength": 53.13109964653421
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07205,
-      "strength": 26,
-      "note": "z=-2.06",
-      "ts": 1784367000000,
-      "v3_weight": 0.5,
-      "v3_raw_strength": 51.60517722569651
     },
     {
       "symbol": "ADAUSDT",
@@ -3088,8 +3088,8 @@
     "losses": 72,
     "win_rate": 35.7,
     "total_pnl": -199.62,
-    "equity": 4705.09,
-    "unrealized": -57.11,
+    "equity": 4707.56,
+    "unrealized": -54.64,
     "closed_this_cycle": 0
   },
   "freqtrade": {
