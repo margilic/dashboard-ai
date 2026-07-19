@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T02:00:24.473551+00:00",
+  "cycle_at": "2026-07-19T02:01:24.464318+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4537.3,
       "locked": 0
     },
-    "equity": 4554.4,
+    "equity": 4549.44,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 17.1,
+    "unrealized_pnl": 12.14,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T02:00:24.473551+00:00"
+    "updated_at": "2026-07-19T02:01:24.464318+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.332,
+      "current": 8.336,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 46.59,
-      "pnl_pct": 0.466,
+      "unrealized": 41.81,
+      "pnl_pct": 0.418,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 571.33,
-      "current": 570.59,
+      "current": 570.58,
       "qty": 17.503019,
       "notional": 10000.0,
-      "unrealized": -12.95,
-      "pnl_pct": -0.13,
+      "unrealized": -13.13,
+      "pnl_pct": -0.131,
       "sl": 567.90202,
       "tp": 578.18596,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -3276,7 +3276,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 75.71,
+      "price": 75.75,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784426400000
@@ -3285,9 +3285,9 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 75.71,
-      "strength": 52.50638389736208,
-      "note": "z=2.10",
+      "price": 75.75,
+      "strength": 60.78458577783136,
+      "note": "z=2.43",
       "ts": 1784426400000
     }
   ],
@@ -3344,8 +3344,8 @@
     "losses": 79,
     "win_rate": 35.8,
     "total_pnl": -424.52,
-    "equity": 4554.4,
-    "unrealized": 17.1,
+    "equity": 4549.44,
+    "unrealized": 12.14,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3362,7 +3362,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 00:30:01.826339",
         "open_rate": 64790.64,
-        "current_rate": 64765.99,
+        "current_rate": 64725.01,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.54,
