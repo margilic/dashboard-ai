@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T08:04:26.930394+00:00",
+  "cycle_at": "2026-07-19T08:05:26.940413+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4491.12,
       "locked": 0
     },
-    "equity": 4473.38,
+    "equity": 4474.71,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -17.74,
+    "unrealized_pnl": -16.41,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T08:04:26.930394+00:00"
+    "updated_at": "2026-07-19T08:05:26.940413+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 569.04,
+      "current": 569.1,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -25.37,
-      "pnl_pct": -0.254,
+      "unrealized": -26.43,
+      "pnl_pct": -0.264,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.362,
+      "current": 8.36,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 13.14,
-      "pnl_pct": 0.131,
+      "unrealized": 15.53,
+      "pnl_pct": 0.155,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -3383,8 +3383,8 @@
     "losses": 80,
     "win_rate": 36.0,
     "total_pnl": -470.7,
-    "equity": 4473.38,
-    "unrealized": -17.74,
+    "equity": 4474.71,
+    "unrealized": -16.41,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3401,7 +3401,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 07:50:01.565559",
         "open_rate": 64717.24,
-        "current_rate": 64693.93,
+        "current_rate": 64693.11,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.62,
