@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T17:36:30.849669+00:00",
+  "cycle_at": "2026-07-19T17:37:30.866440+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,40 +60,16 @@
   },
   "balance": {
     "USD": {
-      "free": 4356.4,
+      "free": 4377.9,
       "locked": 0
     },
-    "equity": 4365.8,
+    "equity": 4366.72,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 9.4,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-19T17:36:30.849669+00:00"
+    "unrealized_pnl": -11.18,
+    "realized_today": 21.5,
+    "updated_at": "2026-07-19T17:37:30.866440+00:00"
   },
   "open_positions": [
-    {
-      "id": "LINKUSDT-1784446646",
-      "trade_no": 120,
-      "trade_id": "T0120",
-      "binance_order_id": "",
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "entry": 8.373,
-      "current": 8.355,
-      "qty": 1194.31506,
-      "notional": 10000.0,
-      "unrealized": 21.5,
-      "pnl_pct": 0.215,
-      "sl": 8.423238,
-      "tp": 8.272524,
-      "note": "z=2.05",
-      "opened_at": 1784446646.756788,
-      "opened_iso": "2026-07-19T07:37:26.756788+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
     {
       "id": "ADAUSDT-1784481390",
       "trade_no": 124,
@@ -127,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 6.495,
-      "current": 6.495,
+      "current": 6.493,
       "qty": 461.893764,
       "notional": 3000.0,
-      "unrealized": -0.0,
-      "pnl_pct": -0.0,
+      "unrealized": 0.92,
+      "pnl_pct": 0.031,
       "sl": 6.53397,
       "tp": 6.41706,
       "note": "z=2.38",
@@ -144,6 +120,35 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "LINKUSDT-1784446646",
+      "trade_no": 120,
+      "trade_id": "T0120",
+      "binance_order_id": "",
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 8.373,
+      "current": 8.355,
+      "qty": 1194.31506,
+      "notional": 10000.0,
+      "unrealized": 21.5,
+      "pnl_pct": 0.215,
+      "sl": 8.423238,
+      "tp": 8.272524,
+      "note": "z=2.05",
+      "opened_at": 1784446646.756788,
+      "opened_iso": "2026-07-19T07:37:26.756788+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 8.355,
+      "closed_at": 1784482650.86644,
+      "pnl": 21.5,
+      "exit_reason": "time",
+      "duration_s": 36004
+    },
     {
       "id": "BNBUSDT-1784471729-emergency",
       "symbol": "BNBUSDT",
@@ -3465,9 +3470,9 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.495,
-      "strength": 59.50372409698276,
-      "note": "z=2.38",
+      "price": 6.493,
+      "strength": 57.46194030871175,
+      "note": "z=2.30",
       "ts": 1784482200000
     }
   ],
@@ -3518,15 +3523,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 130,
-    "wins": 47,
+    "open": 2,
+    "total_trades": 131,
+    "wins": 48,
     "losses": 83,
-    "win_rate": 36.2,
-    "total_pnl": -599.09,
-    "equity": 4365.8,
-    "unrealized": 9.4,
-    "closed_this_cycle": 0
+    "win_rate": 36.6,
+    "total_pnl": -577.59,
+    "equity": 4366.72,
+    "unrealized": -11.18,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
