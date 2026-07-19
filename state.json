@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T15:43:30.060619+00:00",
+  "cycle_at": "2026-07-19T15:44:30.067160+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4477.82,
       "locked": 0
     },
-    "equity": 4502.56,
+    "equity": 4501.4,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 24.74,
+    "unrealized_pnl": 23.58,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T15:43:30.060619+00:00"
+    "updated_at": "2026-07-19T15:44:30.067160+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.362,
+      "current": 8.364,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 13.14,
-      "pnl_pct": 0.131,
+      "unrealized": 10.75,
+      "pnl_pct": 0.107,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 568.92,
-      "current": 570.52,
+      "current": 570.59,
       "qty": 17.577164,
       "notional": 10000.0,
-      "unrealized": 28.12,
-      "pnl_pct": 0.281,
+      "unrealized": 29.35,
+      "pnl_pct": 0.294,
       "sl": 565.50648,
       "tp": 575.74704,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -3392,16 +3392,16 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 570.52,
-      "strength": 67,
-      "note": "RSI 76.8 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 570.59,
+      "strength": 68,
+      "note": "RSI 77.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784475000000
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 570.52,
+      "price": 570.59,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784475000000
@@ -3419,9 +3419,9 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 570.52,
-      "strength": 55.093425199041434,
-      "note": "z=2.20",
+      "price": 570.59,
+      "strength": 56.39135716089624,
+      "note": "z=2.26",
       "ts": 1784475000000
     }
   ],
@@ -3478,8 +3478,8 @@
     "losses": 81,
     "win_rate": 36.2,
     "total_pnl": -484.0,
-    "equity": 4502.56,
-    "unrealized": 24.74,
+    "equity": 4501.4,
+    "unrealized": 23.58,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3496,7 +3496,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-19 15:25:01.624957",
         "open_rate": 1872.14,
-        "current_rate": 1872.26,
+        "current_rate": 1872.89,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
