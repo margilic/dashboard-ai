@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T14:08:29.407498+00:00",
+  "cycle_at": "2026-07-19T14:09:29.436191+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4497.41,
+    "equity": 4497.08,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 2.15,
+    "unrealized_pnl": 1.82,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T14:08:29.407498+00:00"
+    "updated_at": "2026-07-19T14:09:29.436191+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.5,
+      "current": 568.42,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -15.86,
-      "pnl_pct": -0.159,
+      "unrealized": -14.45,
+      "pnl_pct": -0.144,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.351,
+      "current": 8.349,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 26.27,
-      "pnl_pct": 0.263,
+      "unrealized": 28.66,
+      "pnl_pct": 0.287,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07256,
+      "current": 0.07253,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -8.26,
-      "pnl_pct": -0.083,
+      "unrealized": -12.39,
+      "pnl_pct": -0.124,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3363,7 +3363,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 76.24,
+      "price": 76.23,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784469600000
@@ -3422,8 +3422,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4497.41,
-    "unrealized": 2.15,
+    "equity": 4497.08,
+    "unrealized": 1.82,
     "closed_this_cycle": 0
   },
   "freqtrade": {
