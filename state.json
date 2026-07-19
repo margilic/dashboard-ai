@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T17:13:30.683887+00:00",
+  "cycle_at": "2026-07-19T17:14:30.695671+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,14 +60,14 @@
   },
   "balance": {
     "USD": {
-      "free": 4417.23,
+      "free": 4356.4,
       "locked": 0
     },
-    "equity": 4393.06,
+    "equity": 4377.8,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -24.17,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-19T17:13:30.683887+00:00"
+    "unrealized_pnl": 21.4,
+    "realized_today": -60.83,
+    "updated_at": "2026-07-19T17:14:30.695671+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.36,
+      "current": 8.362,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 15.53,
-      "pnl_pct": 0.155,
+      "unrealized": 13.14,
+      "pnl_pct": 0.131,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 568.92,
-      "current": 569.43,
+      "current": 569.39,
       "qty": 17.577164,
       "notional": 10000.0,
-      "unrealized": 8.96,
-      "pnl_pct": 0.09,
+      "unrealized": 8.26,
+      "pnl_pct": 0.083,
       "sl": 565.50648,
       "tp": 575.74704,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -117,7 +117,9 @@
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
-    },
+    }
+  ],
+  "recent_trades": [
     {
       "id": "ADAUSDT-1784480490",
       "trade_no": 123,
@@ -131,7 +133,7 @@
       "qty": 60827.250608,
       "notional": 10000.0,
       "unrealized": -48.66,
-      "pnl_pct": -0.487,
+      "pnl_pct": -0.608,
       "sl": 0.165386,
       "tp": 0.162427,
       "note": "20-bar dip + hacim",
@@ -140,10 +142,13 @@
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
-      "tp_pct": 1.2
-    }
-  ],
-  "recent_trades": [
+      "tp_pct": 1.2,
+      "exit": 0.1654,
+      "closed_at": 1784481270.695671,
+      "pnl": -60.83,
+      "exit_reason": "SL",
+      "duration_s": 780
+    },
     {
       "id": "DOGEUSDT-1784448746",
       "trade_no": 121,
@@ -3464,15 +3469,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 128,
+    "open": 2,
+    "total_trades": 129,
     "wins": 46,
-    "losses": 82,
-    "win_rate": 35.9,
-    "total_pnl": -544.59,
-    "equity": 4393.06,
-    "unrealized": -24.17,
-    "closed_this_cycle": 0
+    "losses": 83,
+    "win_rate": 35.7,
+    "total_pnl": -605.42,
+    "equity": 4377.8,
+    "unrealized": 21.4,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -3488,7 +3493,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-19 15:25:01.624957",
         "open_rate": 1872.14,
-        "current_rate": 1870.73,
+        "current_rate": 1870.87,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
