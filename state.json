@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T02:39:24.716896+00:00",
+  "cycle_at": "2026-07-19T02:40:24.742031+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4537.3,
       "locked": 0
     },
-    "equity": 4551.05,
+    "equity": 4549.76,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 13.75,
+    "unrealized_pnl": 12.46,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T02:39:24.716896+00:00"
+    "updated_at": "2026-07-19T02:40:24.742031+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.382,
+      "current": 8.38,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": -13.14,
-      "pnl_pct": -0.131,
+      "unrealized": -10.75,
+      "pnl_pct": -0.108,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 571.33,
-      "current": 571.37,
+      "current": 571.16,
       "qty": 17.503019,
       "notional": 10000.0,
-      "unrealized": 0.7,
-      "pnl_pct": 0.007,
+      "unrealized": -2.98,
+      "pnl_pct": -0.03,
       "sl": 567.90202,
       "tp": 578.18596,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -3276,34 +3276,34 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 76.42,
-      "strength": 92,
-      "note": "RSI 83.2 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 76.38,
+      "strength": 91,
+      "note": "RSI 82.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784428200000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 76.42,
-      "strength": 78.37198007753378,
-      "note": "z=3.13",
+      "price": 76.38,
+      "strength": 76.46232165349637,
+      "note": "z=3.06",
       "ts": 1784428200000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.627,
-      "strength": 76.24082137755363,
-      "note": "z=3.05",
+      "price": 6.626,
+      "strength": 75.3200310386287,
+      "note": "z=3.01",
       "ts": 1784428200000
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 1874.02,
+      "price": 1874.03,
       "strength": 75,
       "note": "20-bar tepe + hacim",
       "ts": 1784428200000
@@ -3312,7 +3312,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 76.42,
+      "price": 76.38,
       "strength": 75,
       "note": "20-bar tepe + hacim",
       "ts": 1784428200000
@@ -3330,8 +3330,8 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1874.02,
-      "strength": 74.04507151103374,
+      "price": 1874.03,
+      "strength": 74.0786162989552,
       "note": "z=2.96",
       "ts": 1784428200000
     },
@@ -3339,16 +3339,16 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.1685,
-      "strength": 69.57162281971996,
-      "note": "z=2.78",
+      "price": 0.1684,
+      "strength": 66.8674632884742,
+      "note": "z=2.67",
       "ts": 1784428200000
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1874.02,
+      "price": 1874.03,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784428200000
@@ -3357,7 +3357,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 76.42,
+      "price": 76.38,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784428200000
@@ -3369,15 +3369,6 @@
       "price": 0.07273,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784428200000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1.098,
-      "strength": 63.57139693272437,
-      "note": "z=2.54",
       "ts": 1784428200000
     },
     {
@@ -3390,21 +3381,21 @@
       "ts": 1784428200000
     },
     {
-      "symbol": "LINKUSDT",
+      "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 8.382,
-      "strength": 61.40359726994522,
-      "note": "z=2.46",
+      "price": 1.0979,
+      "strength": 62.60012333165888,
+      "note": "z=2.50",
       "ts": 1784428200000
     },
     {
-      "symbol": "BTCUSDT",
+      "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 64892.01,
-      "strength": 52.499042690552045,
-      "note": "z=2.10",
+      "price": 8.38,
+      "strength": 58.7592285832768,
+      "note": "z=2.35",
       "ts": 1784428200000
     }
   ],
@@ -3461,8 +3452,8 @@
     "losses": 79,
     "win_rate": 35.8,
     "total_pnl": -424.52,
-    "equity": 4551.05,
-    "unrealized": 13.75,
+    "equity": 4549.76,
+    "unrealized": 12.46,
     "closed_this_cycle": 0
   },
   "freqtrade": {
