@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T05:44:25.976977+00:00",
+  "cycle_at": "2026-07-19T05:45:25.988791+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4472.01,
       "locked": 0
     },
-    "equity": 4458.66,
+    "equity": 4459.53,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -13.35,
+    "unrealized_pnl": -12.48,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T05:44:25.976977+00:00"
+    "updated_at": "2026-07-19T05:45:25.988791+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.344,
+      "current": 8.346,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 32.25,
-      "pnl_pct": 0.323,
+      "unrealized": 29.87,
+      "pnl_pct": 0.299,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07254,
-      "current": 0.07236,
+      "current": 0.07239,
       "qty": 137854.976565,
       "notional": 10000.0,
-      "unrealized": -24.81,
-      "pnl_pct": -0.248,
+      "unrealized": -20.68,
+      "pnl_pct": -0.207,
       "sl": 0.072105,
       "tp": 0.07341,
       "note": "20-bar tepe + hacim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.78,
+      "current": 568.83,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -20.79,
-      "pnl_pct": -0.208,
+      "unrealized": -21.67,
+      "pnl_pct": -0.217,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -3302,13 +3302,13 @@
   ],
   "signals": [
     {
-      "symbol": "ADAUSDT",
+      "symbol": "LINKUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.1661,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784439000000
+      "strategy": "EMA Cross",
+      "price": 8.346,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784439900000
     }
   ],
   "swarm": {
@@ -3364,8 +3364,8 @@
     "losses": 80,
     "win_rate": 35.5,
     "total_pnl": -489.81,
-    "equity": 4458.66,
-    "unrealized": -13.35,
+    "equity": 4459.53,
+    "unrealized": -12.48,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3382,7 +3382,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 05:30:01.568491",
         "open_rate": 64714.01,
-        "current_rate": 64700.0,
+        "current_rate": 64713.8,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.59,
