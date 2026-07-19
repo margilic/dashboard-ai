@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T07:44:26.804240+00:00",
+  "cycle_at": "2026-07-19T07:45:26.836107+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4491.12,
       "locked": 0
     },
-    "equity": 4455.82,
+    "equity": 4454.27,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -35.3,
+    "unrealized_pnl": -36.85,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T07:44:26.804240+00:00"
+    "updated_at": "2026-07-19T07:45:26.836107+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07254,
-      "current": 0.07259,
+      "current": 0.07258,
       "qty": 137854.976565,
       "notional": 10000.0,
-      "unrealized": 6.89,
-      "pnl_pct": 0.069,
+      "unrealized": 5.51,
+      "pnl_pct": 0.055,
       "sl": 0.072105,
       "tp": 0.07341,
       "note": "20-bar tepe + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 569.52,
+      "current": 569.53,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -33.83,
-      "pnl_pct": -0.338,
+      "unrealized": -34.0,
+      "pnl_pct": -0.34,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -3332,30 +3332,30 @@
   "signals": [
     {
       "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 76.23,
-      "strength": 69,
-      "note": "RSI 77.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784446200000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 8.38,
-      "strength": 63,
-      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784446200000
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 76.27,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784447100000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "price": 8.38,
-      "strength": 62.816783436271486,
-      "note": "z=2.51",
-      "ts": 1784446200000
+      "strength": 57.74485968522435,
+      "note": "z=2.31",
+      "ts": 1784447100000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 76.27,
+      "strength": 52.600112087550855,
+      "note": "z=2.10",
+      "ts": 1784447100000
     }
   ],
   "swarm": {
@@ -3411,8 +3411,8 @@
     "losses": 80,
     "win_rate": 36.0,
     "total_pnl": -470.7,
-    "equity": 4455.82,
-    "unrealized": -35.3,
+    "equity": 4454.27,
+    "unrealized": -36.85,
     "closed_this_cycle": 0
   },
   "freqtrade": {
