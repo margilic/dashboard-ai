@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T11:35:28.364306+00:00",
+  "cycle_at": "2026-07-19T11:36:28.371429+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4465.91,
+    "equity": 4467.46,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -29.35,
+    "unrealized_pnl": -27.8,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T11:35:28.364306+00:00"
+    "updated_at": "2026-07-19T11:36:28.371429+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 569.24,
+      "current": 569.23,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -28.89,
-      "pnl_pct": -0.289,
+      "unrealized": -28.72,
+      "pnl_pct": -0.287,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07266,
+      "current": 0.07267,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": 5.51,
-      "pnl_pct": 0.055,
+      "unrealized": 6.89,
+      "pnl_pct": 0.069,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3363,7 +3363,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1877.1,
+      "price": 1877.19,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784460600000
@@ -3372,9 +3372,9 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1877.1,
-      "strength": 53.54406656215532,
-      "note": "z=2.14",
+      "price": 1877.19,
+      "strength": 54.076527220696136,
+      "note": "z=2.16",
       "ts": 1784460600000
     }
   ],
@@ -3431,8 +3431,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4465.91,
-    "unrealized": -29.35,
+    "equity": 4467.46,
+    "unrealized": -27.8,
     "closed_this_cycle": 0
   },
   "freqtrade": {
