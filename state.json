@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T14:14:29.465692+00:00",
+  "cycle_at": "2026-07-19T14:15:29.479908+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4477.82,
       "locked": 0
     },
-    "equity": 4488.48,
+    "equity": 4488.3,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 10.66,
+    "unrealized_pnl": 10.48,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T14:14:29.465692+00:00"
+    "updated_at": "2026-07-19T14:15:29.479908+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.356,
+      "current": 8.355,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 20.3,
-      "pnl_pct": 0.203,
+      "unrealized": 21.5,
+      "pnl_pct": 0.215,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07255,
+      "current": 0.07254,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -9.64,
-      "pnl_pct": -0.096,
+      "unrealized": -11.02,
+      "pnl_pct": -0.11,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3363,17 +3363,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 76.3,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1784469600000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-19T14:14:12.480020+00:00",
     "model": "deepseek-chat",
@@ -3418,13 +3408,7 @@
         "at": "2026-07-19T14:02:29.365455+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "LONG",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 2,
@@ -3433,8 +3417,8 @@
     "losses": 81,
     "win_rate": 36.2,
     "total_pnl": -484.0,
-    "equity": 4488.48,
-    "unrealized": 10.66,
+    "equity": 4488.3,
+    "unrealized": 10.48,
     "closed_this_cycle": 0
   },
   "freqtrade": {
