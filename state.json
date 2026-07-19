@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T10:34:27.960981+00:00",
+  "cycle_at": "2026-07-19T10:35:27.964609+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4519.35,
+    "equity": 4523.84,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 24.09,
+    "unrealized_pnl": 28.58,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T10:34:27.960981+00:00"
+    "updated_at": "2026-07-19T10:35:27.964609+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 567.98,
+      "current": 567.97,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -6.69,
-      "pnl_pct": -0.067,
+      "unrealized": -6.52,
+      "pnl_pct": -0.065,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.338,
+      "current": 8.339,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 41.8,
-      "pnl_pct": 0.418,
+      "unrealized": 40.61,
+      "pnl_pct": 0.406,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07254,
+      "current": 0.07258,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -11.02,
-      "pnl_pct": -0.11,
+      "unrealized": -5.51,
+      "pnl_pct": -0.055,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3412,8 +3412,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4519.35,
-    "unrealized": 24.09,
+    "equity": 4523.84,
+    "unrealized": 28.58,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3424,9 +3424,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 105,
+        "pair": "ETH/USDT",
+        "open_date": "2026-07-19 10:35:01.589949",
+        "open_rate": 1868.08,
+        "current_rate": 1868.07,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 499.9,
+        "amount": 0.2676,
+        "side": "LONG",
+        "sl_price": 1840.06,
+        "tp_price": 1905.44,
+        "trailing_active_price": 1883.02
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 104,
       "wins": 18,
       "losses": 86,
