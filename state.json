@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T20:16:31.996709+00:00",
+  "cycle_at": "2026-07-19T20:17:32.008716+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4345.29,
       "locked": 0
     },
-    "equity": 4350.42,
+    "equity": 4355.29,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 5.13,
+    "unrealized_pnl": 10.0,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T20:16:31.996709+00:00"
+    "updated_at": "2026-07-19T20:17:32.008716+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 8.349,
-      "current": 8.34,
+      "current": 8.335,
       "qty": 359.32447,
       "notional": 3000.0,
-      "unrealized": 3.23,
-      "pnl_pct": 0.108,
+      "unrealized": 5.03,
+      "pnl_pct": 0.168,
       "sl": 8.399094,
       "tp": 8.248812,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.0888,
-      "current": 0.0887,
+      "current": 0.0886,
       "qty": 33783.783784,
       "notional": 3000.0,
-      "unrealized": 3.38,
-      "pnl_pct": 0.113,
+      "unrealized": 6.76,
+      "pnl_pct": 0.225,
       "sl": 0.089394,
       "tp": 0.087611,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 568.27,
-      "current": 568.55,
+      "current": 568.61,
       "qty": 5.279181,
       "notional": 3000.0,
-      "unrealized": -1.48,
-      "pnl_pct": -0.049,
+      "unrealized": -1.79,
+      "pnl_pct": -0.06,
       "sl": 571.67962,
       "tp": 561.45076,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -3578,7 +3578,7 @@
   ],
   "signals": [],
   "swarm": {
-    "updated_at": "2026-07-19T18:14:43.109636+00:00",
+    "updated_at": "2026-07-19T20:17:34.064318+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -3586,39 +3586,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 51.0,
+        "conviction": "LOW",
+        "score": 45.0,
         "sl": null,
         "tp": null,
-        "rationale": "Funding ve basis g\u00f6stergeleri bo\u011fa, on-chain ak\u0131\u015flar ay\u0131; k\u0131sa vadede bo\u011fa sinyali a\u011f\u0131r bas\u0131yor, ancak kar\u0131\u015f\u0131k sinyaller nedeniyle d\u00fc\u015f\u00fck-orta g\u00fcven.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "D\u00fc\u015f\u00fck volatilite konsolidasyonu, mikro yap\u0131dan hafif yukar\u0131 y\u00f6nl\u00fc e\u011filim, ancak y\u00fcksek g\u00fcvenli y\u00f6nl\u00fc kenar yok.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1784484151.072715,
-        "at": "2026-07-19T18:02:31.072715+00:00"
+        "ts": 1784491351.87706,
+        "at": "2026-07-19T20:02:31.877060+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 55.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 44.8,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik sinyal +0.55: on-chain ak\u0131\u015f ve likitasyon k\u0131sa s\u0131k\u0131\u015fma bullish, fonlama n\u00f6tr. Orta g\u00fcvenle uzun pozisyon.",
+        "rationale": "Kompozit skor 44.8, n\u00f6tr-bearish e\u011filim. Likidasyon birikimleri nedeniyle a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk var. Tetikleyici bekleniyor.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784484151.072715,
-        "at": "2026-07-19T18:02:31.072715+00:00"
+        "ts": 1784491351.87706,
+        "at": "2026-07-19T20:02:31.877060+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 28.0,
+        "conviction": "LOW",
+        "score": 52.0,
         "sl": null,
         "tp": null,
-        "rationale": "425M USDT giri\u015fi ve sat\u0131\u015f yorgunlu\u011fu ile y\u00fckseli\u015f beklentisi, ancak likidasyon riski mevcut.",
+        "rationale": "Birikim sinyali var ancak momentum zay\u0131f; d\u00fc\u015f\u00fck g\u00fcvenli uzun pozisyon.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784484151.072715,
-        "at": "2026-07-19T18:02:31.072715+00:00"
+        "ts": 1784491351.87706,
+        "at": "2026-07-19T20:02:31.877060+00:00"
       }
     },
     "gated_this_cycle": []
@@ -3630,8 +3630,8 @@
     "losses": 85,
     "win_rate": 36.6,
     "total_pnl": -610.2,
-    "equity": 4350.42,
-    "unrealized": 5.13,
+    "equity": 4355.29,
+    "unrealized": 10.0,
     "closed_this_cycle": 0
   },
   "freqtrade": {
