@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T08:10:26.983137+00:00",
+  "cycle_at": "2026-07-19T08:11:26.984969+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,40 +60,16 @@
   },
   "balance": {
     "USD": {
-      "free": 4491.12,
+      "free": 4495.26,
       "locked": 0
     },
-    "equity": 4475.12,
+    "equity": 4472.56,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -16.0,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-19T08:10:26.983137+00:00"
+    "unrealized_pnl": -22.7,
+    "realized_today": 4.14,
+    "updated_at": "2026-07-19T08:11:26.984969+00:00"
   },
   "open_positions": [
-    {
-      "id": "DOGEUSDT-1784412681",
-      "trade_no": 117,
-      "trade_id": "T0117",
-      "binance_order_id": "",
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "entry": 0.07254,
-      "current": 0.07258,
-      "qty": 137854.976565,
-      "notional": 10000.0,
-      "unrealized": 5.51,
-      "pnl_pct": 0.055,
-      "sl": 0.072105,
-      "tp": 0.07341,
-      "note": "20-bar tepe + hacim",
-      "opened_at": 1784412681.459472,
-      "opened_iso": "2026-07-18T22:11:21.459472+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
     {
       "id": "BNBUSDT-1784434345",
       "trade_no": 119,
@@ -127,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.368,
+      "current": 8.369,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 5.97,
-      "pnl_pct": 0.06,
+      "unrealized": 4.78,
+      "pnl_pct": 0.048,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -144,6 +120,35 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "DOGEUSDT-1784412681",
+      "trade_no": 117,
+      "trade_id": "T0117",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Momentum Breakout",
+      "entry": 0.07254,
+      "current": 0.07258,
+      "qty": 137854.976565,
+      "notional": 10000.0,
+      "unrealized": 5.51,
+      "pnl_pct": 0.041,
+      "sl": 0.072105,
+      "tp": 0.07341,
+      "note": "20-bar tepe + hacim",
+      "opened_at": 1784412681.459472,
+      "opened_iso": "2026-07-18T22:11:21.459472+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 0.07257,
+      "closed_at": 1784448686.984969,
+      "pnl": 4.14,
+      "exit_reason": "time",
+      "duration_s": 36005
+    },
     {
       "id": "LINKUSDT-1784409321",
       "trade_no": 116,
@@ -3377,15 +3382,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 125,
-    "wins": 45,
+    "open": 2,
+    "total_trades": 126,
+    "wins": 46,
     "losses": 80,
-    "win_rate": 36.0,
-    "total_pnl": -470.7,
-    "equity": 4475.12,
-    "unrealized": -16.0,
-    "closed_this_cycle": 0
+    "win_rate": 36.5,
+    "total_pnl": -466.56,
+    "equity": 4472.56,
+    "unrealized": -22.7,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -3401,7 +3406,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 07:50:01.565559",
         "open_rate": 64717.24,
-        "current_rate": 64688.46,
+        "current_rate": 64689.64,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.62,
