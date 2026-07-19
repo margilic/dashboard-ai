@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T12:03:28.557762+00:00",
+  "cycle_at": "2026-07-19T12:04:28.561585+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4506.52,
+    "equity": 4513.7,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 11.26,
+    "unrealized_pnl": 18.44,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T12:03:28.557762+00:00"
+    "updated_at": "2026-07-19T12:04:28.561585+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 567.53,
+      "current": 567.55,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": 1.23,
-      "pnl_pct": 0.012,
+      "unrealized": 0.88,
+      "pnl_pct": 0.009,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.345,
+      "current": 8.341,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 33.44,
-      "pnl_pct": 0.334,
+      "unrealized": 38.22,
+      "pnl_pct": 0.382,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07245,
+      "current": 0.07247,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -23.41,
-      "pnl_pct": -0.234,
+      "unrealized": -20.66,
+      "pnl_pct": -0.207,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3363,7 +3363,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 6.459,
+      "price": 6.462,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784462400000
@@ -3422,8 +3422,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4506.52,
-    "unrealized": 11.26,
+    "equity": 4513.7,
+    "unrealized": 18.44,
     "closed_this_cycle": 0
   },
   "freqtrade": {
