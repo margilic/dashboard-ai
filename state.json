@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T04:44:25.599204+00:00",
+  "cycle_at": "2026-07-19T04:45:25.591315+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4472.01,
       "locked": 0
     },
-    "equity": 4446.16,
+    "equity": 4447.71,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -25.85,
+    "unrealized_pnl": -24.3,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T04:44:25.599204+00:00"
+    "updated_at": "2026-07-19T04:45:25.591315+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07254,
-      "current": 0.07242,
+      "current": 0.07243,
       "qty": 137854.976565,
       "notional": 10000.0,
-      "unrealized": -16.54,
-      "pnl_pct": -0.165,
+      "unrealized": -15.16,
+      "pnl_pct": -0.152,
       "sl": 0.072105,
       "tp": 0.07341,
       "note": "20-bar tepe + hacim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 569.01,
+      "current": 569.0,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -24.84,
-      "pnl_pct": -0.248,
+      "unrealized": -24.67,
+      "pnl_pct": -0.247,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -3300,17 +3300,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 0.1664,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784435400000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-19T04:17:20.548064+00:00",
     "model": "deepseek-chat",
@@ -3364,8 +3354,8 @@
     "losses": 80,
     "win_rate": 35.5,
     "total_pnl": -489.81,
-    "equity": 4446.16,
-    "unrealized": -25.85,
+    "equity": 4447.71,
+    "unrealized": -24.3,
     "closed_this_cycle": 0
   },
   "freqtrade": {
