@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T21:14:32.383614+00:00",
+  "cycle_at": "2026-07-19T21:15:32.403008+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4345.29,
       "locked": 0
     },
-    "equity": 4322.93,
+    "equity": 4328.03,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -22.36,
+    "unrealized_pnl": -17.26,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T21:14:32.383614+00:00"
+    "updated_at": "2026-07-19T21:15:32.403008+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 8.349,
-      "current": 8.387,
+      "current": 8.375,
       "qty": 359.32447,
       "notional": 3000.0,
-      "unrealized": -13.65,
-      "pnl_pct": -0.455,
+      "unrealized": -9.34,
+      "pnl_pct": -0.311,
       "sl": 8.399094,
       "tp": 8.248812,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 568.27,
-      "current": 569.92,
+      "current": 569.77,
       "qty": 5.279181,
       "notional": 3000.0,
-      "unrealized": -8.71,
-      "pnl_pct": -0.29,
+      "unrealized": -7.92,
+      "pnl_pct": -0.264,
       "sl": 571.67962,
       "tp": 561.45076,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -3576,17 +3576,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 8.387,
-      "strength": 55.571041757055575,
-      "note": "z=2.22",
-      "ts": 1784494800000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-19T20:17:34.064318+00:00",
     "model": "deepseek-chat",
@@ -3640,8 +3630,8 @@
     "losses": 85,
     "win_rate": 36.6,
     "total_pnl": -610.2,
-    "equity": 4322.93,
-    "unrealized": -22.36,
+    "equity": 4328.03,
+    "unrealized": -17.26,
     "closed_this_cycle": 0
   },
   "freqtrade": {
