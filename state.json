@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T14:13:29.468962+00:00",
+  "cycle_at": "2026-07-19T14:14:29.465692+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4477.82,
       "locked": 0
     },
-    "equity": 4487.29,
+    "equity": 4488.48,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 9.47,
+    "unrealized_pnl": 10.66,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T14:13:29.468962+00:00"
+    "updated_at": "2026-07-19T14:14:29.465692+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.357,
+      "current": 8.356,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 19.11,
-      "pnl_pct": 0.191,
+      "unrealized": 20.3,
+      "pnl_pct": 0.203,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -3375,7 +3375,7 @@
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-19T12:18:21.402388+00:00",
+    "updated_at": "2026-07-19T14:14:12.480020+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -3383,39 +3383,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 73.0,
+        "conviction": "MEDIUM",
+        "score": 51.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sa\u011fl\u0131kl\u0131 fonlama, k\u0131sa squeeze ($64.4k-$65k aras\u0131 $282M) ve on-chain b\u00fcy\u00fcme. Y\u00fcksek uyumlu bullish sinyal.",
+        "rationale": "Bile\u015fik puan 0.51 ile hafif y\u00fckseli\u015f b\u00f6lgesinde. Y\u00fckseli\u015f senaryosu: sa\u011fl\u0131kl\u0131 fonlama rejimi, 63.5K$ \u00fczerinde destek, BTC dominans\u0131n\u0131n y\u00fckselmesi, L/S oran\u0131n\u0131n d\u00fc\u015fmesi.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784462548.534265,
-        "at": "2026-07-19T12:02:28.534265+00:00"
+        "ts": 1784469749.365455,
+        "at": "2026-07-19T14:02:29.365455+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -4.0,
+        "score": 65.0,
         "sl": null,
         "tp": null,
-        "rationale": "K\u0131sa likidasyon duvar\u0131 $1,870\u2013$1,880 aral\u0131\u011f\u0131nda bask\u0131n; k\u0131sa vadeli taktiksel long, ancak zincir \u00fcst\u00fc ak\u0131\u015flar y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Mevcut fiyatta k\u0131sa s\u0131k\u0131\u015fma tetikleyicisi, y\u00fckseli\u015f potansiyeli var ancak a\u015fa\u011f\u0131 y\u00f6nl\u00fc riskler de mevcut.",
+        "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784462548.534265,
-        "at": "2026-07-19T12:02:28.534265+00:00"
+        "ts": 1784469749.365455,
+        "at": "2026-07-19T14:02:29.365455+00:00"
       },
       "SOLUSDT": {
         "direction": "NEUTRAL",
-        "conviction": "HIGH",
+        "conviction": "MEDIUM",
         "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bekleme \u00f6nerisi, konsolidasyon devam ediyor, hafif d\u00fc\u015f\u00fc\u015f e\u011filimi.",
+        "rationale": "D\u00fc\u015f\u00fc\u015f e\u011filimi var ancak aral\u0131k ticareti; net sinyal yok, beklenmeli.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784462548.534265,
-        "at": "2026-07-19T12:02:28.534265+00:00"
+        "ts": 1784469749.365455,
+        "at": "2026-07-19T14:02:29.365455+00:00"
       }
     },
     "gated_this_cycle": [
@@ -3433,8 +3433,8 @@
     "losses": 81,
     "win_rate": 36.2,
     "total_pnl": -484.0,
-    "equity": 4487.29,
-    "unrealized": 9.47,
+    "equity": 4488.48,
+    "unrealized": 10.66,
     "closed_this_cycle": 0
   },
   "freqtrade": {
