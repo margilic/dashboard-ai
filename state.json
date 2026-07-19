@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T08:21:27.042612+00:00",
+  "cycle_at": "2026-07-19T08:22:27.057210+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4481.28,
+    "equity": 4483.84,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -13.98,
+    "unrealized_pnl": -11.42,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T08:21:27.042612+00:00"
+    "updated_at": "2026-07-19T08:22:27.057210+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.9,
+      "current": 568.89,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -22.9,
-      "pnl_pct": -0.229,
+      "unrealized": -22.73,
+      "pnl_pct": -0.227,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.354,
+      "current": 8.352,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 22.69,
-      "pnl_pct": 0.227,
+      "unrealized": 25.08,
+      "pnl_pct": 0.251,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -3360,6 +3360,15 @@
   ],
   "signals": [
     {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 0.1656,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784448900000
+    },
+    {
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
@@ -3372,16 +3381,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 6.551,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784448900000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 0.1655,
+      "price": 6.55,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784448900000
@@ -3440,8 +3440,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4481.28,
-    "unrealized": -13.98,
+    "equity": 4483.84,
+    "unrealized": -11.42,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3458,7 +3458,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 07:50:01.565559",
         "open_rate": 64717.24,
-        "current_rate": 64655.26,
+        "current_rate": 64646.84,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.62,
