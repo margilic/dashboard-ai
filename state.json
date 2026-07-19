@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T09:50:27.640015+00:00",
+  "cycle_at": "2026-07-19T09:51:27.651086+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4515.0,
+    "equity": 4512.61,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 19.74,
+    "unrealized_pnl": 17.35,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T09:50:27.640015+00:00"
+    "updated_at": "2026-07-19T09:51:27.651086+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.339,
+      "current": 8.341,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 40.61,
-      "pnl_pct": 0.406,
+      "unrealized": 38.22,
+      "pnl_pct": 0.382,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -3363,16 +3363,16 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0895,
-      "strength": 73,
-      "note": "RSI 78.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0897,
+      "strength": 80,
+      "note": "RSI 80.0 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784454300000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 64542.02,
+      "price": 64532.92,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784454300000
@@ -3381,7 +3381,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 6.499,
+      "price": 6.501,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784454300000
@@ -3390,7 +3390,7 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.0895,
+      "price": 0.0897,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784454300000
@@ -3399,9 +3399,9 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.0895,
-      "strength": 52.976518470369484,
-      "note": "z=2.12",
+      "price": 0.0897,
+      "strength": 60.18718865554542,
+      "note": "z=2.41",
       "ts": 1784454300000
     }
   ],
@@ -3458,8 +3458,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4515.0,
-    "unrealized": 19.74,
+    "equity": 4512.61,
+    "unrealized": 17.35,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3476,7 +3476,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 09:10:01.589611",
         "open_rate": 64675.01,
-        "current_rate": 64542.03,
+        "current_rate": 64532.92,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.94,
