@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T11:07:28.167823+00:00",
+  "cycle_at": "2026-07-19T11:08:28.188585+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4472.91,
+    "equity": 4480.81,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -22.35,
+    "unrealized_pnl": -14.45,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T11:07:28.167823+00:00"
+    "updated_at": "2026-07-19T11:08:28.188585+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.378,
+      "current": 8.376,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": -5.97,
-      "pnl_pct": -0.06,
+      "unrealized": -3.58,
+      "pnl_pct": -0.036,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07262,
+      "current": 0.07266,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 5.51,
+      "pnl_pct": 0.055,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3363,7 +3363,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1874.46,
+      "price": 1875.33,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784458800000
@@ -3372,9 +3372,18 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1874.46,
-      "strength": 51.438412847325054,
-      "note": "z=2.06",
+      "price": 1875.33,
+      "strength": 58.25855908604277,
+      "note": "z=2.33",
+      "ts": 1784458800000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1.0986,
+      "strength": 53.05961007191261,
+      "note": "z=2.12",
       "ts": 1784458800000
     }
   ],
@@ -3431,8 +3440,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4472.91,
-    "unrealized": -22.35,
+    "equity": 4480.81,
+    "unrealized": -14.45,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3449,7 +3458,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 10:55:01.619793",
         "open_rate": 64593.86,
-        "current_rate": 64574.0,
+        "current_rate": 64594.99,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.96,
