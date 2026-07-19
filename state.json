@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T14:42:29.651791+00:00",
+  "cycle_at": "2026-07-19T14:43:29.653215+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4477.82,
       "locked": 0
     },
-    "equity": 4489.3,
+    "equity": 4493.29,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 11.48,
+    "unrealized_pnl": 15.47,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T14:42:29.651791+00:00"
+    "updated_at": "2026-07-19T14:43:29.653215+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.355,
+      "current": 8.361,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 21.5,
-      "pnl_pct": 0.215,
+      "unrealized": 14.33,
+      "pnl_pct": 0.143,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07256,
+      "current": 0.07259,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -8.26,
-      "pnl_pct": -0.083,
+      "unrealized": -4.13,
+      "pnl_pct": -0.041,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 568.92,
-      "current": 568.82,
+      "current": 569.22,
       "qty": 17.577164,
       "notional": 10000.0,
-      "unrealized": -1.76,
-      "pnl_pct": -0.018,
+      "unrealized": 5.27,
+      "pnl_pct": 0.053,
       "sl": 565.50648,
       "tp": 575.74704,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -3387,7 +3387,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 569.22,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784471400000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-19T14:14:12.480020+00:00",
     "model": "deepseek-chat",
@@ -3441,8 +3451,8 @@
     "losses": 81,
     "win_rate": 36.2,
     "total_pnl": -484.0,
-    "equity": 4489.3,
-    "unrealized": 11.48,
+    "equity": 4493.29,
+    "unrealized": 15.47,
     "closed_this_cycle": 0
   },
   "freqtrade": {
