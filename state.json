@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T17:41:30.896238+00:00",
+  "cycle_at": "2026-07-19T17:42:30.901999+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4377.9,
       "locked": 0
     },
-    "equity": 4367.19,
+    "equity": 4376.88,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -10.71,
+    "unrealized_pnl": -1.02,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T17:41:30.896238+00:00"
+    "updated_at": "2026-07-19T17:42:30.901999+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1653,
-      "current": 0.1655,
+      "current": 0.1654,
       "qty": 60496.067756,
       "notional": 10000.0,
-      "unrealized": -12.1,
-      "pnl_pct": -0.121,
+      "unrealized": -6.05,
+      "pnl_pct": -0.06,
       "sl": 0.166292,
       "tp": 0.163316,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 6.495,
-      "current": 6.492,
+      "current": 6.488,
       "qty": 461.893764,
       "notional": 3000.0,
-      "unrealized": 1.39,
-      "pnl_pct": 0.046,
+      "unrealized": 3.23,
+      "pnl_pct": 0.108,
       "sl": 6.53397,
       "tp": 6.41706,
       "note": "z=2.38",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 8.349,
-      "current": 8.349,
+      "current": 8.344,
       "qty": 359.32447,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 1.8,
+      "pnl_pct": 0.06,
       "sl": 8.399094,
       "tp": 8.248812,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -3494,7 +3494,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 8.349,
+      "price": 8.344,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784482200000
@@ -3503,9 +3503,9 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.492,
-      "strength": 56.40837692488289,
-      "note": "z=2.26",
+      "price": 6.488,
+      "strength": 51.97183347252107,
+      "note": "z=2.08",
       "ts": 1784482200000
     }
   ],
@@ -3562,8 +3562,8 @@
     "losses": 83,
     "win_rate": 36.6,
     "total_pnl": -577.59,
-    "equity": 4367.19,
-    "unrealized": -10.71,
+    "equity": 4376.88,
+    "unrealized": -1.02,
     "closed_this_cycle": 0
   },
   "freqtrade": {
