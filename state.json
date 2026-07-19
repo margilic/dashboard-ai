@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T08:35:27.136068+00:00",
+  "cycle_at": "2026-07-19T08:36:27.144910+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4484.67,
+    "equity": 4489.54,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -10.59,
+    "unrealized_pnl": -5.72,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T08:35:27.136068+00:00"
+    "updated_at": "2026-07-19T08:36:27.144910+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.66,
+      "current": 568.53,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -18.68,
-      "pnl_pct": -0.187,
+      "unrealized": -16.38,
+      "pnl_pct": -0.164,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.357,
+      "current": 8.356,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 19.11,
-      "pnl_pct": 0.191,
+      "unrealized": 20.3,
+      "pnl_pct": 0.203,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07254,
+      "current": 0.07255,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -11.02,
-      "pnl_pct": -0.11,
+      "unrealized": -9.64,
+      "pnl_pct": -0.096,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3358,7 +3358,26 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 64642.0,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784449800000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 6.548,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784449800000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-19T05:20:00.586954+00:00",
     "model": "deepseek-chat",
@@ -3412,8 +3431,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4484.67,
-    "unrealized": -10.59,
+    "equity": 4489.54,
+    "unrealized": -5.72,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3430,7 +3449,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 07:50:01.565559",
         "open_rate": 64717.24,
-        "current_rate": 64648.27,
+        "current_rate": 64642.01,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.62,
