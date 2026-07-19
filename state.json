@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T07:14:26.592755+00:00",
+  "cycle_at": "2026-07-19T07:15:26.605839+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,40 +60,16 @@
   },
   "balance": {
     "USD": {
-      "free": 4472.01,
+      "free": 4491.12,
       "locked": 0
     },
-    "equity": 4449.74,
+    "equity": 4450.27,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -22.27,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-19T07:14:26.592755+00:00"
+    "unrealized_pnl": -40.85,
+    "realized_today": 19.11,
+    "updated_at": "2026-07-19T07:15:26.605839+00:00"
   },
   "open_positions": [
-    {
-      "id": "LINKUSDT-1784409321",
-      "trade_no": 116,
-      "trade_id": "T0116",
-      "binance_order_id": "",
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "entry": 8.371,
-      "current": 8.355,
-      "qty": 1194.600406,
-      "notional": 10000.0,
-      "unrealized": 19.11,
-      "pnl_pct": 0.191,
-      "sl": 8.421226,
-      "tp": 8.270548,
-      "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
-      "opened_at": 1784409321.097809,
-      "opened_iso": "2026-07-18T21:15:21.097809+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
     {
       "id": "DOGEUSDT-1784412681",
       "trade_no": 117,
@@ -127,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 569.01,
+      "current": 568.98,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -24.84,
-      "pnl_pct": -0.248,
+      "unrealized": -24.31,
+      "pnl_pct": -0.243,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -144,6 +120,35 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "LINKUSDT-1784409321",
+      "trade_no": 116,
+      "trade_id": "T0116",
+      "binance_order_id": "",
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 8.371,
+      "current": 8.355,
+      "qty": 1194.600406,
+      "notional": 10000.0,
+      "unrealized": 19.11,
+      "pnl_pct": 0.191,
+      "sl": 8.421226,
+      "tp": 8.270548,
+      "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1784409321.097809,
+      "opened_iso": "2026-07-18T21:15:21.097809+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 8.355,
+      "closed_at": 1784445326.605839,
+      "pnl": 19.11,
+      "exit_reason": "time",
+      "duration_s": 36005
+    },
     {
       "id": "BNBUSDT-1784420363",
       "trade_no": 118,
@@ -3348,15 +3353,15 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
-    "total_trades": 124,
-    "wins": 44,
+    "open": 2,
+    "total_trades": 125,
+    "wins": 45,
     "losses": 80,
-    "win_rate": 35.5,
-    "total_pnl": -489.81,
-    "equity": 4449.74,
-    "unrealized": -22.27,
-    "closed_this_cycle": 0
+    "win_rate": 36.0,
+    "total_pnl": -470.7,
+    "equity": 4450.27,
+    "unrealized": -40.85,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -3372,7 +3377,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 06:50:01.565553",
         "open_rate": 64705.0,
-        "current_rate": 64693.88,
+        "current_rate": 64691.29,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.52,
