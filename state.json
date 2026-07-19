@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T16:25:30.366332+00:00",
+  "cycle_at": "2026-07-19T16:26:30.379576+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4477.82,
       "locked": 0
     },
-    "equity": 4497.29,
+    "equity": 4494.34,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 19.47,
+    "unrealized_pnl": 16.52,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T16:25:30.366332+00:00"
+    "updated_at": "2026-07-19T16:26:30.379576+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.362,
+      "current": 8.361,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 13.14,
-      "pnl_pct": 0.131,
+      "unrealized": 14.33,
+      "pnl_pct": 0.143,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.0725,
+      "current": 0.07247,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -16.52,
-      "pnl_pct": -0.165,
+      "unrealized": -20.66,
+      "pnl_pct": -0.207,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3392,9 +3392,9 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0898,
-      "strength": 66,
-      "note": "RSI 76.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0897,
+      "strength": 63,
+      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784477700000
     }
   ],
@@ -3451,8 +3451,8 @@
     "losses": 81,
     "win_rate": 36.2,
     "total_pnl": -484.0,
-    "equity": 4497.29,
-    "unrealized": 19.47,
+    "equity": 4494.34,
+    "unrealized": 16.52,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3469,7 +3469,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-19 15:25:01.624957",
         "open_rate": 1872.14,
-        "current_rate": 1871.09,
+        "current_rate": 1870.69,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.86,
