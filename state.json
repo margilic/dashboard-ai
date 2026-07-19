@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T07:48:26.823470+00:00",
+  "cycle_at": "2026-07-19T07:49:26.831269+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4491.12,
       "locked": 0
     },
-    "equity": 4464.83,
+    "equity": 4465.72,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -26.29,
+    "unrealized_pnl": -25.4,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T07:48:26.823470+00:00"
+    "updated_at": "2026-07-19T07:49:26.831269+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07254,
-      "current": 0.07259,
+      "current": 0.07255,
       "qty": 137854.976565,
       "notional": 10000.0,
-      "unrealized": 6.89,
-      "pnl_pct": 0.069,
+      "unrealized": 1.38,
+      "pnl_pct": 0.014,
       "sl": 0.072105,
       "tp": 0.07341,
       "note": "20-bar tepe + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 569.28,
+      "current": 569.12,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -29.6,
-      "pnl_pct": -0.296,
+      "unrealized": -26.78,
+      "pnl_pct": -0.268,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.376,
+      "current": 8.373,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": -3.58,
-      "pnl_pct": -0.036,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -3329,17 +3329,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 8.376,
-      "strength": 51.55983841275591,
-      "note": "z=2.06",
-      "ts": 1784447100000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-19T05:20:00.586954+00:00",
     "model": "deepseek-chat",
@@ -3393,8 +3383,8 @@
     "losses": 80,
     "win_rate": 36.0,
     "total_pnl": -470.7,
-    "equity": 4464.83,
-    "unrealized": -26.29,
+    "equity": 4465.72,
+    "unrealized": -25.4,
     "closed_this_cycle": 0
   },
   "freqtrade": {
