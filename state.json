@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T21:44:32.598322+00:00",
+  "cycle_at": "2026-07-19T21:45:32.608742+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4345.29,
       "locked": 0
     },
-    "equity": 4355.38,
+    "equity": 4355.31,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 10.09,
+    "unrealized_pnl": 10.02,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T21:44:32.598322+00:00"
+    "updated_at": "2026-07-19T21:45:32.608742+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 8.349,
-      "current": 8.35,
+      "current": 8.348,
       "qty": 359.32447,
       "notional": 3000.0,
-      "unrealized": -0.36,
-      "pnl_pct": -0.012,
+      "unrealized": 0.36,
+      "pnl_pct": 0.012,
       "sl": 8.399094,
       "tp": 8.248812,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -127,16 +127,40 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 568.27,
-      "current": 568.85,
+      "current": 569.0,
       "qty": 5.279181,
       "notional": 3000.0,
-      "unrealized": -3.06,
-      "pnl_pct": -0.102,
+      "unrealized": -3.85,
+      "pnl_pct": -0.128,
       "sl": 571.67962,
       "tp": 561.45076,
       "note": "EMA9<EMA21 kesi\u015fim",
       "opened_at": 1784484031.051848,
       "opened_iso": "2026-07-19T18:00:31.051848+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "XRPUSDT-1784497532",
+      "trade_no": 130,
+      "trade_id": "T0130",
+      "binance_order_id": "",
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "entry": 1.0927,
+      "current": 1.0927,
+      "qty": 2745.492816,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 1.099256,
+      "tp": 1.079588,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "opened_at": 1784497532.608742,
+      "opened_iso": "2026-07-19T21:45:32.608742+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -3578,22 +3602,22 @@
   ],
   "signals": [
     {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 64373.65,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784496600000
-    },
-    {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 75.79,
+      "price": 75.83,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784496600000
+      "ts": 1784497500000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 1.0927,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784497500000
     }
   ],
   "swarm": {
@@ -3642,11 +3666,6 @@
     },
     "gated_this_cycle": [
       {
-        "symbol": "BTCUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      },
-      {
         "symbol": "SOLUSDT",
         "side": "SHORT",
         "reason": "desk=LONG"
@@ -3654,14 +3673,14 @@
     ]
   },
   "stats": {
-    "open": 3,
+    "open": 4,
     "total_trades": 134,
     "wins": 49,
     "losses": 85,
     "win_rate": 36.6,
     "total_pnl": -610.2,
-    "equity": 4355.38,
-    "unrealized": 10.09,
+    "equity": 4355.31,
+    "unrealized": 10.02,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3678,7 +3697,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 21:20:01.720198",
         "open_rate": 64490.01,
-        "current_rate": 64373.65,
+        "current_rate": 64376.18,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.8,
