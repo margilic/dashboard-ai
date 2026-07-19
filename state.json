@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T13:57:29.342964+00:00",
+  "cycle_at": "2026-07-19T13:58:29.346717+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4490.05,
+    "equity": 4490.21,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -5.21,
+    "unrealized_pnl": -5.05,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T13:57:29.342964+00:00"
+    "updated_at": "2026-07-19T13:58:29.346717+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.34,
+      "current": 568.31,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -13.04,
-      "pnl_pct": -0.13,
+      "unrealized": -12.51,
+      "pnl_pct": -0.125,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.348,
+      "current": 8.346,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 29.86,
-      "pnl_pct": 0.299,
+      "unrealized": 32.25,
+      "pnl_pct": 0.322,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07246,
+      "current": 0.07244,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -22.03,
-      "pnl_pct": -0.22,
+      "unrealized": -24.79,
+      "pnl_pct": -0.248,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3363,7 +3363,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1872.36,
+      "price": 1872.14,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784468700000
@@ -3422,8 +3422,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4490.05,
-    "unrealized": -5.21,
+    "equity": 4490.21,
+    "unrealized": -5.05,
     "closed_this_cycle": 0
   },
   "freqtrade": {
