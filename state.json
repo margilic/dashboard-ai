@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T09:09:27.360866+00:00",
+  "cycle_at": "2026-07-19T09:10:27.390098+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4499.04,
+    "equity": 4500.62,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 3.78,
+    "unrealized_pnl": 5.36,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T09:09:27.360866+00:00"
+    "updated_at": "2026-07-19T09:10:27.390098+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.5,
+      "current": 568.39,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -15.86,
-      "pnl_pct": -0.159,
+      "unrealized": -13.92,
+      "pnl_pct": -0.139,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.375,
+      "current": 8.373,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": -2.39,
-      "pnl_pct": -0.024,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07278,
+      "current": 0.07276,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": 22.03,
-      "pnl_pct": 0.22,
+      "unrealized": 19.28,
+      "pnl_pct": 0.193,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3372,7 +3372,7 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "Momentum Breakout",
-      "price": 0.07278,
+      "price": 0.07276,
       "strength": 75,
       "note": "20-bar tepe + hacim",
       "ts": 1784451600000
@@ -3381,7 +3381,7 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.07278,
+      "price": 0.07276,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784451600000
@@ -3393,24 +3393,6 @@
       "price": 0.0893,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784451600000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1.0989,
-      "strength": 63.22072199332289,
-      "note": "z=2.53",
-      "ts": 1784451600000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07278,
-      "strength": 61.21180505171918,
-      "note": "z=2.45",
       "ts": 1784451600000
     },
     {
@@ -3420,6 +3402,24 @@
       "price": 0.0893,
       "strength": 59.13980517630591,
       "note": "z=2.37",
+      "ts": 1784451600000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07276,
+      "strength": 58.33978961110261,
+      "note": "z=2.33",
+      "ts": 1784451600000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1.0985,
+      "strength": 55.10139115733265,
+      "note": "z=2.20",
       "ts": 1784451600000
     }
   ],
@@ -3476,8 +3476,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4499.04,
-    "unrealized": 3.78,
+    "equity": 4500.62,
+    "unrealized": 5.36,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3488,9 +3488,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 104,
+        "pair": "BTC/USDT",
+        "open_date": "2026-07-19 09:10:01.589611",
+        "open_rate": 64675.01,
+        "current_rate": 64674.0,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 499.94,
+        "amount": 0.00773,
+        "side": "LONG",
+        "sl_price": 63704.88,
+        "tp_price": 65968.51,
+        "trailing_active_price": 65192.41
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 103,
       "wins": 18,
       "losses": 85,
