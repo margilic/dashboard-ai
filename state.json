@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T12:02:28.552515+00:00",
+  "cycle_at": "2026-07-19T12:03:28.557762+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4507.58,
+    "equity": 4506.52,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 12.32,
+    "unrealized_pnl": 11.26,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T12:02:28.552515+00:00"
+    "updated_at": "2026-07-19T12:03:28.557762+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 567.47,
+      "current": 567.53,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": 2.29,
-      "pnl_pct": 0.023,
+      "unrealized": 1.23,
+      "pnl_pct": 0.012,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -3363,7 +3363,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 6.461,
+      "price": 6.459,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784462400000
@@ -3422,8 +3422,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4507.58,
-    "unrealized": 12.32,
+    "equity": 4506.52,
+    "unrealized": 11.26,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3440,7 +3440,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 10:55:01.619793",
         "open_rate": 64593.86,
-        "current_rate": 64444.0,
+        "current_rate": 64440.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.96,
