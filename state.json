@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T00:11:23.687311+00:00",
+  "cycle_at": "2026-07-19T00:12:23.714243+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4605.17,
       "locked": 0
     },
-    "equity": 4585.01,
+    "equity": 4576.09,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -20.16,
+    "unrealized_pnl": -29.08,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T00:11:23.687311+00:00"
+    "updated_at": "2026-07-19T00:12:23.714243+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0884,
-      "current": 0.088,
+      "current": 0.0879,
       "qty": 113122.171946,
       "notional": 10000.0,
-      "unrealized": -45.25,
-      "pnl_pct": -0.452,
+      "unrealized": -56.56,
+      "pnl_pct": -0.566,
       "sl": 0.087851,
       "tp": 0.089499,
       "note": "RSI 21.4 a\u015f\u0131r\u0131 sat\u0131m",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.35,
+      "current": 8.348,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 25.09,
-      "pnl_pct": 0.251,
+      "unrealized": 27.48,
+      "pnl_pct": 0.275,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -3242,7 +3242,26 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 0.0879,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784419200000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0879,
+      "strength": 56.87600363626007,
+      "note": "z=-2.28",
+      "ts": 1784419200000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-18T22:16:27.905485+00:00",
     "model": "deepseek-chat",
@@ -3296,8 +3315,8 @@
     "losses": 78,
     "win_rate": 36.1,
     "total_pnl": -356.65,
-    "equity": 4585.01,
-    "unrealized": -20.16,
+    "equity": 4576.09,
+    "unrealized": -29.08,
     "closed_this_cycle": 0
   },
   "freqtrade": {
