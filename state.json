@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T00:00:24.024787+00:00",
+  "cycle_at": "2026-07-19T00:01:23.625215+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4605.17,
       "locked": 0
     },
-    "equity": 4617.94,
+    "equity": 4623.91,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 12.77,
+    "unrealized_pnl": 18.74,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T00:00:24.024787+00:00"
+    "updated_at": "2026-07-19T00:01:23.625215+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.352,
+      "current": 8.347,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 22.7,
-      "pnl_pct": 0.227,
+      "unrealized": 28.67,
+      "pnl_pct": 0.287,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -3242,7 +3242,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 6.602,
+      "strength": 62.279534033836015,
+      "note": "z=2.49",
+      "ts": 1784419200000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-18T22:16:27.905485+00:00",
     "model": "deepseek-chat",
@@ -3296,8 +3306,8 @@
     "losses": 78,
     "win_rate": 36.1,
     "total_pnl": -356.65,
-    "equity": 4617.94,
-    "unrealized": 12.77,
+    "equity": 4623.91,
+    "unrealized": 18.74,
     "closed_this_cycle": 0
   },
   "freqtrade": {
