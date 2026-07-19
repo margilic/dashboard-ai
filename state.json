@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T04:23:25.441382+00:00",
+  "cycle_at": "2026-07-19T04:24:25.451200+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4472.01,
       "locked": 0
     },
-    "equity": 4472.19,
+    "equity": 4473.0,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 0.18,
+    "unrealized_pnl": 0.99,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T04:23:25.441382+00:00"
+    "updated_at": "2026-07-19T04:24:25.451200+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.339,
+      "current": 8.338,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 38.23,
-      "pnl_pct": 0.382,
+      "unrealized": 39.42,
+      "pnl_pct": 0.394,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07254,
-      "current": 0.07231,
+      "current": 0.07232,
       "qty": 137854.976565,
       "notional": 10000.0,
-      "unrealized": -31.71,
-      "pnl_pct": -0.317,
+      "unrealized": -30.33,
+      "pnl_pct": -0.303,
       "sl": 0.072105,
       "tp": 0.07341,
       "note": "20-bar tepe + hacim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 567.96,
+      "current": 568.06,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -6.34,
-      "pnl_pct": -0.063,
+      "unrealized": -8.1,
+      "pnl_pct": -0.081,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -3305,27 +3305,9 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 6.569,
+      "price": 6.57,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784434500000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 567.96,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784434500000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 567.96,
-      "strength": 50.46337650929294,
-      "note": "z=-2.02",
       "ts": 1784434500000
     }
   ],
@@ -3382,8 +3364,8 @@
     "losses": 80,
     "win_rate": 35.5,
     "total_pnl": -489.81,
-    "equity": 4472.19,
-    "unrealized": 0.18,
+    "equity": 4473.0,
+    "unrealized": 0.99,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3400,7 +3382,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 03:05:02.760181",
         "open_rate": 64780.87,
-        "current_rate": 64664.05,
+        "current_rate": 64671.49,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.46,
