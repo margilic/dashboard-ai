@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T03:15:24.981482+00:00",
+  "cycle_at": "2026-07-19T03:16:24.995604+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4537.3,
       "locked": 0
     },
-    "equity": 4538.08,
+    "equity": 4527.06,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 0.78,
+    "unrealized_pnl": -10.24,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T03:15:24.981482+00:00"
+    "updated_at": "2026-07-19T03:16:24.995604+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.371,
-      "current": 8.35,
+      "current": 8.343,
       "qty": 1194.600406,
       "notional": 10000.0,
-      "unrealized": 25.09,
-      "pnl_pct": 0.251,
+      "unrealized": 33.45,
+      "pnl_pct": 0.334,
       "sl": 8.421226,
       "tp": 8.270548,
       "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07254,
-      "current": 0.07253,
+      "current": 0.07243,
       "qty": 137854.976565,
       "notional": 10000.0,
-      "unrealized": -1.38,
-      "pnl_pct": -0.014,
+      "unrealized": -15.16,
+      "pnl_pct": -0.152,
       "sl": 0.072105,
       "tp": 0.07341,
       "note": "20-bar tepe + hacim",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 571.33,
-      "current": 570.02,
+      "current": 569.7,
       "qty": 17.503019,
       "notional": 10000.0,
-      "unrealized": -22.93,
-      "pnl_pct": -0.229,
+      "unrealized": -28.53,
+      "pnl_pct": -0.285,
       "sl": 567.90202,
       "tp": 578.18596,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -3271,7 +3271,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 64692.92,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784430900000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-19T00:15:04.487232+00:00",
     "model": "deepseek-chat",
@@ -3325,8 +3335,8 @@
     "losses": 79,
     "win_rate": 35.8,
     "total_pnl": -424.52,
-    "equity": 4538.08,
-    "unrealized": 0.78,
+    "equity": 4527.06,
+    "unrealized": -10.24,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3343,7 +3353,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 03:05:02.760181",
         "open_rate": 64780.87,
-        "current_rate": 64730.98,
+        "current_rate": 64698.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.46,
