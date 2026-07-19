@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T14:11:29.442599+00:00",
+  "cycle_at": "2026-07-19T14:12:29.446211+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,40 +60,16 @@
   },
   "balance": {
     "USD": {
-      "free": 4495.26,
+      "free": 4477.82,
       "locked": 0
     },
-    "equity": 4496.2,
+    "equity": 4495.65,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 0.94,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-19T14:11:29.442599+00:00"
+    "unrealized_pnl": 17.83,
+    "realized_today": -17.44,
+    "updated_at": "2026-07-19T14:12:29.446211+00:00"
   },
   "open_positions": [
-    {
-      "id": "BNBUSDT-1784434345",
-      "trade_no": 119,
-      "trade_id": "T0119",
-      "binance_order_id": "",
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "entry": 567.6,
-      "current": 568.47,
-      "qty": 17.618041,
-      "notional": 10000.0,
-      "unrealized": -15.33,
-      "pnl_pct": -0.153,
-      "sl": 571.0056,
-      "tp": 560.7888,
-      "note": "20-bar dip + hacim",
-      "opened_at": 1784434345.366112,
-      "opened_iso": "2026-07-19T04:12:25.366112+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
     {
       "id": "LINKUSDT-1784446646",
       "trade_no": 120,
@@ -103,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.349,
+      "current": 8.35,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 28.66,
-      "pnl_pct": 0.287,
+      "unrealized": 27.47,
+      "pnl_pct": 0.275,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +103,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07253,
+      "current": 0.07255,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -12.39,
-      "pnl_pct": -0.124,
+      "unrealized": -9.64,
+      "pnl_pct": -0.096,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -144,6 +120,35 @@
     }
   ],
   "recent_trades": [
+    {
+      "id": "BNBUSDT-1784434345",
+      "trade_no": 119,
+      "trade_id": "T0119",
+      "binance_order_id": "",
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "entry": 567.6,
+      "current": 568.47,
+      "qty": 17.618041,
+      "notional": 10000.0,
+      "unrealized": -15.33,
+      "pnl_pct": -0.174,
+      "sl": 571.0056,
+      "tp": 560.7888,
+      "note": "20-bar dip + hacim",
+      "opened_at": 1784434345.366112,
+      "opened_iso": "2026-07-19T04:12:25.366112+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 568.59,
+      "closed_at": 1784470349.446211,
+      "pnl": -17.44,
+      "exit_reason": "time",
+      "duration_s": 36004
+    },
     {
       "id": "DOGEUSDT-1784412681",
       "trade_no": 117,
@@ -3363,7 +3368,7 @@
       "symbol": "SOLUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 76.22,
+      "price": 76.27,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784469600000
@@ -3413,18 +3418,24 @@
         "at": "2026-07-19T12:02:28.534265+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "SOLUSDT",
+        "side": "LONG",
+        "reason": "desk=WAIT"
+      }
+    ]
   },
   "stats": {
-    "open": 3,
-    "total_trades": 126,
+    "open": 2,
+    "total_trades": 127,
     "wins": 46,
-    "losses": 80,
-    "win_rate": 36.5,
-    "total_pnl": -466.56,
-    "equity": 4496.2,
-    "unrealized": 0.94,
-    "closed_this_cycle": 0
+    "losses": 81,
+    "win_rate": 36.2,
+    "total_pnl": -484.0,
+    "equity": 4495.65,
+    "unrealized": 17.83,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
