@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T12:17:28.656256+00:00",
+  "cycle_at": "2026-07-19T12:18:28.661820+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4514.27,
+    "equity": 4508.92,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 19.01,
+    "unrealized_pnl": 13.66,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T12:17:28.656256+00:00"
+    "updated_at": "2026-07-19T12:18:28.661820+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 567.31,
+      "current": 567.55,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": 5.11,
-      "pnl_pct": 0.051,
+      "unrealized": 0.88,
+      "pnl_pct": 0.009,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.336,
+      "current": 8.345,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 44.19,
-      "pnl_pct": 0.442,
+      "unrealized": 33.44,
+      "pnl_pct": 0.334,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.0724,
+      "current": 0.07247,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": -30.29,
-      "pnl_pct": -0.303,
+      "unrealized": -20.66,
+      "pnl_pct": -0.207,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3363,32 +3363,14 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 6.431,
+      "price": 6.437,
       "strength": 75,
       "note": "20-bar dip + hacim",
-      "ts": 1784463300000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 1.0931,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784463300000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 6.431,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784463300000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-19T10:15:46.638887+00:00",
+    "updated_at": "2026-07-19T12:18:21.402388+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -3397,38 +3379,38 @@
       "BTCUSDT": {
         "direction": "LONG",
         "conviction": "HIGH",
-        "score": 69.0,
-        "sl": 64113,
+        "score": 73.0,
+        "sl": null,
         "tp": null,
-        "rationale": "Kurumsal dip al\u0131m\u0131, sa\u011fl\u0131kl\u0131 fonlama rejimi ve short squeeze potansiyeli ile t\u00fcm sinyaller bullish uyumlu. Skor 69.",
+        "rationale": "Sa\u011fl\u0131kl\u0131 fonlama, k\u0131sa squeeze ($64.4k-$65k aras\u0131 $282M) ve on-chain b\u00fcy\u00fcme. Y\u00fcksek uyumlu bullish sinyal.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784455347.717019,
-        "at": "2026-07-19T10:02:27.717019+00:00"
+        "ts": 1784462548.534265,
+        "at": "2026-07-19T12:02:28.534265+00:00"
       },
       "ETHUSDT": {
-        "direction": "SHORT",
+        "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": -1.0,
+        "score": -4.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kar\u0131\u015f\u0131k sinyaller: fonlama so\u011fudu ancak perakende uzun a\u011f\u0131rl\u0131kl\u0131 ve k\u0131sa s\u0131k\u0131\u015fma ya\u015fand\u0131. Hafif d\u00fc\u015f\u00fc\u015f e\u011filimi.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "K\u0131sa likidasyon duvar\u0131 $1,870\u2013$1,880 aral\u0131\u011f\u0131nda bask\u0131n; k\u0131sa vadeli taktiksel long, ancak zincir \u00fcst\u00fc ak\u0131\u015flar y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
+        "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1784455347.717019,
-        "at": "2026-07-19T10:02:27.717019+00:00"
+        "ts": 1784462548.534265,
+        "at": "2026-07-19T12:02:28.534265+00:00"
       },
       "SOLUSDT": {
-        "direction": "LONG",
-        "conviction": "LOW",
-        "score": 3.0,
+        "direction": "NEUTRAL",
+        "conviction": "HIGH",
+        "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "Kar\u0131\u015f\u0131k sinyaller; short squeeze potansiyeli var ancak zincir \u00fcst\u00fc da\u011f\u0131t\u0131m g\u00f6r\u00fcl\u00fcyor. D\u00fc\u015f\u00fck g\u00fcvenle LONG.",
+        "rationale": "Bekleme \u00f6nerisi, konsolidasyon devam ediyor, hafif d\u00fc\u015f\u00fc\u015f e\u011filimi.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784455347.717019,
-        "at": "2026-07-19T10:02:27.717019+00:00"
+        "ts": 1784462548.534265,
+        "at": "2026-07-19T12:02:28.534265+00:00"
       }
     },
     "gated_this_cycle": []
@@ -3440,8 +3422,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4514.27,
-    "unrealized": 19.01,
+    "equity": 4508.92,
+    "unrealized": 13.66,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3458,7 +3440,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 10:55:01.619793",
         "open_rate": 64593.86,
-        "current_rate": 64384.16,
+        "current_rate": 64378.01,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.96,
