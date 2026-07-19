@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T07:57:26.886332+00:00",
+  "cycle_at": "2026-07-19T07:58:26.893003+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4491.12,
       "locked": 0
     },
-    "equity": 4459.08,
+    "equity": 4459.58,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -32.04,
+    "unrealized_pnl": -31.54,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T07:57:26.886332+00:00"
+    "updated_at": "2026-07-19T07:58:26.893003+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.86,
+      "current": 568.9,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -22.2,
-      "pnl_pct": -0.222,
+      "unrealized": -22.9,
+      "pnl_pct": -0.229,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.372,
+      "current": 8.371,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 1.19,
-      "pnl_pct": 0.012,
+      "unrealized": 2.39,
+      "pnl_pct": 0.024,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -3334,7 +3334,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 6.558,
+      "price": 6.559,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784447100000
@@ -3402,8 +3402,8 @@
     "losses": 80,
     "win_rate": 36.0,
     "total_pnl": -470.7,
-    "equity": 4459.08,
-    "unrealized": -32.04,
+    "equity": 4459.58,
+    "unrealized": -31.54,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3420,7 +3420,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 07:50:01.565559",
         "open_rate": 64717.24,
-        "current_rate": 64691.84,
+        "current_rate": 64691.83,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.62,
