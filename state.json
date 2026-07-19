@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T17:33:30.827343+00:00",
+  "cycle_at": "2026-07-19T17:34:30.837285+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4356.4,
       "locked": 0
     },
-    "equity": 4383.38,
+    "equity": 4382.68,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 26.98,
+    "unrealized_pnl": 26.28,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T17:33:30.827343+00:00"
+    "updated_at": "2026-07-19T17:34:30.837285+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 568.92,
-      "current": 569.3,
+      "current": 569.26,
       "qty": 17.577164,
       "notional": 10000.0,
-      "unrealized": 6.68,
-      "pnl_pct": 0.067,
+      "unrealized": 5.98,
+      "pnl_pct": 0.06,
       "sl": 565.50648,
       "tp": 575.74704,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -3450,7 +3450,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1873.2,
+      "price": 1873.13,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784482200000
@@ -3459,9 +3459,9 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.489,
-      "strength": 53.11462706228488,
-      "note": "z=2.12",
+      "price": 6.491,
+      "strength": 55.332754062376,
+      "note": "z=2.21",
       "ts": 1784482200000
     }
   ],
@@ -3518,8 +3518,8 @@
     "losses": 83,
     "win_rate": 35.7,
     "total_pnl": -605.42,
-    "equity": 4383.38,
-    "unrealized": 26.98,
+    "equity": 4382.68,
+    "unrealized": 26.28,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3536,7 +3536,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-19 17:20:01.766254",
         "open_rate": 1868.49,
-        "current_rate": 1873.24,
+        "current_rate": 1873.12,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.82,
