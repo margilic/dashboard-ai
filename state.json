@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T10:56:28.102640+00:00",
+  "cycle_at": "2026-07-19T10:57:28.109104+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4495.26,
       "locked": 0
     },
-    "equity": 4492.2,
+    "equity": 4486.49,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -3.06,
+    "unrealized_pnl": -8.77,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T10:56:28.102640+00:00"
+    "updated_at": "2026-07-19T10:57:28.109104+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.6,
-      "current": 568.31,
+      "current": 568.4,
       "qty": 17.618041,
       "notional": 10000.0,
-      "unrealized": -12.51,
-      "pnl_pct": -0.125,
+      "unrealized": -14.09,
+      "pnl_pct": -0.141,
       "sl": 571.0056,
       "tp": 560.7888,
       "note": "20-bar dip + hacim",
@@ -127,11 +127,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.07262,
-      "current": 0.07268,
+      "current": 0.07265,
       "qty": 137703.11209,
       "notional": 10000.0,
-      "unrealized": 8.26,
-      "pnl_pct": 0.083,
+      "unrealized": 4.13,
+      "pnl_pct": 0.041,
       "sl": 0.072184,
       "tp": 0.073491,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
@@ -3367,15 +3367,6 @@
       "strength": 75,
       "note": "20-bar tepe + hacim",
       "ts": 1784457900000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "LONG",
-      "strategy": "Momentum Breakout",
-      "price": 0.07268,
-      "strength": 75,
-      "note": "20-bar tepe + hacim",
-      "ts": 1784457900000
     }
   ],
   "swarm": {
@@ -3431,8 +3422,8 @@
     "losses": 80,
     "win_rate": 36.5,
     "total_pnl": -466.56,
-    "equity": 4492.2,
-    "unrealized": -3.06,
+    "equity": 4486.49,
+    "unrealized": -8.77,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3449,7 +3440,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-19 10:55:01.619793",
         "open_rate": 64593.86,
-        "current_rate": 64592.29,
+        "current_rate": 64592.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.96,
