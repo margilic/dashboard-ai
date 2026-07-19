@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T17:35:30.863473+00:00",
+  "cycle_at": "2026-07-19T17:36:19.324007+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -45,7 +45,7 @@
       "rr_target": 2.0,
       "adaptive_v3": false
     },
-    "leverage": 10,
+    "leverage": 3,
     "risk_per_trade_pct": 0.02
   },
   "strategy_performance": {
@@ -63,11 +63,11 @@
       "free": 4356.4,
       "locked": 0
     },
-    "equity": 4383.03,
+    "equity": 4370.65,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 26.63,
+    "unrealized_pnl": 14.25,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T17:35:30.863473+00:00"
+    "updated_at": "2026-07-19T17:36:19.324007+00:00"
   },
   "open_positions": [
     {
@@ -95,30 +95,6 @@
       "tp_pct": 1.2
     },
     {
-      "id": "BNBUSDT-1784471729",
-      "trade_no": 122,
-      "trade_id": "T0122",
-      "binance_order_id": "",
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "entry": 568.92,
-      "current": 569.28,
-      "qty": 17.577164,
-      "notional": 10000.0,
-      "unrealized": 6.33,
-      "pnl_pct": 0.063,
-      "sl": 565.50648,
-      "tp": 575.74704,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "opened_at": 1784471729.606032,
-      "opened_iso": "2026-07-19T14:35:29.606032+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
-    {
       "id": "ADAUSDT-1784481390",
       "trade_no": 124,
       "trade_id": "T0124",
@@ -127,11 +103,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1653,
-      "current": 0.1653,
+      "current": 0.1654,
       "qty": 60496.067756,
       "notional": 10000.0,
-      "unrealized": -0.0,
-      "pnl_pct": -0.0,
+      "unrealized": -6.05,
+      "pnl_pct": -0.06,
       "sl": 0.166292,
       "tp": 0.163316,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -141,9 +117,48 @@
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
+    },
+    {
+      "id": "AVAXUSDT-1784482579",
+      "trade_no": 125,
+      "trade_id": "T0125",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 6.495,
+      "current": 6.495,
+      "qty": 461.893764,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 6.53397,
+      "tp": 6.41706,
+      "note": "z=2.38",
+      "opened_at": 1784482579.324007,
+      "opened_iso": "2026-07-19T17:36:19.324007+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
     }
   ],
   "recent_trades": [
+    {
+      "id": "BNBUSDT-1784471729-emergency",
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "entry": 568.92,
+      "exit": 569.28,
+      "pnl": 6.33,
+      "net_pnl": 6.33,
+      "exit_reason": "emergency-LONG-kapama",
+      "closed_at": 1784482575.661952,
+      "closed_iso": "2026-07-19T17:36:15.662176+00:00",
+      "qty": 17.577164,
+      "notional": 10000.0
+    },
     {
       "id": "ADAUSDT-1784480490",
       "trade_no": 123,
@@ -3447,21 +3462,12 @@
   ],
   "signals": [
     {
-      "symbol": "ETHUSDT",
-      "side": "LONG",
-      "strategy": "EMA Cross",
-      "price": 1873.28,
-      "strength": 70,
-      "note": "EMA9>EMA21 kesi\u015fim",
-      "ts": 1784482200000
-    },
-    {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.492,
-      "strength": 56.40837692488289,
-      "note": "z=2.26",
+      "price": 6.495,
+      "strength": 59.50372409698276,
+      "note": "z=2.38",
       "ts": 1784482200000
     }
   ],
@@ -3513,13 +3519,13 @@
   },
   "stats": {
     "open": 3,
-    "total_trades": 129,
-    "wins": 46,
+    "total_trades": 130,
+    "wins": 47,
     "losses": 83,
-    "win_rate": 35.7,
-    "total_pnl": -605.42,
-    "equity": 4383.03,
-    "unrealized": 26.63,
+    "win_rate": 36.2,
+    "total_pnl": -599.09,
+    "equity": 4370.65,
+    "unrealized": 14.25,
     "closed_this_cycle": 0
   },
   "freqtrade": {
