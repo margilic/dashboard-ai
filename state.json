@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T17:22:30.754765+00:00",
+  "cycle_at": "2026-07-19T17:23:30.753065+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4356.4,
       "locked": 0
     },
-    "equity": 4394.34,
+    "equity": 4398.22,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 37.94,
+    "unrealized_pnl": 41.82,
     "realized_today": 0.0,
-    "updated_at": "2026-07-19T17:22:30.754765+00:00"
+    "updated_at": "2026-07-19T17:23:30.753065+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.373,
-      "current": 8.351,
+      "current": 8.346,
       "qty": 1194.31506,
       "notional": 10000.0,
-      "unrealized": 26.27,
-      "pnl_pct": 0.263,
+      "unrealized": 32.25,
+      "pnl_pct": 0.322,
       "sl": 8.423238,
       "tp": 8.272524,
       "note": "z=2.05",
@@ -103,11 +103,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 568.92,
-      "current": 569.24,
+      "current": 569.12,
       "qty": 17.577164,
       "notional": 10000.0,
-      "unrealized": 5.62,
-      "pnl_pct": 0.056,
+      "unrealized": 3.52,
+      "pnl_pct": 0.035,
       "sl": 565.50648,
       "tp": 575.74704,
       "note": "EMA9>EMA21 kesi\u015fim",
@@ -3447,6 +3447,15 @@
   ],
   "signals": [
     {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 8.346,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784481300000
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
@@ -3509,8 +3518,8 @@
     "losses": 83,
     "win_rate": 35.7,
     "total_pnl": -605.42,
-    "equity": 4394.34,
-    "unrealized": 37.94,
+    "equity": 4398.22,
+    "unrealized": 41.82,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -3527,7 +3536,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-19 17:20:01.766254",
         "open_rate": 1868.49,
-        "current_rate": 1869.15,
+        "current_rate": 1868.91,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.82,
