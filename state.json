@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-19T17:37:30.866440+00:00",
+  "cycle_at": "2026-07-19T17:38:30.878292+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4377.9,
       "locked": 0
     },
-    "equity": 4366.72,
+    "equity": 4359.75,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -11.18,
-    "realized_today": 21.5,
-    "updated_at": "2026-07-19T17:37:30.866440+00:00"
+    "unrealized_pnl": -18.15,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-19T17:38:30.878292+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1653,
-      "current": 0.1655,
+      "current": 0.1656,
       "qty": 60496.067756,
       "notional": 10000.0,
-      "unrealized": -12.1,
-      "pnl_pct": -0.121,
+      "unrealized": -18.15,
+      "pnl_pct": -0.181,
       "sl": 0.166292,
       "tp": 0.163316,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 6.495,
-      "current": 6.493,
+      "current": 6.495,
       "qty": 461.893764,
       "notional": 3000.0,
-      "unrealized": 0.92,
-      "pnl_pct": 0.031,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 6.53397,
       "tp": 6.41706,
       "note": "z=2.38",
@@ -3470,9 +3470,9 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.493,
-      "strength": 57.46194030871175,
-      "note": "z=2.30",
+      "price": 6.495,
+      "strength": 59.50372409698276,
+      "note": "z=2.38",
       "ts": 1784482200000
     }
   ],
@@ -3529,9 +3529,9 @@
     "losses": 83,
     "win_rate": 36.6,
     "total_pnl": -577.59,
-    "equity": 4366.72,
-    "unrealized": -11.18,
-    "closed_this_cycle": 1
+    "equity": 4359.75,
+    "unrealized": -18.15,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
