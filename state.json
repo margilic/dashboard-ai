@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T15:46:40.358733+00:00",
+  "cycle_at": "2026-07-20T15:47:40.361804+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4117.81,
       "locked": 0
     },
-    "equity": 4107.9,
+    "equity": 4113.2,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -9.91,
+    "unrealized_pnl": -4.61,
     "realized_today": 0.0,
-    "updated_at": "2026-07-20T15:46:40.358733+00:00"
+    "updated_at": "2026-07-20T15:47:40.361804+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.0908,
-      "current": 0.0911,
+      "current": 0.091,
       "qty": 33039.647577,
       "notional": 3000.0,
-      "unrealized": -9.91,
-      "pnl_pct": -0.33,
+      "unrealized": -6.61,
+      "pnl_pct": -0.22,
       "sl": 0.09164,
       "tp": 0.089121,
       "note": "z=2.18",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.0733,
-      "current": 0.0733,
+      "current": 0.07321,
       "qty": 40927.694407,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 3.68,
+      "pnl_pct": 0.123,
       "sl": 0.07374,
       "tp": 0.07242,
       "note": "z=2.20",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 572.99,
-      "current": 572.99,
+      "current": 573.31,
       "qty": 5.235693,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -1.68,
+      "pnl_pct": -0.056,
       "sl": 576.42794,
       "tp": 566.11412,
       "note": "z=2.08",
@@ -4680,66 +4680,48 @@
   ],
   "signals": [
     {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.0911,
-      "strength": 60,
-      "note": "RSI 75.0 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784562300000
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 65351.9,
-      "strength": 57.57048347843465,
-      "note": "z=2.30",
-      "ts": 1784562300000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0733,
-      "strength": 54.87538398904343,
-      "note": "z=2.20",
-      "ts": 1784562300000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1898.72,
-      "strength": 53.80072985863366,
-      "note": "z=2.15",
-      "ts": 1784562300000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0911,
-      "strength": 53.61368716567182,
-      "note": "z=2.14",
+      "price": 65370.19,
+      "strength": 58.636391337423234,
+      "note": "z=2.35",
       "ts": 1784562300000
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 572.99,
-      "strength": 51.91435363319996,
-      "note": "z=2.08",
+      "price": 573.31,
+      "strength": 55.07670592279411,
+      "note": "z=2.20",
       "ts": 1784562300000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 77.48,
-      "strength": 50.24848720835602,
-      "note": "z=2.01",
+      "price": 77.54,
+      "strength": 53.1903230970415,
+      "note": "z=2.13",
+      "ts": 1784562300000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.091,
+      "strength": 51.89864895814216,
+      "note": "z=2.08",
+      "ts": 1784562300000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1897.63,
+      "strength": 51.826650647938,
+      "note": "z=2.07",
       "ts": 1784562300000
     }
   ],
@@ -4794,12 +4776,12 @@
         "reason": "desk=LONG"
       },
       {
-        "symbol": "ETHUSDT",
+        "symbol": "SOLUSDT",
         "side": "SHORT",
         "reason": "desk=LONG"
       },
       {
-        "symbol": "SOLUSDT",
+        "symbol": "ETHUSDT",
         "side": "SHORT",
         "reason": "desk=LONG"
       }
@@ -4812,8 +4794,8 @@
     "losses": 114,
     "win_rate": 33.7,
     "total_pnl": -837.7,
-    "equity": 4107.9,
-    "unrealized": -9.91,
+    "equity": 4113.2,
+    "unrealized": -4.61,
     "closed_this_cycle": 0
   },
   "freqtrade": {
