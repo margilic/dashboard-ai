@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T14:01:39.563112+00:00",
+  "cycle_at": "2026-07-20T14:02:39.585763+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4245.49,
       "locked": 0
     },
-    "equity": 4321.84,
+    "equity": 4285.24,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 76.35,
+    "unrealized_pnl": 39.75,
     "realized_today": 0.0,
-    "updated_at": "2026-07-20T14:01:39.563112+00:00"
+    "updated_at": "2026-07-20T14:02:39.585763+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 568.49,
-      "current": 566.26,
+      "current": 567.15,
       "qty": 5.277138,
       "notional": 3000.0,
-      "unrealized": 11.77,
-      "pnl_pct": 0.392,
+      "unrealized": 7.07,
+      "pnl_pct": 0.236,
       "sl": 571.90094,
       "tp": 561.66812,
       "note": "z=2.19",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07255,
-      "current": 0.07191,
+      "current": 0.07208,
       "qty": 41350.792557,
       "notional": 3000.0,
-      "unrealized": 26.46,
-      "pnl_pct": 0.882,
+      "unrealized": 19.43,
+      "pnl_pct": 0.648,
       "sl": 0.072985,
       "tp": 0.071679,
       "note": "z=2.01",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 1.1013,
-      "current": 1.0898,
+      "current": 1.0918,
       "qty": 2724.053391,
       "notional": 3000.0,
-      "unrealized": 31.33,
-      "pnl_pct": 1.044,
+      "unrealized": 25.88,
+      "pnl_pct": 0.863,
       "sl": 1.107908,
       "tp": 1.088084,
       "note": "z=2.84",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0884,
-      "current": 0.0882,
+      "current": 0.0885,
       "qty": 33936.651584,
       "notional": 3000.0,
-      "unrealized": 6.79,
-      "pnl_pct": 0.226,
+      "unrealized": -3.39,
+      "pnl_pct": -0.113,
       "sl": 0.088957,
       "tp": 0.087286,
       "note": "RSI 78.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1624,
-      "current": 0.1624,
+      "current": 0.1629,
       "qty": 18472.906404,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -9.24,
+      "pnl_pct": -0.308,
       "sl": 0.163386,
       "tp": 0.160427,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -4470,27 +4470,9 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 1859.71,
+      "price": 1863.99,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784556000000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 0.1624,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784556000000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 76.13,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784556000000
     }
   ],
@@ -4538,13 +4520,7 @@
         "at": "2026-07-20T12:02:38.649664+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "ETHUSDT",
-        "side": "SHORT",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 5,
@@ -4553,8 +4529,8 @@
     "losses": 106,
     "win_rate": 35.0,
     "total_pnl": -710.01,
-    "equity": 4321.84,
-    "unrealized": 76.35,
+    "equity": 4285.24,
+    "unrealized": 39.75,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -4571,7 +4547,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-20 13:55:01.641882",
         "open_rate": 64348.0,
-        "current_rate": 64288.01,
+        "current_rate": 64394.01,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.98,
