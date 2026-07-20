@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T12:17:38.775899+00:00",
+  "cycle_at": "2026-07-20T12:18:38.781430+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4205.68,
       "locked": 0
     },
-    "equity": 4207.02,
+    "equity": 4212.23,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 1.34,
+    "unrealized_pnl": 6.55,
     "realized_today": 0.0,
-    "updated_at": "2026-07-20T12:17:38.775899+00:00"
+    "updated_at": "2026-07-20T12:18:38.781430+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 568.49,
-      "current": 569.83,
+      "current": 569.72,
       "qty": 5.277138,
       "notional": 3000.0,
-      "unrealized": -7.07,
-      "pnl_pct": -0.236,
+      "unrealized": -6.49,
+      "pnl_pct": -0.216,
       "sl": 571.90094,
       "tp": 561.66812,
       "note": "z=2.19",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07255,
-      "current": 0.07272,
+      "current": 0.07269,
       "qty": 41350.792557,
       "notional": 3000.0,
-      "unrealized": -7.03,
-      "pnl_pct": -0.234,
+      "unrealized": -5.79,
+      "pnl_pct": -0.193,
       "sl": 0.072985,
       "tp": 0.071679,
       "note": "z=2.01",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0884,
-      "current": 0.0884,
+      "current": 0.0883,
       "qty": 33936.651584,
       "notional": 3000.0,
-      "unrealized": -0.0,
-      "pnl_pct": -0.0,
+      "unrealized": 3.39,
+      "pnl_pct": 0.113,
       "sl": 0.088957,
       "tp": 0.087286,
       "note": "RSI 78.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -4441,27 +4441,27 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07272,
-      "strength": 74,
-      "note": "RSI 78.7 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.07269,
+      "strength": 73,
+      "note": "RSI 78.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784549700000
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.0884,
-      "strength": 73,
-      "note": "RSI 78.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0883,
+      "strength": 71,
+      "note": "RSI 77.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784549700000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.481,
-      "strength": 72,
-      "note": "RSI 78.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.477,
+      "strength": 70,
+      "note": "RSI 77.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784549700000
     },
     {
@@ -4484,7 +4484,7 @@
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-20T10:14:48.563790+00:00",
+    "updated_at": "2026-07-20T12:18:40.368562+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -4492,39 +4492,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "NEUTRAL",
-        "conviction": "HIGH",
-        "score": -42.0,
+        "conviction": "LOW",
+        "score": -6.0,
         "sl": null,
         "tp": null,
-        "rationale": "Piyasa n\u00f6tr baz yakalama: ayr\u0131\u015fan sinyaller (bearish ak\u0131\u015f/fonlama ama sa\u011fl\u0131kl\u0131 mikro yap\u0131).",
+        "rationale": "\u00dc\u00e7 boyutlu sinyal uyumsuzlu\u011fu: likidasyon k\u0131sa s\u0131k\u0131\u015fma, zincir \u00fcst\u00fc d\u00fc\u015f\u00fc\u015f, fonlama n\u00f6tr. Bile\u015fik skor 4.7/10, d\u00fc\u015f\u00fck g\u00fcvenle bekleyin.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784541757.793415,
-        "at": "2026-07-20T10:02:37.793415+00:00"
+        "ts": 1784548958.649664,
+        "at": "2026-07-20T12:02:38.649664+00:00"
       },
       "ETHUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": 0.05,
+        "score": -22.0,
         "sl": null,
         "tp": null,
-        "rationale": "Karma\u015f\u0131k sinyaller, net skor +0.05, likidasyon riski bask\u0131n. Bekle ve k\u0131r\u0131lma sonras\u0131 short e\u011filimi.",
+        "rationale": "Net y\u00f6n uyumu yok, finansman n\u00f6tr-bullish, likidasyon bearish, ak\u0131\u015f hafif bullish; bekle-g\u00f6r.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784541757.793415,
-        "at": "2026-07-20T10:02:37.793415+00:00"
+        "ts": 1784548958.649664,
+        "at": "2026-07-20T12:02:38.649664+00:00"
       },
       "SOLUSDT": {
         "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": -12.0,
+        "conviction": "MEDIUM",
+        "score": 58.0,
         "sl": null,
         "tp": null,
-        "rationale": "Sinyaller uyumsuz (funding bo\u011fa d\u00f6n\u00fc\u015f\u00fc, zincir d\u00fc\u015f\u00fc\u015f, likidasyon n\u00f6tr). Kompozit skor -0.12. Beklemenizi \u00f6neririz.",
+        "rationale": "N\u00f6tr-bullish e\u011filim, fonlama toparlan\u0131yor, stablecoin giri\u015fi var ancak likidasyon riski ve long/short oran\u0131 y\u00fcksek.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784541757.793415,
-        "at": "2026-07-20T10:02:37.793415+00:00"
+        "ts": 1784548958.649664,
+        "at": "2026-07-20T12:02:38.649664+00:00"
       }
     },
     "gated_this_cycle": []
@@ -4536,8 +4536,8 @@
     "losses": 106,
     "win_rate": 34.6,
     "total_pnl": -749.82,
-    "equity": 4207.02,
-    "unrealized": 1.34,
+    "equity": 4212.23,
+    "unrealized": 6.55,
     "closed_this_cycle": 0
   },
   "freqtrade": {
