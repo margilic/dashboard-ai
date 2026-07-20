@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T15:06:40.060460+00:00",
+  "cycle_at": "2026-07-20T15:07:40.072611+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4201.98,
       "locked": 0
     },
-    "equity": 4178.3,
+    "equity": 4172.92,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -23.68,
-    "realized_today": -20.32,
-    "updated_at": "2026-07-20T15:06:40.060460+00:00"
+    "unrealized_pnl": -29.06,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-20T15:07:40.072611+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 568.49,
-      "current": 569.49,
+      "current": 569.66,
       "qty": 5.277138,
       "notional": 3000.0,
-      "unrealized": -5.28,
-      "pnl_pct": -0.176,
+      "unrealized": -6.17,
+      "pnl_pct": -0.206,
       "sl": 571.90094,
       "tp": 561.66812,
       "note": "z=2.19",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07255,
-      "current": 0.07265,
+      "current": 0.07267,
       "qty": 41350.792557,
       "notional": 3000.0,
-      "unrealized": -4.14,
-      "pnl_pct": -0.138,
+      "unrealized": -4.96,
+      "pnl_pct": -0.165,
       "sl": 0.072985,
       "tp": 0.071679,
       "note": "z=2.01",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 6.524,
-      "current": 6.555,
+      "current": 6.563,
       "qty": 459.840589,
       "notional": 3000.0,
-      "unrealized": -14.26,
-      "pnl_pct": -0.475,
+      "unrealized": -17.93,
+      "pnl_pct": -0.598,
       "sl": 6.56427,
       "tp": 6.44346,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -4616,9 +4616,9 @@
     "losses": 110,
     "win_rate": 34.5,
     "total_pnl": -753.53,
-    "equity": 4178.3,
-    "unrealized": -23.68,
-    "closed_this_cycle": 1
+    "equity": 4172.92,
+    "unrealized": -29.06,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
