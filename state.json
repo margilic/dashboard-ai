@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T10:00:37.791098+00:00",
+  "cycle_at": "2026-07-20T10:01:37.786217+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4374.68,
       "locked": 0
     },
-    "equity": 4358.99,
+    "equity": 4368.68,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -15.69,
+    "unrealized_pnl": -6.0,
     "realized_today": 0.0,
-    "updated_at": "2026-07-20T10:00:37.791098+00:00"
+    "updated_at": "2026-07-20T10:01:37.786217+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.0936,
-      "current": 1.0904,
+      "current": 1.09,
       "qty": 2743.233358,
       "notional": 3000.0,
-      "unrealized": 8.78,
-      "pnl_pct": 0.293,
+      "unrealized": 9.88,
+      "pnl_pct": 0.329,
       "sl": 1.100162,
       "tp": 1.080477,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.4,
-      "current": 8.406,
+      "current": 8.392,
       "qty": 357.142857,
       "notional": 3000.0,
-      "unrealized": -2.14,
-      "pnl_pct": -0.071,
+      "unrealized": 2.86,
+      "pnl_pct": 0.095,
       "sl": 8.4504,
       "tp": 8.2992,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07199,
-      "current": 0.07205,
+      "current": 0.07201,
       "qty": 41672.454508,
       "notional": 3000.0,
-      "unrealized": -2.5,
-      "pnl_pct": -0.083,
+      "unrealized": -0.83,
+      "pnl_pct": -0.028,
       "sl": 0.072422,
       "tp": 0.071126,
       "note": "20-bar dip + hacim",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 1855.9,
-      "current": 1864.26,
+      "current": 1863.53,
       "qty": 1.616466,
       "notional": 3000.0,
-      "unrealized": -13.51,
-      "pnl_pct": -0.45,
+      "unrealized": -12.33,
+      "pnl_pct": -0.411,
       "sl": 1867.0354,
       "tp": 1833.6292,
       "note": "20-bar dip + hacim",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 564.64,
-      "current": 565.83,
+      "current": 565.69,
       "qty": 5.31312,
       "notional": 3000.0,
-      "unrealized": -6.32,
-      "pnl_pct": -0.211,
+      "unrealized": -5.58,
+      "pnl_pct": -0.186,
       "sl": 568.02784,
       "tp": 557.86432,
       "note": "20-bar dip + hacim",
@@ -4204,17 +4204,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 8.406,
-      "strength": 50.59962812854113,
-      "note": "z=2.02",
-      "ts": 1784541600000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-20T05:15:04.973939+00:00",
     "model": "deepseek-chat",
@@ -4268,8 +4258,8 @@
     "losses": 98,
     "win_rate": 36.4,
     "total_pnl": -580.81,
-    "equity": 4358.99,
-    "unrealized": -15.69,
+    "equity": 4368.68,
+    "unrealized": -6.0,
     "closed_this_cycle": 0
   },
   "freqtrade": {
