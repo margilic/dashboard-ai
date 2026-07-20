@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T05:14:35.690756+00:00",
+  "cycle_at": "2026-07-20T05:15:35.712553+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4374.68,
       "locked": 0
     },
-    "equity": 4395.06,
+    "equity": 4388.28,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 20.38,
+    "unrealized_pnl": 13.6,
     "realized_today": 0.0,
-    "updated_at": "2026-07-20T05:14:35.690756+00:00"
+    "updated_at": "2026-07-20T05:15:35.712553+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.0936,
-      "current": 1.0894,
+      "current": 1.09,
       "qty": 2743.233358,
       "notional": 3000.0,
-      "unrealized": 11.52,
-      "pnl_pct": 0.384,
+      "unrealized": 9.88,
+      "pnl_pct": 0.329,
       "sl": 1.100162,
       "tp": 1.080477,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.4,
-      "current": 8.363,
+      "current": 8.367,
       "qty": 357.142857,
       "notional": 3000.0,
-      "unrealized": 13.21,
-      "pnl_pct": 0.44,
+      "unrealized": 11.79,
+      "pnl_pct": 0.393,
       "sl": 8.4504,
       "tp": 8.2992,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07199,
-      "current": 0.07186,
+      "current": 0.0719,
       "qty": 41672.454508,
       "notional": 3000.0,
-      "unrealized": 5.42,
-      "pnl_pct": 0.181,
+      "unrealized": 3.75,
+      "pnl_pct": 0.125,
       "sl": 0.072422,
       "tp": 0.071126,
       "note": "20-bar dip + hacim",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 1855.9,
-      "current": 1858.72,
+      "current": 1859.4,
       "qty": 1.616466,
       "notional": 3000.0,
-      "unrealized": -4.56,
-      "pnl_pct": -0.152,
+      "unrealized": -5.66,
+      "pnl_pct": -0.189,
       "sl": 1867.0354,
       "tp": 1833.6292,
       "note": "20-bar dip + hacim",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 564.64,
-      "current": 565.62,
+      "current": 565.8,
       "qty": 5.31312,
       "notional": 3000.0,
-      "unrealized": -5.21,
-      "pnl_pct": -0.174,
+      "unrealized": -6.16,
+      "pnl_pct": -0.205,
       "sl": 568.02784,
       "tp": 557.86432,
       "note": "20-bar dip + hacim",
@@ -4206,183 +4206,129 @@
   ],
   "signals": [
     {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 8.367,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784524500000
+    },
+    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 64238.0,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
+      "strategy": "Bollinger Breakout",
+      "price": 64244.99,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784524500000
     },
     {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 1858.72,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
+      "strategy": "Bollinger Breakout",
+      "price": 1859.4,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784524500000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 76.06,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
+      "strategy": "Bollinger Breakout",
+      "price": 76.04,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784524500000
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 565.62,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
+      "strategy": "Bollinger Breakout",
+      "price": 565.8,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784524500000
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 1.0894,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
+      "strategy": "Bollinger Breakout",
+      "price": 1.09,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784524500000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.07186,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.1631,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.0865,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 76.06,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 0.07186,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784523600000
+      "strategy": "Bollinger Breakout",
+      "price": 0.0719,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784524500000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 8.363,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 64238.0,
+      "price": 8.367,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784523600000
+      "ts": 1784524500000
     },
     {
-      "symbol": "ETHUSDT",
+      "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 1858.72,
+      "price": 0.1632,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 76.06,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 565.62,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784523600000
+      "ts": 1784524500000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-20T04:20:47.393818+00:00",
+    "updated_at": "2026-07-20T05:15:04.973939+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 15.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "N\u00f6tr hafif y\u00fckseli\u015f e\u011filimi. Bile\u015fik skor 5.75/10. Sinyaller kar\u0131\u015f\u0131k: funding sa\u011fl\u0131kl\u0131, ancak mikro yap\u0131 sat\u0131\u015f bask\u0131s\u0131 g\u00f6steriyor.",
-        "extract_model": "deepseek-v4-flash",
-        "target": "BTC-USDT",
-        "ts": 1784520155.189599,
-        "at": "2026-07-20T04:02:35.189599+00:00"
-      },
-      "ETHUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -40.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "D\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc asimetrik risk, likidasyon mikro yap\u0131s\u0131 ve fonlama divergans\u0131 nedeniyle.",
-        "extract_model": "deepseek-v4-flash",
-        "target": "ETH-USDT",
-        "ts": 1784520155.189599,
-        "at": "2026-07-20T04:02:35.189599+00:00"
-      },
-      "SOLUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 5.0,
+        "score": 34.0,
         "sl": null,
         "tp": null,
-        "rationale": "Likidasyon mikro yap\u0131s\u0131 k\u0131sa vadeli bask\u0131n sinyal; a\u015f\u0131r\u0131 long pozisyonlanma temkinli olmay\u0131 gerektiriyor.",
+        "rationale": "Likidasyon asimetrisi k\u0131sa squeeze potansiyeli yarat\u0131yor ancak on-chain ak\u0131\u015fta sermaye giri\u015fi yok, bu nedenle y\u00f6nl\u00fc k\u0131r\u0131lma yerine y\u00fckseli\u015f e\u011filimli bant ticareti \u00f6neriliyor.",
+        "extract_model": "deepseek-chat",
+        "target": "BTC-USDT",
+        "ts": 1784523755.594194,
+        "at": "2026-07-20T05:02:35.594194+00:00"
+      },
+      "ETHUSDT": {
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": -5.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "ETF giri\u015fleri g\u00fc\u00e7l\u00fc, ancak likidasyon riski ve stablecoin daralmas\u0131 dengeleyici; dip al\u0131m stratejisi.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "ETH-USDT",
+        "ts": 1784523755.594194,
+        "at": "2026-07-20T05:02:35.594194+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": -20.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Sinyaller z\u0131t y\u00f6nl\u00fc, on-chain ak\u0131\u015f bullish fakat fonlama ve likidasyon bearish. Beklemedeyiz.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784520155.189599,
-        "at": "2026-07-20T04:02:35.189599+00:00"
+        "ts": 1784523755.594194,
+        "at": "2026-07-20T05:02:35.594194+00:00"
       }
     },
     "gated_this_cycle": []
@@ -4394,8 +4340,8 @@
     "losses": 98,
     "win_rate": 36.4,
     "total_pnl": -580.81,
-    "equity": 4395.06,
-    "unrealized": 20.38,
+    "equity": 4388.28,
+    "unrealized": 13.6,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -4412,7 +4358,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-20 04:10:01.568516",
         "open_rate": 64740.0,
-        "current_rate": 64236.53,
+        "current_rate": 64267.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.79,
