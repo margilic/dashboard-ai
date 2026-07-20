@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T15:31:40.250250+00:00",
+  "cycle_at": "2026-07-20T15:32:40.257147+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4164.11,
       "locked": 0
     },
-    "equity": 4127.32,
+    "equity": 4135.67,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -36.79,
+    "unrealized_pnl": -28.44,
     "realized_today": 0.0,
-    "updated_at": "2026-07-20T15:31:40.250250+00:00"
+    "updated_at": "2026-07-20T15:32:40.257147+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 568.49,
-      "current": 571.04,
+      "current": 570.72,
       "qty": 5.277138,
       "notional": 3000.0,
-      "unrealized": -13.46,
-      "pnl_pct": -0.449,
+      "unrealized": -11.77,
+      "pnl_pct": -0.392,
       "sl": 571.90094,
       "tp": 561.66812,
       "note": "z=2.19",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.09,
-      "current": 0.0907,
+      "current": 0.0905,
       "qty": 33333.333333,
       "notional": 3000.0,
-      "unrealized": -23.33,
-      "pnl_pct": -0.778,
+      "unrealized": -16.67,
+      "pnl_pct": -0.556,
       "sl": 0.090795,
       "tp": 0.088411,
       "note": "z=2.17",
@@ -4596,17 +4596,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0907,
-      "strength": 52.61998267530734,
-      "note": "z=2.10",
-      "ts": 1784561400000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-20T14:17:46.978494+00:00",
     "model": "deepseek-chat",
@@ -4660,8 +4650,8 @@
     "losses": 112,
     "win_rate": 34.1,
     "total_pnl": -791.4,
-    "equity": 4127.32,
-    "unrealized": -36.79,
+    "equity": 4135.67,
+    "unrealized": -28.44,
     "closed_this_cycle": 0
   },
   "freqtrade": {
