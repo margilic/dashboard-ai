@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T05:10:35.662080+00:00",
+  "cycle_at": "2026-07-20T05:11:35.672623+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,14 +60,14 @@
   },
   "balance": {
     "USD": {
-      "free": 4252.38,
+      "free": 4288.61,
       "locked": 0
     },
-    "equity": 4359.6,
+    "equity": 4377.98,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 107.22,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-20T05:10:35.662080+00:00"
+    "unrealized_pnl": 89.37,
+    "realized_today": 36.23,
+    "updated_at": "2026-07-20T05:11:35.672623+00:00"
   },
   "open_positions": [
     {
@@ -79,40 +79,16 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 571.71,
-      "current": 565.91,
+      "current": 565.38,
       "qty": 5.247416,
       "notional": 3000.0,
-      "unrealized": 30.44,
-      "pnl_pct": 1.015,
+      "unrealized": 33.22,
+      "pnl_pct": 1.107,
       "sl": 575.14026,
       "tp": 564.84948,
       "note": "RSI 80.4 a\u015f\u0131r\u0131 al\u0131m",
       "opened_at": 1784499752.861107,
       "opened_iso": "2026-07-19T22:22:32.861107+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
-    {
-      "id": "DOGEUSDT-1784506293",
-      "trade_no": 138,
-      "trade_id": "T0138",
-      "binance_order_id": "",
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "entry": 0.07287,
-      "current": 0.07206,
-      "qty": 41169.205434,
-      "notional": 3000.0,
-      "unrealized": 33.35,
-      "pnl_pct": 1.112,
-      "sl": 0.073307,
-      "tp": 0.071996,
-      "note": "z=3.24",
-      "opened_at": 1784506293.610114,
-      "opened_iso": "2026-07-20T00:11:33.610114+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -127,11 +103,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.1654,
-      "current": 0.1635,
+      "current": 0.1632,
       "qty": 18137.847642,
       "notional": 3000.0,
-      "unrealized": 34.46,
-      "pnl_pct": 1.149,
+      "unrealized": 39.9,
+      "pnl_pct": 1.33,
       "sl": 0.166548,
       "tp": 0.163104,
       "note": "EMA9<EMA21 kesi\u015fim",
@@ -151,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.0936,
-      "current": 1.0915,
+      "current": 1.0908,
       "qty": 2743.233358,
       "notional": 3000.0,
-      "unrealized": 5.76,
-      "pnl_pct": 0.192,
+      "unrealized": 7.68,
+      "pnl_pct": 0.256,
       "sl": 1.100162,
       "tp": 1.080477,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -175,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.4,
-      "current": 8.391,
+      "current": 8.376,
       "qty": 357.142857,
       "notional": 3000.0,
-      "unrealized": 3.21,
-      "pnl_pct": 0.107,
+      "unrealized": 8.57,
+      "pnl_pct": 0.286,
       "sl": 8.4504,
       "tp": 8.2992,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -189,9 +165,62 @@
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
+    },
+    {
+      "id": "DOGEUSDT-1784524295",
+      "trade_no": 149,
+      "trade_id": "T0149",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "entry": 0.07199,
+      "current": 0.07199,
+      "qty": 41672.454508,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.072422,
+      "tp": 0.071126,
+      "note": "20-bar dip + hacim",
+      "opened_at": 1784524295.672623,
+      "opened_iso": "2026-07-20T05:11:35.672623+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
     }
   ],
   "recent_trades": [
+    {
+      "id": "DOGEUSDT-1784506293",
+      "trade_no": 138,
+      "trade_id": "T0138",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.07287,
+      "current": 0.07206,
+      "qty": 41169.205434,
+      "notional": 3000.0,
+      "unrealized": 33.35,
+      "pnl_pct": 1.208,
+      "sl": 0.073307,
+      "tp": 0.071996,
+      "note": "z=3.24",
+      "opened_at": 1784506293.610114,
+      "opened_iso": "2026-07-20T00:11:33.610114+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 0.07199,
+      "closed_at": 1784524295.672623,
+      "pnl": 36.23,
+      "exit_reason": "TP",
+      "duration_s": 18002
+    },
     {
       "id": "AVAXUSDT-1784516014",
       "trade_no": 146,
@@ -4119,10 +4148,37 @@
   ],
   "signals": [
     {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 64335.79,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784523600000
+    },
+    {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 565.91,
+      "price": 565.38,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784523600000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 1.0908,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784523600000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 0.07199,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784523600000
@@ -4131,7 +4187,7 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 0.1635,
+      "price": 0.1632,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784523600000
@@ -4149,7 +4205,7 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 76.22,
+      "price": 76.1,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784523600000
@@ -4158,7 +4214,7 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.07206,
+      "price": 0.07199,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784523600000
@@ -4167,7 +4223,7 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 64405.99,
+      "price": 64335.79,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784523600000
@@ -4176,7 +4232,7 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 1864.36,
+      "price": 1860.62,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784523600000
@@ -4185,7 +4241,7 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 76.22,
+      "price": 76.1,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784523600000
@@ -4194,7 +4250,7 @@
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 565.91,
+      "price": 565.38,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784523600000
@@ -4203,7 +4259,7 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 1.0915,
+      "price": 1.0908,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784523600000
@@ -4212,7 +4268,7 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.07206,
+      "price": 0.07199,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784523600000
@@ -4221,25 +4277,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 8.391,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 0.1635,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784523600000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 0.0861,
+      "price": 8.376,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784523600000
@@ -4289,18 +4327,24 @@
         "at": "2026-07-20T04:02:35.189599+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "BTCUSDT",
+        "side": "SHORT",
+        "reason": "desk=WAIT"
+      }
+    ]
   },
   "stats": {
     "open": 5,
-    "total_trades": 151,
-    "wins": 53,
+    "total_trades": 152,
+    "wins": 54,
     "losses": 98,
-    "win_rate": 35.1,
-    "total_pnl": -703.11,
-    "equity": 4359.6,
-    "unrealized": 107.22,
-    "closed_this_cycle": 0
+    "win_rate": 35.5,
+    "total_pnl": -666.88,
+    "equity": 4377.98,
+    "unrealized": 89.37,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -4316,7 +4360,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-20 04:10:01.568516",
         "open_rate": 64740.0,
-        "current_rate": 64405.98,
+        "current_rate": 64333.55,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.79,
