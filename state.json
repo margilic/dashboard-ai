@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-20T15:43:40.332347+00:00",
+  "cycle_at": "2026-07-20T15:44:40.347108+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4117.81,
       "locked": 0
     },
-    "equity": 4117.81,
+    "equity": 4121.11,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 0.0,
-    "realized_today": -46.3,
-    "updated_at": "2026-07-20T15:43:40.332347+00:00"
+    "unrealized_pnl": 3.3,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-20T15:44:40.347108+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.0908,
-      "current": 0.0908,
+      "current": 0.0907,
       "qty": 33039.647577,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 3.3,
+      "pnl_pct": 0.11,
       "sl": 0.09164,
       "tp": 0.089121,
       "note": "z=2.18",
@@ -4635,18 +4635,18 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 65220.01,
-      "strength": 57.79688826041121,
-      "note": "z=2.31",
+      "price": 65225.99,
+      "strength": 58.19463179960381,
+      "note": "z=2.33",
       "ts": 1784561400000
     },
     {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.0908,
-      "strength": 54.42928785883816,
-      "note": "z=2.18",
+      "price": 0.0907,
+      "strength": 52.61998267530734,
+      "note": "z=2.10",
       "ts": 1784561400000
     }
   ],
@@ -4709,9 +4709,9 @@
     "losses": 114,
     "win_rate": 33.7,
     "total_pnl": -837.7,
-    "equity": 4117.81,
-    "unrealized": 0.0,
-    "closed_this_cycle": 2
+    "equity": 4121.11,
+    "unrealized": 3.3,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
