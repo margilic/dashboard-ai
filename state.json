@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T15:14:50.291278+00:00",
+  "cycle_at": "2026-07-21T15:15:50.396408+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3880.82,
       "locked": 0
     },
-    "equity": 3925.55,
+    "equity": 3930.15,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 44.73,
+    "unrealized_pnl": 49.33,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T15:14:50.291278+00:00"
+    "updated_at": "2026-07-21T15:15:50.396408+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0737,
-      "current": 0.07327,
+      "current": 0.07323,
       "qty": 40705.563094,
       "notional": 3000.0,
-      "unrealized": 17.5,
-      "pnl_pct": 0.583,
+      "unrealized": 19.13,
+      "pnl_pct": 0.638,
       "sl": 0.074142,
       "tp": 0.072816,
       "note": "RSI 84.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 6.579,
-      "current": 6.595,
+      "current": 6.594,
       "qty": 455.996352,
       "notional": 3000.0,
-      "unrealized": -7.3,
-      "pnl_pct": -0.243,
+      "unrealized": -6.84,
+      "pnl_pct": -0.228,
       "sl": 6.618474,
       "tp": 6.500052,
       "note": "20-bar dip + hacim",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.1511,
-      "current": 1.149,
+      "current": 1.1487,
       "qty": 2606.202763,
       "notional": 3000.0,
-      "unrealized": 5.47,
-      "pnl_pct": 0.182,
+      "unrealized": 6.25,
+      "pnl_pct": 0.208,
       "sl": 1.158007,
       "tp": 1.137287,
       "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.671,
-      "current": 8.675,
+      "current": 8.67,
       "qty": 345.980856,
       "notional": 3000.0,
-      "unrealized": -1.38,
-      "pnl_pct": -0.046,
+      "unrealized": 0.35,
+      "pnl_pct": 0.012,
       "sl": 8.723026,
       "tp": 8.566948,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -5335,53 +5335,7 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 77.95,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784646000000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 6.595,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784646000000
-    },
-    {
-      "symbol": "LINKUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 8.675,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784646000000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 77.95,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784646000000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 6.595,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784646000000
-    }
-  ],
+  "signals": [],
   "swarm": {
     "updated_at": "2026-07-21T14:16:50.662571+00:00",
     "model": "deepseek-chat",
@@ -5435,8 +5389,8 @@
     "losses": 130,
     "win_rate": 32.6,
     "total_pnl": -1074.69,
-    "equity": 3925.55,
-    "unrealized": 44.73,
+    "equity": 3930.15,
+    "unrealized": 49.33,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5453,7 +5407,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-21 14:20:01.599251",
         "open_rate": 1936.78,
-        "current_rate": 1928.54,
+        "current_rate": 1928.38,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.88,
