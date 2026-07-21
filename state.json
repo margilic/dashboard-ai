@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T16:58:50.981305+00:00",
+  "cycle_at": "2026-07-21T16:59:50.990750+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3913.58,
       "locked": 0
     },
-    "equity": 3922.58,
+    "equity": 3921.54,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 9.0,
+    "unrealized_pnl": 7.96,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T16:58:50.981305+00:00"
+    "updated_at": "2026-07-21T16:59:50.990750+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.1511,
-      "current": 1.1504,
+      "current": 1.1508,
       "qty": 2606.202763,
       "notional": 3000.0,
-      "unrealized": 1.82,
-      "pnl_pct": 0.061,
+      "unrealized": 0.78,
+      "pnl_pct": 0.026,
       "sl": 1.158007,
       "tp": 1.137287,
       "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -178,8 +178,8 @@
       "current": 0.1735,
       "qty": 17291.066282,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 0.174726,
       "tp": 0.171049,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -5515,8 +5515,8 @@
     "losses": 132,
     "win_rate": 33.0,
     "total_pnl": -1041.93,
-    "equity": 3922.58,
-    "unrealized": 9.0,
+    "equity": 3921.54,
+    "unrealized": 7.96,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5533,7 +5533,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-21 14:20:01.599251",
         "open_rate": 1936.78,
-        "current_rate": 1926.94,
+        "current_rate": 1926.38,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.88,
