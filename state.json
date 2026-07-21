@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T14:40:50.083222+00:00",
+  "cycle_at": "2026-07-21T14:41:50.087580+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,14 +60,14 @@
   },
   "balance": {
     "USD": {
-      "free": 3841.6,
+      "free": 3881.64,
       "locked": 0
     },
-    "equity": 3919.41,
+    "equity": 3939.48,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 77.81,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-21T14:40:50.083222+00:00"
+    "unrealized_pnl": 57.84,
+    "realized_today": 40.04,
+    "updated_at": "2026-07-21T14:41:50.087580+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.722,
-      "current": 8.693,
+      "current": 8.682,
       "qty": 343.957808,
       "notional": 3000.0,
-      "unrealized": 9.97,
-      "pnl_pct": 0.332,
+      "unrealized": 13.76,
+      "pnl_pct": 0.459,
       "sl": 8.774332,
       "tp": 8.617336,
       "note": "z=2.58",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.1774,
-      "current": 0.1759,
+      "current": 0.1757,
       "qty": 16910.935738,
       "notional": 3000.0,
-      "unrealized": 25.37,
-      "pnl_pct": 0.846,
+      "unrealized": 28.75,
+      "pnl_pct": 0.958,
       "sl": 0.179031,
       "tp": 0.174139,
       "note": "RSI 84.6 a\u015f\u0131r\u0131 al\u0131m",
@@ -119,30 +119,6 @@
       "tp_pct": 1.838
     },
     {
-      "id": "AVAXUSDT-1784615506",
-      "trade_no": 184,
-      "trade_id": "T0184",
-      "binance_order_id": "",
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "entry": 6.668,
-      "current": 6.593,
-      "qty": 449.910018,
-      "notional": 3000.0,
-      "unrealized": 33.74,
-      "pnl_pct": 1.125,
-      "sl": 6.708008,
-      "tp": 6.587984,
-      "note": "z=2.08",
-      "opened_at": 1784615506.472308,
-      "opened_iso": "2026-07-21T06:31:46.472308+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
-    {
       "id": "DOGEUSDT-1784621687",
       "trade_no": 186,
       "trade_id": "T0186",
@@ -151,11 +127,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0737,
-      "current": 0.07326,
+      "current": 0.07313,
       "qty": 40705.563094,
       "notional": 3000.0,
-      "unrealized": 17.91,
-      "pnl_pct": 0.597,
+      "unrealized": 23.2,
+      "pnl_pct": 0.773,
       "sl": 0.074142,
       "tp": 0.072816,
       "note": "RSI 84.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -175,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 1.1441,
-      "current": 1.1476,
+      "current": 1.1471,
       "qty": 2622.148414,
       "notional": 3000.0,
-      "unrealized": -9.18,
-      "pnl_pct": -0.306,
+      "unrealized": -7.87,
+      "pnl_pct": -0.262,
       "sl": 1.150965,
       "tp": 1.130371,
       "note": "z=2.66",
@@ -189,9 +165,62 @@
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
+    },
+    {
+      "id": "AVAXUSDT-1784644910",
+      "trade_no": 188,
+      "trade_id": "T0188",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "entry": 6.579,
+      "current": 6.579,
+      "qty": 455.996352,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 6.618474,
+      "tp": 6.500052,
+      "note": "20-bar dip + hacim",
+      "opened_at": 1784644910.08758,
+      "opened_iso": "2026-07-21T14:41:50.087580+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
     }
   ],
   "recent_trades": [
+    {
+      "id": "AVAXUSDT-1784615506",
+      "trade_no": 184,
+      "trade_id": "T0184",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 6.668,
+      "current": 6.593,
+      "qty": 449.910018,
+      "notional": 3000.0,
+      "unrealized": 33.74,
+      "pnl_pct": 1.335,
+      "sl": 6.708008,
+      "tp": 6.587984,
+      "note": "z=2.08",
+      "opened_at": 1784615506.472308,
+      "opened_iso": "2026-07-21T06:31:46.472308+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 6.579,
+      "closed_at": 1784644910.08758,
+      "pnl": 40.04,
+      "exit_reason": "TP",
+      "duration_s": 29403
+    },
     {
       "id": "XRPUSDT-1784610285",
       "trade_no": 180,
@@ -5250,10 +5279,19 @@
   ],
   "signals": [
     {
-      "symbol": "AVAXUSDT",
+      "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Momentum Breakout",
-      "price": 6.593,
+      "price": 77.96,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784644200000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 0.07313,
       "strength": 75,
       "note": "20-bar dip + hacim",
       "ts": 1784644200000
@@ -5261,8 +5299,44 @@
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 6.579,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784644200000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 1931.15,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784644200000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 6.593,
+      "price": 77.96,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784644200000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 0.07313,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784644200000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 6.579,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784644200000
@@ -5312,18 +5386,24 @@
         "at": "2026-07-21T14:02:49.812655+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "SOLUSDT",
+        "side": "SHORT",
+        "reason": "desk=LONG"
+      }
+    ]
   },
   "stats": {
     "open": 5,
-    "total_trades": 190,
-    "wins": 61,
+    "total_trades": 191,
+    "wins": 62,
     "losses": 129,
-    "win_rate": 32.1,
-    "total_pnl": -1113.91,
-    "equity": 3919.41,
-    "unrealized": 77.81,
-    "closed_this_cycle": 0
+    "win_rate": 32.5,
+    "total_pnl": -1073.87,
+    "equity": 3939.48,
+    "unrealized": 57.84,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
@@ -5339,7 +5419,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-21 14:20:01.599251",
         "open_rate": 1936.78,
-        "current_rate": 1934.98,
+        "current_rate": 1931.21,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.88,
