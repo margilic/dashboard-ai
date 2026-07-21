@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T05:32:46.025575+00:00",
+  "cycle_at": "2026-07-21T05:33:46.031939+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3950.18,
       "locked": 0
     },
-    "equity": 3949.36,
+    "equity": 3942.71,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -0.82,
+    "unrealized_pnl": -7.47,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T05:32:46.025575+00:00"
+    "updated_at": "2026-07-21T05:33:46.031939+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 573.31,
-      "current": 574.24,
+      "current": 574.13,
       "qty": 5.232771,
       "notional": 3000.0,
-      "unrealized": -4.87,
-      "pnl_pct": -0.162,
+      "unrealized": -4.29,
+      "pnl_pct": -0.143,
       "sl": 576.74986,
       "tp": 566.43028,
       "note": "RSI 75.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.722,
-      "current": 8.701,
+      "current": 8.706,
       "qty": 343.957808,
       "notional": 3000.0,
-      "unrealized": 7.22,
-      "pnl_pct": 0.241,
+      "unrealized": 5.5,
+      "pnl_pct": 0.183,
       "sl": 8.774332,
       "tp": 8.617336,
       "note": "z=2.58",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.1366,
-      "current": 1.1322,
+      "current": 1.1317,
       "qty": 2639.450994,
       "notional": 3000.0,
-      "unrealized": 11.61,
-      "pnl_pct": 0.387,
+      "unrealized": 12.93,
+      "pnl_pct": 0.431,
       "sl": 1.14342,
       "tp": 1.122961,
       "note": "RSI 83.6 a\u015f\u0131r\u0131 al\u0131m",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.1756,
-      "current": 0.1762,
+      "current": 0.1766,
       "qty": 17084.28246,
       "notional": 3000.0,
-      "unrealized": -10.25,
-      "pnl_pct": -0.342,
+      "unrealized": -17.08,
+      "pnl_pct": -0.569,
       "sl": 0.177084,
       "tp": 0.172633,
       "note": "RSI 81.6 a\u015f\u0131r\u0131 al\u0131m",
@@ -5105,21 +5105,21 @@
   ],
   "signals": [
     {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 1.1322,
-      "strength": 92,
-      "note": "RSI 83.0 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784611800000
-    },
-    {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.1762,
-      "strength": 82,
-      "note": "RSI 80.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.1766,
+      "strength": 93,
+      "note": "RSI 83.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784611800000
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 1.1317,
+      "strength": 90,
+      "note": "RSI 82.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784611800000
     },
     {
@@ -5132,21 +5132,21 @@
       "ts": 1784611800000
     },
     {
-      "symbol": "ETHUSDT",
+      "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1924.42,
-      "strength": 60,
-      "note": "RSI 75.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.706,
+      "strength": 61,
+      "note": "RSI 75.4 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784611800000
     },
     {
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.1762,
-      "strength": 57.18714086907967,
-      "note": "z=2.29",
+      "price": 0.1766,
+      "strength": 60.62462011058572,
+      "note": "z=2.42",
       "ts": 1784611800000
     }
   ],
@@ -5203,8 +5203,8 @@
     "losses": 124,
     "win_rate": 33.0,
     "total_pnl": -1005.33,
-    "equity": 3949.36,
-    "unrealized": -0.82,
+    "equity": 3942.71,
+    "unrealized": -7.47,
     "closed_this_cycle": 0
   },
   "freqtrade": {
