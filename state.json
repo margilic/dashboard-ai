@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T22:02:53.034548+00:00",
+  "cycle_at": "2026-07-21T22:03:53.046851+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3945.55,
       "locked": 0
     },
-    "equity": 4005.15,
+    "equity": 4001.85,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 59.6,
+    "unrealized_pnl": 56.3,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T22:02:53.034548+00:00"
+    "updated_at": "2026-07-21T22:03:53.046851+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.671,
-      "current": 8.621,
+      "current": 8.622,
       "qty": 345.980856,
       "notional": 3000.0,
-      "unrealized": 17.3,
-      "pnl_pct": 0.577,
+      "unrealized": 16.95,
+      "pnl_pct": 0.565,
       "sl": 8.723026,
       "tp": 8.566948,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 0.1735,
-      "current": 0.1727,
+      "current": 0.1728,
       "qty": 17291.066282,
       "notional": 3000.0,
-      "unrealized": 13.83,
-      "pnl_pct": 0.461,
+      "unrealized": 12.1,
+      "pnl_pct": 0.403,
       "sl": 0.174726,
       "tp": 0.171049,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07358,
-      "current": 0.07325,
+      "current": 0.07328,
       "qty": 40771.948899,
       "notional": 3000.0,
-      "unrealized": 13.45,
-      "pnl_pct": 0.448,
+      "unrealized": 12.23,
+      "pnl_pct": 0.408,
       "sl": 0.074021,
       "tp": 0.072697,
       "note": "z=2.17",
@@ -5543,7 +5543,7 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.07325,
+      "price": 0.07328,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784671200000
@@ -5553,15 +5553,6 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "price": 1.1422,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784671200000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 0.1727,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784671200000
@@ -5620,8 +5611,8 @@
     "losses": 133,
     "win_rate": 33.5,
     "total_pnl": -1009.96,
-    "equity": 4005.15,
-    "unrealized": 59.6,
+    "equity": 4001.85,
+    "unrealized": 56.3,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5638,7 +5629,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-21 21:25:02.094925",
         "open_rate": 66354.0,
-        "current_rate": 66362.81,
+        "current_rate": 66353.99,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.65,
