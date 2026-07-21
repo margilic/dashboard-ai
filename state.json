@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T20:54:52.583253+00:00",
+  "cycle_at": "2026-07-21T20:55:52.584353+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3905.4,
       "locked": 0
     },
-    "equity": 3952.81,
+    "equity": 3953.14,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 47.41,
+    "unrealized_pnl": 47.74,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T20:54:52.583253+00:00"
+    "updated_at": "2026-07-21T20:55:52.584353+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.671,
-      "current": 8.632,
+      "current": 8.63,
       "qty": 345.980856,
       "notional": 3000.0,
-      "unrealized": 13.49,
-      "pnl_pct": 0.45,
+      "unrealized": 14.19,
+      "pnl_pct": 0.473,
       "sl": 8.723026,
       "tp": 8.566948,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 1.1583,
-      "current": 1.1489,
+      "current": 1.1492,
       "qty": 2590.00259,
       "notional": 3000.0,
-      "unrealized": 24.35,
-      "pnl_pct": 0.812,
+      "unrealized": 23.57,
+      "pnl_pct": 0.786,
       "sl": 1.16525,
       "tp": 1.1444,
       "note": "z=2.03",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07358,
-      "current": 0.07355,
+      "current": 0.07354,
       "qty": 40771.948899,
       "notional": 3000.0,
-      "unrealized": 1.22,
-      "pnl_pct": 0.041,
+      "unrealized": 1.63,
+      "pnl_pct": 0.054,
       "sl": 0.074021,
       "tp": 0.072697,
       "note": "z=2.17",
@@ -5514,7 +5514,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 6.581,
+      "price": 6.58,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784666700000
@@ -5573,8 +5573,8 @@
     "losses": 133,
     "win_rate": 33.2,
     "total_pnl": -1050.11,
-    "equity": 3952.81,
-    "unrealized": 47.41,
+    "equity": 3953.14,
+    "unrealized": 47.74,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5585,9 +5585,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 141,
+        "pair": "ETH/USDT",
+        "open_date": "2026-07-21 20:55:01.596058",
+        "open_rate": 1923.26,
+        "current_rate": 1923.25,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 499.86,
+        "amount": 0.2599,
+        "side": "LONG",
+        "sl_price": 1894.41,
+        "tp_price": 1961.73,
+        "trailing_active_price": 1938.65
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 140,
       "wins": 32,
       "losses": 108,
