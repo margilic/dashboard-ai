@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T02:02:44.594491+00:00",
+  "cycle_at": "2026-07-21T02:03:44.612454+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4099.79,
       "locked": 0
     },
-    "equity": 4121.11,
+    "equity": 4117.05,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 21.32,
+    "unrealized_pnl": 17.26,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T02:02:44.594491+00:00"
+    "updated_at": "2026-07-21T02:03:44.612454+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.605,
-      "current": 8.591,
+      "current": 8.598,
       "qty": 348.634515,
       "notional": 3000.0,
-      "unrealized": 4.88,
-      "pnl_pct": 0.163,
+      "unrealized": 2.44,
+      "pnl_pct": 0.081,
       "sl": 8.65663,
       "tp": 8.50174,
       "note": "RSI 80.1 a\u015f\u0131r\u0131 al\u0131m",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.1196,
-      "current": 1.1147,
+      "current": 1.115,
       "qty": 2679.528403,
       "notional": 3000.0,
-      "unrealized": 13.13,
-      "pnl_pct": 0.438,
+      "unrealized": 12.33,
+      "pnl_pct": 0.411,
       "sl": 1.126318,
       "tp": 1.106165,
       "note": "RSI 82.2 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,16 +127,40 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.0724,
-      "current": 0.07232,
+      "current": 0.07234,
       "qty": 41436.464088,
       "notional": 3000.0,
-      "unrealized": 3.31,
-      "pnl_pct": 0.11,
+      "unrealized": 2.49,
+      "pnl_pct": 0.083,
       "sl": 0.072834,
       "tp": 0.071531,
       "note": "EMA9<EMA21 kesi\u015fim",
       "opened_at": 1784573921.670306,
       "opened_iso": "2026-07-20T18:58:41.670306+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "AVAXUSDT-1784599424",
+      "trade_no": 174,
+      "trade_id": "T0174",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 6.626,
+      "current": 6.626,
+      "qty": 452.761847,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 6.665756,
+      "tp": 6.546488,
+      "note": "RSI 75.3 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1784599424.612454,
+      "opened_iso": "2026-07-21T02:03:44.612454+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -4852,7 +4876,17 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.626,
+      "strength": 61,
+      "note": "RSI 75.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784599200000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-21T00:15:19.642472+00:00",
     "model": "deepseek-chat",
@@ -4900,14 +4934,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 3,
+    "open": 4,
     "total_trades": 178,
     "wins": 61,
     "losses": 117,
     "win_rate": 34.3,
     "total_pnl": -855.72,
-    "equity": 4121.11,
-    "unrealized": 21.32,
+    "equity": 4117.05,
+    "unrealized": 17.26,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -4924,7 +4958,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-21 01:40:01.571461",
         "open_rate": 65388.75,
-        "current_rate": 65279.27,
+        "current_rate": 65304.13,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.57,
