@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T22:14:53.117379+00:00",
+  "cycle_at": "2026-07-21T22:15:53.668188+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3945.55,
       "locked": 0
     },
-    "equity": 4012.25,
+    "equity": 4013.98,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 66.7,
+    "unrealized_pnl": 68.43,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T22:14:53.117379+00:00"
+    "updated_at": "2026-07-21T22:15:53.668188+00:00"
   },
   "open_positions": [
     {
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 0.1735,
-      "current": 0.1729,
+      "current": 0.1728,
       "qty": 17291.066282,
       "notional": 3000.0,
-      "unrealized": 10.37,
-      "pnl_pct": 0.346,
+      "unrealized": 12.1,
+      "pnl_pct": 0.403,
       "sl": 0.174726,
       "tp": 0.171049,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -5540,49 +5540,13 @@
   ],
   "signals": [
     {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 1.141,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784671200000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.0887,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784671200000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 0.07325,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784671200000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 1.141,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784671200000
-    },
-    {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "price": 0.0887,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784671200000
+      "ts": 1784672100000
     }
   ],
   "swarm": {
@@ -5638,8 +5602,8 @@
     "losses": 133,
     "win_rate": 33.5,
     "total_pnl": -1009.96,
-    "equity": 4012.25,
-    "unrealized": 66.7,
+    "equity": 4013.98,
+    "unrealized": 68.43,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5656,7 +5620,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-21 21:25:02.094925",
         "open_rate": 66354.0,
-        "current_rate": 66312.54,
+        "current_rate": 66314.62,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.65,
