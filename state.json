@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T02:01:44.588535+00:00",
+  "cycle_at": "2026-07-21T02:02:44.594491+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4099.79,
       "locked": 0
     },
-    "equity": 4119.72,
+    "equity": 4121.11,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 19.93,
+    "unrealized_pnl": 21.32,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T02:01:44.588535+00:00"
+    "updated_at": "2026-07-21T02:02:44.594491+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.605,
-      "current": 8.595,
+      "current": 8.591,
       "qty": 348.634515,
       "notional": 3000.0,
-      "unrealized": 3.49,
-      "pnl_pct": 0.116,
+      "unrealized": 4.88,
+      "pnl_pct": 0.163,
       "sl": 8.65663,
       "tp": 8.50174,
       "note": "RSI 80.1 a\u015f\u0131r\u0131 al\u0131m",
@@ -4906,8 +4906,8 @@
     "losses": 117,
     "win_rate": 34.3,
     "total_pnl": -855.72,
-    "equity": 4119.72,
-    "unrealized": 19.93,
+    "equity": 4121.11,
+    "unrealized": 21.32,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -4924,7 +4924,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-21 01:40:01.571461",
         "open_rate": 65388.75,
-        "current_rate": 65273.85,
+        "current_rate": 65279.27,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.57,
