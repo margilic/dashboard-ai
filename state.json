@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T22:21:53.174917+00:00",
+  "cycle_at": "2026-07-21T22:22:53.190366+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3945.55,
       "locked": 0
     },
-    "equity": 4022.77,
+    "equity": 4023.93,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 77.22,
+    "unrealized_pnl": 78.38,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T22:21:53.174917+00:00"
+    "updated_at": "2026-07-21T22:22:53.190366+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.671,
-      "current": 8.61,
+      "current": 8.609,
       "qty": 345.980856,
       "notional": 3000.0,
-      "unrealized": 21.1,
-      "pnl_pct": 0.703,
+      "unrealized": 21.45,
+      "pnl_pct": 0.715,
       "sl": 8.723026,
       "tp": 8.566948,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07358,
-      "current": 0.07326,
+      "current": 0.07324,
       "qty": 40771.948899,
       "notional": 3000.0,
-      "unrealized": 13.05,
-      "pnl_pct": 0.435,
+      "unrealized": 13.86,
+      "pnl_pct": 0.462,
       "sl": 0.074021,
       "tp": 0.072697,
       "note": "z=2.17",
@@ -5550,7 +5550,7 @@
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-21T20:15:22.210672+00:00",
+    "updated_at": "2026-07-21T22:22:15.670690+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -5558,39 +5558,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 46.0,
+        "conviction": "HIGH",
+        "score": 78.0,
         "sl": null,
         "tp": null,
-        "rationale": "Bile\u015fik skor +0.46, y\u00fckseli\u015f ak\u0131\u015f\u0131 ve k\u0131sa s\u0131k\u0131\u015fma kurulumu, fonlama uyar\u0131s\u0131 nedeniyle ORTA kanaat.",
+        "rationale": "K\u0131sa s\u0131k\u0131\u015fma yakla\u015f\u0131yor, fonlama s\u0131f\u0131rlanmas\u0131 bo\u011fa sinyali, t\u00fcm sinyaller bo\u011fa.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784664172.214504,
-        "at": "2026-07-21T20:02:52.214504+00:00"
+        "ts": 1784671373.017736,
+        "at": "2026-07-21T22:02:53.017736+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 38.0,
+        "score": 62.0,
         "sl": null,
         "tp": null,
-        "rationale": "Funding bullish, likitasyon n\u00f6tr-bearish, ak\u0131\u015f temkinli. Bile\u015fik skor +0.38 ile hafif y\u00fckseli\u015f.",
+        "rationale": "D\u00fc\u015f\u00fc\u015f s\u0131ras\u0131nda giri\u015f i\u00e7in bekle, orta dereceli inan\u00e7. Fonlama ve zincir ak\u0131\u015f\u0131 y\u00fckseli\u015fi destekliyor, likidasyon k\u00fcmelenmesi risk olu\u015fturuyor.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784664172.214504,
-        "at": "2026-07-21T20:02:52.214504+00:00"
+        "ts": 1784671373.017736,
+        "at": "2026-07-21T22:02:53.017736+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 65.0,
+        "score": 54.0,
         "sl": null,
         "tp": null,
-        "rationale": "\u00dc\u00e7 boyutlu sinyal uyumu: fonlama/baz, likidasyon mikro yap\u0131s\u0131 ve zincir i\u00e7i ak\u0131\u015flar y\u00fckseli\u015f y\u00f6n\u00fcnde birle\u015fiyor. $78.50'de yukar\u0131 y\u00f6nl\u00fc likidasyon manyeti\u011fi var. Perakende long/short oran\u0131 2.23x ile k",
+        "rationale": "Sinyal BULLISH, fonlama oran\u0131 hafif pozitif, k\u0131sa likidasyon bask\u0131s\u0131 g\u00fc\u00e7l\u00fc, zincir \u00fcst\u00fc birikim var. L/S oran\u0131 2.17x perakende kalabal\u0131k uzun uyar\u0131s\u0131 veriyor ancak k\u0131sa s\u0131k\u0131\u015fma ve momentum a\u011f\u0131r bas\u0131yo",
         "extract_model": "deepseek-chat",
         "target": "SOL-USDT",
-        "ts": 1784664172.214504,
-        "at": "2026-07-21T20:02:52.214504+00:00"
+        "ts": 1784671373.017736,
+        "at": "2026-07-21T22:02:53.017736+00:00"
       }
     },
     "gated_this_cycle": []
@@ -5602,8 +5602,8 @@
     "losses": 133,
     "win_rate": 33.5,
     "total_pnl": -1009.96,
-    "equity": 4022.77,
-    "unrealized": 77.22,
+    "equity": 4023.93,
+    "unrealized": 78.38,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5620,7 +5620,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-21 21:25:02.094925",
         "open_rate": 66354.0,
-        "current_rate": 66252.48,
+        "current_rate": 66267.95,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.65,
