@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T19:29:52.014947+00:00",
+  "cycle_at": "2026-07-21T19:30:52.014802+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3905.4,
       "locked": 0
     },
-    "equity": 3934.56,
+    "equity": 3924.87,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 29.16,
+    "unrealized_pnl": 19.47,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T19:29:52.014947+00:00"
+    "updated_at": "2026-07-21T19:30:52.014802+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.671,
-      "current": 8.621,
+      "current": 8.623,
       "qty": 345.980856,
       "notional": 3000.0,
-      "unrealized": 17.3,
-      "pnl_pct": 0.577,
+      "unrealized": 16.61,
+      "pnl_pct": 0.554,
       "sl": 8.723026,
       "tp": 8.566948,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 1.1583,
-      "current": 1.1606,
+      "current": 1.1636,
       "qty": 2590.00259,
       "notional": 3000.0,
-      "unrealized": -5.96,
-      "pnl_pct": -0.199,
+      "unrealized": -13.73,
+      "pnl_pct": -0.458,
       "sl": 1.16525,
       "tp": 1.1444,
       "note": "z=2.03",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07358,
-      "current": 0.07356,
+      "current": 0.07359,
       "qty": 40771.948899,
       "notional": 3000.0,
-      "unrealized": 0.82,
-      "pnl_pct": 0.027,
+      "unrealized": -0.41,
+      "pnl_pct": -0.014,
       "sl": 0.074021,
       "tp": 0.072697,
       "note": "z=2.17",
@@ -5511,13 +5511,13 @@
   ],
   "signals": [
     {
-      "symbol": "DOGEUSDT",
+      "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.07356,
-      "strength": 50.75522733816457,
-      "note": "z=2.03",
-      "ts": 1784661300000
+      "price": 1.1636,
+      "strength": 50.52978578936403,
+      "note": "z=2.02",
+      "ts": 1784662200000
     }
   ],
   "swarm": {
@@ -5573,8 +5573,8 @@
     "losses": 133,
     "win_rate": 33.2,
     "total_pnl": -1050.11,
-    "equity": 3934.56,
-    "unrealized": 29.16,
+    "equity": 3924.87,
+    "unrealized": 19.47,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5585,33 +5585,31 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [
+    "open_positions": [],
+    "stats": {
+      "open": 0,
+      "total_closed": 139,
+      "wins": 32,
+      "losses": 107,
+      "win_rate": 23.0,
+      "total_pnl": -99.05,
+      "avg_profit_pct": -0.17
+    },
+    "recent_trades": [
       {
         "id": 139,
         "pair": "BTC/USDT",
         "open_date": "2026-07-21 17:47:52.110621",
-        "open_rate": 66188.01,
-        "current_rate": 66404.76,
+        "close_date": "2026-07-21 19:30:01.558000",
+        "entry": 66188.01,
+        "exit": 66402.98,
+        "pnl_pct": 0.12,
+        "pnl_abs": 0.62,
+        "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "stake": 499.72,
-        "amount": 0.00755,
-        "side": "LONG",
-        "sl_price": 65195.19,
-        "tp_price": 67511.77,
-        "trailing_active_price": 66717.51
-      }
-    ],
-    "stats": {
-      "open": 1,
-      "total_closed": 138,
-      "wins": 31,
-      "losses": 107,
-      "win_rate": 22.5,
-      "total_pnl": -99.67,
-      "avg_profit_pct": -0.17
-    },
-    "recent_trades": [
+        "side": "LONG"
+      },
       {
         "id": 138,
         "pair": "ETH/USDT",
@@ -5733,20 +5731,6 @@
         "exit": 65389.71,
         "pnl_pct": -0.2,
         "pnl_abs": -0.99,
-        "exit_reason": "rsi_gt52",
-        "enter_tag": "rsi_lt50",
-        "strategy": "RSIScalp",
-        "side": "LONG"
-      },
-      {
-        "id": 129,
-        "pair": "BTC/USDT",
-        "open_date": "2026-07-20 23:40:01.578728",
-        "close_date": "2026-07-21 00:20:01.563000",
-        "entry": 65209.39,
-        "exit": 65340.68,
-        "pnl_pct": 0.0,
-        "pnl_abs": 0.01,
         "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
