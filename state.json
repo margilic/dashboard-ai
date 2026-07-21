@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T11:54:48.814507+00:00",
+  "cycle_at": "2026-07-21T11:55:48.830528+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3861.4,
       "locked": 0
     },
-    "equity": 3925.65,
+    "equity": 3928.03,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 64.25,
+    "unrealized_pnl": 66.63,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T11:54:48.814507+00:00"
+    "updated_at": "2026-07-21T11:55:48.830528+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.722,
-      "current": 8.711,
+      "current": 8.709,
       "qty": 343.957808,
       "notional": 3000.0,
-      "unrealized": 3.78,
-      "pnl_pct": 0.126,
+      "unrealized": 4.47,
+      "pnl_pct": 0.149,
       "sl": 8.774332,
       "tp": 8.617336,
       "note": "z=2.58",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.1774,
-      "current": 0.1747,
+      "current": 0.1746,
       "qty": 16910.935738,
       "notional": 3000.0,
-      "unrealized": 45.66,
-      "pnl_pct": 1.522,
+      "unrealized": 47.35,
+      "pnl_pct": 1.578,
       "sl": 0.179031,
       "tp": 0.174139,
       "note": "RSI 84.6 a\u015f\u0131r\u0131 al\u0131m",
@@ -5273,8 +5273,8 @@
     "losses": 128,
     "win_rate": 32.3,
     "total_pnl": -1094.11,
-    "equity": 3925.65,
-    "unrealized": 64.25,
+    "equity": 3928.03,
+    "unrealized": 66.63,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5285,9 +5285,25 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [],
+    "open_positions": [
+      {
+        "id": 135,
+        "pair": "ETH/USDT",
+        "open_date": "2026-07-21 11:55:02.069255",
+        "open_rate": 1935.57,
+        "current_rate": 1935.26,
+        "enter_tag": "rsi_lt50",
+        "strategy": "RSIScalp",
+        "stake": 499.96,
+        "amount": 0.2583,
+        "side": "LONG",
+        "sl_price": 1906.54,
+        "tp_price": 1974.28,
+        "trailing_active_price": 1951.05
+      }
+    ],
     "stats": {
-      "open": 0,
+      "open": 1,
       "total_closed": 134,
       "wins": 29,
       "losses": 105,
