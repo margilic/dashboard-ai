@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-21T10:34:48.274410+00:00",
+  "cycle_at": "2026-07-21T10:35:48.279081+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3861.4,
       "locked": 0
     },
-    "equity": 3905.3,
+    "equity": 3902.11,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 43.9,
+    "unrealized_pnl": 40.71,
     "realized_today": 0.0,
-    "updated_at": "2026-07-21T10:34:48.274410+00:00"
+    "updated_at": "2026-07-21T10:35:48.279081+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 8.722,
-      "current": 8.731,
+      "current": 8.733,
       "qty": 343.957808,
       "notional": 3000.0,
-      "unrealized": -3.1,
-      "pnl_pct": -0.103,
+      "unrealized": -3.78,
+      "pnl_pct": -0.126,
       "sl": 8.774332,
       "tp": 8.617336,
       "note": "z=2.58",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.1774,
-      "current": 0.1756,
+      "current": 0.1757,
       "qty": 16910.935738,
       "notional": 3000.0,
-      "unrealized": 30.44,
-      "pnl_pct": 1.015,
+      "unrealized": 28.75,
+      "pnl_pct": 0.958,
       "sl": 0.179031,
       "tp": 0.174139,
       "note": "RSI 84.6 a\u015f\u0131r\u0131 al\u0131m",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0737,
-      "current": 0.07372,
+      "current": 0.07374,
       "qty": 40705.563094,
       "notional": 3000.0,
-      "unrealized": -0.81,
-      "pnl_pct": -0.027,
+      "unrealized": -1.63,
+      "pnl_pct": -0.054,
       "sl": 0.074142,
       "tp": 0.072816,
       "note": "RSI 84.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -5224,9 +5224,9 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 66403.55,
-      "strength": 70,
-      "note": "RSI 77.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 66420.04,
+      "strength": 76,
+      "note": "RSI 79.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784629800000
     }
   ],
@@ -5283,8 +5283,8 @@
     "losses": 128,
     "win_rate": 32.3,
     "total_pnl": -1094.11,
-    "equity": 3905.3,
-    "unrealized": 43.9,
+    "equity": 3902.11,
+    "unrealized": 40.71,
     "closed_this_cycle": 0
   },
   "freqtrade": {
