@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T00:54:54.154360+00:00",
+  "cycle_at": "2026-07-22T00:56:54.141846+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3925.39,
       "locked": 0
     },
-    "equity": 3897.51,
+    "equity": 3896.91,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -27.88,
+    "unrealized_pnl": -28.48,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T00:54:54.154360+00:00"
+    "updated_at": "2026-07-22T00:56:54.141846+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 8.671,
-      "current": 8.713,
+      "current": 8.715,
       "qty": 345.980856,
       "notional": 3000.0,
-      "unrealized": -14.53,
-      "pnl_pct": -0.484,
+      "unrealized": -15.22,
+      "pnl_pct": -0.507,
       "sl": 8.723026,
       "tp": 8.566948,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07358,
-      "current": 0.07369,
+      "current": 0.07368,
       "qty": 40771.948899,
       "notional": 3000.0,
-      "unrealized": -4.48,
-      "pnl_pct": -0.149,
+      "unrealized": -4.08,
+      "pnl_pct": -0.136,
       "sl": 0.074021,
       "tp": 0.072697,
       "note": "z=2.17",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 574.91,
-      "current": 574.82,
+      "current": 574.88,
       "qty": 5.218208,
       "notional": 3000.0,
-      "unrealized": 0.47,
-      "pnl_pct": 0.016,
+      "unrealized": 0.16,
+      "pnl_pct": 0.005,
       "sl": 578.35946,
       "tp": 568.01108,
       "note": "z=2.31",
@@ -5572,9 +5572,9 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.713,
-      "strength": 68,
-      "note": "RSI 77.2 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.715,
+      "strength": 72,
+      "note": "RSI 78.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784681100000
     },
     {
@@ -5590,9 +5590,9 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 8.713,
-      "strength": 50.60605445430859,
-      "note": "z=2.02",
+      "price": 8.715,
+      "strength": 51.74405809698507,
+      "note": "z=2.07",
       "ts": 1784681100000
     }
   ],
@@ -5649,8 +5649,8 @@
     "losses": 134,
     "win_rate": 33.3,
     "total_pnl": -1030.12,
-    "equity": 3897.51,
-    "unrealized": -27.88,
+    "equity": 3896.91,
+    "unrealized": -28.48,
     "closed_this_cycle": 0
   },
   "freqtrade": {
