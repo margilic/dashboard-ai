@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T23:31:05.967223+00:00",
+  "cycle_at": "2026-07-22T23:32:05.968341+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5399.33,
       "locked": 0
     },
-    "equity": 5296.99,
+    "equity": 5305.89,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -102.34,
+    "unrealized_pnl": -93.44,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T23:31:05.967223+00:00"
+    "updated_at": "2026-07-22T23:32:05.968341+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.633,
-      "current": 6.607,
+      "current": 6.609,
       "qty": 1507.613448,
       "notional": 10000.0,
-      "unrealized": 39.2,
-      "pnl_pct": 0.392,
+      "unrealized": 36.18,
+      "pnl_pct": 0.362,
       "sl": 6.672798,
       "tp": 6.553404,
       "trailing_active": false,
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07329,
-      "current": 0.07276,
+      "current": 0.07275,
       "qty": 136444.262519,
       "notional": 10000.0,
-      "unrealized": 72.32,
-      "pnl_pct": 0.723,
+      "unrealized": 73.68,
+      "pnl_pct": 0.737,
       "sl": 0.07373,
       "tp": 0.072411,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 574.57,
-      "current": 570.2,
+      "current": 570.17,
       "qty": 17.40432,
       "notional": 10000.0,
-      "unrealized": -76.06,
-      "pnl_pct": -0.761,
+      "unrealized": -76.58,
+      "pnl_pct": -0.766,
       "sl": 571.12258,
       "tp": 581.46484,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0903,
-      "current": 0.0889,
+      "current": 0.089,
       "qty": 110741.971207,
       "notional": 10000.0,
-      "unrealized": -155.04,
-      "pnl_pct": -1.55,
+      "unrealized": -143.96,
+      "pnl_pct": -1.44,
       "sl": 0.089738,
       "tp": 0.091423,
       "trailing_active": false,
@@ -278,29 +278,11 @@
   "signals": [
     {
       "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 0.0889,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784763000000
-    },
-    {
-      "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0889,
-      "strength": 58,
-      "note": "RSI 28.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784763000000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0889,
-      "strength": 52.407783232890324,
-      "note": "z=-2.10",
+      "price": 0.089,
+      "strength": 56,
+      "note": "RSI 29.5 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784763000000
     }
   ],
@@ -357,8 +339,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 399.33,
-    "equity": 5296.99,
-    "unrealized": -102.34,
+    "equity": 5305.89,
+    "unrealized": -93.44,
     "closed_this_cycle": 0
   },
   "freqtrade": {
