@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T15:28:59.243027+00:00",
+  "cycle_at": "2026-07-22T15:30:59.274543+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,14 +60,14 @@
   },
   "balance": {
     "USD": {
-      "free": 3914.74,
+      "free": 3896.57,
       "locked": 0
     },
-    "equity": 3883.74,
+    "equity": 3867.16,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -31.0,
-    "realized_today": -12.77,
-    "updated_at": "2026-07-22T15:28:59.243027+00:00"
+    "unrealized_pnl": -29.41,
+    "realized_today": -18.17,
+    "updated_at": "2026-07-22T15:30:59.274543+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 571.04,
-      "current": 572.84,
+      "current": 572.81,
       "qty": 5.253572,
       "notional": 3000.0,
-      "unrealized": -9.46,
-      "pnl_pct": -0.315,
+      "unrealized": -9.3,
+      "pnl_pct": -0.31,
       "sl": 574.46624,
       "tp": 564.18752,
       "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -103,40 +103,16 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 1.1495,
-      "current": 1.1537,
+      "current": 1.1553,
       "qty": 2609.830361,
       "notional": 3000.0,
-      "unrealized": -10.96,
-      "pnl_pct": -0.365,
+      "unrealized": -15.14,
+      "pnl_pct": -0.505,
       "sl": 1.156397,
       "tp": 1.135706,
       "note": "z=3.36",
       "opened_at": 1784729218.793459,
       "opened_iso": "2026-07-22T14:06:58.793459+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
-    {
-      "id": "AVAXUSDT-1784733059",
-      "trade_no": 213,
-      "trade_id": "T0213",
-      "binance_order_id": "",
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "entry": 6.604,
-      "current": 6.631,
-      "qty": 454.270139,
-      "notional": 3000.0,
-      "unrealized": -12.27,
-      "pnl_pct": -0.409,
-      "sl": 6.643624,
-      "tp": 6.524752,
-      "note": "z=2.64",
-      "opened_at": 1784733059.148638,
-      "opened_iso": "2026-07-22T15:10:59.148638+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -151,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.1777,
-      "current": 0.1776,
+      "current": 0.1778,
       "qty": 16882.386044,
       "notional": 3000.0,
-      "unrealized": 1.69,
-      "pnl_pct": 0.056,
+      "unrealized": -1.69,
+      "pnl_pct": -0.056,
       "sl": 0.178945,
       "tp": 0.175209,
       "note": "z=2.44",
@@ -175,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07316,
-      "current": 0.07316,
+      "current": 0.07324,
       "qty": 41006.014215,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -3.28,
+      "pnl_pct": -0.109,
       "sl": 0.073599,
       "tp": 0.072282,
       "note": "z=2.21",
@@ -189,9 +165,62 @@
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
+    },
+    {
+      "id": "AVAXUSDT-1784734259",
+      "trade_no": 216,
+      "trade_id": "T0216",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 6.644,
+      "current": 6.644,
+      "qty": 451.53522,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 6.683864,
+      "tp": 6.564272,
+      "note": "RSI 77.9 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1784734259.274543,
+      "opened_iso": "2026-07-22T15:30:59.274543+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
     }
   ],
   "recent_trades": [
+    {
+      "id": "AVAXUSDT-1784733059",
+      "trade_no": 213,
+      "trade_id": "T0213",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 6.604,
+      "current": 6.631,
+      "qty": 454.270139,
+      "notional": 3000.0,
+      "unrealized": -12.27,
+      "pnl_pct": -0.606,
+      "sl": 6.643624,
+      "tp": 6.524752,
+      "note": "z=2.64",
+      "opened_at": 1784733059.148638,
+      "opened_iso": "2026-07-22T15:10:59.148638+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 6.644,
+      "closed_at": 1784734259.274543,
+      "pnl": -18.17,
+      "exit_reason": "SL",
+      "duration_s": 1200
+    },
     {
       "id": "DOGEUSDT-1784698135",
       "trade_no": 202,
@@ -6062,67 +6091,67 @@
   ],
   "signals": [
     {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.644,
+      "strength": 71,
+      "note": "RSI 77.9 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784734200000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.0912,
+      "strength": 65,
+      "note": "RSI 76.5 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784734200000
+    },
+    {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1.1537,
-      "strength": 77.17716803597044,
-      "note": "z=3.09",
-      "ts": 1784733300000
+      "price": 1.1553,
+      "strength": 64.07514703657536,
+      "note": "z=2.56",
+      "ts": 1784734200000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 78.65,
-      "strength": 66.38475022901727,
-      "note": "z=2.66",
-      "ts": 1784733300000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.1776,
-      "strength": 59.93482192526841,
-      "note": "z=2.40",
-      "ts": 1784733300000
+      "price": 78.71,
+      "strength": 56.58568867137729,
+      "note": "z=2.26",
+      "ts": 1784734200000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.631,
-      "strength": 59.69275666343018,
-      "note": "z=2.39",
-      "ts": 1784733300000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1948.18,
-      "strength": 56.76865451353847,
-      "note": "z=2.27",
-      "ts": 1784733300000
+      "price": 6.644,
+      "strength": 53.68639997620286,
+      "note": "z=2.15",
+      "ts": 1784734200000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.07316,
-      "strength": 55.12688507839436,
-      "note": "z=2.21",
-      "ts": 1784733300000
+      "price": 0.07324,
+      "strength": 53.09329848263601,
+      "note": "z=2.12",
+      "ts": 1784734200000
     },
     {
-      "symbol": "LINKUSDT",
+      "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 8.715,
-      "strength": 51.06978903411575,
-      "note": "z=2.04",
-      "ts": 1784733300000
+      "price": 0.1778,
+      "strength": 52.42526952024856,
+      "note": "z=2.10",
+      "ts": 1784734200000
     }
   ],
   "swarm": {
@@ -6169,28 +6198,17 @@
         "at": "2026-07-22T14:02:58.758498+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "SOLUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      },
-      {
-        "symbol": "ETHUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 5,
-    "total_trades": 218,
+    "total_trades": 219,
     "wins": 73,
-    "losses": 145,
-    "win_rate": 33.5,
-    "total_pnl": -1040.76,
-    "equity": 3883.74,
-    "unrealized": -31.0,
+    "losses": 146,
+    "win_rate": 33.3,
+    "total_pnl": -1058.93,
+    "equity": 3867.16,
+    "unrealized": -29.41,
     "closed_this_cycle": 1
   },
   "freqtrade": {
