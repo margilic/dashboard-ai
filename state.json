@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T01:07:54.212513+00:00",
+  "cycle_at": "2026-07-22T01:08:54.223614+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3909.82,
       "locked": 0
     },
-    "equity": 3895.75,
+    "equity": 3893.63,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -14.07,
+    "unrealized_pnl": -16.19,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T01:07:54.212513+00:00"
+    "updated_at": "2026-07-22T01:08:54.223614+00:00"
   },
   "open_positions": [
     {
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.1428,
-      "current": 1.1459,
+      "current": 1.1461,
       "qty": 2625.131257,
       "notional": 3000.0,
-      "unrealized": -8.14,
-      "pnl_pct": -0.271,
+      "unrealized": -8.66,
+      "pnl_pct": -0.289,
       "sl": 1.149657,
       "tp": 1.129086,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 574.91,
-      "current": 574.59,
+      "current": 574.7,
       "qty": 5.218208,
       "notional": 3000.0,
-      "unrealized": 1.67,
-      "pnl_pct": 0.056,
+      "unrealized": 1.1,
+      "pnl_pct": 0.037,
       "sl": 578.35946,
       "tp": 568.01108,
       "note": "z=2.31",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.716,
-      "current": 8.715,
+      "current": 8.718,
       "qty": 344.194585,
       "notional": 3000.0,
-      "unrealized": 0.34,
-      "pnl_pct": 0.011,
+      "unrealized": -0.69,
+      "pnl_pct": -0.023,
       "sl": 8.768296,
       "tp": 8.611408,
       "note": "RSI 76.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -5601,18 +5601,9 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.715,
-      "strength": 64,
-      "note": "RSI 76.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784682000000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0904,
-      "strength": 51.99103616684987,
-      "note": "z=2.08",
+      "price": 8.718,
+      "strength": 66,
+      "note": "RSI 76.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784682000000
     }
   ],
@@ -5669,8 +5660,8 @@
     "losses": 135,
     "win_rate": 33.2,
     "total_pnl": -1045.69,
-    "equity": 3895.75,
-    "unrealized": -14.07,
+    "equity": 3893.63,
+    "unrealized": -16.19,
     "closed_this_cycle": 0
   },
   "freqtrade": {
