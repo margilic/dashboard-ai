@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T14:14:58.841021+00:00",
+  "cycle_at": "2026-07-22T14:16:58.870203+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3926.42,
       "locked": 0
     },
-    "equity": 3930.75,
+    "equity": 3962.04,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 4.33,
+    "unrealized_pnl": 35.62,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T14:14:58.841021+00:00"
+    "updated_at": "2026-07-22T14:16:58.870203+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07285,
-      "current": 0.07292,
+      "current": 0.07278,
       "qty": 41180.507893,
       "notional": 3000.0,
-      "unrealized": -2.88,
-      "pnl_pct": -0.096,
+      "unrealized": 2.88,
+      "pnl_pct": 0.096,
       "sl": 0.073287,
       "tp": 0.071976,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 571.04,
-      "current": 573.44,
+      "current": 572.83,
       "qty": 5.253572,
       "notional": 3000.0,
-      "unrealized": -12.61,
-      "pnl_pct": -0.42,
+      "unrealized": -9.4,
+      "pnl_pct": -0.313,
       "sl": 574.46624,
       "tp": 564.18752,
       "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 6.562,
-      "current": 6.576,
+      "current": 6.56,
       "qty": 457.17769,
       "notional": 3000.0,
-      "unrealized": -6.4,
-      "pnl_pct": -0.213,
+      "unrealized": 0.91,
+      "pnl_pct": 0.03,
       "sl": 6.601372,
       "tp": 6.483256,
       "note": "z=3.13",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 1.1495,
-      "current": 1.1453,
+      "current": 1.1428,
       "qty": 2609.830361,
       "notional": 3000.0,
-      "unrealized": 10.96,
-      "pnl_pct": 0.365,
+      "unrealized": 17.49,
+      "pnl_pct": 0.583,
       "sl": 1.156397,
       "tp": 1.135706,
       "note": "z=3.36",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.1769,
-      "current": 0.176,
+      "current": 0.1755,
       "qty": 16958.733748,
       "notional": 3000.0,
-      "unrealized": 15.26,
-      "pnl_pct": 0.509,
+      "unrealized": 23.74,
+      "pnl_pct": 0.791,
       "sl": 0.177997,
       "tp": 0.174706,
       "note": "z=3.28",
@@ -5944,113 +5944,49 @@
       "opened_iso": "2026-07-10T14:25:59+00:00"
     }
   ],
-  "signals": [
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 573.44,
-      "strength": 69.01119886134379,
-      "note": "z=2.76",
-      "ts": 1784728800000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1.1453,
-      "strength": 67.86467663917432,
-      "note": "z=2.71",
-      "ts": 1784728800000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 78.06,
-      "strength": 60.18306583703531,
-      "note": "z=2.41",
-      "ts": 1784728800000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 6.576,
-      "strength": 58.340620633007255,
-      "note": "z=2.33",
-      "ts": 1784729700000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1941.96,
-      "strength": 58.12240470750651,
-      "note": "z=2.32",
-      "ts": 1784728800000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.176,
-      "strength": 57.603051014811044,
-      "note": "z=2.30",
-      "ts": 1784729700000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07292,
-      "strength": 50.988250045258496,
-      "note": "z=2.04",
-      "ts": 1784728800000
-    }
-  ],
+  "signals": [],
   "swarm": {
-    "updated_at": "2026-07-22T12:20:19.444403+00:00",
+    "updated_at": "2026-07-22T14:15:51.331179+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
     "gate_enabled": true,
     "bias": {
       "BTCUSDT": {
-        "direction": "NEUTRAL",
-        "conviction": "LOW",
-        "score": 13.0,
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 55.0,
         "sl": null,
         "tp": null,
-        "rationale": "On-chain ak\u0131\u015f g\u00fc\u00e7l\u00fc bo\u011fa, fonlama/basis ay\u0131 sapmas\u0131, likidasyon hemen alt\u0131nda. Bile\u015fik sinyal n\u00f6tr.",
+        "rationale": "Sa\u011fl\u0131kl\u0131 y\u00fckseli\u015f trendi, d\u00fc\u015f\u00fck fonlama ve kurumsal birikim var, likidasyon riski simetrik.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784721778.134613,
-        "at": "2026-07-22T12:02:58.134613+00:00"
+        "ts": 1784728978.758498,
+        "at": "2026-07-22T14:02:58.758498+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 0.562,
+        "conviction": "MEDIUM",
+        "score": 40.0,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm sinyaller bullish uyumlu, spot kaynakl\u0131 y\u00fckseli\u015f, k\u0131sa s\u0131k\u0131\u015fma ve DeFi'ye sermaye giri\u015fi.",
-        "extract_model": "deepseek-v4-flash",
+        "rationale": "ETH, d\u00fc\u015fen fonlama oranlar\u0131yla spot odakl\u0131 y\u00fckseli\u015fte; TVL toparlan\u0131yor, balina birikimi var. K\u0131sa vadeli s\u0131k\u0131\u015fma b\u00f6lgesine yak\u0131n. Geri \u00e7ekilmede al \u00f6nerilir.",
+        "extract_model": "deepseek-chat",
         "target": "ETH-USDT",
-        "ts": 1784721778.134613,
-        "at": "2026-07-22T12:02:58.134613+00:00"
+        "ts": 1784728978.758498,
+        "at": "2026-07-22T14:02:58.758498+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 36.8,
+        "conviction": "LOW",
+        "score": 8.0,
         "sl": null,
         "tp": null,
-        "rationale": "Haftal\u0131k 840 milyon dolar stablecoin giri\u015fi ve USDT art\u0131\u015f\u0131, SOL i\u00e7in y\u00fckseli\u015f sinyali.",
+        "rationale": "On-chain ak\u0131\u015f al\u0131m bask\u0131s\u0131 g\u00f6steriyor, ancak likidasyon verileri a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk olu\u015fturuyor. D\u00fc\u015f\u00fck kanaatle uzun.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784721778.134613,
-        "at": "2026-07-22T12:02:58.134613+00:00"
+        "ts": 1784728978.758498,
+        "at": "2026-07-22T14:02:58.758498+00:00"
       }
     },
     "gated_this_cycle": []
@@ -6062,8 +5998,8 @@
     "losses": 142,
     "win_rate": 33.6,
     "total_pnl": -1029.08,
-    "equity": 3930.75,
-    "unrealized": 4.33,
+    "equity": 3962.04,
+    "unrealized": 35.62,
     "closed_this_cycle": 0
   },
   "freqtrade": {
