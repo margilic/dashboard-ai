@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T18:14:00.171136+00:00",
+  "cycle_at": "2026-07-22T18:15:00.195503+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5000.0,
       "locked": 0
     },
-    "equity": 5265.98,
+    "equity": 5258.37,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 265.98,
+    "unrealized_pnl": 258.37,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T18:14:00.171136+00:00"
+    "updated_at": "2026-07-22T18:15:00.195503+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.1796,
-      "current": 0.177,
+      "current": 0.1769,
       "qty": 55679.287305,
       "notional": 10000.0,
-      "unrealized": 144.77,
-      "pnl_pct": 1.448,
+      "unrealized": 150.33,
+      "pnl_pct": 1.503,
       "sl": 0.18103,
       "tp": 0.176739,
       "note": "RSI 80.7 a\u015f\u0131r\u0131 al\u0131m",
@@ -92,7 +92,9 @@
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.796,
-      "tp_pct": 1.593
+      "tp_pct": 1.593,
+      "trailing_active": true,
+      "trailing_stop": 0.178315
     },
     {
       "id": "ARBUSDT-1784738819",
@@ -103,11 +105,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.0914,
-      "current": 0.0904,
+      "current": 0.0905,
       "qty": 109409.190372,
       "notional": 10000.0,
-      "unrealized": 109.41,
-      "pnl_pct": 1.094,
+      "unrealized": 98.47,
+      "pnl_pct": 0.985,
       "sl": 0.091992,
       "tp": 0.090217,
       "note": "RSI 77.1 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +129,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.633,
-      "current": 6.609,
+      "current": 6.611,
       "qty": 1507.613448,
       "notional": 10000.0,
-      "unrealized": 36.18,
-      "pnl_pct": 0.362,
+      "unrealized": 33.17,
+      "pnl_pct": 0.332,
       "sl": 6.672798,
       "tp": 6.553404,
       "trailing_active": false,
@@ -155,11 +157,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07329,
-      "current": 0.0731,
+      "current": 0.07313,
       "qty": 136444.262519,
       "notional": 10000.0,
-      "unrealized": 25.92,
-      "pnl_pct": 0.259,
+      "unrealized": 21.83,
+      "pnl_pct": 0.218,
       "sl": 0.07373,
       "tp": 0.072411,
       "trailing_active": false,
@@ -183,11 +185,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 574.57,
-      "current": 571.68,
+      "current": 571.96,
       "qty": 17.40432,
       "notional": 10000.0,
-      "unrealized": -50.3,
-      "pnl_pct": -0.503,
+      "unrealized": -45.43,
+      "pnl_pct": -0.454,
       "sl": 571.12258,
       "tp": 581.46484,
       "trailing_active": false,
@@ -204,9 +206,19 @@
     }
   ],
   "recent_trades": [],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 8.642,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784744100000
+    }
+  ],
   "swarm": {
-    "updated_at": "2026-07-22T16:17:30.035373+00:00",
+    "updated_at": "2026-07-22T18:14:53.745512+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -214,39 +226,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "LOW",
-        "score": 52.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "Karma\u015f\u0131k sinyaller, fonlama zay\u0131f, ak\u0131\u015f pozitif; d\u00fc\u015f\u00fck g\u00fcven ile uzun pozisyon.",
-        "extract_model": "deepseek-v4-flash",
-        "target": "BTC-USDT",
-        "ts": 1784736179.413287,
-        "at": "2026-07-22T16:02:59.413287+00:00"
-      },
-      "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "HIGH",
+        "conviction": "MEDIUM",
         "score": 60.0,
         "sl": null,
-        "tp": null,
-        "rationale": "T\u00fcm sinyaller uzun y\u00f6nl\u00fc, y\u00fcksek g\u00fcven. OI +%15.8, fonlama d\u00fc\u015f\u00fck, k\u0131sa s\u0131k\u0131\u015fma b\u00f6lgesi 1950-1960 dolar.",
+        "tp": 66700,
+        "rationale": "T\u00fcm sinyaller y\u00fckseli\u015f y\u00f6n\u00fcnde, temkinli long. Bile\u015fik puan 0.605.",
         "extract_model": "deepseek-v4-flash",
-        "target": "ETH-USDT",
-        "ts": 1784736179.413287,
-        "at": "2026-07-22T16:02:59.413287+00:00"
+        "target": "BTC-USDT",
+        "ts": 1784743380.066072,
+        "at": "2026-07-22T18:03:00.066072+00:00"
       },
-      "SOLUSDT": {
+      "ETHUSDT": {
         "direction": "LONG",
         "conviction": "HIGH",
         "score": 85.0,
         "sl": null,
         "tp": null,
-        "rationale": "\u00dc\u00e7 ba\u011f\u0131ms\u0131z sinyal kayna\u011f\u0131 ayn\u0131 sonucu i\u015faret ediyor. On-chain ak\u0131\u015f verileri \u00f6zellikle g\u00fc\u00e7l\u00fc: Solana, pozitif stablecoin b\u00fcy\u00fcmesi olan tek b\u00fcy\u00fck zincir.",
+        "rationale": "T\u00fcm sinyaller bo\u011fa y\u00f6nl\u00fc; fonlama s\u0131f\u0131ra yak\u0131n, k\u0131sa likidasyon riski y\u00fcksek, zincir \u00fcst\u00fc ak\u0131\u015flar g\u00fc\u00e7l\u00fc. Organik talep ve kurumsal giri\u015fler destekliyor.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "ETH-USDT",
+        "ts": 1784743380.066072,
+        "at": "2026-07-22T18:03:00.066072+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "LONG",
+        "conviction": "MEDIUM",
+        "score": 63.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Solana'ya b\u00fcy\u00fck stablecoin giri\u015fleri (USDC +%15.3, USDT +%29.2) ve organik y\u00fckseli\u015f, ancak a\u015f\u0131r\u0131 kalabal\u0131k long pozisyonlar nedeniyle d\u00fc\u015f\u00fc\u015flerde al\u0131m \u00f6nerilir.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784736179.413287,
-        "at": "2026-07-22T16:02:59.413287+00:00"
+        "ts": 1784743380.066072,
+        "at": "2026-07-22T18:03:00.066072+00:00"
       }
     },
     "gated_this_cycle": []
@@ -258,8 +270,8 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 5265.98,
-    "unrealized": 265.98,
+    "equity": 5258.37,
+    "unrealized": 258.37,
     "closed_this_cycle": 0
   },
   "freqtrade": {
