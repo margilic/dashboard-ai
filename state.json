@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T15:44:59.339628+00:00",
+  "cycle_at": "2026-07-22T15:46:59.344180+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,14 +60,14 @@
   },
   "balance": {
     "USD": {
-      "free": 3896.57,
+      "free": 3872.93,
       "locked": 0
     },
-    "equity": 3886.76,
+    "equity": 3865.08,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -9.81,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-22T15:44:59.339628+00:00"
+    "unrealized_pnl": -7.85,
+    "realized_today": -23.64,
+    "updated_at": "2026-07-22T15:46:59.344180+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 571.04,
-      "current": 572.54,
+      "current": 572.45,
       "qty": 5.253572,
       "notional": 3000.0,
-      "unrealized": -7.88,
-      "pnl_pct": -0.263,
+      "unrealized": -7.41,
+      "pnl_pct": -0.247,
       "sl": 574.46624,
       "tp": 564.18752,
       "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -119,30 +119,6 @@
       "tp_pct": 1.2
     },
     {
-      "id": "ADAUSDT-1784733659",
-      "trade_no": 214,
-      "trade_id": "T0214",
-      "binance_order_id": "",
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "entry": 0.1777,
-      "current": 0.1778,
-      "qty": 16882.386044,
-      "notional": 3000.0,
-      "unrealized": -1.69,
-      "pnl_pct": -0.056,
-      "sl": 0.178945,
-      "tp": 0.175209,
-      "note": "z=2.44",
-      "opened_at": 1784733659.205555,
-      "opened_iso": "2026-07-22T15:20:59.205555+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.701,
-      "tp_pct": 1.402
-    },
-    {
       "id": "DOGEUSDT-1784734139",
       "trade_no": 215,
       "trade_id": "T0215",
@@ -151,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07316,
-      "current": 0.07314,
+      "current": 0.07309,
       "qty": 41006.014215,
       "notional": 3000.0,
-      "unrealized": 0.82,
-      "pnl_pct": 0.027,
+      "unrealized": 2.87,
+      "pnl_pct": 0.096,
       "sl": 0.073599,
       "tp": 0.072282,
       "note": "z=2.21",
@@ -175,11 +151,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.644,
-      "current": 6.629,
+      "current": 6.634,
       "qty": 451.53522,
       "notional": 3000.0,
-      "unrealized": 6.77,
-      "pnl_pct": 0.226,
+      "unrealized": 4.52,
+      "pnl_pct": 0.151,
       "sl": 6.683864,
       "tp": 6.564272,
       "note": "RSI 77.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -189,9 +165,62 @@
       "algo_version": "3.0",
       "sl_pct": 0.6,
       "tp_pct": 1.2
+    },
+    {
+      "id": "ADAUSDT-1784735219",
+      "trade_no": 217,
+      "trade_id": "T0217",
+      "binance_order_id": "",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 0.1791,
+      "current": 0.1791,
+      "qty": 16750.41876,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.180409,
+      "tp": 0.176482,
+      "note": "RSI 80.7 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1784735219.34418,
+      "opened_iso": "2026-07-22T15:46:59.344180+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.731,
+      "tp_pct": 1.462
     }
   ],
   "recent_trades": [
+    {
+      "id": "ADAUSDT-1784733659",
+      "trade_no": 214,
+      "trade_id": "T0214",
+      "binance_order_id": "",
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.1777,
+      "current": 0.1778,
+      "qty": 16882.386044,
+      "notional": 3000.0,
+      "unrealized": -1.69,
+      "pnl_pct": -0.788,
+      "sl": 0.178945,
+      "tp": 0.175209,
+      "note": "z=2.44",
+      "opened_at": 1784733659.205555,
+      "opened_iso": "2026-07-22T15:20:59.205555+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.701,
+      "tp_pct": 1.402,
+      "exit": 0.1791,
+      "closed_at": 1784735219.34418,
+      "pnl": -23.64,
+      "exit_reason": "SL",
+      "duration_s": 1560
+    },
     {
       "id": "AVAXUSDT-1784733059",
       "trade_no": 213,
@@ -6091,6 +6120,15 @@
   ],
   "signals": [
     {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.1791,
+      "strength": 82,
+      "note": "RSI 80.7 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784735100000
+    },
+    {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
@@ -6100,31 +6138,22 @@
       "ts": 1784735100000
     },
     {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.1778,
-      "strength": 72,
-      "note": "RSI 78.2 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784735100000
-    },
-    {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.629,
-      "strength": 60,
-      "note": "RSI 75.0 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.634,
+      "strength": 62,
+      "note": "RSI 75.5 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784735100000
     },
     {
-      "symbol": "XRPUSDT",
+      "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1.1525,
-      "strength": 55.626171890560194,
-      "note": "z=2.23",
-      "ts": 1784734200000
+      "price": 0.1791,
+      "strength": 57.47733258312482,
+      "note": "z=2.30",
+      "ts": 1784735100000
     }
   ],
   "swarm": {
@@ -6175,14 +6204,14 @@
   },
   "stats": {
     "open": 5,
-    "total_trades": 219,
+    "total_trades": 220,
     "wins": 73,
-    "losses": 146,
-    "win_rate": 33.3,
-    "total_pnl": -1058.93,
-    "equity": 3886.76,
-    "unrealized": -9.81,
-    "closed_this_cycle": 0
+    "losses": 147,
+    "win_rate": 33.2,
+    "total_pnl": -1082.57,
+    "equity": 3865.08,
+    "unrealized": -7.85,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
