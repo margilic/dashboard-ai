@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T15:26:59.235234+00:00",
+  "cycle_at": "2026-07-22T15:28:59.243027+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -60,40 +60,16 @@
   },
   "balance": {
     "USD": {
-      "free": 3927.51,
+      "free": 3914.74,
       "locked": 0
     },
-    "equity": 3875.48,
+    "equity": 3883.74,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -52.03,
-    "realized_today": 0.0,
-    "updated_at": "2026-07-22T15:26:59.235234+00:00"
+    "unrealized_pnl": -31.0,
+    "realized_today": -12.77,
+    "updated_at": "2026-07-22T15:28:59.243027+00:00"
   },
   "open_positions": [
-    {
-      "id": "DOGEUSDT-1784698135",
-      "trade_no": 202,
-      "trade_id": "T0202",
-      "binance_order_id": "",
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "entry": 0.07285,
-      "current": 0.07324,
-      "qty": 41180.507893,
-      "notional": 3000.0,
-      "unrealized": -16.06,
-      "pnl_pct": -0.535,
-      "sl": 0.073287,
-      "tp": 0.071976,
-      "note": "20-bar dip + hacim",
-      "opened_at": 1784698135.937675,
-      "opened_iso": "2026-07-22T05:28:55.937675+00:00",
-      "swarm_aligned": false,
-      "algo_version": "3.0",
-      "sl_pct": 0.6,
-      "tp_pct": 1.2
-    },
     {
       "id": "BNBUSDT-1784715417",
       "trade_no": 206,
@@ -103,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 571.04,
-      "current": 573.06,
+      "current": 572.84,
       "qty": 5.253572,
       "notional": 3000.0,
-      "unrealized": -10.61,
-      "pnl_pct": -0.354,
+      "unrealized": -9.46,
+      "pnl_pct": -0.315,
       "sl": 574.46624,
       "tp": 564.18752,
       "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 1.1495,
-      "current": 1.1536,
+      "current": 1.1537,
       "qty": 2609.830361,
       "notional": 3000.0,
-      "unrealized": -10.7,
-      "pnl_pct": -0.357,
+      "unrealized": -10.96,
+      "pnl_pct": -0.365,
       "sl": 1.156397,
       "tp": 1.135706,
       "note": "z=3.36",
@@ -151,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 6.604,
-      "current": 6.64,
+      "current": 6.631,
       "qty": 454.270139,
       "notional": 3000.0,
-      "unrealized": -16.35,
-      "pnl_pct": -0.545,
+      "unrealized": -12.27,
+      "pnl_pct": -0.409,
       "sl": 6.643624,
       "tp": 6.524752,
       "note": "z=2.64",
@@ -189,9 +165,62 @@
       "algo_version": "3.0",
       "sl_pct": 0.701,
       "tp_pct": 1.402
+    },
+    {
+      "id": "DOGEUSDT-1784734139",
+      "trade_no": 215,
+      "trade_id": "T0215",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "entry": 0.07316,
+      "current": 0.07316,
+      "qty": 41006.014215,
+      "notional": 3000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 0.073599,
+      "tp": 0.072282,
+      "note": "z=2.21",
+      "opened_at": 1784734139.243027,
+      "opened_iso": "2026-07-22T15:28:59.243027+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
     }
   ],
   "recent_trades": [
+    {
+      "id": "DOGEUSDT-1784698135",
+      "trade_no": 202,
+      "trade_id": "T0202",
+      "binance_order_id": "",
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "entry": 0.07285,
+      "current": 0.07324,
+      "qty": 41180.507893,
+      "notional": 3000.0,
+      "unrealized": -16.06,
+      "pnl_pct": -0.426,
+      "sl": 0.073287,
+      "tp": 0.071976,
+      "note": "20-bar dip + hacim",
+      "opened_at": 1784698135.937675,
+      "opened_iso": "2026-07-22T05:28:55.937675+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2,
+      "exit": 0.07316,
+      "closed_at": 1784734139.243027,
+      "pnl": -12.77,
+      "exit_reason": "time",
+      "duration_s": 36003
+    },
     {
       "id": "ADAUSDT-1784732699",
       "trade_no": 212,
@@ -6036,45 +6065,18 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1.1536,
-      "strength": 76.91108441516121,
-      "note": "z=3.08",
+      "price": 1.1537,
+      "strength": 77.17716803597044,
+      "note": "z=3.09",
       "ts": 1784733300000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 78.7,
-      "strength": 68.33700203491541,
-      "note": "z=2.73",
-      "ts": 1784733300000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 6.64,
-      "strength": 65,
-      "note": "RSI 76.5 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784733300000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 6.64,
-      "strength": 63.40241597961553,
-      "note": "z=2.54",
-      "ts": 1784733300000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.07324,
-      "strength": 61.30015878336559,
-      "note": "z=2.45",
+      "price": 78.65,
+      "strength": 66.38475022901727,
+      "note": "z=2.66",
       "ts": 1784733300000
     },
     {
@@ -6087,30 +6089,39 @@
       "ts": 1784733300000
     },
     {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 6.631,
+      "strength": 59.69275666343018,
+      "note": "z=2.39",
+      "ts": 1784733300000
+    },
+    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1949.71,
-      "strength": 59.916756686256,
-      "note": "z=2.40",
+      "price": 1948.18,
+      "strength": 56.76865451353847,
+      "note": "z=2.27",
+      "ts": 1784733300000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07316,
+      "strength": 55.12688507839436,
+      "note": "z=2.21",
       "ts": 1784733300000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 8.723,
-      "strength": 55.3638697602834,
-      "note": "z=2.21",
-      "ts": 1784733300000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 573.06,
-      "strength": 50.0593214151425,
-      "note": "z=2.00",
+      "price": 8.715,
+      "strength": 51.06978903411575,
+      "note": "z=2.04",
       "ts": 1784733300000
     }
   ],
@@ -6158,18 +6169,29 @@
         "at": "2026-07-22T14:02:58.758498+00:00"
       }
     },
-    "gated_this_cycle": []
+    "gated_this_cycle": [
+      {
+        "symbol": "SOLUSDT",
+        "side": "SHORT",
+        "reason": "desk=LONG"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "side": "SHORT",
+        "reason": "desk=LONG"
+      }
+    ]
   },
   "stats": {
     "open": 5,
-    "total_trades": 217,
+    "total_trades": 218,
     "wins": 73,
-    "losses": 144,
-    "win_rate": 33.6,
-    "total_pnl": -1027.99,
-    "equity": 3875.48,
-    "unrealized": -52.03,
-    "closed_this_cycle": 0
+    "losses": 145,
+    "win_rate": 33.5,
+    "total_pnl": -1040.76,
+    "equity": 3883.74,
+    "unrealized": -31.0,
+    "closed_this_cycle": 1
   },
   "freqtrade": {
     "status": "running",
