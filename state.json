@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T19:14:00.822103+00:00",
+  "cycle_at": "2026-07-22T19:15:00.842320+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5311.8,
       "locked": 0
     },
-    "equity": 5550.61,
+    "equity": 5551.42,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 238.81,
+    "unrealized_pnl": 239.62,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T19:14:00.822103+00:00"
+    "updated_at": "2026-07-22T19:15:00.842320+00:00"
   },
   "open_positions": [
     {
@@ -105,11 +105,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.633,
-      "current": 6.573,
+      "current": 6.576,
       "qty": 1507.613448,
       "notional": 10000.0,
-      "unrealized": 90.46,
-      "pnl_pct": 0.905,
+      "unrealized": 85.93,
+      "pnl_pct": 0.859,
       "sl": 6.672798,
       "tp": 6.553404,
       "trailing_active": false,
@@ -133,11 +133,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07329,
-      "current": 0.07236,
+      "current": 0.07234,
       "qty": 136444.262519,
       "notional": 10000.0,
-      "unrealized": 126.89,
-      "pnl_pct": 1.269,
+      "unrealized": 129.62,
+      "pnl_pct": 1.296,
       "sl": 0.07373,
       "tp": 0.072411,
       "trailing_active": false,
@@ -161,11 +161,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 574.57,
-      "current": 569.25,
+      "current": 569.4,
       "qty": 17.40432,
       "notional": 10000.0,
-      "unrealized": -92.59,
-      "pnl_pct": -0.926,
+      "unrealized": -89.98,
+      "pnl_pct": -0.9,
       "sl": 571.12258,
       "tp": 581.46484,
       "trailing_active": false,
@@ -246,38 +246,29 @@
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 0.07236,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784746800000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 0.1743,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784746800000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.07236,
+      "price": 0.07234,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784746800000
+      "ts": 1784747700000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.07236,
-      "strength": 59.88941197042219,
-      "note": "z=-2.40",
-      "ts": 1784746800000
+      "price": 0.07234,
+      "strength": 57.296399560304245,
+      "note": "z=-2.29",
+      "ts": 1784747700000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 6.576,
+      "strength": 57,
+      "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784747700000
     }
   ],
   "swarm": {
@@ -333,8 +324,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 311.8,
-    "equity": 5550.61,
-    "unrealized": 238.81,
+    "equity": 5551.42,
+    "unrealized": 239.62,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -351,7 +342,7 @@
         "pair": "SOL/USDT",
         "open_date": "2026-07-22 18:25:01.675717",
         "open_rate": 77.89,
-        "current_rate": 77.39,
+        "current_rate": 77.43,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.98,
