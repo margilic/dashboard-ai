@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T16:47:09.156451+00:00",
+  "cycle_at": "2026-07-22T16:47:38.163216+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5000.0,
       "locked": 0
     },
-    "equity": 4989.06,
+    "equity": 5000.2,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -10.94,
+    "unrealized_pnl": 0.2,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T16:47:09.156451+00:00"
+    "updated_at": "2026-07-22T16:47:38.163216+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.1796,
-      "current": 0.1796,
+      "current": 0.1794,
       "qty": 55679.287305,
       "notional": 10000.0,
-      "unrealized": -0.0,
-      "pnl_pct": -0.0,
+      "unrealized": 11.14,
+      "pnl_pct": 0.111,
       "sl": 0.18103,
       "tp": 0.176739,
       "note": "RSI 80.7 a\u015f\u0131r\u0131 al\u0131m",
@@ -117,26 +117,63 @@
       "algo_version": "3.0",
       "sl_pct": 0.647,
       "tp_pct": 1.294
+    },
+    {
+      "id": "AVAXUSDT-1784738858",
+      "trade_no": 3,
+      "trade_id": "T0003",
+      "binance_order_id": "",
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "entry": 6.633,
+      "current": 6.633,
+      "qty": 1507.613448,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 6.672798,
+      "tp": 6.553404,
+      "trailing_active": false,
+      "trailing_stop": null,
+      "trailing_activate_pct": 0.015,
+      "trailing_distance_pct": 0.008,
+      "note": "RSI 73.3 a\u015f\u0131r\u0131 al\u0131m",
+      "opened_at": 1784738858.163216,
+      "opened_iso": "2026-07-22T16:47:38.163216+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
     }
   ],
   "recent_trades": [],
   "signals": [
     {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.1796,
-      "strength": 82,
-      "note": "RSI 80.7 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784738700000
-    },
-    {
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "price": 0.0915,
-      "strength": 77,
+      "strength": 83,
       "note": "RSI 79.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784738700000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.1794,
+      "strength": 82,
+      "note": "RSI 79.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784738700000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 6.633,
+      "strength": 65,
+      "note": "RSI 73.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784738700000
     }
   ],
@@ -187,14 +224,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 2,
+    "open": 3,
     "total_trades": 0,
     "wins": 0,
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 4989.06,
-    "unrealized": -10.94,
+    "equity": 5000.2,
+    "unrealized": 0.2,
     "closed_this_cycle": 0
   },
   "freqtrade": {
