@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T05:28:55.937675+00:00",
+  "cycle_at": "2026-07-22T05:30:55.975474+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3951.35,
       "locked": 0
     },
-    "equity": 4026.12,
+    "equity": 4023.23,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 74.77,
-    "realized_today": 29.76,
-    "updated_at": "2026-07-22T05:28:55.937675+00:00"
+    "unrealized_pnl": 71.88,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-22T05:30:55.975474+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.1428,
-      "current": 1.1348,
+      "current": 1.1355,
       "qty": 2625.131257,
       "notional": 3000.0,
-      "unrealized": 21.0,
-      "pnl_pct": 0.7,
+      "unrealized": 19.16,
+      "pnl_pct": 0.639,
       "sl": 1.149657,
       "tp": 1.129086,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 574.91,
-      "current": 570.04,
+      "current": 570.29,
       "qty": 5.218208,
       "notional": 3000.0,
-      "unrealized": 25.41,
-      "pnl_pct": 0.847,
+      "unrealized": 24.11,
+      "pnl_pct": 0.804,
       "sl": 578.35946,
       "tp": 568.01108,
       "note": "z=2.31",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.716,
-      "current": 8.647,
+      "current": 8.654,
       "qty": 344.194585,
       "notional": 3000.0,
-      "unrealized": 23.75,
-      "pnl_pct": 0.792,
+      "unrealized": 21.34,
+      "pnl_pct": 0.711,
       "sl": 8.768296,
       "tp": 8.611408,
       "note": "RSI 76.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 6.511,
-      "current": 6.501,
+      "current": 6.497,
       "qty": 460.758716,
       "notional": 3000.0,
-      "unrealized": 4.61,
-      "pnl_pct": 0.154,
+      "unrealized": 6.45,
+      "pnl_pct": 0.215,
       "sl": 6.550066,
       "tp": 6.432868,
       "note": "20-bar dip + hacim",
@@ -175,11 +175,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07285,
-      "current": 0.07285,
+      "current": 0.07283,
       "qty": 41180.507893,
       "notional": 3000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 0.82,
+      "pnl_pct": 0.027,
       "sl": 0.073287,
       "tp": 0.071976,
       "note": "20-bar dip + hacim",
@@ -5685,139 +5685,76 @@
   ],
   "signals": [
     {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 66058.01,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
-    },
-    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 1923.01,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 77.57,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 1.1348,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.07285,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 6.501,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
+      "strategy": "EMA Cross",
+      "price": 1924.62,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
+      "ts": 1784698200000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 8.647,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.1725,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.1725,
+      "price": 8.654,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 66058.01,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 1923.01,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784697300000
+      "ts": 1784698200000
     },
     {
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 77.57,
+      "price": 77.63,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784697300000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 570.04,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784697300000
+      "ts": 1784698200000
     },
     {
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 1.1348,
+      "price": 1.1355,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784697300000
+      "ts": 1784698200000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.07285,
+      "price": 0.07283,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784697300000
+      "ts": 1784698200000
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 6.497,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784698200000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 8.654,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784698200000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 0.1726,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784698200000
     }
   ],
   "swarm": {
@@ -5864,23 +5801,7 @@
         "at": "2026-07-22T05:02:55.763808+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "BTCUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      },
-      {
-        "symbol": "ETHUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      },
-      {
-        "symbol": "SOLUSDT",
-        "side": "SHORT",
-        "reason": "desk=LONG"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 5,
@@ -5889,9 +5810,9 @@
     "losses": 136,
     "win_rate": 33.7,
     "total_pnl": -1004.16,
-    "equity": 4026.12,
-    "unrealized": 74.77,
-    "closed_this_cycle": 1
+    "equity": 4023.23,
+    "unrealized": 71.88,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
@@ -5907,7 +5828,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-22 05:05:01.599237",
         "open_rate": 66300.01,
-        "current_rate": 66053.06,
+        "current_rate": 66097.4,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.9,
