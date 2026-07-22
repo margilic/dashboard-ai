@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T05:12:55.848899+00:00",
+  "cycle_at": "2026-07-22T05:14:55.862758+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3883.88,
       "locked": 0
     },
-    "equity": 3952.01,
+    "equity": 3950.55,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 68.13,
+    "unrealized_pnl": 66.67,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T05:12:55.848899+00:00"
+    "updated_at": "2026-07-22T05:14:55.862758+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07358,
-      "current": 0.07321,
+      "current": 0.07323,
       "qty": 40771.948899,
       "notional": 3000.0,
-      "unrealized": 15.09,
-      "pnl_pct": 0.503,
+      "unrealized": 14.27,
+      "pnl_pct": 0.476,
       "sl": 0.074021,
       "tp": 0.072697,
       "note": "z=2.17",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.1428,
-      "current": 1.1397,
+      "current": 1.1402,
       "qty": 2625.131257,
       "notional": 3000.0,
-      "unrealized": 8.14,
-      "pnl_pct": 0.271,
+      "unrealized": 6.83,
+      "pnl_pct": 0.228,
       "sl": 1.149657,
       "tp": 1.129086,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 574.91,
-      "current": 571.37,
+      "current": 571.44,
       "qty": 5.218208,
       "notional": 3000.0,
-      "unrealized": 18.47,
-      "pnl_pct": 0.616,
+      "unrealized": 18.11,
+      "pnl_pct": 0.604,
       "sl": 578.35946,
       "tp": 568.01108,
       "note": "z=2.31",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.716,
-      "current": 8.694,
+      "current": 8.691,
       "qty": 344.194585,
       "notional": 3000.0,
-      "unrealized": 7.57,
-      "pnl_pct": 0.252,
+      "unrealized": 8.6,
+      "pnl_pct": 0.287,
       "sl": 8.768296,
       "tp": 8.611408,
       "note": "RSI 76.4 a\u015f\u0131r\u0131 al\u0131m",
@@ -5627,17 +5627,17 @@
   ],
   "signals": [
     {
-      "symbol": "SOLUSDT",
+      "symbol": "AVAXUSDT",
       "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 77.86,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
+      "strategy": "Bollinger Breakout",
+      "price": 6.545,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784696400000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-22T04:17:08.935402+00:00",
+    "updated_at": "2026-07-22T05:14:53.533434+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -5645,39 +5645,39 @@
     "bias": {
       "BTCUSDT": {
         "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 72.0,
+        "conviction": "HIGH",
+        "score": 70.5,
         "sl": null,
         "tp": null,
-        "rationale": "Yap\u0131sal on-chain ak\u0131\u015flar ve fonlama sa\u011fl\u0131kl\u0131, ancak mikro yap\u0131 riski nedeniyle orta kanaatle uzun pozisyon \u00f6nerilmektedir.",
+        "rationale": "Spot odakl\u0131 y\u00fckseli\u015f, sa\u011fl\u0131kl\u0131 zincir i\u00e7i metrikler, n\u00f6tr fonlama (a\u015f\u0131r\u0131 \u0131s\u0131nma yok), bol stablecoin al\u0131m g\u00fcc\u00fc ve balina birikim deseni.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784692975.376447,
-        "at": "2026-07-22T04:02:55.376447+00:00"
+        "ts": 1784696575.763808,
+        "at": "2026-07-22T05:02:55.763808+00:00"
       },
       "ETHUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 44.0,
+        "conviction": "MEDIUM",
+        "score": 65.0,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm boyutlar bo\u011fa y\u00f6nl\u00fc: on-chain ak\u0131\u015f g\u00fc\u00e7l\u00fc, fonlama negatif s\u0131k\u0131\u015fma potansiyeli, 1953$ \u00fczerinde likidasyon kaskad\u0131 olas\u0131.",
+        "rationale": "Sinyaller genel olarak bo\u011fa e\u011filimli: fonlama, likidasyon ve zincir\u00fcst\u00fc ak\u0131\u015flar pozitif. Fiyat ~1933$. Stop ve hedef verilmemi\u015f.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784692975.376447,
-        "at": "2026-07-22T04:02:55.376447+00:00"
+        "ts": 1784696575.763808,
+        "at": "2026-07-22T05:02:55.763808+00:00"
       },
       "SOLUSDT": {
         "direction": "LONG",
-        "conviction": "HIGH",
-        "score": 72.0,
+        "conviction": "MEDIUM",
+        "score": 17.5,
         "sl": null,
         "tp": null,
-        "rationale": "T\u00fcm sinyaller pozitif: fonlama sa\u011fl\u0131kl\u0131, likidasyon mikro yap\u0131s\u0131 y\u00fckseli\u015fi destekliyor, zincir \u00fcst\u00fc ak\u0131\u015flar g\u00fc\u00e7l\u00fc. A\u011f\u0131rl\u0131kl\u0131 bile\u015fik skor 7.20/10 ile y\u00fcksek g\u00fcvenli uzun pozisyon \u00f6neriliyor.",
-        "extract_model": "deepseek-chat",
+        "rationale": "Ak\u0131\u015f g\u00fc\u00e7l\u00fc pozitif, fonlama da\u011f\u0131n\u0131k; temkinli uzun pozisyon.",
+        "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784692975.376447,
-        "at": "2026-07-22T04:02:55.376447+00:00"
+        "ts": 1784696575.763808,
+        "at": "2026-07-22T05:02:55.763808+00:00"
       }
     },
     "gated_this_cycle": []
@@ -5689,8 +5689,8 @@
     "losses": 136,
     "win_rate": 33.0,
     "total_pnl": -1071.63,
-    "equity": 3952.01,
-    "unrealized": 68.13,
+    "equity": 3950.55,
+    "unrealized": 66.67,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5707,7 +5707,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-22 05:05:01.599237",
         "open_rate": 66300.01,
-        "current_rate": 66265.01,
+        "current_rate": 66274.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.9,
