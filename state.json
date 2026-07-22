@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T08:04:56.841845+00:00",
+  "cycle_at": "2026-07-22T08:06:56.854303+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 4056.78,
       "locked": 0
     },
-    "equity": 4070.97,
+    "equity": 4061.53,
     "initial_balance": 4999.87,
-    "unrealized_pnl": 14.19,
+    "unrealized_pnl": 4.75,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T08:04:56.841845+00:00"
+    "updated_at": "2026-07-22T08:06:56.854303+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 6.511,
-      "current": 6.517,
+      "current": 6.522,
       "qty": 460.758716,
       "notional": 3000.0,
-      "unrealized": -2.76,
-      "pnl_pct": -0.092,
+      "unrealized": -5.07,
+      "pnl_pct": -0.169,
       "sl": 6.550066,
       "tp": 6.432868,
       "note": "20-bar dip + hacim",
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07285,
-      "current": 0.07236,
+      "current": 0.07242,
       "qty": 41180.507893,
       "notional": 3000.0,
-      "unrealized": 20.18,
-      "pnl_pct": 0.673,
+      "unrealized": 17.71,
+      "pnl_pct": 0.59,
       "sl": 0.073287,
       "tp": 0.071976,
       "note": "20-bar dip + hacim",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 8.61,
-      "current": 8.595,
+      "current": 8.6,
       "qty": 348.432056,
       "notional": 3000.0,
-      "unrealized": 5.23,
-      "pnl_pct": 0.174,
+      "unrealized": 3.48,
+      "pnl_pct": 0.116,
       "sl": 8.66166,
       "tp": 8.50668,
       "note": "20-bar dip + hacim",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 567.33,
-      "current": 568.93,
+      "current": 569.48,
       "qty": 5.287928,
       "notional": 3000.0,
-      "unrealized": -8.46,
-      "pnl_pct": -0.282,
+      "unrealized": -11.37,
+      "pnl_pct": -0.379,
       "sl": 570.73398,
       "tp": 560.52204,
       "note": "20-bar dip + hacim",
@@ -5800,8 +5800,8 @@
     "losses": 136,
     "win_rate": 34.6,
     "total_pnl": -898.73,
-    "equity": 4070.97,
-    "unrealized": 14.19,
+    "equity": 4061.53,
+    "unrealized": 4.75,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5812,33 +5812,31 @@
       "tp_pct": 0.02,
       "trailing_active_pct": 0.008
     },
-    "open_positions": [
+    "open_positions": [],
+    "stats": {
+      "open": 0,
+      "total_closed": 145,
+      "wins": 32,
+      "losses": 113,
+      "win_rate": 22.1,
+      "total_pnl": -107.05,
+      "avg_profit_pct": -0.17
+    },
+    "recent_trades": [
       {
         "id": 145,
         "pair": "BTC/USDT",
         "open_date": "2026-07-22 05:05:01.599237",
-        "open_rate": 66300.01,
-        "current_rate": 65984.66,
+        "close_date": "2026-07-22 08:05:01.626000",
+        "entry": 66300.01,
+        "exit": 65984.66,
+        "pnl_pct": -0.67,
+        "pnl_abs": -3.38,
+        "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
-        "stake": 499.9,
-        "amount": 0.00754,
-        "side": "LONG",
-        "sl_price": 65305.51,
-        "tp_price": 67626.01,
-        "trailing_active_price": 66830.41
-      }
-    ],
-    "stats": {
-      "open": 1,
-      "total_closed": 144,
-      "wins": 32,
-      "losses": 112,
-      "win_rate": 22.2,
-      "total_pnl": -103.68,
-      "avg_profit_pct": -0.17
-    },
-    "recent_trades": [
+        "side": "LONG"
+      },
       {
         "id": 144,
         "pair": "BTC/USDT",
@@ -5960,20 +5958,6 @@
         "exit": 1940.4,
         "pnl_pct": -0.13,
         "pnl_abs": -0.64,
-        "exit_reason": "rsi_gt52",
-        "enter_tag": "rsi_lt50",
-        "strategy": "RSIScalp",
-        "side": "LONG"
-      },
-      {
-        "id": 135,
-        "pair": "ETH/USDT",
-        "open_date": "2026-07-21 11:55:02.069255",
-        "close_date": "2026-07-21 12:20:21.256000",
-        "entry": 1935.57,
-        "exit": 1940.83,
-        "pnl_pct": 0.07,
-        "pnl_abs": 0.36,
         "exit_reason": "rsi_gt52",
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
