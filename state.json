@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T17:49:00.003959+00:00",
+  "cycle_at": "2026-07-22T17:51:00.009954+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5000.0,
       "locked": 0
     },
-    "equity": 5061.64,
+    "equity": 5078.21,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 61.64,
+    "unrealized_pnl": 78.21,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T17:49:00.003959+00:00"
+    "updated_at": "2026-07-22T17:51:00.009954+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.1796,
-      "current": 0.1788,
+      "current": 0.1785,
       "qty": 55679.287305,
       "notional": 10000.0,
-      "unrealized": 44.54,
-      "pnl_pct": 0.445,
+      "unrealized": 61.25,
+      "pnl_pct": 0.612,
       "sl": 0.18103,
       "tp": 0.176739,
       "note": "RSI 80.7 a\u015f\u0131r\u0131 al\u0131m",
@@ -127,11 +127,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.633,
-      "current": 6.634,
+      "current": 6.63,
       "qty": 1507.613448,
       "notional": 10000.0,
-      "unrealized": -1.51,
-      "pnl_pct": -0.015,
+      "unrealized": 4.52,
+      "pnl_pct": 0.045,
       "sl": 6.672798,
       "tp": 6.553404,
       "trailing_active": false,
@@ -155,11 +155,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07329,
-      "current": 0.07333,
+      "current": 0.0733,
       "qty": 136444.262519,
       "notional": 10000.0,
-      "unrealized": -5.46,
-      "pnl_pct": -0.055,
+      "unrealized": -1.36,
+      "pnl_pct": -0.014,
       "sl": 0.07373,
       "tp": 0.072411,
       "trailing_active": false,
@@ -183,11 +183,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 574.57,
-      "current": 572.81,
+      "current": 572.22,
       "qty": 17.40432,
       "notional": 10000.0,
-      "unrealized": -30.63,
-      "pnl_pct": -0.306,
+      "unrealized": -40.9,
+      "pnl_pct": -0.409,
       "sl": 571.12258,
       "tp": 581.46484,
       "trailing_active": false,
@@ -206,30 +206,30 @@
   "recent_trades": [],
   "signals": [
     {
-      "symbol": "ADAUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 0.1788,
-      "strength": 71,
-      "note": "RSI 75.6 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784742300000
-    },
-    {
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.634,
-      "strength": 66,
-      "note": "RSI 73.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.63,
+      "strength": 65,
+      "note": "RSI 73.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784742300000
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 0.1785,
+      "strength": 64,
+      "note": "RSI 73.1 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784742300000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07333,
-      "strength": 63,
-      "note": "RSI 72.8 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0733,
+      "strength": 59,
+      "note": "RSI 71.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784742300000
     }
   ],
@@ -286,12 +286,28 @@
     "losses": 0,
     "win_rate": 0,
     "total_pnl": 0,
-    "equity": 5061.64,
-    "unrealized": 61.64,
+    "equity": 5078.21,
+    "unrealized": 78.21,
     "closed_this_cycle": 0
   },
   "freqtrade": {
-    "status": "offline",
-    "reason": "db missing"
+    "status": "running",
+    "mode": "dry-run",
+    "strategy_params": {
+      "stoploss_pct": -0.015,
+      "tp_pct": 0.02,
+      "trailing_active_pct": 0.008
+    },
+    "open_positions": [],
+    "stats": {
+      "open": 0,
+      "total_closed": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0,
+      "total_pnl": 0,
+      "avg_profit_pct": 0
+    },
+    "recent_trades": []
   }
 }
