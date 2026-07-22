@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T20:29:02.007621+00:00",
+  "cycle_at": "2026-07-22T20:30:02.390798+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5399.33,
       "locked": 0
     },
-    "equity": 5434.39,
+    "equity": 5420.25,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 35.06,
+    "unrealized_pnl": 20.92,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T20:29:02.007621+00:00"
+    "updated_at": "2026-07-22T20:30:02.390798+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.633,
-      "current": 6.621,
+      "current": 6.625,
       "qty": 1507.613448,
       "notional": 10000.0,
-      "unrealized": 18.09,
-      "pnl_pct": 0.181,
+      "unrealized": 12.06,
+      "pnl_pct": 0.121,
       "sl": 6.672798,
       "tp": 6.553404,
       "trailing_active": false,
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07329,
-      "current": 0.07271,
+      "current": 0.07274,
       "qty": 136444.262519,
       "notional": 10000.0,
-      "unrealized": 79.14,
-      "pnl_pct": 0.791,
+      "unrealized": 75.04,
+      "pnl_pct": 0.75,
       "sl": 0.07373,
       "tp": 0.072411,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 574.57,
-      "current": 570.41,
+      "current": 570.51,
       "qty": 17.40432,
       "notional": 10000.0,
-      "unrealized": -72.4,
-      "pnl_pct": -0.724,
+      "unrealized": -70.66,
+      "pnl_pct": -0.707,
       "sl": 571.12258,
       "tp": 581.46484,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.174,
-      "current": 0.1744,
+      "current": 0.1745,
       "qty": 57471.264368,
       "notional": 10000.0,
-      "unrealized": -22.99,
-      "pnl_pct": -0.23,
+      "unrealized": -28.74,
+      "pnl_pct": -0.287,
       "sl": 0.175528,
       "tp": 0.170944,
       "trailing_active": false,
@@ -280,37 +280,28 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1744,
-      "strength": 88,
-      "note": "RSI 18.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784751300000
+      "price": 0.1745,
+      "strength": 82,
+      "note": "RSI 21.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784752200000
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.1369,
-      "strength": 83,
-      "note": "RSI 20.6 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784751300000
+      "price": 1.1374,
+      "strength": 72,
+      "note": "RSI 24.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784752200000
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 570.41,
-      "strength": 59,
-      "note": "RSI 28.4 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784751300000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.0906,
-      "strength": 59,
-      "note": "RSI 28.6 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784751300000
+      "price": 570.51,
+      "strength": 63,
+      "note": "RSI 27.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784752200000
     }
   ],
   "swarm": {
@@ -366,8 +357,8 @@
     "losses": 0,
     "win_rate": 100.0,
     "total_pnl": 399.33,
-    "equity": 5434.39,
-    "unrealized": 35.06,
+    "equity": 5420.25,
+    "unrealized": 20.92,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -384,7 +375,7 @@
         "pair": "SOL/USDT",
         "open_date": "2026-07-22 18:25:01.675717",
         "open_rate": 77.89,
-        "current_rate": 77.88,
+        "current_rate": 77.9,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.98,
