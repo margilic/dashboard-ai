@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-22T02:22:54.720186+00:00",
+  "cycle_at": "2026-07-22T02:23:54.736958+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 3909.82,
       "locked": 0
     },
-    "equity": 3882.94,
+    "equity": 3883.18,
     "initial_balance": 4999.87,
-    "unrealized_pnl": -26.88,
+    "unrealized_pnl": -26.64,
     "realized_today": 0.0,
-    "updated_at": "2026-07-22T02:22:54.720186+00:00"
+    "updated_at": "2026-07-22T02:23:54.736958+00:00"
   },
   "open_positions": [
     {
@@ -103,11 +103,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 0.07358,
-      "current": 0.07369,
+      "current": 0.07368,
       "qty": 40771.948899,
       "notional": 3000.0,
-      "unrealized": -4.48,
-      "pnl_pct": -0.149,
+      "unrealized": -4.08,
+      "pnl_pct": -0.136,
       "sl": 0.074021,
       "tp": 0.072697,
       "note": "z=2.17",
@@ -151,11 +151,11 @@
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
       "entry": 574.91,
-      "current": 573.92,
+      "current": 573.95,
       "qty": 5.218208,
       "notional": 3000.0,
-      "unrealized": 5.17,
-      "pnl_pct": 0.172,
+      "unrealized": 5.01,
+      "pnl_pct": 0.167,
       "sl": 578.35946,
       "tp": 568.01108,
       "note": "z=2.31",
@@ -5610,9 +5610,9 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.09,
-      "strength": 71,
-      "note": "RSI 77.8 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.0901,
+      "strength": 74,
+      "note": "RSI 78.6 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784686500000
     }
   ],
@@ -5669,8 +5669,8 @@
     "losses": 135,
     "win_rate": 33.2,
     "total_pnl": -1045.69,
-    "equity": 3882.94,
-    "unrealized": -26.88,
+    "equity": 3883.18,
+    "unrealized": -26.64,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -5687,7 +5687,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-22 01:15:01.729976",
         "open_rate": 66494.01,
-        "current_rate": 66465.41,
+        "current_rate": 66460.0,
         "enter_tag": "rsi_lt50",
         "strategy": "RSIScalp",
         "stake": 499.37,
