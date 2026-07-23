@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-23T05:14:10.158899+00:00",
+  "cycle_at": "2026-07-23T05:15:10.182796+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5489.3,
       "locked": 0
     },
-    "equity": 5365.38,
+    "equity": 5389.67,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -123.92,
+    "unrealized_pnl": -99.63,
     "realized_today": 0.0,
-    "updated_at": "2026-07-23T05:14:10.158899+00:00"
+    "updated_at": "2026-07-23T05:15:10.182796+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0903,
-      "current": 0.089,
+      "current": 0.0891,
       "qty": 110741.971207,
       "notional": 10000.0,
-      "unrealized": -143.96,
-      "pnl_pct": -1.44,
+      "unrealized": -132.89,
+      "pnl_pct": -1.329,
       "sl": 0.089738,
       "tp": 0.091423,
       "trailing_active": false,
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.561,
-      "current": 6.544,
+      "current": 6.539,
       "qty": 1524.157903,
       "notional": 10000.0,
-      "unrealized": 25.91,
-      "pnl_pct": 0.259,
+      "unrealized": 33.53,
+      "pnl_pct": 0.335,
       "sl": 6.600366,
       "tp": 6.482268,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07252,
-      "current": 0.0725,
+      "current": 0.07249,
       "qty": 137892.995036,
       "notional": 10000.0,
-      "unrealized": 2.76,
-      "pnl_pct": 0.028,
+      "unrealized": 4.14,
+      "pnl_pct": 0.041,
       "sl": 0.072955,
       "tp": 0.07165,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.1345,
-      "current": 1.1352,
+      "current": 1.135,
       "qty": 8814.455707,
       "notional": 10000.0,
-      "unrealized": -6.17,
-      "pnl_pct": -0.062,
+      "unrealized": -4.41,
+      "pnl_pct": -0.044,
       "sl": 1.141307,
       "tp": 1.120886,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 569.1,
-      "current": 569.24,
+      "current": 569.1,
       "qty": 17.571604,
       "notional": 10000.0,
-      "unrealized": -2.46,
-      "pnl_pct": -0.025,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 572.5146,
       "tp": 562.2708,
       "trailing_active": false,
@@ -412,68 +412,68 @@
       "symbol": "ARBUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.089,
+      "price": 0.0891,
       "strength": 100,
-      "note": "RSI 10.5 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784782800000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "SHORT",
-      "strategy": "Momentum Breakout",
-      "price": 0.089,
-      "strength": 75,
-      "note": "20-bar dip + hacim",
-      "ts": 1784782800000
+      "note": "RSI 11.1 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784783700000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.544,
-      "strength": 73,
-      "note": "RSI 23.7 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784782800000
+      "price": 6.539,
+      "strength": 77,
+      "note": "RSI 22.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784783700000
     },
     {
       "symbol": "BNBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 569.24,
+      "price": 569.1,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784782800000
+      "ts": 1784783700000
     },
     {
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 8.56,
+      "price": 8.556,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784782800000
+      "ts": 1784783700000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 569.1,
+      "strength": 55,
+      "note": "RSI 30.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784783700000
     },
     {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 569.24,
-      "strength": 54.85027595441129,
-      "note": "z=-2.19",
-      "ts": 1784782800000
+      "price": 569.1,
+      "strength": 52.447531924740545,
+      "note": "z=-2.10",
+      "ts": 1784783700000
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 8.56,
-      "strength": 53.76948288989982,
-      "note": "z=-2.15",
-      "ts": 1784782800000
+      "price": 8.556,
+      "strength": 51.03173366504248,
+      "note": "z=-2.04",
+      "ts": 1784783700000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-23T04:19:20.862416+00:00",
+    "updated_at": "2026-07-23T05:14:46.165134+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -482,38 +482,38 @@
       "BTCUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 63.0,
-        "sl": null,
-        "tp": null,
-        "rationale": "T\u00fcm boyutlar bo\u011fa y\u00f6n\u00fcnde uyumlu: zincir\u00fcst\u00fc ak\u0131\u015f g\u00fc\u00e7l\u00fc bo\u011fa, fonlama hafif bo\u011fa ta\u015f\u0131ma, likidasyon bo\u011fa e\u011filimi ama y\u00fcksek kaskade riski. Bile\u015fik skor +0.63.",
-        "extract_model": "deepseek-v4-flash",
+        "score": 60.0,
+        "sl": 64921,
+        "tp": 66233,
+        "rationale": "Ak\u0131\u015f verileri g\u00fc\u00e7l\u00fc bo\u011fa sinyali veriyor, fonlama n\u00f6tr, likidasyon yap\u0131s\u0131 temkinli. K\u0131smi uyum var, yukar\u0131 y\u00f6nl\u00fc hafif e\u011filim.",
+        "extract_model": "deepseek-chat",
         "target": "BTC-USDT",
-        "ts": 1784779328.274154,
-        "at": "2026-07-23T04:02:08.274154+00:00"
+        "ts": 1784782930.047063,
+        "at": "2026-07-23T05:02:10.047063+00:00"
       },
       "ETHUSDT": {
-        "direction": "SHORT",
-        "conviction": "MEDIUM",
-        "score": -33.5,
-        "sl": null,
-        "tp": null,
-        "rationale": "Funding oranlar\u0131 so\u011fuyor, likidasyon k\u00fcmeleri a\u015fa\u011f\u0131da, perakende uzun a\u011f\u0131rl\u0131kl\u0131 - bile\u015fik d\u00fc\u015f\u00fc\u015f.",
-        "extract_model": "deepseek-v4-flash",
-        "target": "ETH-USDT",
-        "ts": 1784779328.274154,
-        "at": "2026-07-23T04:02:08.274154+00:00"
-      },
-      "SOLUSDT": {
         "direction": "LONG",
         "conviction": "MEDIUM",
-        "score": 63.0,
+        "score": 61.8,
         "sl": null,
         "tp": null,
-        "rationale": "Fonlama negatif, s\u0131k\u0131\u015fma potansiyeli; zincir \u00fcst\u00fc balina birikimi; likidasyon riski $77.50. \u0130htiyatl\u0131 y\u00fckseli\u015f.",
+        "rationale": "K\u0131sa pozisyon likidasyon bask\u0131nl\u0131\u011f\u0131 ($82.1M vs $46.6M) + zincir i\u00e7i ak\u0131\u015f y\u00fckseli\u015fi finansman sapmas\u0131n\u0131 bast\u0131r\u0131yor. Ancak %64 perakende uzun pozisyon ve \u00e7\u00f6ken finansman kanaati s\u0131n\u0131rl\u0131yor.",
+        "extract_model": "deepseek-v4-flash",
+        "target": "ETH-USDT",
+        "ts": 1784782930.047063,
+        "at": "2026-07-23T05:02:10.047063+00:00"
+      },
+      "SOLUSDT": {
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": -2.0,
+        "sl": null,
+        "tp": null,
+        "rationale": "Sinyaller uyumsuz, kompozit skor s\u0131f\u0131ra yak\u0131n, n\u00f6tr beklenti.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784779328.274154,
-        "at": "2026-07-23T04:02:08.274154+00:00"
+        "ts": 1784782930.047063,
+        "at": "2026-07-23T05:02:10.047063+00:00"
       }
     },
     "gated_this_cycle": []
@@ -525,8 +525,8 @@
     "losses": 2,
     "win_rate": 66.7,
     "total_pnl": 489.3,
-    "equity": 5365.38,
-    "unrealized": -123.92,
+    "equity": 5389.67,
+    "unrealized": -99.63,
     "closed_this_cycle": 0
   },
   "freqtrade": {
