@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-23T12:32:13.941064+00:00",
+  "cycle_at": "2026-07-23T12:33:13.939897+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5411.78,
       "locked": 0
     },
-    "equity": 5328.92,
+    "equity": 5357.11,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -82.86,
+    "unrealized_pnl": -54.67,
     "realized_today": 0.0,
-    "updated_at": "2026-07-23T12:32:13.941064+00:00"
+    "updated_at": "2026-07-23T12:33:13.939897+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.561,
-      "current": 6.568,
+      "current": 6.561,
       "qty": 1524.157903,
       "notional": 10000.0,
-      "unrealized": -10.67,
-      "pnl_pct": -0.107,
+      "unrealized": -0.0,
+      "pnl_pct": -0.0,
       "sl": 6.600366,
       "tp": 6.482268,
       "trailing_active": false,
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07252,
-      "current": 0.07226,
+      "current": 0.07223,
       "qty": 137892.995036,
       "notional": 10000.0,
-      "unrealized": 35.85,
-      "pnl_pct": 0.359,
+      "unrealized": 39.99,
+      "pnl_pct": 0.4,
       "sl": 0.072955,
       "tp": 0.07165,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.1345,
-      "current": 1.1298,
+      "current": 1.1287,
       "qty": 8814.455707,
       "notional": 10000.0,
-      "unrealized": 41.43,
-      "pnl_pct": 0.414,
+      "unrealized": 51.12,
+      "pnl_pct": 0.511,
       "sl": 1.141307,
       "tp": 1.120886,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 569.1,
-      "current": 569.95,
+      "current": 569.74,
       "qty": 17.571604,
       "notional": 10000.0,
-      "unrealized": -14.94,
-      "pnl_pct": -0.149,
+      "unrealized": -11.25,
+      "pnl_pct": -0.112,
       "sl": 572.5146,
       "tp": 562.2708,
       "trailing_active": false,
@@ -442,37 +442,64 @@
   ],
   "signals": [
     {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "EMA Cross",
-      "price": 569.95,
-      "strength": 70,
-      "note": "EMA9<EMA21 kesi\u015fim",
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "strategy": "RSI Reversal",
+      "price": 1.1287,
+      "strength": 73,
+      "note": "RSI 23.9 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784809800000
     },
     {
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1917.8,
-      "strength": 68,
-      "note": "RSI 25.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 1916.37,
+      "strength": 72,
+      "note": "RSI 24.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "ts": 1784809800000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "EMA Cross",
+      "price": 569.74,
+      "strength": 70,
+      "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784809800000
     },
     {
       "symbol": "XRPUSDT",
       "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 1.1287,
+      "strength": 68.36358346110454,
+      "note": "z=-2.73",
+      "ts": 1784809800000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 1.1298,
-      "strength": 67,
-      "note": "RSI 26.0 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 65324.25,
+      "strength": 66,
+      "note": "RSI 26.2 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784809800000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 65379.6,
+      "price": 65324.25,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784809800000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 1916.37,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784809800000
@@ -481,7 +508,7 @@
       "symbol": "XRPUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 1.1298,
+      "price": 1.1287,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784809800000
@@ -496,30 +523,21 @@
       "ts": 1784809800000
     },
     {
-      "symbol": "XRPUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 1.1298,
-      "strength": 59.39693403794143,
-      "note": "z=-2.38",
-      "ts": 1784809800000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 65379.6,
-      "strength": 59,
-      "note": "RSI 28.3 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784809800000
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 65379.6,
-      "strength": 52.40605939250136,
-      "note": "z=-2.10",
+      "price": 65324.25,
+      "strength": 60.59724571374733,
+      "note": "z=-2.42",
+      "ts": 1784809800000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 1916.37,
+      "strength": 51.09562816300408,
+      "note": "z=-2.04",
       "ts": 1784809800000
     }
   ],
@@ -576,8 +594,8 @@
     "losses": 3,
     "win_rate": 57.1,
     "total_pnl": 411.78,
-    "equity": 5328.92,
-    "unrealized": -82.86,
+    "equity": 5357.11,
+    "unrealized": -54.67,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -594,7 +612,7 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-23 07:15:01.990706",
         "open_rate": 65455.93,
-        "current_rate": 65379.6,
+        "current_rate": 65326.0,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.43,
