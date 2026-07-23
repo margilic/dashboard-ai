@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-23T03:06:07.832258+00:00",
+  "cycle_at": "2026-07-23T03:07:07.830014+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5489.3,
       "locked": 0
     },
-    "equity": 5427.76,
+    "equity": 5415.91,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -61.54,
+    "unrealized_pnl": -73.39,
     "realized_today": 0.0,
-    "updated_at": "2026-07-23T03:06:07.832258+00:00"
+    "updated_at": "2026-07-23T03:07:07.830014+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 0.174,
-      "current": 0.1743,
+      "current": 0.1744,
       "qty": 57471.264368,
       "notional": 10000.0,
-      "unrealized": -17.24,
-      "pnl_pct": -0.172,
+      "unrealized": -22.99,
+      "pnl_pct": -0.23,
       "sl": 0.175528,
       "tp": 0.170944,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 6.561,
-      "current": 6.561,
+      "current": 6.565,
       "qty": 1524.157903,
       "notional": 10000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": -6.1,
+      "pnl_pct": -0.061,
       "sl": 6.600366,
       "tp": 6.482268,
       "trailing_active": false,
@@ -323,7 +323,7 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 6.561,
+      "price": 6.565,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784775600000
@@ -332,9 +332,9 @@
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 6.561,
-      "strength": 53.756526123715695,
-      "note": "z=-2.15",
+      "price": 6.565,
+      "strength": 50.41427914926465,
+      "note": "z=-2.02",
       "ts": 1784775600000
     }
   ],
@@ -391,8 +391,8 @@
     "losses": 1,
     "win_rate": 80.0,
     "total_pnl": 489.3,
-    "equity": 5427.76,
-    "unrealized": -61.54,
+    "equity": 5415.91,
+    "unrealized": -73.39,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -409,7 +409,7 @@
         "pair": "SOL/USDT",
         "open_date": "2026-07-22 18:25:01.675717",
         "open_rate": 77.89,
-        "current_rate": 77.61,
+        "current_rate": 77.66,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.98,
