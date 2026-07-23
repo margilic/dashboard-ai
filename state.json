@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-23T07:15:11.200640+00:00",
+  "cycle_at": "2026-07-23T07:16:11.640332+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5411.78,
       "locked": 0
     },
-    "equity": 5447.47,
+    "equity": 5434.57,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 35.69,
+    "unrealized_pnl": 22.79,
     "realized_today": 0.0,
-    "updated_at": "2026-07-23T07:15:11.200640+00:00"
+    "updated_at": "2026-07-23T07:16:11.640332+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "Momentum Breakout",
       "entry": 0.07252,
-      "current": 0.07225,
+      "current": 0.07229,
       "qty": 137892.995036,
       "notional": 10000.0,
-      "unrealized": 37.23,
-      "pnl_pct": 0.372,
+      "unrealized": 31.72,
+      "pnl_pct": 0.317,
       "sl": 0.072955,
       "tp": 0.07165,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 1.1345,
-      "current": 1.1324,
+      "current": 1.1329,
       "qty": 8814.455707,
       "notional": 10000.0,
-      "unrealized": 18.51,
-      "pnl_pct": 0.185,
+      "unrealized": 14.1,
+      "pnl_pct": 0.141,
       "sl": 1.141307,
       "tp": 1.120886,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 569.1,
-      "current": 568.99,
+      "current": 569.16,
       "qty": 17.571604,
       "notional": 10000.0,
-      "unrealized": 1.93,
-      "pnl_pct": 0.019,
+      "unrealized": -1.05,
+      "pnl_pct": -0.011,
       "sl": 572.5146,
       "tp": 562.2708,
       "trailing_active": false,
@@ -445,7 +445,16 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 65460.0,
+      "price": 65452.0,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784790900000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 1916.87,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784790900000
@@ -454,16 +463,7 @@
       "symbol": "SOLUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 77.21,
-      "strength": 65,
-      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784790900000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Bollinger Breakout",
-      "price": 568.99,
+      "price": 77.22,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784790900000
@@ -472,7 +472,16 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.07225,
+      "price": 0.07229,
+      "strength": 65,
+      "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784790900000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Bollinger Breakout",
+      "price": 8.544,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784790900000
@@ -493,15 +502,6 @@
       "price": 0.0888,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
-      "ts": 1784790900000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 77.21,
-      "strength": 63.93503084573339,
-      "note": "z=-2.56",
       "ts": 1784790900000
     },
     {
@@ -514,30 +514,30 @@
       "ts": 1784790900000
     },
     {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 77.22,
+      "strength": 62.79581465927788,
+      "note": "z=-2.51",
+      "ts": 1784790900000
+    },
+    {
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 65460.0,
-      "strength": 59.09864399125997,
-      "note": "z=-2.36",
+      "price": 65452.0,
+      "strength": 60.54036412266057,
+      "note": "z=-2.42",
       "ts": 1784790900000
     },
     {
-      "symbol": "DOGEUSDT",
+      "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 0.07225,
-      "strength": 57.000280500146,
-      "note": "z=-2.28",
-      "ts": 1784790900000
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 568.99,
-      "strength": 52.910219794376864,
-      "note": "z=-2.12",
+      "price": 1916.87,
+      "strength": 53.55978322120068,
+      "note": "z=-2.14",
       "ts": 1784790900000
     },
     {
@@ -547,6 +547,24 @@
       "price": 0.0888,
       "strength": 52.719819545351676,
       "note": "z=-2.11",
+      "ts": 1784790900000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 8.544,
+      "strength": 52.053963608924406,
+      "note": "z=-2.08",
+      "ts": 1784790900000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.07229,
+      "strength": 50.938133606446314,
+      "note": "z=-2.04",
       "ts": 1784790900000
     }
   ],
@@ -603,8 +621,8 @@
     "losses": 3,
     "win_rate": 57.1,
     "total_pnl": 411.78,
-    "equity": 5447.47,
-    "unrealized": 35.69,
+    "equity": 5434.57,
+    "unrealized": 22.79,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -621,11 +639,11 @@
         "pair": "BTC/USDT",
         "open_date": "2026-07-23 07:15:01.990706",
         "open_rate": 65455.93,
-        "current_rate": 65454.01,
+        "current_rate": 65448.01,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
-        "stake": 500.0,
-        "amount": 0.0,
+        "stake": 499.43,
+        "amount": 0.00763,
         "side": "LONG",
         "sl_price": 64474.09,
         "tp_price": 66765.05,
