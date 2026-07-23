@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-23T23:16:19.047399+00:00",
+  "cycle_at": "2026-07-23T23:17:19.055278+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5418.88,
       "locked": 0
     },
-    "equity": 5456.17,
+    "equity": 5460.37,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 37.29,
+    "unrealized_pnl": 41.49,
     "realized_today": 0.0,
-    "updated_at": "2026-07-23T23:16:19.047399+00:00"
+    "updated_at": "2026-07-23T23:17:19.055278+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 8.427,
-      "current": 8.48,
+      "current": 8.478,
       "qty": 1186.66192,
       "notional": 10000.0,
-      "unrealized": 62.89,
-      "pnl_pct": 0.629,
+      "unrealized": 60.52,
+      "pnl_pct": 0.605,
       "sl": 8.376438,
       "tp": 8.528124,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 76.16,
-      "current": 76.22,
+      "current": 76.17,
       "qty": 131.302521,
       "notional": 10000.0,
-      "unrealized": -7.88,
-      "pnl_pct": -0.079,
+      "unrealized": -1.31,
+      "pnl_pct": -0.013,
       "sl": 76.61696,
       "tp": 75.24608,
       "trailing_active": false,
@@ -650,21 +650,21 @@
   ],
   "signals": [
     {
-      "symbol": "SOLUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 76.22,
-      "strength": 60,
-      "note": "RSI 72.0 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784848500000
-    },
-    {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 65201.99,
-      "strength": 58,
-      "note": "RSI 71.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 65190.55,
+      "strength": 56,
+      "note": "RSI 70.4 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784848500000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 76.17,
+      "strength": 55,
+      "note": "RSI 70.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784848500000
     }
   ],
@@ -727,8 +727,8 @@
     "losses": 6,
     "win_rate": 60.0,
     "total_pnl": 418.87,
-    "equity": 5456.17,
-    "unrealized": 37.29,
+    "equity": 5460.37,
+    "unrealized": 41.49,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -745,7 +745,7 @@
         "pair": "SOL/USDT",
         "open_date": "2026-07-23 15:06:17.122659",
         "open_rate": 76.01,
-        "current_rate": 76.21,
+        "current_rate": 76.18,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.99,
