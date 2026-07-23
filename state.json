@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-23T23:32:19.162029+00:00",
+  "cycle_at": "2026-07-23T23:33:19.168291+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5418.88,
       "locked": 0
     },
-    "equity": 5453.27,
+    "equity": 5448.02,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 34.39,
+    "unrealized_pnl": 29.14,
     "realized_today": 0.0,
-    "updated_at": "2026-07-23T23:32:19.162029+00:00"
+    "updated_at": "2026-07-23T23:33:19.168291+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.1693,
-      "current": 0.1689,
+      "current": 0.1687,
       "qty": 59066.745422,
       "notional": 10000.0,
-      "unrealized": -23.63,
-      "pnl_pct": -0.236,
+      "unrealized": -35.44,
+      "pnl_pct": -0.354,
       "sl": 0.168114,
       "tp": 0.171672,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 76.16,
-      "current": 76.17,
+      "current": 76.12,
       "qty": 131.302521,
       "notional": 10000.0,
-      "unrealized": -1.31,
-      "pnl_pct": -0.013,
+      "unrealized": 5.25,
+      "pnl_pct": 0.053,
       "sl": 76.61696,
       "tp": 75.24608,
       "trailing_active": false,
@@ -690,9 +690,9 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1689,
-      "strength": 63,
-      "note": "RSI 27.3 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.1687,
+      "strength": 67,
+      "note": "RSI 25.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784849400000
     }
   ],
@@ -749,8 +749,8 @@
     "losses": 6,
     "win_rate": 60.0,
     "total_pnl": 418.87,
-    "equity": 5453.27,
-    "unrealized": 34.39,
+    "equity": 5448.02,
+    "unrealized": 29.14,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -767,7 +767,7 @@
         "pair": "SOL/USDT",
         "open_date": "2026-07-23 15:06:17.122659",
         "open_rate": 76.01,
-        "current_rate": 76.17,
+        "current_rate": 76.12,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.99,
