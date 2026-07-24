@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-24T17:49:27.355598+00:00",
+  "cycle_at": "2026-07-24T17:50:27.364277+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5529.34,
       "locked": 0
     },
-    "equity": 5622.42,
+    "equity": 5615.87,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 93.08,
+    "unrealized_pnl": 86.53,
     "realized_today": 0.0,
-    "updated_at": "2026-07-24T17:49:27.355598+00:00"
+    "updated_at": "2026-07-24T17:50:27.364277+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 1.1092,
-      "current": 1.089,
+      "current": 1.0892,
       "qty": 9015.506671,
       "notional": 10000.0,
-      "unrealized": 182.11,
-      "pnl_pct": 1.821,
+      "unrealized": 180.31,
+      "pnl_pct": 1.803,
       "sl": 1.115855,
       "tp": 1.09589,
       "trailing_active": true,
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 563.64,
-      "current": 562.16,
+      "current": 562.23,
       "qty": 17.741821,
       "notional": 10000.0,
-      "unrealized": -26.26,
-      "pnl_pct": -0.263,
+      "unrealized": -25.02,
+      "pnl_pct": -0.25,
       "sl": 560.25816,
       "tp": 570.40368,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 64082.0,
-      "current": 64143.99,
+      "current": 64144.86,
       "qty": 0.15605,
       "notional": 10000.0,
-      "unrealized": 9.67,
-      "pnl_pct": 0.097,
+      "unrealized": 9.81,
+      "pnl_pct": 0.098,
       "sl": 63697.508,
       "tp": 64850.984,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
       "entry": 0.163,
-      "current": 0.1636,
+      "current": 0.1637,
       "qty": 61349.693252,
       "notional": 10000.0,
-      "unrealized": -36.81,
-      "pnl_pct": -0.368,
+      "unrealized": -42.94,
+      "pnl_pct": -0.429,
       "sl": 0.163978,
       "tp": 0.161044,
       "trailing_active": false,
@@ -1034,7 +1034,17 @@
       "duration_s": 8761
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "RSI Reversal",
+      "price": 562.23,
+      "strength": 55,
+      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784915100000
+    }
+  ],
   "swarm": {
     "updated_at": "2026-07-24T16:04:22.225201+00:00",
     "model": "deepseek-chat",
@@ -1088,8 +1098,8 @@
     "losses": 11,
     "win_rate": 56.0,
     "total_pnl": 529.33,
-    "equity": 5622.42,
-    "unrealized": 93.08,
+    "equity": 5615.87,
+    "unrealized": 86.53,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1106,7 +1116,7 @@
         "pair": "BNB/USDT",
         "open_date": "2026-07-24 11:26:02.111980",
         "open_rate": 566.01,
-        "current_rate": 562.15,
+        "current_rate": 562.23,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.79,
