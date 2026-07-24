@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-24T02:34:20.582856+00:00",
+  "cycle_at": "2026-07-24T02:35:20.593907+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5440.24,
       "locked": 0
     },
-    "equity": 5121.05,
+    "equity": 5146.92,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -319.19,
+    "unrealized_pnl": -293.32,
     "realized_today": 0.0,
-    "updated_at": "2026-07-24T02:34:20.582856+00:00"
+    "updated_at": "2026-07-24T02:35:20.593907+00:00"
   },
   "open_positions": [
     {
@@ -135,11 +135,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0861,
-      "current": 0.0851,
+      "current": 0.0853,
       "qty": 116144.018583,
       "notional": 10000.0,
-      "unrealized": -116.14,
-      "pnl_pct": -1.161,
+      "unrealized": -92.92,
+      "pnl_pct": -0.929,
       "sl": 0.085583,
       "tp": 0.087133,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 6.285,
-      "current": 6.221,
+      "current": 6.222,
       "qty": 1591.089897,
       "notional": 10000.0,
-      "unrealized": -101.83,
-      "pnl_pct": -1.018,
+      "unrealized": -100.24,
+      "pnl_pct": -1.002,
       "sl": 6.24729,
       "tp": 6.36042,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 568.54,
-      "current": 567.0,
+      "current": 567.06,
       "qty": 17.588912,
       "notional": 10000.0,
-      "unrealized": -27.09,
-      "pnl_pct": -0.271,
+      "unrealized": -26.03,
+      "pnl_pct": -0.26,
       "sl": 565.12876,
       "tp": 575.36248,
       "trailing_active": false,
@@ -739,21 +739,21 @@
   ],
   "signals": [
     {
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "strategy": "Momentum Breakout",
+      "price": 0.0853,
+      "strength": 75,
+      "note": "20-bar dip + hacim",
+      "ts": 1784860200000
+    },
+    {
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
       "price": 0.1666,
       "strength": 73,
       "note": "RSI 23.9 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784860200000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "Z-Score Reversion",
-      "price": 0.0851,
-      "strength": 72.77732888953851,
-      "note": "z=-2.91",
       "ts": 1784860200000
     },
     {
@@ -769,7 +769,7 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 8.409,
+      "price": 8.407,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784860200000
@@ -778,36 +778,36 @@
       "symbol": "ARBUSDT",
       "side": "SHORT",
       "strategy": "Bollinger Breakout",
-      "price": 0.0851,
+      "price": 0.0853,
       "strength": 65,
       "note": "Alt bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1784860200000
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "strategy": "Z-Score Reversion",
+      "price": 0.0853,
+      "strength": 64.70588235294149,
+      "note": "z=-2.59",
       "ts": 1784860200000
     },
     {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 6.221,
+      "price": 6.222,
       "strength": 60,
-      "note": "RSI 28.1 a\u015f\u0131r\u0131 sat\u0131m",
-      "ts": 1784860200000
-    },
-    {
-      "symbol": "ARBUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 0.0851,
-      "strength": 56,
-      "note": "RSI 29.6 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 28.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784860200000
     },
     {
       "symbol": "LINKUSDT",
       "side": "LONG",
       "strategy": "Z-Score Reversion",
-      "price": 8.409,
-      "strength": 54.15186391749995,
-      "note": "z=-2.17",
+      "price": 8.407,
+      "strength": 55.78779534659822,
+      "note": "z=-2.23",
       "ts": 1784860200000
     },
     {
@@ -873,8 +873,8 @@
     "losses": 6,
     "win_rate": 62.5,
     "total_pnl": 440.23,
-    "equity": 5121.05,
-    "unrealized": -319.19,
+    "equity": 5146.92,
+    "unrealized": -293.32,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -891,7 +891,7 @@
         "pair": "SOL/USDT",
         "open_date": "2026-07-23 15:06:17.122659",
         "open_rate": 76.01,
-        "current_rate": 75.51,
+        "current_rate": 75.5,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.99,
