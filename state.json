@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-24T10:15:24.080524+00:00",
+  "cycle_at": "2026-07-24T10:16:24.117924+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5302.63,
       "locked": 0
     },
-    "equity": 5350.93,
+    "equity": 5355.97,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 48.3,
+    "unrealized_pnl": 53.34,
     "realized_today": 0.0,
-    "updated_at": "2026-07-24T10:15:24.080524+00:00"
+    "updated_at": "2026-07-24T10:16:24.117924+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 568.54,
-      "current": 567.6,
+      "current": 567.7,
       "qty": 17.588912,
       "notional": 10000.0,
-      "unrealized": -16.53,
-      "pnl_pct": -0.165,
+      "unrealized": -14.77,
+      "pnl_pct": -0.148,
       "sl": 565.12876,
       "tp": 575.36248,
       "trailing_active": false,
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.167,
-      "current": 0.1667,
+      "current": 0.1668,
       "qty": 59880.239521,
       "notional": 10000.0,
-      "unrealized": -17.96,
-      "pnl_pct": -0.18,
+      "unrealized": -11.98,
+      "pnl_pct": -0.12,
       "sl": 0.165998,
       "tp": 0.169004,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "EMA Cross",
       "entry": 1.1092,
-      "current": 1.1052,
+      "current": 1.1055,
       "qty": 9015.506671,
       "notional": 10000.0,
-      "unrealized": 36.06,
-      "pnl_pct": 0.361,
+      "unrealized": 33.36,
+      "pnl_pct": 0.334,
       "sl": 1.115855,
       "tp": 1.09589,
       "trailing_active": false,
@@ -846,14 +846,14 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 1883.06,
+      "price": 1883.99,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1784888100000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-24T05:23:25.328045+00:00",
+    "updated_at": "2026-07-24T10:16:06.293719+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -862,45 +862,45 @@
       "BTCUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": -4.0,
+        "score": -11.0,
         "sl": null,
         "tp": null,
-        "rationale": "Likidite d\u00fc\u015f\u00fc\u015f\u00fc ve k\u0131sa s\u0131k\u0131\u015fma potansiyeli aras\u0131nda \u00e7eki\u015fme; genel puan d\u00fc\u015f\u00fck negatif, n\u00f6tr duru\u015f.",
+        "rationale": "Sinyaller uyumsuz, ak\u0131\u015f d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc, d\u00fc\u015f\u00fck inan\u00e7la bekle ve g\u00f6r.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1784869341.703899,
-        "at": "2026-07-24T05:02:21.703899+00:00"
+        "ts": 1784887343.95641,
+        "at": "2026-07-24T10:02:23.956410+00:00"
       },
       "ETHUSDT": {
-        "direction": "LONG",
-        "conviction": "MEDIUM",
-        "score": 17.0,
+        "direction": "NEUTRAL",
+        "conviction": "LOW",
+        "score": 12.0,
         "sl": null,
         "tp": null,
-        "rationale": "Fonlama negatif ancak ters g\u00f6sterge, k\u0131sa s\u0131k\u0131\u015fma potansiyeli, on-chain ak\u0131\u015f n\u00f6tr-bullish. Karma sinyal, long e\u011filim.",
+        "rationale": "Kurumsal ETF giri\u015fleri g\u00fc\u00e7l\u00fc ancak likidasyon riski ve VWAP alt\u0131 fiyat var. Kar\u0131\u015f\u0131k sinyaller, beklemedeyiz.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1784869341.703899,
-        "at": "2026-07-24T05:02:21.703899+00:00"
+        "ts": 1784887343.95641,
+        "at": "2026-07-24T10:02:23.956410+00:00"
       },
       "SOLUSDT": {
         "direction": "NEUTRAL",
         "conviction": "LOW",
-        "score": -1.0,
+        "score": -10.8,
         "sl": null,
         "tp": null,
-        "rationale": "Zincir \u00fcst\u00fc veriler bo\u011fa, t\u00fcrev pozisyonlamas\u0131 ay\u0131. K\u0131sa vadeli ay\u0131 e\u011filimiyle n\u00f6tr.",
+        "rationale": "Composite score of -10.8 is within the \u00b110 neutral band. Gate 2 (liquidation proximity) is BREACHED. The bearish funding/liquidation signals are offset by bullish on-chain flow.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1784869341.703899,
-        "at": "2026-07-24T05:02:21.703899+00:00"
+        "ts": 1784887343.95641,
+        "at": "2026-07-24T10:02:23.956410+00:00"
       }
     },
     "gated_this_cycle": [
       {
         "symbol": "ETHUSDT",
         "side": "SHORT",
-        "reason": "desk=LONG"
+        "reason": "desk=WAIT"
       }
     ]
   },
@@ -911,8 +911,8 @@
     "losses": 9,
     "win_rate": 55.0,
     "total_pnl": 302.62,
-    "equity": 5350.93,
-    "unrealized": 48.3,
+    "equity": 5355.97,
+    "unrealized": 53.34,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -929,7 +929,7 @@
         "pair": "SOL/USDT",
         "open_date": "2026-07-23 15:06:17.122659",
         "open_rate": 76.01,
-        "current_rate": 75.46,
+        "current_rate": 75.51,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.99,
