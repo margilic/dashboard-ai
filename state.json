@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-24T04:24:21.437152+00:00",
+  "cycle_at": "2026-07-24T04:25:21.441639+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5304.39,
       "locked": 0
     },
-    "equity": 5271.31,
+    "equity": 5266.98,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -33.08,
+    "unrealized_pnl": -37.41,
     "realized_today": 0.0,
-    "updated_at": "2026-07-24T04:24:21.437152+00:00"
+    "updated_at": "2026-07-24T04:25:21.441639+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 76.16,
-      "current": 75.8,
+      "current": 75.77,
       "qty": 131.302521,
       "notional": 10000.0,
-      "unrealized": 47.27,
-      "pnl_pct": 0.473,
+      "unrealized": 51.21,
+      "pnl_pct": 0.512,
       "sl": 76.61696,
       "tp": 75.24608,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 568.54,
-      "current": 568.93,
+      "current": 568.8,
       "qty": 17.588912,
       "notional": 10000.0,
-      "unrealized": 6.86,
-      "pnl_pct": 0.069,
+      "unrealized": 4.57,
+      "pnl_pct": 0.046,
       "sl": 565.12876,
       "tp": 575.36248,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.167,
-      "current": 0.1673,
+      "current": 0.1672,
       "qty": 59880.239521,
       "notional": 10000.0,
-      "unrealized": 17.96,
-      "pnl_pct": 0.18,
+      "unrealized": 11.98,
+      "pnl_pct": 0.12,
       "sl": 0.165998,
       "tp": 0.169004,
       "trailing_active": false,
@@ -775,9 +775,9 @@
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 65436.01,
-      "strength": 72,
-      "note": "RSI 75.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 65412.0,
+      "strength": 70,
+      "note": "RSI 75.2 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784866500000
     }
   ],
@@ -834,8 +834,8 @@
     "losses": 7,
     "win_rate": 58.8,
     "total_pnl": 304.38,
-    "equity": 5271.31,
-    "unrealized": -33.08,
+    "equity": 5266.98,
+    "unrealized": -37.41,
     "closed_this_cycle": 0
   },
   "freqtrade": {
