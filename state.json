@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-24T21:41:29.066684+00:00",
+  "cycle_at": "2026-07-24T21:42:29.088922+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5733.09,
       "locked": 0
     },
-    "equity": 5623.63,
+    "equity": 5626.52,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -109.46,
+    "unrealized_pnl": -106.57,
     "realized_today": 0.0,
-    "updated_at": "2026-07-24T21:41:29.066684+00:00"
+    "updated_at": "2026-07-24T21:42:29.088922+00:00"
   },
   "open_positions": [
     {
@@ -135,7 +135,7 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 64082.0,
-      "current": 64154.0,
+      "current": 64154.01,
       "qty": 0.15605,
       "notional": 10000.0,
       "unrealized": 11.24,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.06912,
-      "current": 0.069,
+      "current": 0.06902,
       "qty": 144675.925926,
       "notional": 10000.0,
-      "unrealized": -17.36,
-      "pnl_pct": -0.174,
+      "unrealized": -14.47,
+      "pnl_pct": -0.145,
       "sl": 0.068705,
       "tp": 0.069949,
       "trailing_active": false,
@@ -1072,18 +1072,9 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.069,
+      "price": 0.06902,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
-      "ts": 1784928600000
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "LONG",
-      "strategy": "RSI Reversal",
-      "price": 73.71,
-      "strength": 55,
-      "note": "RSI 29.7 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1784928600000
     }
   ],
@@ -1140,8 +1131,8 @@
     "losses": 11,
     "win_rate": 57.7,
     "total_pnl": 733.08,
-    "equity": 5623.63,
-    "unrealized": -109.46,
+    "equity": 5626.52,
+    "unrealized": -106.57,
     "closed_this_cycle": 0
   },
   "freqtrade": {
