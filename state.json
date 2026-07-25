@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-25T11:11:34.944756+00:00",
+  "cycle_at": "2026-07-25T11:12:34.944945+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5684.42,
       "locked": 0
     },
-    "equity": 5733.04,
+    "equity": 5735.58,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 48.62,
-    "realized_today": -31.07,
-    "updated_at": "2026-07-25T11:11:34.944756+00:00"
+    "unrealized_pnl": 51.16,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-25T11:12:34.944945+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 565.84,
-      "current": 565.6,
+      "current": 565.61,
       "qty": 17.67284,
       "notional": 10000.0,
-      "unrealized": -4.24,
-      "pnl_pct": -0.042,
+      "unrealized": -4.06,
+      "pnl_pct": -0.041,
       "sl": 562.44496,
       "tp": 572.63008,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.06959,
-      "current": 0.06953,
+      "current": 0.06954,
       "qty": 143698.8073,
       "notional": 10000.0,
-      "unrealized": -8.62,
-      "pnl_pct": -0.086,
+      "unrealized": -7.18,
+      "pnl_pct": -0.072,
       "sl": 0.069172,
       "tp": 0.070425,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1.0908,
-      "current": 1.0908,
+      "current": 1.0909,
       "qty": 9167.583425,
       "notional": 10000.0,
-      "unrealized": 0.0,
-      "pnl_pct": 0.0,
+      "unrealized": 0.92,
+      "pnl_pct": 0.009,
       "sl": 1.084255,
       "tp": 1.10389,
       "trailing_active": false,
@@ -1345,7 +1345,16 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1858.9,
+      "price": 1859.15,
+      "strength": 70,
+      "note": "EMA9>EMA21 kesi\u015fim",
+      "ts": 1784977200000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "strategy": "EMA Cross",
+      "price": 74.01,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784977200000
@@ -1354,7 +1363,7 @@
       "symbol": "XRPUSDT",
       "side": "LONG",
       "strategy": "EMA Cross",
-      "price": 1.0908,
+      "price": 1.0909,
       "strength": 70,
       "note": "EMA9>EMA21 kesi\u015fim",
       "ts": 1784977200000
@@ -1404,18 +1413,7 @@
         "at": "2026-07-25T10:02:34.419938+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "BTCUSDT",
-        "side": "LONG",
-        "reason": "desk=WAIT"
-      },
-      {
-        "symbol": "ETHUSDT",
-        "side": "LONG",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 5,
@@ -1424,9 +1422,9 @@
     "losses": 15,
     "win_rate": 55.9,
     "total_pnl": 684.41,
-    "equity": 5733.04,
-    "unrealized": 48.62,
-    "closed_this_cycle": 1
+    "equity": 5735.58,
+    "unrealized": 51.16,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
