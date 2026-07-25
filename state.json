@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-25T20:05:39.078279+00:00",
+  "cycle_at": "2026-07-25T20:06:39.124644+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5910.31,
       "locked": 0
     },
-    "equity": 5599.71,
+    "equity": 5595.09,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -310.6,
+    "unrealized_pnl": -315.22,
     "realized_today": 0.0,
-    "updated_at": "2026-07-25T20:05:39.078279+00:00"
+    "updated_at": "2026-07-25T20:06:39.124644+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1.0908,
-      "current": 1.1,
+      "current": 1.0998,
       "qty": 9167.583425,
       "notional": 10000.0,
-      "unrealized": 84.34,
-      "pnl_pct": 0.843,
+      "unrealized": 82.51,
+      "pnl_pct": 0.825,
       "sl": 1.084255,
       "tp": 1.10389,
       "trailing_active": true,
@@ -163,11 +163,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07177,
-      "current": 0.07291,
+      "current": 0.07293,
       "qty": 139333.983559,
       "notional": 10000.0,
-      "unrealized": -158.84,
-      "pnl_pct": -1.588,
+      "unrealized": -161.63,
+      "pnl_pct": -1.616,
       "sl": 0.072201,
       "tp": 0.070909,
       "trailing_active": false,
@@ -1440,9 +1440,9 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07291,
-      "strength": 62,
-      "note": "RSI 72.4 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.07293,
+      "strength": 63,
+      "note": "RSI 72.7 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1785009600000
     }
   ],
@@ -1499,8 +1499,8 @@
     "losses": 17,
     "win_rate": 55.3,
     "total_pnl": 910.3,
-    "equity": 5599.71,
-    "unrealized": -310.6,
+    "equity": 5595.09,
+    "unrealized": -315.22,
     "closed_this_cycle": 0
   },
   "freqtrade": {
