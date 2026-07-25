@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-25T20:02:39.072115+00:00",
+  "cycle_at": "2026-07-25T20:03:39.153063+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5910.31,
       "locked": 0
     },
-    "equity": 5560.51,
+    "equity": 5588.25,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -349.8,
+    "unrealized_pnl": -322.06,
     "realized_today": 0.0,
-    "updated_at": "2026-07-25T20:02:39.072115+00:00"
+    "updated_at": "2026-07-25T20:03:39.153063+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1.0908,
-      "current": 1.1,
+      "current": 1.0999,
       "qty": 9167.583425,
       "notional": 10000.0,
-      "unrealized": 84.34,
-      "pnl_pct": 0.843,
+      "unrealized": 83.43,
+      "pnl_pct": 0.834,
       "sl": 1.084255,
       "tp": 1.10389,
       "trailing_active": true,
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.334,
-      "current": 8.398,
+      "current": 8.395,
       "qty": 1199.904008,
       "notional": 10000.0,
-      "unrealized": -76.79,
-      "pnl_pct": -0.768,
+      "unrealized": -73.19,
+      "pnl_pct": -0.732,
       "sl": 8.384004,
       "tp": 8.233992,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.591,
-      "current": 6.72,
+      "current": 6.709,
       "qty": 1517.220452,
       "notional": 10000.0,
-      "unrealized": -195.72,
-      "pnl_pct": -1.957,
+      "unrealized": -179.03,
+      "pnl_pct": -1.79,
       "sl": 6.644423,
       "tp": 6.484154,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07177,
-      "current": 0.07293,
+      "current": 0.07287,
       "qty": 139333.983559,
       "notional": 10000.0,
-      "unrealized": -161.63,
-      "pnl_pct": -1.616,
+      "unrealized": -153.27,
+      "pnl_pct": -1.533,
       "sl": 0.072201,
       "tp": 0.070909,
       "trailing_active": false,
@@ -1440,23 +1440,14 @@
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.07293,
-      "strength": 63,
-      "note": "RSI 72.7 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1785009600000
-    },
-    {
-      "symbol": "BTCUSDT",
-      "side": "SHORT",
-      "strategy": "RSI Reversal",
-      "price": 64364.45,
-      "strength": 55,
-      "note": "RSI 70.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.07287,
+      "strength": 60,
+      "note": "RSI 71.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1785009600000
     }
   ],
   "swarm": {
-    "updated_at": "2026-07-25T18:03:08.278027+00:00",
+    "updated_at": "2026-07-25T20:03:13.510105+00:00",
     "model": "deepseek-chat",
     "timeframe": "4h",
     "preset": "crypto_trading_desk",
@@ -1468,11 +1459,11 @@
         "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "\u0130\u015flem karar\u0131 al\u0131namad\u0131, veri ak\u0131\u015f\u0131 ba\u015far\u0131s\u0131z oldu.",
+        "rationale": "Analiz ba\u015far\u0131s\u0131z oldu, karar \u00fcretilemedi.",
         "extract_model": "deepseek-v4-flash",
         "target": "BTC-USDT",
-        "ts": 1785002558.131785,
-        "at": "2026-07-25T18:02:38.131785+00:00"
+        "ts": 1785009759.107854,
+        "at": "2026-07-25T20:02:39.107854+00:00"
       },
       "ETHUSDT": {
         "direction": "NEUTRAL",
@@ -1480,11 +1471,11 @@
         "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "De\u011ferlendirme tamamlanamad\u0131, veri eksik.",
+        "rationale": "Swarm ba\u015far\u0131s\u0131z oldu, karar \u00fcretilemedi.",
         "extract_model": "deepseek-v4-flash",
         "target": "ETH-USDT",
-        "ts": 1785002558.131785,
-        "at": "2026-07-25T18:02:38.131785+00:00"
+        "ts": 1785009759.107854,
+        "at": "2026-07-25T20:02:39.107854+00:00"
       },
       "SOLUSDT": {
         "direction": "NEUTRAL",
@@ -1492,20 +1483,14 @@
         "score": 0.0,
         "sl": null,
         "tp": null,
-        "rationale": "Veri eksikli\u011fi nedeniyle analiz yap\u0131lamad\u0131.",
+        "rationale": "Desk \u00e7al\u0131\u015famad\u0131, karar yok.",
         "extract_model": "deepseek-v4-flash",
         "target": "SOL-USDT",
-        "ts": 1785002558.131785,
-        "at": "2026-07-25T18:02:38.131785+00:00"
+        "ts": 1785009759.107854,
+        "at": "2026-07-25T20:02:39.107854+00:00"
       }
     },
-    "gated_this_cycle": [
-      {
-        "symbol": "BTCUSDT",
-        "side": "SHORT",
-        "reason": "desk=WAIT"
-      }
-    ]
+    "gated_this_cycle": []
   },
   "stats": {
     "open": 4,
@@ -1514,8 +1499,8 @@
     "losses": 17,
     "win_rate": 55.3,
     "total_pnl": 910.3,
-    "equity": 5560.51,
-    "unrealized": -349.8,
+    "equity": 5588.25,
+    "unrealized": -322.06,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1532,7 +1517,7 @@
         "pair": "BNB/USDT",
         "open_date": "2026-07-24 11:26:02.111980",
         "open_rate": 566.01,
-        "current_rate": 568.67,
+        "current_rate": 568.78,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.79,
