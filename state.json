@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-25T13:16:35.877242+00:00",
+  "cycle_at": "2026-07-25T13:17:35.913406+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5688.66,
       "locked": 0
     },
-    "equity": 5644.06,
+    "equity": 5660.83,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -44.6,
+    "unrealized_pnl": -27.83,
     "realized_today": 0.0,
-    "updated_at": "2026-07-25T13:16:35.877242+00:00"
+    "updated_at": "2026-07-25T13:17:35.913406+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Bollinger Breakout",
       "entry": 0.0833,
-      "current": 0.0831,
+      "current": 0.0832,
       "qty": 120048.019208,
       "notional": 10000.0,
-      "unrealized": -24.01,
-      "pnl_pct": -0.24,
+      "unrealized": -12.0,
+      "pnl_pct": -0.12,
       "sl": 0.0828,
       "tp": 0.0843,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.06959,
-      "current": 0.06988,
+      "current": 0.06989,
       "qty": 143698.8073,
       "notional": 10000.0,
-      "unrealized": 41.67,
-      "pnl_pct": 0.417,
+      "unrealized": 43.11,
+      "pnl_pct": 0.431,
       "sl": 0.069172,
       "tp": 0.070425,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1.0908,
-      "current": 1.091,
+      "current": 1.0911,
       "qty": 9167.583425,
       "notional": 10000.0,
-      "unrealized": 1.83,
-      "pnl_pct": 0.018,
+      "unrealized": 2.75,
+      "pnl_pct": 0.028,
       "sl": 1.084255,
       "tp": 1.10389,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.334,
-      "current": 8.367,
+      "current": 8.365,
       "qty": 1199.904008,
       "notional": 10000.0,
-      "unrealized": -39.6,
-      "pnl_pct": -0.396,
+      "unrealized": -37.2,
+      "pnl_pct": -0.372,
       "sl": 8.384004,
       "tp": 8.233992,
       "trailing_active": false,
@@ -1369,9 +1369,9 @@
       "symbol": "LINKUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 8.367,
-      "strength": 91,
-      "note": "RSI 82.1 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 8.365,
+      "strength": 88,
+      "note": "RSI 81.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784985300000
     },
     {
@@ -1405,7 +1405,7 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1862.9,
+      "price": 1862.79,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784985300000
@@ -1414,7 +1414,7 @@
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 567.08,
+      "price": 567.16,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784985300000
@@ -1423,7 +1423,7 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.06988,
+      "price": 0.06989,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1784985300000
@@ -1441,27 +1441,36 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.313,
-      "strength": 61,
-      "note": "RSI 72.1 a\u015f\u0131r\u0131 al\u0131m",
-      "ts": 1784985300000
-    },
-    {
-      "symbol": "DOGEUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 0.06988,
-      "strength": 55.677361908511635,
-      "note": "z=2.23",
+      "price": 6.312,
+      "strength": 60,
+      "note": "RSI 71.8 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1784985300000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 0.06988,
-      "strength": 55,
-      "note": "RSI 70.3 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 0.06989,
+      "strength": 58,
+      "note": "RSI 71.1 a\u015f\u0131r\u0131 al\u0131m",
+      "ts": 1784985300000
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 0.06989,
+      "strength": 56.931099469541955,
+      "note": "z=2.28",
+      "ts": 1784985300000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 567.16,
+      "strength": 56.0371843940199,
+      "note": "z=2.24",
       "ts": 1784985300000
     },
     {
@@ -1474,21 +1483,12 @@
       "ts": 1784985300000
     },
     {
-      "symbol": "BNBUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 567.08,
-      "strength": 53.740247042448615,
-      "note": "z=2.15",
-      "ts": 1784985300000
-    },
-    {
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 1862.9,
-      "strength": 53.09328353801099,
-      "note": "z=2.12",
+      "price": 1862.79,
+      "strength": 52.21862139100559,
+      "note": "z=2.09",
       "ts": 1784985300000
     }
   ],
@@ -1545,8 +1545,8 @@
     "losses": 15,
     "win_rate": 57.1,
     "total_pnl": 688.65,
-    "equity": 5644.06,
-    "unrealized": -44.6,
+    "equity": 5660.83,
+    "unrealized": -27.83,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1563,7 +1563,7 @@
         "pair": "BNB/USDT",
         "open_date": "2026-07-24 11:26:02.111980",
         "open_rate": 566.01,
-        "current_rate": 567.09,
+        "current_rate": 567.16,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.79,
