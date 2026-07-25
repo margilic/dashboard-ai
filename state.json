@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-25T22:48:40.328774+00:00",
+  "cycle_at": "2026-07-25T22:49:40.340011+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5926.33,
       "locked": 0
     },
-    "equity": 5575.78,
+    "equity": 5571.11,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -350.55,
-    "realized_today": -56.4,
-    "updated_at": "2026-07-25T22:48:40.328774+00:00"
+    "unrealized_pnl": -355.22,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-25T22:49:40.340011+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 6.591,
-      "current": 6.802,
+      "current": 6.806,
       "qty": 1517.220452,
       "notional": 10000.0,
-      "unrealized": -320.13,
-      "pnl_pct": -3.201,
+      "unrealized": -326.2,
+      "pnl_pct": -3.262,
       "sl": 6.644423,
       "tp": 6.484154,
       "trailing_active": false,
@@ -107,11 +107,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 0.07177,
-      "current": 0.07203,
+      "current": 0.07202,
       "qty": 139333.983559,
       "notional": 10000.0,
-      "unrealized": -36.23,
-      "pnl_pct": -0.362,
+      "unrealized": -34.83,
+      "pnl_pct": -0.348,
       "sl": 0.072201,
       "tp": 0.070909,
       "trailing_active": false,
@@ -1506,16 +1506,16 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.07203,
+      "price": 0.07202,
       "strength": 74,
-      "note": "RSI 23.7 a\u015f\u0131r\u0131 sat\u0131m",
+      "note": "RSI 23.5 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1785019500000
     },
     {
       "symbol": "DOGEUSDT",
       "side": "SHORT",
       "strategy": "EMA Cross",
-      "price": 0.07203,
+      "price": 0.07202,
       "strength": 70,
       "note": "EMA9<EMA21 kesi\u015fim",
       "ts": 1785019500000
@@ -1524,9 +1524,9 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 6.802,
-      "strength": 62,
-      "note": "RSI 72.6 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 6.806,
+      "strength": 63,
+      "note": "RSI 73.0 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1785019500000
     }
   ],
@@ -1583,9 +1583,9 @@
     "losses": 18,
     "win_rate": 55.0,
     "total_pnl": 926.32,
-    "equity": 5575.78,
-    "unrealized": -350.55,
-    "closed_this_cycle": 1
+    "equity": 5571.11,
+    "unrealized": -355.22,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
@@ -1601,7 +1601,7 @@
         "pair": "BNB/USDT",
         "open_date": "2026-07-24 11:26:02.111980",
         "open_rate": 566.01,
-        "current_rate": 569.47,
+        "current_rate": 569.52,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.79,
