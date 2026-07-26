@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-26T14:22:47.021634+00:00",
+  "cycle_at": "2026-07-26T14:23:47.017362+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5739.46,
       "locked": 0
     },
-    "equity": 5364.78,
+    "equity": 5376.79,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -374.68,
+    "unrealized_pnl": -362.67,
     "realized_today": 0.0,
-    "updated_at": "2026-07-26T14:22:47.021634+00:00"
+    "updated_at": "2026-07-26T14:23:47.017362+00:00"
   },
   "open_positions": [
     {
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.0833,
-      "current": 0.0825,
+      "current": 0.0826,
       "qty": 120048.019208,
       "notional": 10000.0,
-      "unrealized": -96.04,
-      "pnl_pct": -0.96,
+      "unrealized": -84.03,
+      "pnl_pct": -0.84,
       "sl": 0.0828,
       "tp": 0.0843,
       "trailing_active": false,
@@ -1771,6 +1771,24 @@
       "ts": 1785075300000
     },
     {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 64664.22,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1785075300000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 1893.47,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1785075300000
+    },
+    {
       "symbol": "BNBUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
@@ -1786,6 +1804,24 @@
       "price": 572.32,
       "strength": 55.85635421458566,
       "note": "z=2.23",
+      "ts": 1785075300000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1893.47,
+      "strength": 51.83736576419776,
+      "note": "z=2.07",
+      "ts": 1785075300000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 64664.22,
+      "strength": 50.51097016534041,
+      "note": "z=2.02",
       "ts": 1785075300000
     }
   ],
@@ -1842,8 +1878,8 @@
     "losses": 22,
     "win_rate": 53.2,
     "total_pnl": 739.45,
-    "equity": 5364.78,
-    "unrealized": -374.68,
+    "equity": 5376.79,
+    "unrealized": -362.67,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1860,7 +1896,7 @@
         "pair": "BNB/USDT",
         "open_date": "2026-07-24 11:26:02.111980",
         "open_rate": 566.01,
-        "current_rate": 572.33,
+        "current_rate": 572.24,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.79,
