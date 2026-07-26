@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-26T19:15:49.194459+00:00",
+  "cycle_at": "2026-07-26T19:16:49.109266+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5549.64,
       "locked": 0
     },
-    "equity": 5378.8,
+    "equity": 5376.32,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -170.84,
+    "unrealized_pnl": -173.32,
     "realized_today": 0.0,
-    "updated_at": "2026-07-26T19:15:49.194459+00:00"
+    "updated_at": "2026-07-26T19:16:49.109266+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 1.101,
-      "current": 1.1017,
+      "current": 1.1016,
       "qty": 9082.652134,
       "notional": 10000.0,
-      "unrealized": 6.36,
-      "pnl_pct": 0.064,
+      "unrealized": 5.45,
+      "pnl_pct": 0.054,
       "sl": 1.094394,
       "tp": 1.114212,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.615,
-      "current": 8.594,
+      "current": 8.593,
       "qty": 1160.766106,
       "notional": 10000.0,
-      "unrealized": 24.38,
-      "pnl_pct": 0.244,
+      "unrealized": 25.54,
+      "pnl_pct": 0.255,
       "sl": 8.66669,
       "tp": 8.51162,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.07317,
-      "current": 0.0726,
+      "current": 0.07258,
       "qty": 136668.033347,
       "notional": 10000.0,
-      "unrealized": -77.9,
-      "pnl_pct": -0.779,
+      "unrealized": -80.63,
+      "pnl_pct": -0.806,
       "sl": 0.072731,
       "tp": 0.074048,
       "trailing_active": false,
@@ -1873,9 +1873,9 @@
       "symbol": "DOGEUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.0726,
-      "strength": 56,
-      "note": "RSI 29.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.07258,
+      "strength": 59,
+      "note": "RSI 28.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1785093300000
     }
   ],
@@ -1932,8 +1932,8 @@
     "losses": 24,
     "win_rate": 52.0,
     "total_pnl": 549.63,
-    "equity": 5378.8,
-    "unrealized": -170.84,
+    "equity": 5376.32,
+    "unrealized": -173.32,
     "closed_this_cycle": 0
   },
   "freqtrade": {
