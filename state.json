@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-26T21:45:50.194956+00:00",
+  "cycle_at": "2026-07-26T21:46:50.196572+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5472.88,
       "locked": 0
     },
-    "equity": 5446.19,
+    "equity": 5439.72,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -26.69,
+    "unrealized_pnl": -33.16,
     "realized_today": 0.0,
-    "updated_at": "2026-07-26T21:45:50.194956+00:00"
+    "updated_at": "2026-07-26T21:46:50.196572+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 8.615,
-      "current": 8.62,
+      "current": 8.625,
       "qty": 1160.766106,
       "notional": 10000.0,
-      "unrealized": -5.8,
-      "pnl_pct": -0.058,
+      "unrealized": -11.61,
+      "pnl_pct": -0.116,
       "sl": 8.66669,
       "tp": 8.51162,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.07317,
-      "current": 0.07275,
+      "current": 0.07276,
       "qty": 136668.033347,
       "notional": 10000.0,
-      "unrealized": -57.4,
-      "pnl_pct": -0.574,
+      "unrealized": -56.03,
+      "pnl_pct": -0.56,
       "sl": 0.072731,
       "tp": 0.074048,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 1921.78,
-      "current": 1922.25,
+      "current": 1921.86,
       "qty": 5.203509,
       "notional": 10000.0,
-      "unrealized": 2.45,
-      "pnl_pct": 0.024,
+      "unrealized": 0.42,
+      "pnl_pct": 0.004,
       "sl": 1910.24932,
       "tp": 1944.84136,
       "trailing_active": false,
@@ -1930,9 +1930,9 @@
       "symbol": "ETHUSDT",
       "side": "SHORT",
       "strategy": "RSI Reversal",
-      "price": 1922.25,
-      "strength": 69,
-      "note": "RSI 74.9 a\u015f\u0131r\u0131 al\u0131m",
+      "price": 1921.86,
+      "strength": 67,
+      "note": "RSI 74.3 a\u015f\u0131r\u0131 al\u0131m",
       "ts": 1785102300000
     },
     {
@@ -1948,7 +1948,7 @@
       "symbol": "BTCUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 64826.0,
+      "price": 64829.66,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1785102300000
@@ -1957,27 +1957,45 @@
       "symbol": "ETHUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 1922.25,
+      "price": 1921.86,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1785102300000
     },
     {
-      "symbol": "ETHUSDT",
-      "side": "SHORT",
-      "strategy": "Z-Score Reversion",
-      "price": 1922.25,
-      "strength": 58.696369332993925,
-      "note": "z=2.35",
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 8.625,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1785102300000
     },
     {
       "symbol": "BTCUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 64826.0,
-      "strength": 55.79834918135448,
-      "note": "z=2.23",
+      "price": 64829.66,
+      "strength": 57.058390236864966,
+      "note": "z=2.28",
+      "ts": 1785102300000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 1921.86,
+      "strength": 56.55674357785142,
+      "note": "z=2.26",
+      "ts": 1785102300000
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 8.625,
+      "strength": 55.031833279184774,
+      "note": "z=2.20",
       "ts": 1785102300000
     }
   ],
@@ -2034,8 +2052,8 @@
     "losses": 25,
     "win_rate": 51.9,
     "total_pnl": 472.87,
-    "equity": 5446.19,
-    "unrealized": -26.69,
+    "equity": 5439.72,
+    "unrealized": -33.16,
     "closed_this_cycle": 0
   },
   "freqtrade": {
