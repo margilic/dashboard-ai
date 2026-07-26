@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-26T06:47:43.904190+00:00",
+  "cycle_at": "2026-07-26T06:48:43.921120+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5663.27,
       "locked": 0
     },
-    "equity": 5790.52,
+    "equity": 5804.13,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 127.25,
+    "unrealized_pnl": 140.86,
     "realized_today": 0.0,
-    "updated_at": "2026-07-26T06:47:43.904190+00:00"
+    "updated_at": "2026-07-26T06:48:43.921120+00:00"
   },
   "open_positions": [
     {
@@ -135,11 +135,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.0824,
-      "current": 0.0828,
+      "current": 0.0829,
       "qty": 121359.223301,
       "notional": 10000.0,
-      "unrealized": 48.54,
-      "pnl_pct": 0.485,
+      "unrealized": 60.68,
+      "pnl_pct": 0.607,
       "sl": 0.081906,
       "tp": 0.083389,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 6.795,
-      "current": 6.817,
+      "current": 6.818,
       "qty": 1471.670346,
       "notional": 10000.0,
-      "unrealized": 32.38,
-      "pnl_pct": 0.324,
+      "unrealized": 33.85,
+      "pnl_pct": 0.338,
       "sl": 6.75423,
       "tp": 6.87654,
       "trailing_active": false,
@@ -177,6 +177,34 @@
       "note": "20-bar tepe + hacim",
       "opened_at": 1785047323.787392,
       "opened_iso": "2026-07-26T06:28:43.787392+00:00",
+      "swarm_aligned": false,
+      "algo_version": "3.0",
+      "sl_pct": 0.6,
+      "tp_pct": 1.2
+    },
+    {
+      "id": "BNBUSDT-1785048523",
+      "trade_no": 49,
+      "trade_id": "T0049",
+      "binance_order_id": "",
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "entry": 572.15,
+      "current": 572.15,
+      "qty": 17.477934,
+      "notional": 10000.0,
+      "unrealized": 0.0,
+      "pnl_pct": 0.0,
+      "sl": 568.7171,
+      "tp": 579.0158,
+      "trailing_active": false,
+      "trailing_stop": null,
+      "trailing_activate_pct": 0.015,
+      "trailing_distance_pct": 0.008,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "opened_at": 1785048523.92112,
+      "opened_iso": "2026-07-26T06:48:43.921120+00:00",
       "swarm_aligned": false,
       "algo_version": "3.0",
       "sl_pct": 0.6,
@@ -1635,10 +1663,19 @@
   ],
   "signals": [
     {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "strategy": "Bollinger Breakout",
+      "price": 572.15,
+      "strength": 65,
+      "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
+      "ts": 1785048300000
+    },
+    {
       "symbol": "AVAXUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 6.817,
+      "price": 6.818,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1785048300000
@@ -1647,9 +1684,18 @@
       "symbol": "AVAXUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 6.817,
-      "strength": 61.86595265886007,
-      "note": "z=2.47",
+      "price": 6.818,
+      "strength": 62.901502487780434,
+      "note": "z=2.52",
+      "ts": 1785048300000
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SHORT",
+      "strategy": "Z-Score Reversion",
+      "price": 572.15,
+      "strength": 53.33293523243312,
+      "note": "z=2.13",
       "ts": 1785048300000
     }
   ],
@@ -1700,14 +1746,14 @@
     "gated_this_cycle": []
   },
   "stats": {
-    "open": 4,
+    "open": 5,
     "total_trades": 44,
     "wins": 23,
     "losses": 21,
     "win_rate": 52.3,
     "total_pnl": 663.26,
-    "equity": 5790.52,
-    "unrealized": 127.25,
+    "equity": 5804.13,
+    "unrealized": 140.86,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -1724,7 +1770,7 @@
         "pair": "BNB/USDT",
         "open_date": "2026-07-24 11:26:02.111980",
         "open_rate": 566.01,
-        "current_rate": 571.96,
+        "current_rate": 572.2,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.79,
