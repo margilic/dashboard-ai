@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-26T07:16:44.099107+00:00",
+  "cycle_at": "2026-07-26T07:17:44.117295+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5678.75,
       "locked": 0
     },
-    "equity": 5882.33,
+    "equity": 5857.17,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 203.58,
+    "unrealized_pnl": 178.42,
     "realized_today": 0.0,
-    "updated_at": "2026-07-26T07:16:44.099107+00:00"
+    "updated_at": "2026-07-26T07:17:44.117295+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "LONG",
       "strategy": "EMA Cross",
       "entry": 0.1652,
-      "current": 0.1666,
+      "current": 0.1665,
       "qty": 60532.687651,
       "notional": 10000.0,
-      "unrealized": 84.75,
-      "pnl_pct": 0.847,
+      "unrealized": 78.69,
+      "pnl_pct": 0.787,
       "sl": 0.164209,
       "tp": 0.167182,
       "trailing_active": false,
@@ -135,11 +135,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 6.795,
-      "current": 6.807,
+      "current": 6.806,
       "qty": 1471.670346,
       "notional": 10000.0,
-      "unrealized": 17.66,
-      "pnl_pct": 0.177,
+      "unrealized": 16.19,
+      "pnl_pct": 0.162,
       "sl": 6.75423,
       "tp": 6.87654,
       "trailing_active": false,
@@ -191,11 +191,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 0.07371,
-      "current": 0.07391,
+      "current": 0.07378,
       "qty": 135666.802333,
       "notional": 10000.0,
-      "unrealized": 27.13,
-      "pnl_pct": 0.271,
+      "unrealized": 9.5,
+      "pnl_pct": 0.095,
       "sl": 0.073245,
       "tp": 0.074641,
       "trailing_active": false,
@@ -1699,7 +1699,7 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "Bollinger Breakout",
-      "price": 0.1666,
+      "price": 0.1665,
       "strength": 65,
       "note": "\u00dcst bant k\u0131r\u0131l\u0131m\u0131",
       "ts": 1785050100000
@@ -1708,9 +1708,9 @@
       "symbol": "ADAUSDT",
       "side": "SHORT",
       "strategy": "Z-Score Reversion",
-      "price": 0.1666,
-      "strength": 56.27229425674276,
-      "note": "z=2.25",
+      "price": 0.1665,
+      "strength": 51.931458831590646,
+      "note": "z=2.08",
       "ts": 1785050100000
     }
   ],
@@ -1767,8 +1767,8 @@
     "losses": 21,
     "win_rate": 53.3,
     "total_pnl": 678.74,
-    "equity": 5882.33,
-    "unrealized": 203.58,
+    "equity": 5857.17,
+    "unrealized": 178.42,
     "closed_this_cycle": 0
   },
   "freqtrade": {
