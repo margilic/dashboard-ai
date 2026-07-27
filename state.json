@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-27T15:19:57.679192+00:00",
+  "cycle_at": "2026-07-27T15:21:57.687569+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5272.0,
       "locked": 0
     },
-    "equity": 4850.62,
+    "equity": 4870.79,
     "initial_balance": 5000.0,
-    "unrealized_pnl": -421.38,
-    "realized_today": -111.42,
-    "updated_at": "2026-07-27T15:19:57.679192+00:00"
+    "unrealized_pnl": -401.21,
+    "realized_today": 0.0,
+    "updated_at": "2026-07-27T15:21:57.687569+00:00"
   },
   "open_positions": [
     {
@@ -107,11 +107,11 @@
       "side": "LONG",
       "strategy": "Z-Score Reversion",
       "entry": 0.1634,
-      "current": 0.1592,
+      "current": 0.1595,
       "qty": 61199.510404,
       "notional": 10000.0,
-      "unrealized": -257.04,
-      "pnl_pct": -2.57,
+      "unrealized": -238.68,
+      "pnl_pct": -2.387,
       "sl": 0.16242,
       "tp": 0.165361,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "Momentum Breakout",
       "entry": 1.1091,
-      "current": 1.0904,
+      "current": 1.0906,
       "qty": 9016.319538,
       "notional": 10000.0,
-      "unrealized": -168.61,
-      "pnl_pct": -1.686,
+      "unrealized": -166.8,
+      "pnl_pct": -1.668,
       "sl": 1.102445,
       "tp": 1.122409,
       "trailing_active": false,
@@ -2232,9 +2232,9 @@
       "symbol": "ADAUSDT",
       "side": "LONG",
       "strategy": "RSI Reversal",
-      "price": 0.1592,
-      "strength": 62,
-      "note": "RSI 27.5 a\u015f\u0131r\u0131 sat\u0131m",
+      "price": 0.1595,
+      "strength": 57,
+      "note": "RSI 29.3 a\u015f\u0131r\u0131 sat\u0131m",
       "ts": 1785165300000
     }
   ],
@@ -2291,9 +2291,9 @@
     "losses": 29,
     "win_rate": 53.2,
     "total_pnl": 271.99,
-    "equity": 4850.62,
-    "unrealized": -421.38,
-    "closed_this_cycle": 1
+    "equity": 4870.79,
+    "unrealized": -401.21,
+    "closed_this_cycle": 0
   },
   "freqtrade": {
     "status": "running",
@@ -2309,7 +2309,7 @@
         "pair": "ETH/USDT",
         "open_date": "2026-07-27 14:30:37.201986",
         "open_rate": 1930.29,
-        "current_rate": 1934.1,
+        "current_rate": 1933.0,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.95,
