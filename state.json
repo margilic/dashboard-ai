@@ -1,7 +1,7 @@
 {
   "engine": "hermes-paper",
   "status": "running",
-  "cycle_at": "2026-07-27T08:58:55.465598+00:00",
+  "cycle_at": "2026-07-27T08:59:55.483936+00:00",
   "interval": "15m",
   "universe": [
     "BTCUSDT",
@@ -63,11 +63,11 @@
       "free": 5431.21,
       "locked": 0
     },
-    "equity": 5486.98,
+    "equity": 5487.84,
     "initial_balance": 5000.0,
-    "unrealized_pnl": 55.77,
+    "unrealized_pnl": 56.63,
     "realized_today": 0.0,
-    "updated_at": "2026-07-27T08:58:55.465598+00:00"
+    "updated_at": "2026-07-27T08:59:55.483936+00:00"
   },
   "open_positions": [
     {
@@ -79,11 +79,11 @@
       "side": "SHORT",
       "strategy": "RSI Reversal",
       "entry": 1.1102,
-      "current": 1.1072,
+      "current": 1.1068,
       "qty": 9007.386057,
       "notional": 10000.0,
-      "unrealized": 27.02,
-      "pnl_pct": 0.27,
+      "unrealized": 30.63,
+      "pnl_pct": 0.306,
       "sl": 1.116861,
       "tp": 1.096878,
       "trailing_active": false,
@@ -163,11 +163,11 @@
       "side": "LONG",
       "strategy": "RSI Reversal",
       "entry": 0.07267,
-      "current": 0.07262,
+      "current": 0.0726,
       "qty": 137608.366589,
       "notional": 10000.0,
-      "unrealized": -6.88,
-      "pnl_pct": -0.069,
+      "unrealized": -9.63,
+      "pnl_pct": -0.096,
       "sl": 0.072234,
       "tp": 0.073542,
       "trailing_active": false,
@@ -2181,8 +2181,8 @@
     "losses": 27,
     "win_rate": 52.6,
     "total_pnl": 431.2,
-    "equity": 5486.98,
-    "unrealized": 55.77,
+    "equity": 5487.84,
+    "unrealized": 56.63,
     "closed_this_cycle": 0
   },
   "freqtrade": {
@@ -2199,7 +2199,7 @@
         "pair": "BNB/USDT",
         "open_date": "2026-07-24 11:26:02.111980",
         "open_rate": 566.01,
-        "current_rate": 573.5,
+        "current_rate": 573.47,
         "enter_tag": "rsi_oversold_35",
         "strategy": "RSITrend",
         "stake": 499.79,
